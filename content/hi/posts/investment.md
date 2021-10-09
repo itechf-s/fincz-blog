@@ -1,12 +1,12 @@
 ---
 title: "Investment Kya Hai"
 date: 2021-07-21T08:00:00+05:30
-tags: ['Latest Fashion', 'latest trends', 'Modern fashion', 'style fashion']
+tags: ['Investment Kya Hai', 'Investment Types']
 description: "इन्वेस्टमेंट यानी कि निवेश जिसमें हम अपनी कोई भी चीज कुछ समय के लिए लगाते है जिसमे आगे आने वाले समय में उससे और ज्यादा फायदा होने की उम्मीद करते हैं उसको इन्वेस्टमेंट कहते हैं।"
-images: ["images/investment-kya-hai.png"]
+images: ["images/2021/08/investment-kya-hai.png"]
 categories: ['Finance', 'Stock']
 author: ahmad
-# aliases: ["/latest-teenage-fashion-trends"]
+aliases: ["/hindi/investment"]
 ---
 
 ## इन्वेस्टमेंट क्या होता है

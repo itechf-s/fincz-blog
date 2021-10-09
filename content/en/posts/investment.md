@@ -3,10 +3,9 @@ title: "Investment in English"
 categories: [ Finance, Stock ]
 description: "Investment means investment in which we invest any of our things for some time. In which we expect more profit from it in the coming time, it is called investment."
 date: 2021-07-21T08:00:00+05:30
-tags: ['Latest Fashion', 'latest trends', 'Modern fashion', 'style fashion']
-images: ["images/investment-kya-hai.png"]
+tags: ['Investment Types', 'Modern Investment']
+images: ["images/2021/08/investment-kya-hai.png"]
 author: ahmad
-# aliases: ["/latest-teenage-fashion-trends"]
 ---
 
 

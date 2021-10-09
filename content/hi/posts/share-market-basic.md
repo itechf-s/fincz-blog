@@ -2,10 +2,11 @@
 title: "Share Market ki Basic Jankari"
 description: "शेयर मार्केट से जुड़ी हुई कुछ बेसिक जानकारी हासिल करेंगे, जैसे शेयर क्या होता है, कंपनी को शेयर की क्यों जरूरत पड़ती है, कंपनी का शेयर लिस्ट कैसे होता है शेयर मार्केट में कंपनी पैसे कैसे कमाती है, और हम शेयर मार्केट में इन्वेस्ट करके पैसे कैसे कमा सकते हैं"
 date: 2021-08-12T08:00:00+05:30
-images: ["images/share-market-investor.png"]
+images: ["images/2021/08/share-market-investor.png"]
 categories: ['Finance', 'Stock']
+tags: ['Stock Market']
 author: ahmad
-# aliases: ["/latest-teenage-fashion-trends"]
+aliases: ["/hindi/share-market-basic"]
 ---
 
 ## शेयर मार्केट की बेसिक जानकारी
