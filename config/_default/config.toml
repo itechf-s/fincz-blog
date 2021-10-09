@@ -1,7 +1,7 @@
-baseURL = "https://Bestrani.com"
+baseURL = "https://Fincz.com"
 title = "Best Rani Fashion Blog"
 theme = "hugo-theme-bootstrap"
-copyright = "Copyright © 2020-{year} Bestrani. All Rights Reserved."
+copyright = "Copyright © 2020-{year} Fincz. All Rights Reserved."
 
 # Multilingual mode
 defaultContentLanguage = "en"
@@ -30,7 +30,7 @@ pygmentsUseClasses = true
   hrefTargetBlank = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "AMP"]
+  home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   category = "categories"

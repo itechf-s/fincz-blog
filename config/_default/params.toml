@@ -2,12 +2,12 @@
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "Bestrani Fashion Blog"
+description = "Fincz Finance Blog"
 keywords = "Fashion, makeup guide"
 # images = ["site-feature-image.jpg"]
 
-logo = "images/Bestrani-logo.png" # Logo image. Default to "images/logo.webp".
-brand = "Fashion"
+logo = "images/fincz-logo-black.png" # Logo image. Default to "images/logo.webp".
+brand = "Finance"
 # menusPosition = "left" # Menus position: right(default), left or center.
 
 palette = "blue" # Default palette. Optional.

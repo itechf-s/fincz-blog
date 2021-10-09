@@ -1,8 +1,8 @@
 [[main]]
-  name = "Fashion"
-  identifier = "Fashion"
+  name = "Finance"
+  identifier = "Finance"
   pre = '<i class="fas fa-fw fa-chevron-circle-down"></i>'
-  url = '/categories/fashion/'
+  url = '/categories/finance/'
 
 #
 #[[main]]
