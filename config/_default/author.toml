@@ -1,0 +1,9 @@
+name = "Iffat Zia"
+#avatar = "images/nazir.jpg" # Avatar image. Default to "images/profile.webp".
+bio = "I am Iffat Zia Khan, Founder of BestRani.com, I have done my MSc in Zoology. I am writing information on Beauty, Fashion, Makeup, etc which is useful in daily life and more."
+company = "Bestrani"
+location = "India"
+# about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
+
+[params]
+  #layout = "compact"

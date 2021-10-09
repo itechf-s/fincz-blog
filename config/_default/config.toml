@@ -1,0 +1,47 @@
+baseURL = "https://Bestrani.com"
+title = "Best Rani Fashion Blog"
+theme = "hugo-theme-bootstrap"
+copyright = "Copyright © 2020-{year} Bestrani. All Rights Reserved."
+
+# Multilingual mode
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false # If you use only one language comment this option
+#disableLanguages = ["fr", "zh-cn" ,"zh-tw"] # For disable one or more language
+
+# Pagination
+paginate = 10
+# paginatePath = "page"
+
+# Disqus
+# disqusShortname = "yourdiscussshortname"
+
+# Google analytics
+googleAnalytics = "UA-184234848-1"
+
+enableRobotsTXT = true
+
+enableEmoji = true
+
+# hasCJKLanguage = true # Turn on it if your content contains Chinese/Japanese/Korean Languages.
+
+pygmentsUseClasses = true
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON", "AMP"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+
+[permalinks]
+posts = '/:filename/'

@@ -1,0 +1,26 @@
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h2>
+          <a class="navbar-brand{{ if .IsHome }} active{{ end }}" href="{{ absLangURL "" }}">
+            {{ partial "helpers/image" (dict "filename" (default "images/logo.webp" .Site.Params.logo) "alt" "Logo" "class" "logo" "resources" .Resources) }}
+            {{- with .Site.Params.brand -}}
+            {{ . }}
+            {{- end -}}
+          </a></h2>
+						<p>Find the latest Information’s on Beauty, Fashion, Makeup, and more. Our Information is Highly confident and suggested Lifestyle Resources on the Internet.</p>
+					</div>
+					<div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+						<h2 class="footer-heading">Quick Links</h2>
+            {{- partial "footer/footer-nav" . -}}
+					</div>
+					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+						<h2 class="footer-heading">Follow Us</h2>
+						<div class="block-23 mb-3">
+              {{- partial "footer/social-links" . -}}
+            </div>
+					</div>
+				</div>
+			</div>
+
+    
