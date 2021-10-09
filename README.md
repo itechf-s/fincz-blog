@@ -1,8 +1,8 @@
-# Bestrani
+# Fincz
 
-Find the latest Information’s on Beauty, Fashion, Makeup, and more. Our Information is Highly confident and suggested Lifestyle Resources on the Internet.
+Here you will learn how to Invest
 
 ## Blog
-Bestrani Blog Website
+Fincz Blog Website
 
-Live URL [Bestrani](https://bestrani.com/)
+Live URL [Fincz](https://Fincz.com/)
