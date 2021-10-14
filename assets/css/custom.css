@@ -1,7 +1,6 @@
 .post {
     position: relative;
     border-radius: 20px;
-    word-break: break-all;
 }
 div > img, div > svg, p > img, .post-li {
     border-radius: 10px;
@@ -11,5 +10,4 @@ div > img, div > svg, p > img, .post-li {
     padding: 3px;
     list-style-type: decimal;
     margin: 3px;
-    word-break: break-all;
 }
