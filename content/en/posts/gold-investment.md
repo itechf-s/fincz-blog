@@ -1,6 +1,8 @@
 ---
 title: "Gold Investment For Beginners"
+
 description: "In this article we will talk about Gold Investment for Beginners, apart from this we will talk about more things related to it like Investing in Gold, How to Buy Gold?, Buying from Jewelery Shop, or Online, Sovereign Gold Bond (S. GB) What is?, What is Gold ETF? What is Gold Mutual Fund"
+
 date: 2021-09-03T08:00:00+05:30
 images: ["images/2021/08/share-price.png"]
 categories: ['Finance','Stock']
@@ -39,6 +41,7 @@ Here we are sharing the name of some website from where you can buy gold tanishq
 Physical gold is the gold that we buy in our homes to wear gold bracelets, jewelry, which we can keep with us, they are physical gold. Keeping physical gold with you is more risky because the fear of theft, fear of getting lost, all this can happen with physical gold. in virtual gold
 
 There is no risk if you want to invest then you can buy virtual gold online. You can watch this video to know more details about Gold, its link is given here.
+
 
 ## What is Sovereign Gold Bond
 Now let's talk about what is Sovereign Gold Bond or SGB, we have to go to the website of RBI Bank, it is a kind of government policy, RBI Bank Sovereign for those people who want to invest in Gold. Gold Bond or SGB.
@@ -80,13 +83,9 @@ If you are looking for investment options and don't want to open a demat account
 
 If you do not want to open a demat account, you can invest in gold mutual funds. This is also a good option to invest. To know more details about Gold ETF vs Gold Mutual Fund, you can watch this video, its link is given here.
 
-
-{{< youtube qPOR_o4UV4w >}}
-
+{{< youtube qPOR_o4UV4w>}}
 
 ### Conculusion
 You must have understood about Gold Investment for Beginners through this article and now you must have understood the investment as well, how you can invest in Gold. We have talked about this in full detail. What is Gold Investment? In how many ways we can buy gold, what is sovereign gold bond, what are gold ETFs, what is gold mutual fund, where to invest gold ETF vs gold mutual fund, how to invest.
 
 So this was some important information about gold investment for beginners. You will get a lot of information related to such and share market in this blog.
-
-
