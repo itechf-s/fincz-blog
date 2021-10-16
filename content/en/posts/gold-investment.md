@@ -1,14 +1,18 @@
 ---
 title: "Gold Investment For Beginners"
-description: "In this article we will talk about Gold Investment for Beginners, apart from this we will talk about more things related to it like investment in gold, how to buy gold?, buy from jewelery shop, or online, sovereign gold bond What is (SGB)?, What is Gold ETF? What is Gold Mutual Fund"
+
+description: "In this article we will talk about Gold Investment for Beginners, apart from this we will talk about more things related to it like Investing in Gold, How to Buy Gold?, Buying from Jewelery Shop, or Online, Sovereign Gold Bond (S. GB) What is?, What is Gold ETF? What is Gold Mutual Fund"
+
 date: 2021-09-03T08:00:00+05:30
 images: ["images/2021/08/share-price.png"]
-categories: ['Finance', 'Stock']
+categories: ['Finance','Stock']
 author: ahmad
+aliases: ["/hindi/gold-investment"]
+
 ---
 
 ## Gold Investment for Beginners
-Today in this article we will talk about Gold Investment for Beginners, apart from this we will talk about more things related to it like investment in gold, how to buy gold?, buy from jewelery shop, or online, sovereign gold bond (SGB) What is?, What is Gold ETF? What is Gold Mutual Fund?
+Today in this article we will talk about Gold Investment for Beginners, apart from this we will talk about more things related to it like investment in gold, how to buy gold?, buy from jewelery shop, or online, sovereign gold bond(s). .gb) What is?, What is Gold ETF? What is Gold Mutual Fund?
 
 Gold Mutual Funds vs Gold ETFs, is it necessary to have a demat account to invest in gold, the benefits of investing in gold will be known in this article. So let's start by reading this article carefully about some basic information related to Gold Investment for Beginners and get good information about Gold Investment.
 
@@ -28,7 +32,7 @@ In 1965 the price of 10 grams was 71.75 , in 1970 the price of 10 grams was 184.
 You can see how the rate of gold is big in the past years, if you have extra money, then don't reduce the value of money by keeping that money with you. With that extra money, you can buy gold and keep it. Gold can give you good returns in the coming time.
 
 ## How many ways can we buy Gold
-Now let's talk about how many ways we can buy gold. To buy gold, you can go to the shop, which you used to buy gold from the shop earlier also. Gold has always been in demand in our homes, whether it is the atmosphere of marriage. Or to give a gift to someone, or to make a women's favorite bracelet, buy from the Gold Shop. But it would not be called investment in gold. Because when you do not get the return of the gold bracelet jewelry at which the gold bracelet jewelry is made, because the price which is at the time of making the bracelet, we get less than that price while selling.
+Now let's talk about how many ways we can buy gold. To buy gold, you can go to the shop, which you used to buy gold from the shop earlier also. Gold has always been in demand in our homes, whether it is the atmosphere of marriage. Or to give a gift to someone, or to make a women's favorite bracelet, buy from the Gold Shop. But it will not be called investment in gold. Because when you do not get the return of the gold bracelet jewelry at which the gold bracelet jewelry is made, because the price which is at the time of making the bracelet, we get less than that price while selling.
 
 People who had to invest started buying gold coins and when they needed money, they used to sell gold coins which made them lose less. If we talk about today, then this thing is still there, if someone wants to buy a coin, then one can go to the shop or buy it online, now many online websites have come.
 
@@ -36,12 +40,11 @@ Here we are sharing the name of some website from where you can buy gold tanishq
 
 Physical gold is the gold that we buy in our homes to wear gold bracelets, jewelry, which we can keep with us, they are physical gold. Keeping physical gold with you is more risky because the fear of theft, fear of getting lost, all this can happen with physical gold. in virtual gold
 
-There is no risk if you want to invest then you can buy virtual gold online. You can watch this video to know more about the gold, its link is given here.
+There is no risk if you want to invest then you can buy virtual gold online. You can watch this video to know more details about Gold, its link is given here.
 
-{{< youtube qPOR_o4UV4w>}}
 
 ## What is Sovereign Gold Bond
-Now let's talk about what is Sovereign Gold Bond or SGB, to know about it, we have to go to the website of RBI Bank, it is a kind of government policy, RBI Bank Sovereign for those people who want to invest on gold. Gold Bond or SGB.
+Now let's talk about what is Sovereign Gold Bond or SGB, we have to go to the website of RBI Bank, it is a kind of government policy, RBI Bank Sovereign for those people who want to invest in Gold. Gold Bond or SGB.
 
 Understand Sovereign Gold Bonds or SGB, the government offers people if you want to invest in gold. So from here you can buy Sovereign Gold Bond or SGB as a bond.
 
@@ -54,13 +57,13 @@ There is a condition in this that you can sell Sovereign Gold Bond or SGB after 
 
 5. Sovereign Gold Bond or SGB is a good investment. If you want to invest in Gold, then it can prove to be a very profitable investment. Sovereign Gold Bond or SGB Your investment is completely saved as it is being implemented by RBI Bank itself.
 
-To know more details about SGB, you can watch this video, its link is given here.
-{{< youtube qPOR_o4UV4w>}}
+You can watch this video to know more details about SGB, its link is given here.
+
 
 ## What are Gold ETFs
 Now let's talk about what is Gold ETF, Gold Exchange Traded Fund, whichever exchange is BSE (Bombay Stock Exchange) and NSE (National Stock Exchange), they have the option of gold fund. You can buy gold by investing in it.
 
-How to buy Gold ETF To buy Gold ETF you need to have a demat account. You can buy Gold ETF anytime. And can sell anytime. Gold ETFs are a good option to invest in. After Sovereign Gold Bonds for the investor, if one wants to buy gold, then he can buy SGB. After that Gold ETF is a very good option.
+How to buy Gold ETF To buy Gold ETF you need to have a demat account. You can buy Gold ETF anytime. And can sell anytime. Gold ETF is a good option to invest in. After Sovereign Gold Bond for the investor, if one wants to buy gold, then he can buy SGB. After that Gold ETF is a very good option.
 
 to invest. You can buy Gold ETF through online demat account, all the banks have the option of Gold ETF for the investor. In Gold ETF, you can invest from 1 gram to 10 grams or more gold. When you want to cash out the gold ETF, you can sell the gold shares through an online broker and get cash or gold equivalent to the value of the gold ETF.
 
@@ -82,10 +85,7 @@ If you do not want to open a demat account, you can invest in gold mutual funds.
 
 {{< youtube qPOR_o4UV4w>}}
 
-### Disclaimers
+### Conculusion
 You must have understood about Gold Investment for Beginners through this article and now you must have understood the investment as well, how you can invest in Gold. We have talked about this in full detail. What is Gold Investment? In how many ways we can buy gold, what is sovereign gold bond, what are gold ETFs, what is gold mutual fund, where to invest gold ETF vs gold mutual fund, how to invest.
 
-So this was gold investment for beginners
-If you got to learn some important information in this article, then share this article with your friends and tell them also. You will get a lot of information related to such and share market in this blog.
-
-{{< youtube qPOR_o4UV4w>}}
+So this was some important information about gold investment for beginners. You will get a lot of information related to such and share market in this blog.
