@@ -2,7 +2,7 @@
 title: "Tools Calculator"
 categories: [ Finance, Stock ]
 description: "Investment means investment in which we invest any of our things for some time. In which we expect more profit from it in the coming time, it is called investment."
-date: 2021-10-21T08:00:00+05:30
+date: 2021-11-01T08:00:00+05:30
 images: ["images/2021/08/investment-kya-hai.png"]
 author: ahmad
 ---

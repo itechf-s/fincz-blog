@@ -1,0 +1,12 @@
+{{- $url := .Get "url" | default (.Get 0) -}}
+{{- $height := .Get "height" | default (.Get 1) -}}
+{{- $width := .Get "width" | default (.Get 2) -}}
+
+<div style="position: relative; overflow: hidden; width: 100%; padding-top: 56.25%;">
+<iframe src="{{$url}}"
+{{with $height}} height="{{.}}" {{end}}
+{{with $width}} width="{{.}}" {{end}}
+loading="lazy" style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;" ></iframe>
+</div>
+
+<iframe loading="lazy" class="gc_sip_frame lazyloaded" src="https://groww.in/pages/calculators/sip-lumpsum-calculator/" width="650px" height="575px" scrolling="yes" data-rocket-lazyload="fitvidscompatible" data-ll-status="loaded"></iframe>
