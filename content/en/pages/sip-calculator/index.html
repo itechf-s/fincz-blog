@@ -3,278 +3,185 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIP Calculator with modern ui design</title>
-    <link rel="apple-touch-icon" href="http://localhost:1313/images/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="http://localhost:1313/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="http://localhost:1313/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="http://localhost:1313/images/favicons/manifest.json">
-<link rel="icon" href="http://localhost:1313/images/favicons/favicon.ico">
-<meta name="description" content="Fincz Finance Blog">
-<link rel="canonical" href="http://localhost:1313/"><meta itemprop="name" content="Fincz Finance Blog">
-<meta itemprop="description" content="Fincz Finance Blog"><meta property="og:title" content="Fincz Finance Blog">
-<meta property="og:description" content="Fincz Finance Blog">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://localhost:1313/">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fincz Finance Blog">
-<meta name="twitter:description" content="Fincz Finance Blog">
-<meta name="twitter:site" content="@fincz1">
-
-<link rel="stylesheet" href="http://localhost:1313/css/bundle.min.5b8d4135dec2ecfcfcc0217e04d69ac938e8118d0d03066a3aeeed8b4e85e563.css" integrity="sha256-W41BNd7C7Pz8wCF+BNaayTjoEY0NAwZqOu7ti06F5WM=" crossorigin="anonymous" as="style" onload="this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="http://localhost:1313/css/bundle.min.5b8d4135dec2ecfcfcc0217e04d69ac938e8118d0d03066a3aeeed8b4e85e563.css" integrity="sha256-W41BNd7C7Pz8wCF&#43;BNaayTjoEY0NAwZqOu7ti06F5WM=" crossorigin="anonymous"></noscript>
-<script src="http://localhost:1313/js/bundle.min.653b6bf49ca02f9c81b2ba07fa30c0302085f445afedb7108985e56a9daa5592.js" integrity="sha256-ZTtr9JygL5yBsroH+jDAMCCF9EWv7bcQiYXlap2qVZI=" crossorigin="anonymous"></script>
-
-<script
-      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
-      integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link rel="stylesheet" href="./styles/revealator.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="noindex, follow "/>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>SIP | Lumpsum Calculator</title>
   </head>
   <body>
-    <header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <svg class="svg-inline--fa fa-bars fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg><!-- <i class="fas fa-bars"></i> Font Awesome fontawesome.com -->
-        </button><a class="navbar-brand me-3" href="http://localhost:1313/"><img class="logo" alt="Logo" src="http://localhost:1313/images/fincz-logo-black.png" loading="lazy" width="143" height="54">
-    Finance
-        </a>
-        <button class="navbar-settings me-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSettings" aria-controls="offcanvasSettings" aria-label="Toggle settings">
-      <svg class="svg-inline--fa fa-sliders-h fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sliders-h" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M496 384H160v-16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v16H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h80v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h336c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm0-160h-80v-16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v16H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h336v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h80c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm0-160H288V48c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v16H16C7.2 64 0 71.2 0 80v32c0 8.8 7.2 16 16 16h208v16c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-16h208c8.8 0 16-7.2 16-16V80c0-8.8-7.2-16-16-16z"></path></svg><!-- <i class="fas fa-sliders-h"></i> Font Awesome fontawesome.com -->
-    </button>
-    
-    <div class="offcanvas offcanvas-end surface" tabindex="-1" id="offcanvasSettings" aria-labelledby="offcanvasSettings">
-      <div class="offcanvas-header">
-        <h3 class="offcanvas-title">Settings</h3>
-        <button type="button" class="btn btn-sm btn-outline-primary" data-bs-dismiss="offcanvas" aria-label="Close">
-          <svg class="svg-inline--fa fa-times fa-w-11" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg=""><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg><!-- <i class="fas fa-times"></i> Font Awesome fontawesome.com -->
-        </button>
-      </div>
-      <div class="offcanvas-body"><section class="setting">
-      <form class="row">
-        <div class="col-auto">
-          <label for="fontSize" class="form-label"><svg class="svg-inline--fa fa-language fa-w-20 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="language" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z"></path></svg><!-- <i class="fas fa-fw fa-language"></i> Font Awesome fontawesome.com --> Language</label>
-        </div>
-        <div class="col-auto ms-auto">
-          <div class="dropdown">
-            <a class="btn btn-sm btn-outline-primary dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              English
-            </a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown"><li><a class="dropdown-item" href="http://localhost:1313/hi/">हिंदी</a></li></ul>
+    <div class="main_container">
+      <h3 id="heading">SIP | Lumpsum Calculator</h3>
+      <p id="logo">
+        Powered by
+        <a href="https://groww.in" target="_parent"
+          ><img
+            src="https://storage.googleapis.com/groww-assets/wp-assets/img/groww-logo.svg"
+            width="85px"
+        /></a>
+      </p>
+      <form name="sipForm">
+        <div class="calculator">
+          <div class="radio" id="radioDiv">
+            <input
+              onclick="changeMode('sip')"
+              id="radio-1"
+              name="radio"
+              type="radio"
+              checked
+            />
+            <label for="radio-1" class="radio-label">SIP</label>
+            <label>&nbsp;&nbsp;&nbsp;</label>
+            <input
+              onclick="changeMode('lumpsum')"
+              id="radio-2"
+              name="radio"
+              type="radio"
+            />
+            <label for="radio-2" class="radio-label">Lumpsum</label>
           </div>
-        </div>
-      </form>
-    </section>
-    
-    
-    <section class="setting">
-      <form class="row">
-        <div class="col-auto">
-          <label><svg class="svg-inline--fa fa-adjust fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"></path></svg><!-- <i class="fas fa-fw fa-adjust"></i> Font Awesome fontawesome.com --> Mode</label>
-        </div>
-        <div class="col-auto ms-auto">
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" id="modeSwitcher">
-          </div>
-        </div>
-      </form>
-    </section>
-    
-    <section class="setting">
-      <form class="font-size-switcher-form row">
-        <div class="col-auto">
-          <label for="fontSize" class="form-label"><svg class="svg-inline--fa fa-font fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="font" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M432 416h-23.41L277.88 53.69A32 32 0 0 0 247.58 32h-47.16a32 32 0 0 0-30.3 21.69L39.41 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16h-19.58l23.3-64h152.56l23.3 64H304a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zM176.85 272L224 142.51 271.15 272z"></path></svg><!-- <i class="fas fa-fw fa-font"></i> Font Awesome fontawesome.com --> Font Size</label>
-        </div>
-        <div class="col-auto ms-auto">
-          <input type="range" class="form-range" min="-2" max="2" id="fontSize">
-        </div>
-      </form>
-    </section>
-    
-    
-    <section class="setting palettes">
-      <form class="row">
-        <div class="col-auto">
-          <label><svg class="svg-inline--fa fa-palette fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg><!-- <i class="fas fa-fw fa-palette"></i> Font Awesome fontawesome.com --> Palette</label>
-        </div>
-        <div class="col-auto ms-auto">
-          <a id="btnPalette" class="btn btn-sm btn-outline-primary" role="button" aria-label="palettePicker">
-            <svg class="svg-inline--fa fa-eye-dropper fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="eye-dropper" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M50.75 333.25c-12 12-18.75 28.28-18.75 45.26V424L0 480l32 32 56-32h45.49c16.97 0 33.25-6.74 45.25-18.74l126.64-126.62-128-128L50.75 333.25zM483.88 28.12c-37.47-37.5-98.28-37.5-135.75 0l-77.09 77.09-13.1-13.1c-9.44-9.44-24.65-9.31-33.94 0l-40.97 40.97c-9.37 9.37-9.37 24.57 0 33.94l161.94 161.94c9.44 9.44 24.65 9.31 33.94 0L419.88 288c9.37-9.37 9.37-24.57 0-33.94l-13.1-13.1 77.09-77.09c37.51-37.48 37.51-98.26.01-135.75z"></path></svg><!-- <i class="fas fa-eye-dropper"></i> Font Awesome fontawesome.com -->
-          </a>
-        </div>
-      </form>
-      <div class="mt-2 d-flex visually-hidden" id="palettePicker"><button type="button" id="palette-blue" aria-label="Blue" class="btn btn-sm palette active" data-palette="blue">
-          </button><button type="button" id="palette-blue-gray" aria-label="Blue Gray" class="btn btn-sm palette" data-palette="blue-gray">
-          </button><button type="button" id="palette-brown" aria-label="Brown" class="btn btn-sm palette" data-palette="brown">
-          </button><button type="button" id="palette-cyan" aria-label="Cyan" class="btn btn-sm palette" data-palette="cyan">
-          </button><button type="button" id="palette-green" aria-label="Green" class="btn btn-sm palette" data-palette="green">
-          </button><button type="button" id="palette-indigo" aria-label="Indigo" class="btn btn-sm palette" data-palette="indigo">
-          </button><button type="button" id="palette-orange" aria-label="Orange" class="btn btn-sm palette" data-palette="orange">
-          </button><button type="button" id="palette-pink" aria-label="Pink" class="btn btn-sm palette" data-palette="pink">
-          </button><button type="button" id="palette-purple" aria-label="Purple" class="btn btn-sm palette" data-palette="purple">
-          </button><button type="button" id="palette-red" aria-label="Red" class="btn btn-sm palette" data-palette="red">
-          </button><button type="button" id="palette-teal" aria-label="Teal" class="btn btn-sm palette" data-palette="teal">
-          </button><button type="button" id="palette-yellow" aria-label="Yellow" class="btn btn-sm palette" data-palette="yellow">
-          </button></div>
-    </section>
-    <section class="setting social-share">
-      <form class="row">
-        <div class="col-auto">
-          <label><svg class="svg-inline--fa fa-share-alt fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z"></path></svg><!-- <i class="fas fa-fw fa-share-alt"></i> Font Awesome fontawesome.com --> Share</label>
-        </div>
-        <div class="col-auto ms-auto">
-          <a class="btn btn-sm btn-outline-primary btn-social-share"><svg class="svg-inline--fa fa-share fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="share" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M503.691 189.836L327.687 37.851C312.281 24.546 288 35.347 288 56.015v80.053C127.371 137.907 0 170.1 0 322.326c0 61.441 39.581 122.309 83.333 154.132 13.653 9.931 33.111-2.533 28.077-18.631C66.066 312.814 132.917 274.316 288 272.085V360c0 20.7 24.3 31.453 39.687 18.164l176.004-152c11.071-9.562 11.086-26.753 0-36.328z"></path></svg><!-- <i class="fas fa-share"></i> Font Awesome fontawesome.com --></a>
-        </div>
-      </form>
-      <div class="mt-2 social-share-buttons d-flex visually-hidden flex-nowrap">
-        <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button" target="_blank" href="https://twitter.com/intent/tweet?title=Tools&amp;url=http%3a%2f%2flocalhost%3a1313%2ftools%2f">
-          <svg class="svg-inline--fa fa-twitter fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-fw fa-twitter"></i> Font Awesome fontawesome.com --> Twitter
-        </a>
-        <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2ftools%2f">
-          <svg class="svg-inline--fa fa-facebook-f fa-w-10 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg><!-- <i class="fab fa-fw fa-facebook-f"></i> Font Awesome fontawesome.com --> Facebook
-        </a>
-      </div>
-    </section>
-    
-    </div>
-    </div>
-    
-        <div class="collapse navbar-collapse" tabindex="-1" id="navbarSupportedContent" aria-labelledby="navbarSupportedContent">
-          <form class="search-bar my-1" action="http://localhost:1313/search">
-      <div class="input-group input-group-sm">
-        <span class="btn btn-search disabled position-absolute left-0"><svg class="svg-inline--fa fa-search fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-fw fa-search"></i> Font Awesome fontawesome.com --></span>
-        <input class="form-control rounded-pill" name="q" type="search" aria-label="Search">
-      </div>
-    </form>
-    
-          <ul class="navbar-nav ms-auto"><li class="nav-item">
-              <a class="nav-link" href="http://localhost:1313/categories/">
-                <svg class="svg-inline--fa fa-columns fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="columns" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M464 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM224 416H64V160h160v256zm224 0H288V160h160v256z"></path></svg><!-- <i class="fas fa-fw fa-columns"></i> Font Awesome fontawesome.com -->Categories
-              </a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="http://localhost:1313/categories/finance/">
-                <svg class="svg-inline--fa fa-chevron-circle-down fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-circle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zM273 369.9l135.5-135.5c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L256 285.1 154.4 183.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L239 369.9c9.4 9.4 24.6 9.4 34 0z"></path></svg><!-- <i class="fas fa-fw fa-chevron-circle-down"></i> Font Awesome fontawesome.com -->Finance
-              </a>
-            </li></ul>
-        </div>
-      </div>
-    </nav>
-    </header>
-    <div class="card-container">
-      <div class="card-main">
-        <div
-          class="card calc-card revealator-slideup revealator-once revealator-delay1">
-          <div class="form-holder">
-            <h3>Investment Type Monthly SIP</h3>
-    
-           
-            <div class="lb-txt1">
-              <label for="Monthly Investment">Monthly Investment (₹) :</label>
-
+          <div class="i_container">
+            <div class="i_row">
+              <label id="amount" for="inputAmount">Monthly Investment</label>
+              <span
+                >₹<input
+                  name="Amount"
+                  id="inputAmount"
+                  type="number"
+                  step="500"
+                  value="25000"
+                  min="500"
+                  max="200000"
+              /></span>
+            </div>
+            <div class="s_row">
               <input
-                type="number"
-                value=""
+                class="slider"
+                name="realAmount"
+                id="myAmount"
+                type="range"
+                step="500"
+                value="25000"
                 min="500"
                 max="200000"
-                class="test"
-                id="amtinvested"
-                placeholder="1000"
-                required
               />
             </div>
-            <div class="lb-txt2">
-              <label for="Monthly Investment"
-                >INVESTMENT PERIOD(In Years) :</label
+          </div>
+          <div class="i_container" id="stepUpInputDiv" style="display: none">
+            <div class="i_row">
+              <label id="amount" for="inputAmount">Annual Step Up</label>
+              <span
+                ><input
+                  name="StepUp"
+                  id="stepUpInput"
+                  type="number"
+                  step="1"
+                  value="10"
+                  min="1"
+                  max="50"
+                />%</span
               >
+            </div>
+            <div class="s_row">
               <input
-                type="number"
-                value=""
+                class="slider"
+                name="stepUpSlider"
+                id="stepUpSlider"
+                type="range"
+                step="1"
+                value="10"
+                min="1"
+                max="50"
+              />
+            </div>
+          </div>
+          <div class="i_container">
+            <div class="i_row">
+              <label for="inputRoi">Expected Return Rate</label>
+              <span
+                ><input
+                  name="Retunrs"
+                  id="inputRoi"
+                  type="number"
+                  value="12"
+                  min="1"
+                  max="30"
+                  step="0.5"
+                />%</span
+              >
+            </div>
+            <div class="s_row">
+              <input
+                class="slider"
+                name="realRoi"
+                id="myRoi"
+                type="range"
+                value="12"
                 min="1"
                 max="30"
-                class="test1"
-                id="nofoyears"
-                placeholder="7"
-                required
+                step="0.5"
               />
             </div>
-            <div class="lb-txt3">
-              <label for="Monthly Investment">RETURN(%) :</label>
-              <input
-                type="number"
-                value=""
-                min="1"
-                max="15"
-                class="test2"
-                id="rateofreturn"
-                placeholder="12"
-                required
-              />
-            </div>
-            <input
-              name="calculate"
-              alt="calculate"
-              onclick="return calculate();"
-              type="button"
-              value="Calculate"
-              class="btn"
-            />
           </div>
-          <div class="display-box">
-            <div class="total">
-              <h5>TOTAL INVESTMENT</h5>
-              <div class="display-text" id="totalAmt"></div>
+          <div class="i_container">
+            <div class="i_row">
+              <label for="inputRoi">Time Period</label>
+              <span
+                ><input
+                  name="Years"
+                  id="inputYears"
+                  type="number"
+                  value="10"
+                  min="1"
+                  max="30"
+                  step="1"
+                  disabled
+                />Yr</span
+              >
             </div>
-            <div class="gained">
-              <h5>WEALTH GAINED</h5>
-              <div class="display-text" id="wealth"></div>
+            <div class="s_row">
+              <input
+                class="slider"
+                name="realYears"
+                id="myYears"
+                type="range"
+                value="10"
+                min="1"
+                max="30"
+                step="1"
+              />
             </div>
-            <div class="expected">
-              <h5>MATURITY VALUE</h5>
-              <div class="display-text" id="maturity"></div>
+          </div>
+          <div class="o_row">
+            <div>
+              <p class="r_title">Invested Amount</p>
+              <p class="r_value" id="r1"></p>
+            </div>
+            <div>
+              <p class="r_title">Est. Returns</p>
+              <p class="r_value" id="r2"></p>
+            </div>
+          </div>
+          <div class="f_row">
+            <div>
+              <p class="f_title">
+                Total Value <span class="f_value" id="r3"></span>
+              </p>
             </div>
           </div>
         </div>
-        <div class="content-card">
-          <div
-            class="card revealator-slideup revealator-once revealator-delay2 txt-head"
+      </form>
+      <div class="chart">
+        <canvas id="myChart" width="250" height="250"></canvas>
+        <div class="cta" id="cta">
+          <a
+            href="https://groww.in/login?utm_source=calc_widget&utm_medium=sip"
+            target="_parent"
+            ><button class="cta_btn">INVEST NOW</button></a
           >
-            <h2>
-              Grow wealthy with the best SIP investments.<br />
-              Use our
-              <span>SIP calculator</span>
-            </h2>
-            <p>
-              What is an SIP? A Systematic Investment Plan is a monthly
-              investment in Mutual Funds which helps build your wealth and go
-              after your life goals.
-            </p>
-          </div>
-          <div
-            class="card chart-card revealator-slideup revealator-once revealator-delay3 card-center"
-          >
-            <div class="chart-container">
-              <canvas id="myChart"></canvas>
-            </div>
-          </div>
         </div>
       </div>
     </div>
-    <div class="card notice">
-      <p>*Monthly Investment value must be between ₹ 500 to ₹ 2,00,000</p>
-      <p>*Investment preiod should be between 1 to 30 years</p>
-      <p>*Rate Of Return must be between 1% to 15%</p>
-    </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./script/app.js"></script>
-    <script src="./script/revealator.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js" integrity="sha256-bC3LCZCwKeehY6T4fFi9VfOU0gztUa+S4cnkIhVPZ5E=" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
   </body>
 </html>
