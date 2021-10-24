@@ -12,7 +12,7 @@ postDate: false
 
 ## SIP Calculator
 
-{{< iframe "/pages/sip-calculator">}}
+{{< iframe "/pages/sip-calculator/">}}
 
 ## What is SIP Calculator?
 A Systematic Investment Plan (SIP) calculator is an online financial tool that can help to calculate the returns you would earn on your SIP investments. The calculator also tells you how much you would need to invest every month to earn a target corpus. Simply put, it provides a roadmap to achieve your various financial goals.
