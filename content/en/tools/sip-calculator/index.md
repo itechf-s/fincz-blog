@@ -59,16 +59,21 @@ Flexible SIP
 Until now, you have seen that SIP means investing a fixed amount in a mutual fund in a systematic manner. But, what if it may not be possible to invest the same amount each month? In such a scenario, you can consider investing through a flexible SIP. Here, you can alter your monthly investments as per your cash flows. In case of a financial crunch, you can reduce the SIP amount. And when you have a high cash flow, you can invest a more significant amount. This is a suitable option for entrepreneurs who don't earn a fixed amount each month.
 Perpetual SIP
 Investors generally opt to invest in a mutual fund for a fixed period. This can be for six months, three years, five years or even ten years. But what if you don't want to set an end date to your SIP investment? This is possible when you choose the perpetual option. Here, you can continue investing in the fund through SIP for as long as you wish, until you provide specific instructions to the AMC to cease it. And when you have created an adequate corpus to reach your financial goals, you can redeem the amount.
+
 Benefits of investing in SIP, and why should you invest in SIP?
 There are several financial benefits for investors when they choose to invest in mutual funds online through SIPs. Here are a few important ones:
 
 Rupee cost averaging
 When you invest through SIP, you don't have to worry about timing the market. SIP investments ensure that you purchase more fund units when the market is low and lesser units when the market is high; this is known as rupee cost averaging. It helps investors generate relatively reasonable returns without worrying about market volatility.
+
 Power of compounding
 Compounding is the process of earning income on your principal investment plus the income earned. For instance, if you invest Rs. 10,000 in a mutual fund (at 10% interest rate per annum), you gain an interest of Rs. 1,000 at the end of the year. Now, you start making interest not just on the original Rs. 10,000 you invested but also on the Rs. 1,000 you have received as interest.
+
 Over time, this can grow into a large corpus of money. Consider a situation where you invest Rs. 5,000 in a mutual fund offering annual returns of 12%. If you invest in this fund for 15 years, you will earn a sum of Rs. 25 lakhs. Continue investing for five more years, and you are likely to achieve a corpus of Rs. 50 lakhs. Another five years and your corpus increase to Rs. 95 lakhs! This is the power of compounding. The longer you invest, the better could be your returns.
+
 Simple to invest
 Investing in mutual funds through SIPs can be easy. When you decide the amount you wish to invest, merely provide an auto-debit instruction to your bank account. This transfers the investment amount directly to the fund. They are also easy to monitor because the AMC provides you with all the necessary details of your investment clearly and concisely.
+
 Ideal tool for financial planning
 You may have various goals you wish to achieve in life. For instance, you may have short-term goals like travelling to all the eight wonders of the world in a single tour. On the other hand, you could also have longer financial goals like buying a house or starting your own business 10 years down the line. When you invest steadily in different mutual funds, you can hope to achieve all your financial goals at the right time in life.
 How to invest in SIP?
@@ -76,7 +81,9 @@ If you are wondering how to start SIP, here are three simple steps for you:
 
 Identify a mutual fund for your investment
 You can choose from several mutual funds in the market. Select a fund based on your investment goals and risk appetite. Complete the KYC process and submit an application form online or offline to the AMC to begin your investment journey.
+
 Choose the investment duration
 Once you select a fund, you need to decide how long you wish to remain invested. The duration could range anywhere between 6 months to 10 years, based on your investment goals.
+
 Invest regularly
 Select a date you wish to invest every month. Investing through SIPs is a convenient and straightforward method to create long-term wealth. That's why it is important to stay invested for the entire investment duration.
