@@ -19,8 +19,6 @@ postDate: false
 A Personal Loan EMI calculator is a simple tool which calculates the EMI that you are required to pay every month for the repayment of your loan. All you need to do is enter the Loan Amount, Rate of Interest, and the desired Loan Tenure and the calculator will instantly calculate the EMI Amount and the Interest Payable. 
 
 
-
-
 ## How to Use a Personal Loan EMI Calculator?
 
 A personal loan EMI calculator has the following three important components –
