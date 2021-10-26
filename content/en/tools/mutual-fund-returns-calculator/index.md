@@ -1,6 +1,6 @@
 ---
 title: "Calculate Mutual Fund Investment Returns"
-description: "This is sip calculator."
+description: "A Mutual Fund is a professionally managed investment scheme. It is run by an asset management company (AMC) which serves as a mediator for the retail investors."
 author: "ahmad"
 date: 2021-10-27T08:00:00+05:30
 reward:  false
@@ -17,7 +17,15 @@ postDate: false
 
 ## What is a Mutual Fund Return calculator?
 
-A Mutual Fund is a professionally managed investment scheme. It is run by an asset management company (AMC) which serves as a mediator for the retail investors. The AMC pools in money from a large number of investors and invests it in equity shares, bonds, money market instruments, and other types of securities. 
+The mutual fund calculator is a simulation that helps you to calculate the returns from the mutual fund investments. You can calculate the maturity value of an investment if you invest a lump sum amount or even through the SIP route.
+
+A mutual fund calculator is an easy to use tool that helps you to get an idea of the maturity value of the mutual fund investment, even before you invest the money. It allows you to budget for expenses and achieve your financial goals, as you already know the amount of money you will get at maturity.
+
+You can enter the SIP amount, duration of the SIP, and the frequency of the SIP to calculate the maturity amount for an estimated rate of return on the investment.
+
+The mutual fund calculator has a formula box where you select the nature of the investment. It can be a lump sum investment or a SIP investment. You select the amount of investment, rate of return and the duration of the investment to get the maturity amount.
+
+If the nature of the investment is a SIP, you select the SIP amount, frequency, time of the investment, and the expected rate of return. The mutual fund calculator shows you the value of the investment at maturity.
 
 ## How to use the ClearTax Mutual Fund Calculator?
 
