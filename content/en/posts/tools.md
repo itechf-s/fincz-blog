@@ -10,7 +10,7 @@ author: ahmad
 
 ## SIP Calculator
 
-![SIP Calculator](images/2021/08/share-market-investor.png)
+![SIP Calculator](images/2021/08/sip-calculator.png)
 
 A Systematic Investment Plan (SIP) calculator is an online financial tool that can help to calculate the returns you would earn on your SIP investments.
 
@@ -19,7 +19,7 @@ A Systematic Investment Plan (SIP) calculator is an online financial tool that c
 
 ## Lumpsum Calculator
 
-![Lumpsum Calculator](images/2021/08/share-market-investor.png)
+![Lumpsum Calculator](images/2021/08/lumpsum-calculator-1.png)
 
 Are you looking to invest a lump-sum amount and get better returns? Here is the answer to invest money in a better way. One of the most lucrative ways of investing in a Mutual Fund is by making a lump sum investment. 
 
@@ -29,7 +29,7 @@ Are you looking to invest a lump-sum amount and get better returns? Here is the 
 
 ## SWP Calculator
 
-![SWP Calculator](images/2021/08/share-market-investor.png)
+![SWP Calculator](images/2021/08/swp-calculator.png)
 
 The SWP Calculator is a simulation that shows you the monthly withdrawals from your mutual fund investments. 
 
@@ -38,7 +38,7 @@ The SWP Calculator is a simulation that shows you the monthly withdrawals from y
 
 ## Mutual Fund Return Calculator
 
-![Mutual Fund Return Calculator](images/2021/08/share-market-investor.png)
+![Mutual Fund Return Calculator](images/2021/08/mutual-fund-returns-calculator.png)
 
 The mutual fund calculator is a simulation that helps you to calculate the returns from the mutual fund investments. 
 

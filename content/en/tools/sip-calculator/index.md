@@ -1,6 +1,6 @@
 ---
-title: "SIP Calculator Tools"
-description: "This is sip calculator."
+title: "Use SIP calculator to calculate returns on SIP investments"
+description: "SIP Investment Calculators take into consideration a few variables in order to calculate the eventual profit generation of a particular SIP mutual fund scheme."
 author: "ahmad"
 date: 2021-10-24T08:00:00+05:30
 reward:  false
@@ -16,7 +16,9 @@ postDate: false
 
 ## What Is Sip Calculator
 
-A Systematic Investment Plan (SIP) calculator is an online financial tool that can help to calculate the returns you would earn on your SIP investments. The calculator also tells you how much you would need to invest every month to earn a target corpus. Simply put, it provides a roadmap to achieve your various financial goals.
+A Systematic Investment Plan (SIP) calculator is an online financial tool that can help to calculate the returns you would earn on your SIP investments.
+
+The calculator also tells you how much you would need to invest every month to earn a target corpus. Simply put, it provides a roadmap to achieve your various financial goals.
 
 The calculator can be highly effective in automatically computing complex financial calculations, without the need for a pen and paper. You merely need to provide a few inputs, and the calculator arrives at the result in a matter of seconds.
 
@@ -26,17 +28,17 @@ How to calculate SIP investments? That is the big question for many investors. T
 
 The SIP Calculator uses the data you feed-in, for computation of the absolute value of your investment. Given below are some of the important steps that you must follow while using it.
 
-Step 1: Imagine you wish to invest Rs. 4,000 per month for 10 years. The expected rate of return is 10%. You need to input these values in the specified boxes, and the calculator gives you the corpus you would earn.
+1. Imagine you wish to invest Rs. 4,000 per month for 10 years. The expected rate of return is 10%. You need to input these values in the specified boxes, and the calculator gives you the corpus you would earn.
 
 In this case, you would earn a total corpus of Rs. 8.3 lakhs. If you were to increase the investment amount to Rs. 5,000, you would earn Rs. 10.3 lakhs. This is how you can tweak the values to see how your investments would turn out.
 
 
-Step 2: This step involves the approximate rate of return on your investment. It is calculated on the basis of the fund's track record.
+2. This step involves the approximate rate of return on your investment. It is calculated on the basis of the fund's track record.
 
 
-Step 3: This included the tenure of the investment in case of an SIP maturity calculator. You need to decide the time period for which you plan to invest. The minimum period in an SIP is six months. It is always advised to stay invested for longer periods to gain higher returns.
+3. This included the tenure of the investment in case of an SIP maturity calculator. You need to decide the time period for which you plan to invest. The minimum period in an SIP is six months. It is always advised to stay invested for longer periods to gain higher returns.
 
-Step 4: If you have an ongoing SIP then you need to enter the number of installments you have already 
+4. If you have an ongoing SIP then you need to enter the number of installments you have already 
 
 You can use an SIP calculator online. You can change the variables more than once to get an idea of your returns. The calculator accounts for capital gains and possible inflations as well.
 
@@ -71,11 +73,12 @@ You can make the investment to fulfill your long-term goals. For example, you es
 Easy Availability: SIP Calculators are easily available online. And at most sites, they are free to use, as well.
 
 
-
 ## Frequently Asked Questions
 
 What is the use of SIP calculator?
-SIP calculator is a simulation, which allows you to estimate the return on mutual fund investments made through SIP. Investing through SIPs in mutual funds is a popular investment option for millennials. SIP calculators are designed to give potential investors a heads up on their mutual fund investments.
+SIP calculator is a simulation, which allows you to estimate the return on mutual fund investments made through SIP. 
+
+Investing through SIPs in mutual funds is a popular investment option for millennials. SIP calculators are designed to give potential investors a heads up on their mutual fund investments.
 
 ### What is the major benefit of SIP?
 
@@ -101,11 +104,11 @@ If you are new to the world of mutual funds, an SIP is one of the best investmen
 
 ### What are the disadvantages of SIP?
 
-Systematic Investment Plan (SIP) Disadvantages
-SIP returns are lower in consistently rising markets.
-Limited options of SIP dates.
-Only Pre-defined Fixed Amount can be Invested by SIP.
-Stopping intermediate payment in SIP.
-Delay between actual application & start/stop of SIP.
+1. Systematic Investment Plan (SIP) Disadvantages
+2. SIP returns are lower in consistently rising markets.
+3. Limited options of SIP dates.
+4. Only Pre-defined Fixed Amount can be Invested by SIP.
+5. Stopping intermediate payment in SIP.
+6. Delay between actual application & start/stop of SIP.
 
 [Sip Calculator](/tools/sip-calculator)
