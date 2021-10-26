@@ -42,7 +42,7 @@ The SWP Calculator is a simulation that shows you the monthly withdrawals from y
 
 The mutual fund calculator is a simulation that helps you to calculate the returns from the mutual fund investments. 
 
-**[Mutual Fund Return Calculator](/tools/mutual-fund-return-calculator/)** 
+**[Mutual Fund Return Calculator](/tools/mutual-fund-returns-calculator/)** 
 
 
 ## SSY Calculator

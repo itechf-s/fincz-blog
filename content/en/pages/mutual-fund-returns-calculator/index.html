@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name=”robots” content=”noindex, follow”>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<title>Mutual Fund Returns Calculator</title>
+</head>
+<body>
+<div class="main_container">
+<h3 id="heading">Mutual Fund Returns Calculator</h3>
+<p id="logo">Powered by <a href="https://groww.in/calculators/mutual-fund-returns-calculator/" target="_parent"><img src="assets/logo.png" width="85px"></a></p>
+<form name="sipForm">
+<div class="calculator">
+<div class="i_container">
+<div class="i_row">
+<label for="inputTI">Total Investment</label>
+<span>₹<input name="TotalInvestment" id="inputTI" type="number" step="500" value="100000" min="500" max="5000000" oninput="showTotalInvestmentVal(this.value)" /></span>
+</div>
+<div class="s_row">
+<input class="slider" name="realTotalInvestmentAmount" id="sliderTI" type="range" step="500" value="100000" min="500" max="5000000" />
+</div>
+</div>
+<div class="i_container">
+<div class="i_row">
+<label for="inputExpectedReturns">Expected Return Rate</label>
+<span><input name="ExpectedReturns" id="inputROI" type="number" value="12" min="1" step="0.5" max="50" oninput="showExpectedReturnsVal(this.value)" />%</span>
+</div>
+<div class="s_row">
+<input class="slider" name="realExpectedReturns" id="sliderROI" type="range" value="12" min="1" step="0.5" max="50">
+</div>
+</div>
+<div class="i_container">
+<div class="i_row">
+<label for="inputTimePeriod">Time Period</label>
+<span><input name="TimePeriod" id="inputTenure" type="number" value="5" min="1" step="1" max="30" disabled oninput="showTimePeriodVal(this.value)" />Yr</span>
+</div>
+<div class="s_row">
+<input class="slider" name="realTimePeriod" id="sliderTenure" type="range" value="5" min="1" step="1" max="30">
+</div>
+</div>
+<div class="o_row">
+<div>
+<p class="r_title">Total Investment</p>
+<p class="r_value emi" id="r1"></p>
+</div>
+<div>
+<p class="r_title">Est. Returns</p>
+<p class="r_value" id="r2"></p>
+</div>
+</div>
+<div class="f_row">
+<div>
+<p class="f_title">Total Value <span class="f_value" id="r3"></span></p>
+</div>
+</div>
+</div>
+</form>
+<div class="chart">
+<canvas id="myChart" width="300" height="300"></canvas>
+<div class="cta" id="cta">
+<a href="https://groww.in/login?utm_source=calc_widget&utm_medium=mfr" target="_parent"><button class="cta_btn">INVEST NOW</button></a>
+</div>
+</div>
+</div>
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js" integrity="sha256-bC3LCZCwKeehY6T4fFi9VfOU0gztUa+S4cnkIhVPZ5E=" crossorigin="anonymous"></script>
+<script defer src="script.js"></script>
+</body>
+</html>

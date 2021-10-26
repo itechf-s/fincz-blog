@@ -2,7 +2,7 @@
 title: "Mutual Fund Return Calculator Tools"
 description: "This is sip calculator."
 author: "ahmad"
-date: 2021-10-27T08:00:00+05:30
+date: 2021-10-26T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false
@@ -13,7 +13,7 @@ postDate: false
 ## Mutual Fund Return Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/mutual-fund-returns-calculator/">}}
 
 ## What is a Mutual Fund Return calculator?
 
