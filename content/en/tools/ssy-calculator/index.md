@@ -2,7 +2,7 @@
 title: "SSY Calculator Tools"
 description: "This is SSY calculator."
 author: "ahmad"
-date: 2021-10-28T08:00:00+05:30
+date: 2021-10-26T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false
@@ -13,7 +13,7 @@ postDate: false
 ## SSY Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/ssy-calculator/">}}
 
 ## What is a SSY calculator?
 Sukanya Samriddhi Yojana or SSY account is a Government of India-backed small deposit scheme for a girl child. The SSY account is opened anytime after the birth of the girl child until she turns 10 years old. You may open the SSY account at the post office or any branch of a commercial bank. You may open the Sukanya Samriddhi Yojana account with a minimum initial deposit of just Rs 250. 
