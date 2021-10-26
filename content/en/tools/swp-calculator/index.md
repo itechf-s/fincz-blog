@@ -13,7 +13,7 @@ postDate: false
 ## SWP Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/swp-calculator/">}}
 
 ## What is a SWP calculator?
 Systematic Withdrawal Plan or SWP is a mutual fund investment facility which allows you to draw a fixed amount from your mutual fund investments at a specified frequency (monthly, quarterly, annual etc.); you can specify the day of the month/ quarter when the withdrawal should be made and the amount will be credited directly to your bank account on the specified day. You can continue your SWP as long as there are balance units in your mutual fund scheme account.
