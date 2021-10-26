@@ -137,7 +137,7 @@ EMI stands for Equated Monthly Instalment for the loan you avail from your bank.
 
 It is very easy to calculate the EMI for your car loan. You will get EMI as soon as you enter the required loan amount and the interest rate.Avail best interest rates on your Car Loan EMI. Drive the car of your dreams by purchasing it with our help.
 
-**[Car Loan EMI Calculator](/tools/car-loan-emi-calculator-calculator/)** 
+**[Car Loan EMI Calculator](/tools/car-loan-emi-calculator/)** 
 
 
 ## Home Loan EMI Calculator
@@ -147,4 +147,4 @@ It is very easy to calculate the EMI for your car loan. You will get EMI as soon
 
 Quick calculation of your Home Loan EMI.The home loan EMI calculator can help you know the exact EMI amount you would pay every month to help you plan your cash flow. 
 
-**[Home Loan EMI Calculator](/tools/home-loan-emi-calculator-calculator/)**
+**[Home Loan EMI Calculator](/tools/home-loan-emi-calculator/)**
