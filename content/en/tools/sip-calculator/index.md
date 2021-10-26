@@ -12,7 +12,7 @@ postDate: false
 
 ## SIP Calculator
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/sip-lumpsum-calculator/">}}
 
 ## What Is Sip Calculator
 

@@ -13,7 +13,7 @@ postDate: false
 ## Lumpsum Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/sip-lumpsum-calculator/?mode=lumpsum">}}
 
 ## What is a lumpsum calculator?
 A lumpsum investment calculator helps estimate the returns* made by an investor on a lumpsum investment. Simply fill in the necessary details and the calculator will compute an approximation of the maturity value based on the data provided.
