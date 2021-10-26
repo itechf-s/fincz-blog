@@ -2,7 +2,7 @@
 title: "EMI Calculator Tools"
 description: "This is EMI calculator."
 author: "ahmad"
-date: 2021-10-24T08:00:00+05:30
+date: 2021-11-05T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false

@@ -2,7 +2,7 @@
 title: "SSY Calculator Tools"
 description: "This is SSY calculator."
 author: "ahmad"
-date: 2021-10-24T08:00:00+05:30
+date: 2021-10-28T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false
