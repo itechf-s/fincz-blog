@@ -110,7 +110,8 @@ excerptMaxLength = 125
 #  wechat = "images/reward/wechat.png"
 
 [share]
-  addThis = "ra-6134c010eb681308" # AddThis pubid.
+  #addThis = "ra-6134c010eb681308" # AddThis pubid.
+  addThis = "" # AddThis pubid.
 
 [fontSize] # Comment or remove this settings to disable font size switcher.
   # extraSmall = ".8rem"

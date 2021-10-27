@@ -1,58 +1,64 @@
 ---
-title: "Tools Calculator"
-categories: [ Finance, Stock ]
-description: "Investment means investment in which we invest any of our things for some time. In which we expect more profit from it in the coming time, it is called investment."
+title: "Free Online Finance Calculator in India"
+categories: [ Tools ]
+tags: [Return Calculator]
+description: "Free online finance calculator to find any of the following: sip calculator, lumpsum calculator, swp calculator and Mutual Fund Return Calculator. Also experiment with other financial calculators."
 date: 2021-10-22T08:00:00+05:30
-images: ["images/2021/08/all-calculator.png"]
+images: ["images/2021/10/all-calculator.png"]
 author: ahmad
 ---
 
-
 ## SIP Calculator
 
-![SIP Calculator](images/2021/08/sip-calculator.png)
+[![SIP Calculator](images/2021/10/sip-calculator.png)](/tools/sip-calculator/) 
 
 A Systematic Investment Plan (SIP) calculator is an online financial tool that can help to calculate the returns you would earn on your SIP investments.
 
-**[SIP Calculator](/tools/sip-calculator/)** 
-
+{{<button "/tools/sip-calculator/" "SIP Calculator" >}}
 
 ## Lumpsum Calculator
 
-![Lumpsum Calculator](images/2021/08/lumpsum-calculator-1.png)
+[![Lumpsum Calculator](images/2021/10/lumpsum-calculator.png)](/tools/lumpsum-calculator/) 
 
 Are you looking to invest a lump-sum amount and get better returns? Here is the answer to invest money in a better way. One of the most lucrative ways of investing in a Mutual Fund is by making a lump sum investment. 
 
-**[Lumpsum Calculator](/tools/lumpsum-calculator/)** 
-
-
+{{<button "/tools/lumpsum-calculator/" "Lumpsum Calculator" >}}
 
 ## SWP Calculator
 
-![SWP Calculator](images/2021/08/swp-calculator.png)
+[![SWP Calculator](images/2021/10/swp-calculator.png)](/tools/swp-calculator/) 
 
 The SWP Calculator is a simulation that shows you the monthly withdrawals from your mutual fund investments. 
 
-**[SWP Calculator](/tools/swp-calculator/)** 
-
+{{<button "/tools/swp-calculator/" "SWP Calculator" >}}
 
 ## Mutual Fund Return Calculator
 
-![Mutual Fund Return Calculator](images/2021/08/mutual-fund-returns-calculator.png)
+[![Mutual Fund Return Calculator](images/2021/10/mutual-fund-returns-calculator.png)](/tools/mutual-fund-returns-calculator/) 
 
 The mutual fund calculator is a simulation that helps you to calculate the returns from the mutual fund investments. 
 
-**[Mutual Fund Return Calculator](/tools/mutual-fund-returns-calculator/)** 
+{{<button "/tools/mutual-fund-returns-calculator/" "Mutual Fund Return Calculator" >}}
+
 
 
 ## SSY Calculator
 
+<<<<<<< HEAD:content/en/posts/tools.md
 ![SSY Calculator](images/2021/10/ssy-calculator.png)
 
 Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know exactly how much you will be able to save for your girl's education and marriage.
 
 **[SSY Calculator](/tools/ssy-calculator/)** 
 
+=======
+![SSY Calculator](images/2021/10/share-market-investor.png)
+
+Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know exactly how much you will be able to save for your girl's education and marriage.
+
+[SSY Calculator](/tools/ssy-calculator/) 
+  -->
+>>>>>>> 38d3c13e76f9596594d00561361a2431108e6839:content/en/posts/calculators.md
 
 <!--  
 ## PPF Calculator
