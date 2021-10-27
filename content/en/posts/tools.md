@@ -44,20 +44,20 @@ The mutual fund calculator is a simulation that helps you to calculate the retur
 
 **[Mutual Fund Return Calculator](/tools/mutual-fund-returns-calculator/)** 
 
-<!-- 
+
 ## SSY Calculator
 
-![SSY Calculator](images/2021/08/share-market-investor.png)
+![SSY Calculator](images/2021/10/ssy-calculator.png)
 
 Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know exactly how much you will be able to save for your girl's education and marriage.
 
 **[SSY Calculator](/tools/ssy-calculator/)** 
-  -->
+
 
 <!--  
 ## PPF Calculator
 
-![PPF Calculator](images/2021/08/share-market-investor.png)
+![PPF Calculator](images/2021/10/ppf-calculator.png)
 
 PPF calculator: Public Provident Fund (PPF) is one of the government-backed small saving schemes that aim to provide assured return at the time of maturity.
 
@@ -68,7 +68,7 @@ PPF calculator: Public Provident Fund (PPF) is one of the government-backed smal
 <!-- 
 ## EPF Calculator
 
-![EPF Calculator](images/2021/08/share-market-investor.png)
+![EPF Calculator](images/2021/10/epf-calculator.png)
 
 Firstly, enter your age on Scripbox's EPF Calculator. Next, enter your desired age of retirement, basic salary and expected annual increase in salary. 
 **[EPF Calculator](/tools/epf-calculator/)** 
@@ -78,7 +78,7 @@ Firstly, enter your age on Scripbox's EPF Calculator. Next, enter your desired a
 <!-- 
 ## FD Calculator
 
-![FD Calculator](images/2021/08/share-market-investor.png)
+![FD Calculator](images/2021/10/fd-calculator.png)
 
 A fixed deposit calculator provides precise details of the FD interest rates one can get each month and calculates the maturity amount.
 
@@ -88,7 +88,7 @@ A fixed deposit calculator provides precise details of the FD interest rates one
 <!--  
 ## NPS Calculator
 
-![NPS Calculator](images/2021/08/share-market-investor.png)
+![NPS Calculator](images/2021/10/nps-calculator.png)
 
 National Pension Scheme (NPS) Calculator helps you to know the monthly pension and lump sum amount that you may get when you retire at the age of 60.
 
@@ -100,7 +100,7 @@ National Pension Scheme (NPS) Calculator helps you to know the monthly pension a
 
 ## HRA Calculator
 
-![HRA Calculator](images/2021/08/share-market-investor.png)
+![HRA Calculator](images/2021/10/hra-calculator.png)
 
 HRA Calculator is an online tool to help the individuals calculate their House Rent Allowance (HRA).Understand HRA & know how HRA exemption rules helps rented employee in saving income tax. Know the complete process of HRA calculation here.
 
@@ -111,7 +111,7 @@ HRA Calculator is an online tool to help the individuals calculate their House R
 
 ## RD Calculator
 
-![RD Calculator](images/2021/08/share-market-investor.png)
+![RD Calculator](images/2021/10/rd-calculator.png)
 
 RD Calculator is very easy to use. All one has to do is insert values of the monthly deposit, the RD rate, and the number of years of investing.
 
@@ -123,7 +123,7 @@ RD Calculator is very easy to use. All one has to do is insert values of the mon
 
 ## Retirement Calculator
 
-![Retirement Calculator](images/2021/08/share-market-investor.png)
+![Retirement Calculator](images/2021/10/retirement-calculator.png)
 
 A retirement calculator is a simple tool that helps you find the amount of money you will require after you retire.The retirement calculator takes into account your personal details such as current monthly expenses, your current age, the age at which you wish to retire and expected life span.
 
@@ -134,7 +134,7 @@ A retirement calculator is a simple tool that helps you find the amount of money
 
 ## EMI Calculator
 
-![EMI Calculator](images/2021/08/share-market-investor.png)
+![EMI Calculator](images/2021/10/emi-calculator.png)
 
 EMI stands for Equated Monthly Instalment for the loan you avail from your bank. The EMI consists of the principal portion of the loan amount and the interest.
 
@@ -146,7 +146,7 @@ EMI stands for Equated Monthly Instalment for the loan you avail from your bank.
 ## Car Loan EMI Calculator
 
 
-![Car Loan EMI Calculator](images/2021/08/share-market-investor.png)
+![Car Loan EMI Calculator](images/2021/10/car-loan-emi-calculator.png)
 
 It is very easy to calculate the EMI for your car loan. You will get EMI as soon as you enter the required loan amount and the interest rate.Avail best interest rates on your Car Loan EMI. Drive the car of your dreams by purchasing it with our help.
 
@@ -158,7 +158,7 @@ It is very easy to calculate the EMI for your car loan. You will get EMI as soon
 ## Home Loan EMI Calculator
 
 
-![Home Loan EMI Calculator](images/2021/08/share-market-investor.png)
+![Home Loan EMI Calculator](images/2021/10/home-loan-emi-calculator.png)
 
 Quick calculation of your Home Loan EMI.The home loan EMI calculator can help you know the exact EMI amount you would pay every month to help you plan your cash flow. 
 
