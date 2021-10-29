@@ -54,7 +54,7 @@ Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know ex
 
 
 
-<!-- 
+
 ## PPF Calculator
 
 [![PPF Calculator](images/2021/10/ppf-calculator.png)](/tools/ppf-calculator/) 
@@ -75,10 +75,10 @@ PPF calculator: Public Provident Fund (PPF) is one of the government-backed smal
 Firstly, enter your age on Scripbox's EPF Calculator. Next, enter your desired age of retirement, basic salary and expected annual increase in salary. 
 
 {{<button "/tools/epf-calculator/" "EPF Calculator" >}}
- -->
 
 
- <!-- 
+
+
 
 
 ## FD Calculator
@@ -90,7 +90,7 @@ A fixed deposit calculator provides precise details of the FD interest rates one
 {{<button "/tools/fd-calculator/" "FD Calculator" >}}
 
 
-<!-- 
+
 
 ## NPS Calculator
 
@@ -101,7 +101,7 @@ National Pension Scheme (NPS) Calculator helps you to know the monthly pension a
 {{<button "/tools/nps-calculator/" "NPS Calculator" >}}
 
 
-<!-- 
+
 
 
 
@@ -115,7 +115,7 @@ HRA Calculator is an online tool to help the individuals calculate their House R
 
 
 
-<!-- 
+
 
 ## RD Calculator
 
@@ -127,7 +127,7 @@ RD Calculator is very easy to use. All one has to do is insert values of the mon
 
 
 
-<!-- 
+
 
 
 ## Retirement Calculator
@@ -139,8 +139,6 @@ A retirement calculator is a simple tool that helps you find the amount of money
 {{<button "/tools/retirement-calculator/" "Retirement Calculator" >}}
 
  
-<!-- 
-
 
 ## EMI Calculator
 
@@ -150,9 +148,6 @@ EMI stands for Equated Monthly Instalment for the loan you avail from your bank.
 
 {{<button "/tools/emi-calculator/" "EMI Calculator" >}}
 
-
-
-<!-- 
 
 ## Car Loan EMI Calculator
 
@@ -164,8 +159,6 @@ It is very easy to calculate the EMI for your car loan. You will get EMI as soon
 {{<button "/tools/car-loan-emi-calculator/" "Car Loan EMI  Calculator" >}}
 
 
- 
-<!-- 
 
 ## Home Loan EMI Calculator
 
@@ -176,4 +169,4 @@ Quick calculation of your Home Loan EMI.The home loan EMI calculator can help yo
 
 {{<button "/tools/home-loan-emi-calculator/" "Home Loan EMI Calculator" >}}
 
- -->
+
