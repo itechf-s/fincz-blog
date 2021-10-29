@@ -2,7 +2,7 @@
 title: "Sukanya Samriddhi Yojana Calculator"
 description: "Under the initiative taken by the government campaign, a savings scheme named Sukanya Samriddhi Yojna was launched in 2015. According to the tenure and amount invested, the SSY calculator enables one to estimate all the returns that one is going to recieve."
 author: "ahmad"
-date: 2021-10-30T08:00:00+05:30
+date: 2021-10-28T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false

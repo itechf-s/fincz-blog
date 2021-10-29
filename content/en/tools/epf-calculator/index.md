@@ -4,16 +4,15 @@ description: "Our EPF Calculator is one step solution to all your EPF related ca
 author: "ahmad"
 date: 2021-10-30T08:00:00+05:30
 reward:  false
-share: false
+draft: true
 readingTime: false
-fullWidth : true
 postDate: false
 ---
 
 ## EPF Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/epf-calculator/">}}
 
 ## What is a EPF calculator?
 The Employee Provident Fund or the EPF is a retirement benefits scheme for salaried employees in the private sector. The Employees Provident Fund Organisation (EPFO) manages the EPF. Any organisation or firm with 20 or more employees gets covered under the EPFO. The Employees Provident Fund Organisation operates three schemes.

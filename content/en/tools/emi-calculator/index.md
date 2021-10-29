@@ -6,7 +6,7 @@ date: 2021-11-05T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false
-fullWidth : true
+draft: true
 postDate: false
 ---
 

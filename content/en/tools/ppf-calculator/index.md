@@ -2,18 +2,17 @@
 title: "Public Provident Fund Calculator"
 description: "This is PPF calculatorPPF calculator is an online tool which you can use to calculate returns on the investments made in the PPF Account."
 author: "ahmad"
-date: 2021-10-30T08:00:00+05:30
+date: 2021-10-29T08:00:00+05:30
 reward:  false
-share: false
+draft: true
 readingTime: false
-fullWidth : true
 postDate: false
 ---
 
 ## PPF Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/ppf-calculator/">}}
 
 ## What is a PPF calculator?
 Public Provident Fund (PPF) scheme is a popular long term investment option backed by Government of India which offers safety with attractive interest rate and returns that are fully exempted from Tax. Bank of Baroda operates Public Provident Fund account schemes across its branches all over India. Use a PPF calculator to know more and open a public provident fund account.

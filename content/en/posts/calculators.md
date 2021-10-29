@@ -54,7 +54,7 @@ Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know ex
 
 
 
-
+<!-- 
 ## PPF Calculator
 
 [![PPF Calculator](images/2021/10/ppf-calculator.png)](/tools/ppf-calculator/) 
@@ -75,7 +75,7 @@ PPF calculator: Public Provident Fund (PPF) is one of the government-backed smal
 Firstly, enter your age on Scripbox's EPF Calculator. Next, enter your desired age of retirement, basic salary and expected annual increase in salary. 
 
 {{<button "/tools/epf-calculator/" "EPF Calculator" >}}
-
+ -->
 
 
  <!-- 
