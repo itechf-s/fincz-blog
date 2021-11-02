@@ -52,7 +52,7 @@ Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know ex
 
 {{<button "/tools/ssy-calculator/" "SSY Calculator" >}}
 
-
+<!-- 
 
 
 ## PPF Calculator
@@ -169,4 +169,4 @@ Quick calculation of your Home Loan EMI.The home loan EMI calculator can help yo
 
 {{<button "/tools/home-loan-emi-calculator/" "Home Loan EMI Calculator" >}}
 
-
+ -->
