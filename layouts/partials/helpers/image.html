@@ -2,22 +2,38 @@
 {{- $width := false -}}
 {{- $height := false -}}
 {{- $pageResource := false -}}
-{{- $link := "" -}}
+{{- $imgDomain := "//img" -}}
+{{- $webpExt := ".webp" -}}
 {{- $extImg := false -}}
 {{- $defLazyImg := "/images/bestrani-lazy.png" -}}
+{{- $link := "" -}}
+{{- $webpLink := "" -}}
 {{- $url := urls.Parse .filename -}}
-{{- if not $url.Scheme -}}
+{{ if strings.Contains $url $imgDomain -}}
+{{- $extImg = true -}}
+{{- end -}}
+{{- if or (not $url.Scheme) (strings.Contains $url $imgDomain)  -}}
   {{- $resource := .resources.GetMatch (strings.TrimPrefix "/" $url.Path) -}}
   {{- if $resource -}}
     {{- $img = $resource -}}
     {{- $link = $resource.Permalink -}}
     {{- $pageResource = true -}}
-    {{ $pageResource}}
   {{- else -}}
     {{- $filename := path.Join "static" $url.Path -}}
-    {{- if fileExists $filename -}}
-      {{- $img = imageConfig $filename -}}
+    {{- $imgExt := path.Ext .filename -}}
+    {{- $webpFilename := replace $filename $imgExt $webpExt -}}
+    {{- if or (fileExists $filename) (fileExists $webpFilename) -}}
+      {{- if fileExists $filename -}}
+        {{- $img = imageConfig $filename -}}
+      {{- else if fileExists $webpFilename -}}
+        {{- $img = imageConfig $webpFilename -}}
+      {{- end -}}
       {{- $link = .filename | absURL }}
+      {{- if fileExists $webpFilename -}}
+        {{- $webpLink = replace .filename $imgExt $webpExt | absURL }}
+      {{- end -}}
+    {{- else if strings.Contains $url $imgDomain -}}
+      {{- $link = .filename -}}
     {{- else -}}
       {{- warnf "no such image can be found in page resources and the static folder: %s" .filename -}}
     {{- end -}}
@@ -45,6 +61,7 @@
 {{- else if eq $url.Fragment "floatright" -}}
   {{- $className = printf "%s %s" $className "float-end ms-2" -}}
 {{- end -}}
+
 {{- if and $width $height $pageResource -}}
   <!-- Resize to actual entered size -->
   {{- $resize := (printf "%sx%s" (strings.TrimSuffix "px" $width) (strings.TrimSuffix "px" $height)) -}}
@@ -60,19 +77,15 @@
   {{- $resize := (printf "x%s" (strings.TrimSuffix "px" $height)) -}}
   {{- $img = $img.Resize $resize -}}
   {{- $link = $img.Permalink | safeURL -}}
-{{- else -}}
-  {{- if strings.Contains $url "img.bestrani.com" }}
-    {{- $extImg = true -}}
-    {{- $width = "770px" -}}
-    {{- $height = "auto" -}}
-  {{- end -}}
 {{- end -}}
-{{- if $extImg -}}
-  <img class="{{ $className }} lazy " alt="{{ .alt }}" data-src="{{ $link }}" src="{{ $defLazyImg }}"
-    {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}"{{ end }}
-    {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
-{{- else -}} 
-  <img class="{{ $className }}" alt="{{ .alt }}" src="{{ $link }}" loading="lazy"
-    {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}"{{ end }}
-    {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
+
+{{ if and $extImg $webpLink }}
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $webpLink }}" loading="lazy"
+  {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
+  {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
+{{else}} 
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $link }}" loading="lazy"
+  {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
+  {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
 {{ end }}
+
