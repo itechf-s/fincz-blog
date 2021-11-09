@@ -4,8 +4,7 @@ description: "सुकन्या समृद्धि योजना (SSY) 
 date: 2021-11-13T08:00:00+05:30
 images: ["images/2021/11/ssy.png"]
 categories: ['Finance', 'Stock']
-tags: ['सुकन्या समृद्धि योजना कैलकुलेटर','सुकन्या समृद्धि योजना चार्ट
-','सुकन्या समृद्धि योजना online']
+tags: ['सुकन्या समृद्धि योजना कैलकुलेटर','सुकन्या समृद्धि योजना चार्ट','सुकन्या समृद्धि योजना online']
 author: ahmad
 aliases: ["/hindi/share-market-basic"]
 ---
