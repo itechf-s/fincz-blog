@@ -245,4 +245,3 @@ In this article, we have explained the advantages of mutual funds and benefits a
 
 We advise investors to estimate the investment returns and maturity before investing. This will ensure your investment plans match your financial goals. 
 
-{{< youtube dn5DD754oTE >}}
