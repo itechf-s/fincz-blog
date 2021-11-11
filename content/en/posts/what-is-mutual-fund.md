@@ -1,9 +1,8 @@
 ---
 title: "What Is A Mutual Fund And How Does It Work"
-
 description: "Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors."
 date: 2021-11-12T08:00:00+05:30
-images: ["images/2021/08/share-price.png"]
+images: ["images/2021/11/mutaul-fund.png"]
 categories: ['Finance','Stock','types of mutual fund','mutual fund','mutual fund investment']
 author: ahmad
 aliases: ["/hindi/gold-investment"]
@@ -180,6 +179,8 @@ You have exit load as fees charged by AMCs when exiting a mutual fund. It discou
 
 Due to dilution, it is not recommended to invest in too many Mutual Funds at the same time. Diversification, although saves an investor from major losses, also restricts one from making a higher profit.
 
+<!-- 
+
 ### 3. High Sales Charges
 
 There are no free lunches in this world. Similarly, mutual funds also come with costs in the form of expense ratios. Expense ratio covers fund management fees, marketing and sales costs etc.
@@ -195,6 +196,8 @@ While these fees are no fun to pay, they are not hidden. The fee is disclosed in
 If you find the 12b-1 fee onerous, invest in a mutual fund that does not charge the fee.
 
 **More Information For Reading: [WHAT IS A MUTUAL FUND](https://www.franklintempletonindia.com/investor/investor-education/video/what-is-a-mutual-fund)**
+
+ -->
 
 ## FAQs On Mutual Funds
 
@@ -227,6 +230,8 @@ There are four broad types of mutual funds: Equity (stocks), fixed-income (bonds
 
 The basics of the mutual fund is that you invest money in a fund along with load of other people. The company that offers the fund then invests the money and you get the returns. How mutual funds work is by collecting money from lots of investors and then investing that money in stocks and bonds.
 
+<!-- 
+
 ### What is mutual fund and how it works?
 
 A mutual fund is an investment vehicle that pools investors' money and invests it in stock market-linked financial instruments such as stocks and bonds to generate returns. The combined holding of the fund is known as its portfolio.
@@ -234,7 +239,7 @@ A mutual fund is an investment vehicle that pools investors' money and invests i
 ### How do mutual funds work step by step?
 
 Mutual funds pool money from multiple retail investors. Retail investors receive a share in the form of units. The fund managers, using their expertise, then invests in stocks and bonds on behalf of the investors. Once the fund earns returns, it is distributed to the investors in the proportion of their investment.
-
+ -->
 ## Conclusion
 
 Investing in a good plan not only derives a good profit but also secures one’s life.  Money invested now will lead to a safer tomorrow. Hence, one should plan an investment according to one’s needs and risk-taking capacity
