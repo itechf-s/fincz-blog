@@ -3,10 +3,9 @@ title: "What Is A Mutual Fund And How Does It Work"
 description: "Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors."
 date: 2021-11-12T08:00:00+05:30
 images: ["images/2021/11/mutaul-fund.png"]
-categories: ['Finance','Stock','types of mutual fund','mutual fund','mutual fund investment']
+categories: [ Finance, Stock ]
+tags: ['types of mutual fund','mutual fund','mutual fund investment']
 author: ahmad
-aliases: ["/hindi/gold-investment"]
-
 ---
 
 Today in this article we will talk about What Is a Mutual Fund and How Does It Work, 
