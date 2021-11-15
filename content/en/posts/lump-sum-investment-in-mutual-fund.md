@@ -1,11 +1,11 @@
 ---
 title: "lump sum investment in mutual fund"
 description: "Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors."
+categories: [ Finance, Stock ]
 date: 2021-11-12T08:00:00+05:30
 images: ["images/2021/11/mutaul-fund.png"]
-categories: ['Finance','Stock','types of mutual fund','mutual fund','mutual fund investment']
+tags: ['types of mutual fund','mutual fund','mutual fund investment']
 author: ahmad
-aliases: ["/hindi/gold-investment"]
 
 ---
 
