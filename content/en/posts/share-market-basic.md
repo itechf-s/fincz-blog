@@ -2,7 +2,7 @@
 title: "Basic knowledge of share market"
 description: "We will get some basic information related to the share market, such as what is a share, why does a company need a share, how is a company's stock list, how does a company earn money in the stock market, and we make money by investing in the share market. how can earn"
 date: 2021-08-12T08:00:00+05:30
-images: ["images/2021/08/share-market-investor.png"]
+images: ["images/2021/11/share-market-basic.png"]
 categories: ['Finance', 'Stock']
 tags: ['Stock Market']
 author: ahmad

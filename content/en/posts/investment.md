@@ -3,11 +3,10 @@ title: "Investment in English"
 categories: [ Finance, Stock ]
 description: "Investment means investment in which we invest any of our things for some time. In which we expect more profit from it in the coming time, it is called investment."
 date: 2021-07-21T08:00:00+05:30
-tags: ['Investment Types', 'Modern Investment']
+tags: ['Investment Types','Modern Investment']
 images: ["images/2021/08/investment-kya-hai.png"]
 author: ahmad
 ---
-
 
 ## What Is Investment
 
@@ -16,6 +15,9 @@ Investment means investment in which we invest any of our things for some time.I
 Time, money or any other such thing in investment, which should not be used for yourself at that time and keep it by blocking it.In the hope that there will be more profit from it in the coming time.
 
 To explain the investment properly, here we are giving some examples so that you can understand easily.
+
+**Read Also : [What Is a Mutual Fund and How Does It Work](https://fincz.com/what-is-mutual-fund/)**
+
 
 ### Akhirat's Investment
 
@@ -26,6 +28,8 @@ Expecting this reward is only one way of investment, if we do not expect reward 
 When no coin will work in the future, then the coin of goodness will work, at that time we will remember this thing in all our investments that I wish we had not made any other investment in the world except Akhirat when nothing would work at that time.
 
 That's why we all need to do something for ourselves that will be useful after death.
+
+{{< youtube Z3xWE-4HbrY >}}
 
 ### Investment In Agriculture
 
@@ -58,6 +62,8 @@ Investment in Gold Everyone must be aware of this, since childhood, we see that 
 
 We all know about business that no business is done without investing money, so the money we invest in the business is our investment. In which we can benefit manifold from that money in the future, but this will happen only when we are able to do the business properly or else it can also have the opposite loss.
 
+**Read Also : [Gold Investment for Beginners ](https://fincz.com/gold-investment/)**
+
 ### Real Estate Investment
 
 Real Estate Investment We also know this since childhood, when our grandfather or someone else used to buy land on his own time, then later its value would increase a lot, it proves to be a very good investment. Which also benefits the coming breed.
@@ -77,6 +83,8 @@ Investment in the bank is generally considered to be a very popular and easy inv
 And the one who is doing FD in the bank does not get any benefit because the inflation has increased more than the returns in the bank, but if he does not calculate so much, then he does not even know and he keeps on doing FD in the bank.
 
 And we are not getting any return on his money, we never recommend this investment because firstly there is no benefit to the person doing it, secondly there is also a matter of interest interest which we should not do, so just know it here. That one should not make FD in the bank.
+
+**Read Also : [Basic Knowledge of Share Market](https://fincz.com/share-market-basic/)**
 
 ## Why Should You Invest
 
@@ -112,6 +120,8 @@ There are many benefits of investing as we have already mentioned. Now let's tal
 - Will be able to participate actively in social work and will be able to help people.
 - With the passage of time, inflation also keeps rising, with investment, we can beat inflation, otherwise inflation will lag behind us.
 
+**Read Also : [What Is Share Market](https://fincz.com/share-market/)**
+
 ## How To Invest
 
 Now let's talk about how to invest, so far you must have understood what kind of investment is, so now you know how to do it.
@@ -125,6 +135,9 @@ Here are some ways to invest.
 - Always keep learning something or the other and keep increasing your skills, investing on yourself is the best investment, when you will learn something, then after applying it, you will be able to get more benefits.
 - Investing in gold stock market and real estate has become very easy now, you can invest in it online as well, its entire tehsil will tell you in the coming article.
 - Stop your extravagance and if you do any intoxication like gutkha cigarette etc.
+
+**More Information : [What is an Investment Account](https://www.investright.org/investing-101/types-of-accounts/what-is-an-investment-account/)**
+
 
 ## Who Should Invest
 
@@ -146,4 +159,3 @@ Investing is the need of the hour, if you are already doing it very well and if 
 
 If you got to learn something in this article, then share this article with your friends and tell them also.
 
-{{< youtube PPu8BHoZiQE >}}

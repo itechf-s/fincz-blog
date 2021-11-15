@@ -2,11 +2,10 @@
 title: "lump sum investment in mutual fund"
 description: "Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors."
 categories: [ Finance, Stock ]
-date: 2021-11-12T08:00:00+05:30
-images: ["images/2021/11/mutaul-fund.png"]
+date: 2021-11-16T08:00:00+05:30
+images: ["images/2021/11/lump-sum.png"]
 tags: ['types of mutual fund','mutual fund','mutual fund investment']
 author: ahmad
-
 ---
 
 ## What is Lumpsum Investment
@@ -16,6 +15,8 @@ A lumpsum investment is a method where an investment in a mutual fund is made in
 Lumpsum investments do not occur at regular intervals, instead, one can make these at their disposal. For example, let’s say Priya wanted to investment Rs.1,00,000 in a mutual fund. 
 
 She didn’t want to split the amount to be put in small investments at regular intervals, since she had surplus money lying idle in her bank account. As Priya is well aware of inflation risk, she decided to put all of it in one go.
+
+{{< youtube j4ktk-mYO-U >}}
 
 ## What is a lump sum investment in a mutual fund
 
@@ -29,7 +30,7 @@ You decide to take a risk with this amount because it is in excess and you have 
 
 You could invest the entire amount in a single mutual fund scheme of your choice. This could be different from investing Rs.6,250 every month for a year.
 
-**यह भी पढ़ें : [Gold Investment for Beginners ](https://fincz.com/gold-investment/)**
+**Read Also : [Gold Investment for Beginners ](https://fincz.com/gold-investment/)**
 
 
 ## lump sum investment advantages
@@ -47,6 +48,8 @@ Investors can time their investment and gain better returns in a bullish market.
 **Investing your Large Amount**
 
 By opting to invest via lump sum mode, you can put your big amount in Mutual Fund Investment. Consequently, during growth in the market, the investment also sees an increase in value. More than that in the SIP investment, because you may not have completed the payment duration as yet.
+
+**Read Also : [Basic Knowledge of Share Market](https://fincz.com/share-market-basic/)**
 
 **Best for Longer Duration Investment**
 
@@ -67,6 +70,8 @@ However, you should avoid lump sum investment in Mutual Funds at the time when t
 Lump sum investment is suitable for individuals who prefer to invest through long-term. Long-term investment in case of lump sum investment can be considered for an approximate investment tenure of 10 years or more. 
 
 However, for lump sum investment in Debt fund, individuals can also choose to invest for a medium-term tenure.
+
+**Read Also : [What Is Share Market](https://fincz.com/share-market/)**
 
 **Convenience**
 
@@ -98,7 +103,7 @@ As the sum is invested at one go, the investor may end up buying lesser units if
 
 The only option is to invest in a new fund for which an investor may not even have funds due to single cash outflow owing to lump sum payment. So, the market timing is quite crucial while investing through lumpsum method.
 
-## ow to invest a lump sum amount in mutual funds
+## How to invest a lump sum amount in mutual funds
 
 **Investing the lump sum**
 
@@ -113,6 +118,8 @@ There is a standard KYC form to be filled by the investor. Documents such as cop
 **Choice of schemes**
 
 Once KYC formalities are done, the investor has to decide which schemes to invest in. Since the investor is going to set up systematic transfer plan (STP), he needs to choose a liquid fund and equity fund of the same fund house. It is advisable to consult an adviser in order to make a rational investment choice.
+
+**Read Also : [What Is a Mutual Fund and How Does It Work](https://fincz.com/what-is-mutual-fund/)**
 
 **Investing in liquid fund**
 
@@ -153,6 +160,9 @@ The majority of settlements in personal injury cases are lump sum payments. A st
 ### What is the best investment for a lump sum?
 
 Invest the lump sum in a liquid fund. Then start a Systematic Transfer Plan (STP) from the debt fund to the ELSS. Your corpus will not only earn higher returns than a savings bank account but will also allow for systematic investment.
+
+**More Information : [Best Mutual Funds for Lumpsum Investment](https://www.etmoney.com/blog/what-are-the-best-mutual-funds-for-lumpsum-investment/)**
+
 
 ### When should I invest lumpsum?
 

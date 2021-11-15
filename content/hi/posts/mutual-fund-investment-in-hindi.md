@@ -2,7 +2,7 @@
 title: "म्यूचुअल फंड में निवेश कैसे करें"
 description: "क्या आप म्यूचुअल फंड्स की स्कीम में निवेश करते हैं? निवेश करने से पहले म्यूचुअल फंड को जान लेना बहुत जरूरी है। इससे आपको निवेश के फैसले लेने में मदद मिलेगी आइए जानते हैं क्या है म्यूचुअल फंड? हम आपको यह भी बता रहे हैं कि आप म्यूचुअल फंड में कैसे निवेश कर सकते हैं?"
 date: 2021-10-26T08:00:00+05:30
-images: ["images/2021/08/share-market-investor.png"]
+images: ["images/2021/11/mutaul-fund.png"]
 categories: ['Finance', 'Stock']
 tags: ['Stock Market','types of mutual fund
 ','mutual fund investment','mutual fund']

@@ -2,7 +2,7 @@
 title: "ELSS Fund में निवेश कैसे करे"
 description: "ELSS यानि Equity Linked Savings Scheme एक ऐसा म्यूच्यूअल फण्ड इन्वेस्टमेंट ऑप्शन है। जो इन्वेस्टमेंट के साथ एक टैक्स फ्री इन्वेस्टमेंट ऑप्शन है। ELSS एक diversified equity म्यूच्यूअल फण्ड ऑप्शन है जो अपने corpus फंड का maximum पार्ट को इक्विटी में इन्वेस्टमेंट करता है और डाइवर्सिफाइड इक्विटी म्यूच्यूअल फंड होता है।"
 date: 2021-11-05T08:00:00+05:30
-images: ["images/2021/08/share-market.png"]
+images: ["images/2021/08/investor.png"]
 categories: ['Finance', 'Stock']
 tags: ['ELSS interest rate', 'ELSS funds','ELSS funds list','ELSS calculator','']
 author: ahmad

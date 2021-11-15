@@ -2,11 +2,11 @@
 title: "शेयर बाजार में प्रयोग होने वाले सबसे महत्वपूर्ण 20+ शब्द और उनके अर्थ"
 description: "शेयर मार्केट में प्रयोग होने वाले शब्द और उनके अर्थ जिनसे आप जान सकें शेयर बाज़ार की भाषा जिससे कि आपको इस बाजार और इसकी शब्दावली को समझने में आसानी होगी"
 date: 2021-10-23T08:00:00+05:30
-images: ["images/2021/08/share-market-investor.png"]
+images: ["images/2021/11/share-market.png"]
 categories: ['Finance', 'Stock']
 tags: ['Stock Market','Dividend', 'Bonus Share','Bear market','Bull market','Demat Account']
 author: ahmad
-aliases: ["/hindi/share-market-basic"]
+
 ---
 
 शेयर मार्केट में प्रयोग होने वाले शब्द और उनके अर्थ जिनसे आप जान सकें शेयर बाज़ार की भाषा जिससे कि आपको इस बाजार और इसकी शब्दावली को समझने में आसानी होगी। 

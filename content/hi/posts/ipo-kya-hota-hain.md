@@ -3,7 +3,7 @@ title: "आईपीओ क्या है और इसमें कैसे 
 date: 2021-10-17T08:00:00+05:30
 tags: ['IPO', 'Investment Types']
 description: "आईपीओ को इनिशियल पब्लिक ऑफरिंग कहते हैं. दरअसल जब कोई कंपनी पहली बार अपने शेयर पब्लिक को ऑफर करती है तो इसे आईपीओ कहते हैं।"
-images: ["images/2021/08/stock-market.png"]
+images: ["images/2021/11/ipo-kya-hota-hain.png"]
 categories: ['Finance', 'Stock']
 author: ahmad
 ---

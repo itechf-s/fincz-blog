@@ -2,11 +2,11 @@
 title: "शेयर मार्केट का गणित"
 description: "शेयर मार्केट एक ऐसी मार्केट है जहां पर शेयर खरीद और बेच सकते हैं। शेयर किसी भी चीज का हिस्सा होता है जैसे यहां पर शेयर मार्केट में कंपनी होती है बहुत ही ज्यादा महंगी होती है जैसे कि वह कई हजार से लाख करोड़ों की कंपनी होती है। कोई भी इंसान अगर कंपनी खरीदना चाहे तो अकेला खरीद पाना नामुमकिन सा होता है।"
 date: 2021-08-12T08:00:00+05:30
-images: ["images/2021/08/share-market.png"]
+images: ["images/2021/11/share-market-kya-hain.png"]
 categories: ['Finance', 'Stock']
 tags: ['Trading', 'Stock Market']
 author: ahmad
-aliases: ["/hindi/share-market"]
+
 ---
 
 
