@@ -3,7 +3,7 @@
 # titleSeparator = "|" # Title separator. Default to "-".
 
 description = "Fincz Finance Blog"
-keywords = "Fashion, makeup guide"
+keywords = "Share Market, Financial Calculator"
 # images = ["site-feature-image.jpg"]
 
 logo = "images/fincz-logo-black.png" # Logo image. Default to "images/logo.webp".
