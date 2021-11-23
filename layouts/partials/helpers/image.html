@@ -5,7 +5,6 @@
 {{- $imgDomain := "//img" -}}
 {{- $webpExt := ".webp" -}}
 {{- $extImg := false -}}
-{{- $defLazyImg := "/images/bestrani-lazy.png" -}}
 {{- $link := "" -}}
 {{- $webpLink := "" -}}
 {{- $url := urls.Parse .filename -}}
@@ -23,14 +22,17 @@
     {{- $imgExt := path.Ext .filename -}}
     {{- $webpFilename := replace $filename $imgExt $webpExt -}}
     {{- if or (fileExists $filename) (fileExists $webpFilename) -}}
-      {{- if fileExists $filename -}}
-        {{- $img = imageConfig $filename -}}
-      {{- else if fileExists $webpFilename -}}
+    <!-- use webp if exist  -->
+    {{- if fileExists $webpFilename -}}
         {{- $img = imageConfig $webpFilename -}}
+      {{- else if fileExists $filename -}}
+        {{- $img = imageConfig $filename -}}
       {{- end -}}
+
       {{- $link = .filename | absURL }}
       {{- if fileExists $webpFilename -}}
         {{- $webpLink = replace .filename $imgExt $webpExt | absURL }}
+        {{- $extImg = true -}}
       {{- end -}}
     {{- else if strings.Contains $url $imgDomain -}}
       {{- $link = .filename -}}
