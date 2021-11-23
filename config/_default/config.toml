@@ -28,6 +28,7 @@ pygmentsUseClasses = true
 
 [blackfriday]
   hrefTargetBlank = true
+  
 [mediaTypes]
   [mediaTypes."application/manifest+json"]
     suffixes = ["json"]
