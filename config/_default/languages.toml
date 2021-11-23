@@ -9,6 +9,6 @@
   contentDir = "content/hi"
   [hi.params]
     description = "Fincz Finance Blog in Hindi"
-    #keywords = "Fashion, makeup guide"
+    #keywords = "बिजनेस फाइनेंस, वित्त"
     [pwa]
       [pwa.manifest]
