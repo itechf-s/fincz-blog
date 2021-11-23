@@ -130,9 +130,9 @@ excerptMaxLength = 125
     # background_color = ""
 
     # Icons
-    [[pwa.manifest.icons]]
-       sizes = "192x192"
-       src = "/images/favicons/android-chrome-192x192.png"
+    #[[pwa.manifest.icons]]
+    #   sizes = "192x192"
+    #   src = "/images/favicons/android-chrome-192x192.png"
     # [[pwa.manifest.icons]]
     #   sizes = "144x144"
     #   src = "/images/icons/icon-144x144.png"
