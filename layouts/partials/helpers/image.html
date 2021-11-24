@@ -5,7 +5,6 @@
 {{- $imgDomain := "//img" -}}
 {{- $webpExt := ".webp" -}}
 {{- $extImg := false -}}
-{{- $defLazyImg := "/images/bestrani-lazy.png" -}}
 {{- $link := "" -}}
 {{- $webpLink := "" -}}
 {{- $url := urls.Parse .filename -}}
@@ -23,14 +22,17 @@
     {{- $imgExt := path.Ext .filename -}}
     {{- $webpFilename := replace $filename $imgExt $webpExt -}}
     {{- if or (fileExists $filename) (fileExists $webpFilename) -}}
-      {{- if fileExists $filename -}}
-        {{- $img = imageConfig $filename -}}
-      {{- else if fileExists $webpFilename -}}
+    <!-- use webp if exist  -->
+    {{- if fileExists $webpFilename -}}
         {{- $img = imageConfig $webpFilename -}}
+      {{- else if fileExists $filename -}}
+        {{- $img = imageConfig $filename -}}
       {{- end -}}
+
       {{- $link = .filename | absURL }}
       {{- if fileExists $webpFilename -}}
         {{- $webpLink = replace .filename $imgExt $webpExt | absURL }}
+        {{- $extImg = true -}}
       {{- end -}}
     {{- else if strings.Contains $url $imgDomain -}}
       {{- $link = .filename -}}
@@ -80,11 +82,11 @@
 {{- end -}}
 
 {{ if and $extImg $webpLink }}
-<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $webpLink }}" loading="lazy"
+<img class="{{ $className }}" alt="{{ .alt }}" data-src="{{ $webpLink }}" loading="lazy"
   {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
   {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
 {{else}} 
-<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $link }}" loading="lazy"
+<img class="{{ $className }}" alt="{{ .alt }}" data-src="{{ $link }}" loading="lazy"
   {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
   {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
 {{ end }}

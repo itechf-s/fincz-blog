@@ -7,3 +7,8 @@
   languageName = "हिंदी"
   weight = 2
   contentDir = "content/hi"
+  [hi.params]
+    description = "Fincz Finance Blog in Hindi"
+    #keywords = "बिजनेस फाइनेंस, वित्त"
+    [pwa]
+      [pwa.manifest]
