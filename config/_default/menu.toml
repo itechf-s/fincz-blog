@@ -4,6 +4,12 @@
   pre = '<i class="fas fa-fw fa-chevron-circle-down"></i>'
   url = '/categories/finance/'
 
+[[main]]
+  name = "Tools"
+  identifier = "Tools"
+  pre = '<i class="fas fa-fw fa-chevron-circle-up"></i>'
+  url = '/categories/tools/'
+
 #
 #[[main]]
 #  id = "github"
