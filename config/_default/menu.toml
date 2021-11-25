@@ -38,6 +38,11 @@
   url = "/copy-right/"
 
 [[footer]]
+  identifier = "disclaimer"
+  name = "Disclaimer"
+  url = "/disclaimer/"
+
+[[footer]]
   identifier = "terms-and-conditions"
   name = "Terms and Conditions"
   url = "/terms-and-conditions/"
