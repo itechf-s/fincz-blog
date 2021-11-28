@@ -1,13 +1,11 @@
 ---
 title: "what is ipo in share market"
-
 description: "People these days are becoming tech-savvy, and with that, they are opening up to investing. The millennials are searching for more unique avenues to grow their money.One such section that confuses people is IPO, its intricacies, and the standard terms associated with it."
 tags: ['IPO', 'Advantages of an IPO','what is an ipo','upcoming ipo','']
 date: 2021-11-25T08:00:00+05:30
 images: ["images/2021/11/ipo-kya-hota-hain.png"]
 categories: ['Finance','Stock']
 author: ahmad
-
 ---
 
 Today in this article we will talk about what is ipo in share market, apart from this we will talk about more things related to it like How to invest in ipo, IPO full form in share market, IPO investment benefits, or ipo investment disadvantages.

@@ -6,7 +6,6 @@ images: ["images/2021/08/investor.png"]
 categories: ['Finance', 'Stock']
 tags: ['ELSS interest rate', 'ELSS funds','ELSS funds list','ELSS calculator','']
 author: ahmad
-aliases: ["/hindi/share-market"]
 ---
 
 ## ELSS Fund क्या है ?

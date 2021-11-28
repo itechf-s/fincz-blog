@@ -6,7 +6,6 @@ images: ["images/2021/08/share-market-investor.png"]
 categories: ['Finance', 'Stock']
 tags: ['Stock Market']
 author: ahmad
-aliases: ["/hindi/share-market-basic"]
 ---
 
 ## शेयर मार्केट की बेसिक जानकारी

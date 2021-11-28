@@ -1,6 +1,5 @@
 ---
 title: "25 Stock market terms for beginners"
-
 description: "In this article we will talk about Stock market terms for Beginners, apart from this we will talk about more things related to it like Share Market, Demat account.This basic domain knowledge of these stock market terms is really important if you want to enter the stock market to succeed."
 tags: ['Stock Market','Dividend', 'Bonus Share','Bear market','Bull market','Demat Account']
 date: 2021-11-20T08:00:00+05:30

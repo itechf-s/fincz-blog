@@ -6,7 +6,6 @@ images: ["images/2021/08/share-market.png"]
 categories: ['Finance', 'Stock']
 tags: ['Trading', 'Stock Market']
 author: ahmad
-aliases: ["/hindi/share-market"]
 ---
 
 

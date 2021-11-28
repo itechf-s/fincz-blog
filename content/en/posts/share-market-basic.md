@@ -6,7 +6,6 @@ images: ["images/2021/11/share-market-basic.png"]
 categories: ['Finance', 'Stock']
 tags: ['Stock Market']
 author: ahmad
-aliases: ["/hindi/share-market-basic"]
 ---
 
 ## Basic knowledge of share market

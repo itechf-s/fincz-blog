@@ -3,7 +3,7 @@ title: "Contact"
 description: "The best way to build your wealth is to invest wisely.Keep up with the latest on Personal Finance with informative blogs on Wealth, Investment, Money Management, Retirement Planning, Tax-Saving and much more."
 author: "ahmad"
 date: "2020-11-01T15:12:36"
-aliases: ["contact-us", "contact-Fincz"]
+aliases: ["contact-us"]
 reward:  false
 readingTime: false
 type: "page"

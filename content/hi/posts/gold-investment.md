@@ -5,8 +5,6 @@ date: 2021-09-03T08:00:00+05:30
 images: ["images/2021/11/gold-investment.png"]
 categories: ['Finance', 'Stock']
 author: ahmad
-aliases: ["/hindi/gold-investment"]
-
 ---
 
 ## गोल्ड इन्वेस्टमेंट फॉर बिगनर्स

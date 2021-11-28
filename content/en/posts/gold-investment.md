@@ -1,14 +1,10 @@
 ---
 title: "Gold Investment For Beginners"
-
 description: "In this article we will talk about Gold Investment for Beginners, apart from this we will talk about more things related to it like Investing in Gold, How to Buy Gold?, Buying from Jewelery Shop, or Online, Sovereign Gold Bond (S. GB) What is?, What is Gold ETF? What is Gold Mutual Fund"
-
 date: 2021-09-03T08:00:00+05:30
 images: ["images/2021/11/gold-investment.png"]
 categories: ['Finance','Stock']
 author: ahmad
-aliases: ["/hindi/gold-investment"]
-
 ---
 
 ## Gold Investment for Beginners

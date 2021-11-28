@@ -6,7 +6,6 @@ description: "इन्वेस्टमेंट यानी कि निव
 images: ["images/2021/08/investment-kya-hai.png"]
 categories: ['Finance', 'Stock']
 author: ahmad
-aliases: ["/hindi/investment"]
 ---
 
 ## इन्वेस्टमेंट क्या होता है
