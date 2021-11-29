@@ -13,6 +13,8 @@ Today in this article we will get some basic information related to the share ma
 
 So let's start by reading this article carefully about some basic information related to share market and get good information about share market.
 
+**Read Also : [What Is a Mutual Fund and How Does It Work](https://fincz.com/what-is-mutual-fund/)**
+
 ## what is share
 If there is any part of anything, out of any big thing, then a part of it is called share. Now let's talk about when we buy shares of a company from the stock market, suppose a company had 100 shares and we bought 2 shares, then we will be called share holders of 2% of that company.
 
@@ -28,6 +30,9 @@ But as the company gets bigger then its expenses also increase and after selling
 The second option is that they divide their company into small parts and make shares so that any common person can invest their money in it, in this way money comes to the company and the company benefits. has made people its sharers as its share, other people who have taken part.
 
 They will also make profit. When the company will profit by investing money, those who have bought the shares will also profit, in this way the company needs the shares, in this way both the company and the common man benefit.
+
+**Read Also : [Gold Investment for Beginners ](https://fincz.com/gold-investment/)**
+
 
 ## In what way and where does the share start
 Now let's talk about how and from where the stock starts, when any company reaches from small level to big level, then it brings its IPO and gets the IPO listed in the stock market. Is. First of all the company brings its IPO which is also called Initial Public Offering.
@@ -47,6 +52,8 @@ Now let's talk about what is a stock exchange, where whatever shares the company
 
 BSE (Bombay Stock Exchange) and NSE (National Stock Exchange) usually get its shares listed at both the places. The rules are slightly less strict in BSE while the rules are more strict in NSE. Generally people buy NSE shares, but they also buy from BSE. There is no problem in this.
 
+**Read Also : [What Is a Mutual Fund and How Does It Work](https://fincz.com/what-is-mutual-fund/)**
+
 ## What is NIFTY and SENSEX
 Now let's talk about what is NIFTY and SENSEX, first of all, let's talk about Sensex companies have been listed in the stock market, many companies are now going up or coming down, to know what is the condition of the market. An indicator has been made for him to understand as let's understand with an example.
 
@@ -57,6 +64,8 @@ What happens in the Sensex is that whatever companies are listed in BSE, which i
 Now let's talk about NSE exchange in Nifty of Nifty, the 50 largest company listed in it means the market capital which is the highest, in that order a list of 50 big companies is prepared, that list is sometimes called Nifty 50 We also say that by this we also get to know that what is the condition of our stock market, is it going up or going down.
 
 As soon as there is a problem like an epidemic disease comes, then the market goes down, then where does it come down, it is known again of Sensex and Nifty Nifty 50 was started on 22 April 1996, its base date is 3 number 1995 and the base point was taken one 1000 thousand Nifty 50 is moving at around 16450 points today 22nd August.
+
+**Read Also : [25 Stock Market Terms for Beginners](https://fincz.com/stock-market-terminology/)**
 
 ## How can we buy and sell city in stock market
 Now we know that how we can buy and sell shares in the stock market To buy and sell shares in the stock market, first we need a demat account, to open a demat account, there are many companies that open a demat account. Most of the banks are involved in this, through them we open our demat account.
@@ -71,11 +80,18 @@ There are many ways to find out the price of a share, one of them is the fundame
 
 This happens in trading, buy the share and sell the shares as soon as the profit I want to sell it, one is intraday trading in trading and the other is swing trading, in intraday trading this happens on the same day the stock is bought. Whereas in swing trading it happens week after buying the stock, sell the stock after 15 days and months.
 
+**Read Also : [Lump Sum Investment in Mutual Fund](https://fincz.com/lump-sum-investment-in-mutual-fund/)**
+
+
 ### Do you have to pay tax in share market?
 Now let's talk about whether tax has to be paid in the share market, yes tax has to be paid, what we have earned from the stock market, we also have to pay tax, suppose we have earned by trading, within a year, we bought shares of any company. And sold it is taxed differently and it is also called short term capital gain.
 
-And if the share is bought and held and sold after at least 1 year, the profit that is made then we are called long term capital gain, whatever profit will be there, the percentage of tax of these two is different, it is long term capital gain. The tax that is levied on it, if there is a profit of one lakh, then it is taxed at 10%, in the same way, if someone has earned some money, like intraday, swing trading, then he has to pay a tax of 15%. .
+And if the share is bought and held and sold after at least 1 year, the profit that is made then we are called long term capital gain, whatever profit will be there, the percentage of tax of these two is different, it is long term capital gain. The tax that is levied on it, if there is a profit of one lakh, then it is taxed at 10%, in the same way, if someone has earned some money, like intraday, swing trading, then he has to pay a tax of 15%.
+
+**Read For More Details : [Stock Market-Basic Knowledge](https://taxguru.in/finance/stock-market-basic-knowledge.html/)**
+
 
 ### Conculusion
 So this was some important basic information of the stock market, if you got to learn something in this article, then you should share this article with your acquaintances and tell them also. You will get a lot of information related to such and share market in this website.
+
 {{< youtube HTTu4P4mj9g >}}
