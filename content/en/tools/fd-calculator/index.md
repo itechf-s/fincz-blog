@@ -2,18 +2,17 @@
 title: "Calculate Fixed Deposit Interest Rates"
 description: "A fixed deposit calculator provides precise details of the FD interest rates one can get each month and calculates the maturity amount."
 author: "ahmad"
-date: 2021-11-02T08:00:00+05:30
+date: 2021-12-03T08:00:00+05:30
 reward:  false
 share: false
 readingTime: false
-draft: true
 postDate: false
 ---
 
 ## FD Calculator
 
 
-{{< iframe "/pages/sip-calculator/">}}
+{{< iframe "/pages/fd-calculator/">}}
 
 ## What is a FD calculator?
 Fixed deposit is a financial instrument offered by banks and financial institutions in India. It is considered as one of the safest investment options that offer high returns with flexible tenure options.

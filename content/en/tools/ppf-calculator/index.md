@@ -2,9 +2,8 @@
 title: "Public Provident Fund Calculator"
 description: "This is PPF calculatorPPF calculator is an online tool which you can use to calculate returns on the investments made in the PPF Account."
 author: "ahmad"
-date: 2021-10-29T08:00:00+05:30
+date: 2021-12-01T08:00:00+05:30
 reward:  false
-draft: true
 readingTime: false
 postDate: false
 ---

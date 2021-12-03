@@ -52,20 +52,13 @@ Sukanya Samriddhi Yojana calculator to calculate the maturity amount and know ex
 
 {{<button "/tools/ssy-calculator/" "SSY Calculator" >}}
 
-<!-- 
-
-
 ## PPF Calculator
 
 [![PPF Calculator](images/2021/10/ppf-calculator.png)](/tools/ppf-calculator/) 
 
-
 PPF calculator: Public Provident Fund (PPF) is one of the government-backed small saving schemes that aim to provide assured return at the time of maturity.
 
 {{<button "/tools/ppf-calculator/" "PPF Calculator" >}}
-
-
-
 
 
 ## EPF Calculator
@@ -76,11 +69,6 @@ Firstly, enter your age on Scripbox's EPF Calculator. Next, enter your desired a
 
 {{<button "/tools/epf-calculator/" "EPF Calculator" >}}
 
-
-
-
-
-
 ## FD Calculator
 
 [![FD Calculator](images/2021/10/fd-calculator.png)](/tools/fd-calculator/) 
@@ -89,7 +77,7 @@ A fixed deposit calculator provides precise details of the FD interest rates one
 
 {{<button "/tools/fd-calculator/" "FD Calculator" >}}
 
-
+<!--
 
 
 ## NPS Calculator

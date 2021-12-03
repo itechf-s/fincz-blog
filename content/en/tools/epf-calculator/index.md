@@ -2,9 +2,8 @@
 title: "Employee Provident Fund Calculator"
 description: "Our EPF Calculator is one step solution to all your EPF related calculation questions. It easily calculates the return on your EPF contribution within no time. EPF Calculator is an online tool and hence can be used anywhere anytime."
 author: "ahmad"
-date: 2021-10-30T08:00:00+05:30
+date: 2021-12-02T08:00:00+05:30
 reward:  false
-draft: true
 readingTime: false
 postDate: false
 ---
