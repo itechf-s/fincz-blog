@@ -8,17 +8,20 @@ readingTime: false
 type: "page"
 ---
 
-
-
 Disclaimers
 ------------
+**Dear Readers,**
 
-Dear Readers, All the articles on Fincz.com blog are for informational purposes only. All information is based on the author's own experience and knowledge. And only to educate the readers.
+All articles on the blog **Fincz.com** are for informational purposes only. All information is based on the author's own experience and knowledge. This is just to explain to you.
+  
+[**Fincz.com**](http://fincz.com/) is to give information about the stock market to the readers. The owner of this blog is not responsible for the completeness of the information written here. We have tried our best here to give you the correct information about the stock market. But if any information is left short or omitted, then we will not be responsible for it.
 
-Fincz.com blog is meant to give information about share market to the readers. The owner of this blog is not responsible for the completeness and accuracy of the information written here.
+If we explain here by taking the name of any share, then it will not be any kind of investment advice. The name of that share will be taken for illustrative purposes only.
+  
+Before making decisions related to investment, take the help of your investment advisor or decide after getting the information yourself. Because there is a lot of risk in the stock market.
+  
+The author of this blog and the owner of the blog will not be responsible for any damage caused by any information given in this blog.
 
-The reader should take the help of his financial advisor or make a decision after getting the information himself before making an investment decision. Because the stock market is subject to risks.
-
-Fincz.com The author of this blog and the owner of the blog will not be responsible for any damage caused by any information given here. The author of Fincz.com blog is completely free to update or modify any old article in this blog.
-
-Fincz.com is only an educational website and it is not registered under any SEBI regulations. The report and the articles shared therein are for educational purposes only and do not constitute investment advice.
+The author of this blog is completely free to update or change any old article in this blog.
+  
+**Fincz.com** is only an educational website and is not registered under any SEBI rules. The articles mentioned in this are for educational purposes only and we do not give any investment advice here.
