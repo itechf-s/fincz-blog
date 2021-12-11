@@ -82,11 +82,11 @@
 {{- end -}}
 
 {{ if and $extImg $webpLink }}
-<img class="{{ $className }}" alt="{{ .alt }}" data-src="{{ $webpLink }}" loading="lazy"
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $webpLink }}" loading="lazy"
   {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
   {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
 {{else}} 
-<img class="{{ $className }}" alt="{{ .alt }}" data-src="{{ $link }}" loading="lazy"
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $link }}" loading="lazy"
   {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
   {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
 {{ end }}
