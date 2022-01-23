@@ -1,0 +1,93 @@
+{{- $img := false -}}
+{{- $width := false -}}
+{{- $height := false -}}
+{{- $pageResource := false -}}
+{{- $imgDomain := "//img" -}}
+{{- $webpExt := ".webp" -}}
+{{- $extImg := false -}}
+{{- $link := "" -}}
+{{- $webpLink := "" -}}
+{{- $url := urls.Parse .filename -}}
+{{ if strings.Contains $url $imgDomain -}}
+{{- $extImg = true -}}
+{{- end -}}
+{{- if or (not $url.Scheme) (strings.Contains $url $imgDomain)  -}}
+  {{- $resource := .resources.GetMatch (strings.TrimPrefix "/" $url.Path) -}}
+  {{- if $resource -}}
+    {{- $img = $resource -}}
+    {{- $link = $resource.Permalink -}}
+    {{- $pageResource = true -}}
+  {{- else -}}
+    {{- $filename := path.Join "static" $url.Path -}}
+    {{- $imgExt := path.Ext .filename -}}
+    {{- $webpFilename := replace $filename $imgExt $webpExt -}}
+    {{- if or (fileExists $filename) (fileExists $webpFilename) -}}
+    <!-- use webp if exist  -->
+    {{- if fileExists $webpFilename -}}
+        {{- $img = imageConfig $webpFilename -}}
+      {{- else if fileExists $filename -}}
+        {{- $img = imageConfig $filename -}}
+      {{- end -}}
+
+      {{- $link = .filename | absURL }}
+      {{- if fileExists $webpFilename -}}
+        {{- $webpLink = replace .filename $imgExt $webpExt | absURL }}
+        {{- $extImg = true -}}
+      {{- end -}}
+    {{- else if strings.Contains $url $imgDomain -}}
+      {{- $link = .filename -}}
+    {{- else -}}
+      {{- warnf "no such image can be found in page resources and the static folder: %s" .filename -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $link = .filename -}}
+{{- end -}}
+{{- $params := dict -}}
+{{- $query := split $url.RawQuery "&" -}}
+{{- range $item := $query -}}
+  {{- $pair := split $item "=" -}}
+  {{- $params = merge $params (dict (index $pair 0) (index $pair 1)) -}}
+{{- end -}}
+{{- if index $params "width" -}}
+  {{- $width = $params.width -}}
+{{- end -}}
+{{- if index $params "height" -}}
+  {{- $height = $params.height -}}
+{{- end -}}
+{{- $className := default "img-fluid" .class -}}
+{{- if eq $url.Fragment "center" -}}
+  {{- $className = printf "%s %s" $className "mx-auto d-block" -}}
+{{- else if eq $url.Fragment "floatleft" -}}
+  {{- $className = printf "%s %s" $className "float-start me-2" -}}
+{{- else if eq $url.Fragment "floatright" -}}
+  {{- $className = printf "%s %s" $className "float-end ms-2" -}}
+{{- end -}}
+
+{{- if and $width $height $pageResource -}}
+  <!-- Resize to actual entered size -->
+  {{- $resize := (printf "%sx%s" (strings.TrimSuffix "px" $width) (strings.TrimSuffix "px" $height)) -}}
+  {{- $img = $img.Resize $resize -}}
+  {{- $link = $img.Permalink | safeURL -}}
+{{- else if and (ne $width false) $pageResource }}
+  <!-- Resize width to entered size, keeping aspect ratio -->
+  {{- $resize := (printf "%sx" (strings.TrimSuffix "px" $width)) -}}
+  {{- $img = $img.Resize $resize -}}
+  {{- $link = $img.Permalink | safeURL -}}
+{{- else if and (ne $height false) $pageResource }}
+  <!-- Resize height to entered size, keeping aspect ratio -->
+  {{- $resize := (printf "x%s" (strings.TrimSuffix "px" $height)) -}}
+  {{- $img = $img.Resize $resize -}}
+  {{- $link = $img.Permalink | safeURL -}}
+{{- end -}}
+
+{{ if and $extImg $webpLink }}
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $webpLink }}" loading="lazy"
+  {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
+  {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
+{{else}} 
+<img class="{{ $className }}" alt="{{ .alt }}" src="{{ $link }}" loading="lazy"
+  {{ with $img }} width="{{ $img.Width }}" height="{{ $img.Height }}" {{ end }}
+  {{ if and (not $pageResource) (or $width $height) }}style="{{ with $width }}width: {{ $width }}{{ end }}{{ with $height }};height: {{ $height }}{{ end }}"{{ end }} />
+{{ end }}
+
