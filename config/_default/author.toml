@@ -7,3 +7,10 @@ location = "India"
 
 [params]
   #layout = "compact"
+
+[social]
+  email = "iffat@theislah.com"
+  facebook = "IffatZia.Khan"
+  #github = "iffatzia"
+  #twitter = "iffatzia"
+  #linkedin = "iffatzia"
