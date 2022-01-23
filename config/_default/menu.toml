@@ -11,12 +11,6 @@
   url = '/categories/tools/'
 
 [[footer]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-
-
-[[footer]]
   identifier = "quick-links"
   name = "Quick Links"
   weight = 1

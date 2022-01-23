@@ -1,5 +1,0 @@
-<div class="img-fluid rounded float-start mt-2 mb-3">
-{{ if  .Params.Images }}
-{{ partial "helpers/image" (dict "filename" (index .Params.Images 0) "alt" .Title "class" "img-fluid" "resources" .Resources) }}
-{{ end }}
-</div>
