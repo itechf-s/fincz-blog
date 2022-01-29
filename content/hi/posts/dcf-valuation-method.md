@@ -1,7 +1,7 @@
 ---
 title: "DCF Valuation Method"
 description: "एक निवेश अच्छा निवेश तभी माना जाता है जब आप उस बिजनेस के लिए सही कीमत अदा करें यानी आपको वह शेयर एक बहुत सस्ती कीमत पर मिले।"
-date: 2022-01-28T08:00:00+05:30
+date: 2022-01-30T08:00:00+05:30
 images: ["images/2021/11/share-market-kya-hain.png"]
 categories: ['Finance', 'Stock']
 tags: ['Valuation', 'Stock Market']
