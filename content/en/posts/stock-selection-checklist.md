@@ -93,4 +93,4 @@ I am sharing my own checklist you can copy and can modify according to your way
 
 Investing for the long term requires patience and discipline. You may spot good long-term investments when the company or the markets haven't been performing so well. By using fundamental tools and economic indicators, you can find those hidden diamonds in the rough and avoid the potential value traps.
 
-{{< youtube 5lYbTR5B8UU >}}
+{{< youtube oq_VEvhFQyo >}}
