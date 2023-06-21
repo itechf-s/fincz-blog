@@ -233,9 +233,7 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
 16. What is the difference between an abstract class and an interface?
     - An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods. A class can extend only one abstract class but can implement multiple interfaces.
 
-17.
-
- What is method overriding?
+17. What is method overriding?
     - Method overriding occurs when a subclass provides its own implementation of a method defined in its superclass. It is used to achieve runtime polymorphism.
 
 18. What is method overloading?
@@ -285,9 +283,7 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
     - The Java Collections Framework provides a set of classes and interfaces for representing and manipulating collections of objects. It includes classes like ArrayList, LinkedList, HashMap, etc.
 
 32. What is the difference between List and Set in Java?
-    -
-
- List is an ordered collection that allows duplicate elements, while Set is an unordered collection that does not allow duplicate elements.
+    - List is an ordered collection that allows duplicate elements, while Set is an unordered collection that does not allow duplicate elements.
 
 33. What is the difference between ArrayList and LinkedList?
     - ArrayList is implemented as a resizable array, while LinkedList is implemented as a doubly-linked list. ArrayList provides faster access to elements by index, while LinkedList provides faster insertions and deletions.
@@ -340,9 +336,7 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
     - The Serializable interface is a marker interface that indicates a class can be serialized and deserialized. It does not define any methods.
 
 49. What is the purpose of the transient keyword in Java serialization?
-    - The transient keyword is used to indicate that a variable should not
-
- be serialized. It is useful for excluding sensitive or unnecessary data from serialization.
+    - The transient keyword is used to indicate that a variable should not be serialized. It is useful for excluding sensitive or unnecessary data from serialization.
 
 50. What is the difference between a FileReader and FileInputStream?
     - FileReader is used for reading character data from a file, while FileInputStream is used for reading binary data from a file.
@@ -393,9 +387,7 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
 64. What is the difference between a Servlet and a JSP?
     - A Servlet is a Java class that handles HTTP requests and generates responses programmatically. A JSP (JavaServer Pages) is an HTML-like document with embedded Java code that is translated into a Servlet before execution.
 
-65. What are the different session
-
- management techniques in Java EE?
+65. What are the different session management techniques in Java EE?
     - Session management techniques in Java EE include HttpSession (using cookies or URL rewriting), stateful EJBs, and client-side session frameworks like Spring Session or Apache Shiro.
 
 66. What is the purpose of the Java Persistence API (JPA)?
@@ -444,7 +436,6 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
 
 80. What is the Template Method design pattern?
     - The Template Method design pattern defines the skeleton of an algorithm in a method, allowing subclasses to provide specific implementations for certain steps. It promotes code reuse and allows variations in behavior.
-
 
 
 #### Java Security
@@ -497,9 +488,7 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
     - The finalize() method is called by the garbage collector before reclaiming an object's memory. It can be overridden to perform cleanup operations or release resources before an object is garbage collected.
 
 96. What is the difference between stack memory and heap memory in Java?
-    - Stack memory is used for storing local variables and method calls, and it is managed by the Java Virtual Machine (JVM). Heap memory is used for
-
- dynamic memory allocation and objects, and it is managed by the garbage collector.
+    - Stack memory is used for storing local variables and method calls, and it is managed by the Java Virtual Machine (JVM). Heap memory is used for dynamic memory allocation and objects, and it is managed by the garbage collector.
 
 97. What is the purpose of the JIT (Just-In-Time) compiler in Java?
     - The JIT compiler in Java is responsible for dynamically translating Java byte code into machine code at runtime. It optimizes the performance of Java programs by analyzing and compiling frequently executed code segments.

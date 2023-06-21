@@ -58,9 +58,7 @@ To handle query parameters in a RESTful web service, annotate a method parameter
 
 The `@PutMapping` annotation is used to handle HTTP PUT requests in a RESTful web service. It maps the specified URL to the annotated method, allowing you to process incoming PUT requests.
 
-### 13.
-
- How can you handle HTTP DELETE requests in a RESTful web service?
+### 13. How can you handle HTTP DELETE requests in a RESTful web service?
 
 To handle HTTP DELETE requests in a RESTful web service, use the `@DeleteMapping` annotation. It maps the specified URL to the annotated method, allowing you to process incoming DELETE requests.
 
@@ -110,9 +108,7 @@ The `@RequestParam` annotation is used to bind a request parameter to a method p
 
 ### 25. How can you validate request parameters in a Spring Boot RESTful web service?
 
-To validate request parameters in a
-
- Spring Boot RESTful web service, you can use the validation annotations provided by the Bean Validation API (e.g., `@NotNull`, `@Min`, `@Max`). Annotate the method parameter with the appropriate validation annotations.
+To validate request parameters in a Spring Boot RESTful web service, you can use the validation annotations provided by the Bean Validation API (e.g., `@NotNull`, `@Min`, `@Max`). Annotate the method parameter with the appropriate validation annotations.
 
 ### 26. What is the purpose of the `@Valid` annotation?
 
@@ -156,9 +152,7 @@ To handle content negotiation based on the request parameter in a Spring Boot RE
 
 ### 36. What is the purpose of the `@ResponseStatusException` annotation?
 
-The `@ResponseStatusException` annotation is used to declare the response status code and reason in a Spring Boot RESTful web service when an exception occurs
-
-. It allows you to customize the error response for specific exceptions.
+The `@ResponseStatusException` annotation is used to declare the response status code and reason in a Spring Boot RESTful web service when an exception occurs. It allows you to customize the error response for specific exceptions.
 
 ### 37. How can you handle content negotiation based on the request body in a Spring Boot RESTful web service?
 
@@ -206,9 +200,7 @@ To handle method-specific exceptions in a Spring Boot RESTful web service, you c
 
 ### 48. What is the purpose of the `@PathVariable` annotation?
 
-The `@PathVariable` annotation is used to bind a URL path variable to
-
- a method parameter in a Spring Boot RESTful web service. It allows you to extract values from the URL path and use them in the method logic.
+The `@PathVariable` annotation is used to bind a URL path variable to a method parameter in a Spring Boot RESTful web service. It allows you to extract values from the URL path and use them in the method logic.
 
 ### 49. How can you implement rate limiting in a Spring Boot RESTful web service?
 
@@ -254,9 +246,7 @@ The `@RequestAttribute` annotation is used to bind a request attribute to a meth
 
 To handle versioning in a Spring Boot RESTful web service using custom media types, you can define different media types for different versions of your API (e.g., `application/vnd.company.v1+json`). Use the `produces` and `consumes` attributes of the request mapping annotations to specify the media types.
 
-### 60. What is the purpose of
-
- the `@RequestBody` annotation?
+### 60. What is the purpose of the `@RequestBody` annotation?
 
 The `@RequestBody` annotation is used to bind the request body to a method parameter in a Spring Boot RESTful web service. It allows you to receive and process data sent by the client in the request body.
 
@@ -302,9 +292,7 @@ The `@ResponseStatus` annotation is used to specify the HTTP response status cod
 
 ### 71. How can you handle content negotiation based on the Accept-Language header in a Spring Boot RESTful web service?
 
-To handle content negotiation based on the Accept-Language header in a Spring Boot RESTful web service,
-
- you can use the `headers` attribute of the request mapping annotations (e.g., `@GetMapping`, `@PostMapping`). Specify the Accept-Language header value as a condition for the mapping.
+To handle content negotiation based on the Accept-Language header in a Spring Boot RESTful web service, you can use the `headers` attribute of the request mapping annotations (e.g., `@GetMapping`, `@PostMapping`). Specify the Accept-Language header value as a condition for the mapping.
 
 ### 72. What is the purpose of the `@ExceptionHandler` annotation?
 

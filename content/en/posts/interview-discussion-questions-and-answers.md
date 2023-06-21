@@ -4,11 +4,12 @@ categories: [ Interview ]
 tags: [Interview]
 description: "Sample Interview Questions and Answers"
 date: 2023-06-20T08:00:00+05:30
-images: ["/images/2023/06/Sample-Interview.jpg"]
+images: ["images/2023/06/Sample-Interview.jpg"]
 author: ahmad
 ---
 
-## First Introduction
+## Introduction
+Give your brief Introduction
 
 ## What was your Role and responsibilities in the previous project.
 
