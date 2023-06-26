@@ -2,7 +2,7 @@
 title: "Previous Project Questions and Answers"
 categories: [ Interview ]
 tags: [Interview]
-description: "Previous-Project-Questions and Answers"
+description: "Previous Project Questions and Answers"
 date: 2023-06-26T08:00:00+05:30
 images: ["images/2023/06/Previous-Project-Questions.jpg"]
 author: ahmad
