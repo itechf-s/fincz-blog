@@ -8,6 +8,30 @@ images: ["images/2023/06/Sample-Interview.jpg"]
 author: ahmad
 ---
 
+## Interview Debrief
+Let me tell you about the interview process. First of all the interview will be in video mode. 
+
+There can be three people taking the interview. First Question as usual you may be asked to give your introduction. After that, they will ask you about the previous project, your role and responsibilities in it, and what work you have done.
+
+They can ask some questions about the work you have done in the previous project and whatever you will explain. And will put up questions one after the other from the same.
+
+After this, they might ask questions related to Agile and like which tool was used to do the work of Agile. How did you get the requirement? If there is any confusion in the requirement or if there is any conflict in the requirement, then what way you used to resolve it?
+
+How many people were on your team? How was the testing done and whether you were involved in the testing or not, there can be a question about this.
+
+After that, you can be asked scenario-based questions like if a customer complained that the applications are running slow, then how will you solve the problem of that application which is running slow, you will have to tell an approach or if you have done in the previous project in any way, then it has to be explained.
+
+After this, you can ask any question related to the tools, etc. mentioned in your profile, for example, if you have written SonarQube in your profile, then they can ask what is SonarQube.
+
+They can ask what did you do for code quality improvement and how did you do it. There can be such questions. Apart from this, what percentage has worked on which side like frontend and backend?
+
+Apart from this, if any database has been used in the previous project application and if any DB-related problem comes. then how you resolved it?
+
+They can ask such questions like, if you do not have access to production and there was an application running slow, how will you fix it? There can be a question of how to call the external API.
+
+And in the last, they will share a Java code, in which I was given two entity classes named Employee and Manager, and using those entity classes, some calculation was done, in the calculation, the salary was calculated, the code they will explain it to you. then you will be asked to review the code. Based on your review comments, they will ask for an explanation. 
+
+
 ## Introduction
 Give your brief Introduction
 
