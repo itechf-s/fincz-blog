@@ -74,6 +74,15 @@ Migrating from a monolithic architecture to a microservices architecture involve
     - Continuously monitor the performance, scalability, and maintainability of microservices.
     - Iterate and optimize based on lessons learned from migration and real-world usage.
 
+### Q. What type of business logic have you applied?
+For the business logic I applied, the massage I got from IBM MQ I have to check the message size if the message size has greater than of certain number then I have to create a file in aws s3 and send that path into aws SQS as well otherwise I have to send only message into SQS
+
+### Q.What tools you have used in that project
+- SonarLint is a static code analysis tool that helps developers identify and fix code quality and security issues early in the development process. 
+- Using OWASP (Open Web Application Security Project) principles and guidelines in a Spring Boot application involves adopting best practices to enhance the security of your application. Ensure that the libraries and dependencies you use in your Spring Boot project are up-to-date and free from known security vulnerabilities. 
+- Nexus Repository serves as a central hub for managing software artifacts, which can include Java libraries (JARs), Docker images, Maven artifacts, NuGet packages, and more. It provides several key functionalities
+
+
 Migrating a monolithic application to the AWS Cloud involves a series of steps to ensure a smooth and successful transition. Here's a high-level overview of the process:
 
 1. **Assessment and Planning:**
