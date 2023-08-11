@@ -31,6 +31,25 @@ They can ask such questions like, if you do not have access to production and th
 
 And in the last, they will share a Java code, in which I was given two entity classes named Employee and Manager, and using those entity classes, some calculation was done, in the calculation, the salary was calculated, the code they will explain it to you. then you will be asked to review the code. Based on your review comments, they will ask for an explanation. 
 
+## Java and Angular Team Lead Interview
+
+Let me tell you about the interview process. First of all the interview will be in video mode. There can be two or three people taking the interview. One person may be there from our end.
+
+First Question as usual you may be asked to give your introduction. After that, they will ask you about the previous project, your role and responsibilities in it, what work you have done, and how long you did the work.
+
+They can ask for some code build pipelines such as Jenkins etc. Next, they may ask IAC (Infrastructure as Code) Terraform, etc.
+
+They can ask how to implement cashing in microservices and how to use Redis etc. then they ask how to handle exceptions when you have 100 endpoints. How to check vulnerabilities in your library and have you familiar with Nexus and maven etc.
+
+Next, they might ask if have you worked on frontend technology like Angular. Spatially they focus on angular 
+
+In angular how do you implement login and how to check whether the user is logged in or not? What tools for testing you have used and how to optimize page load time and how to implement lazy loading and lazy API call etc?
+
+Next, they may ask about any team lead experience you have what challenges you faced in your previous experience, etc.
+
+If you don't know angular how you lead the team and how to solve their problems if they have any problems
+
+
 
 ## Introduction
 Give your brief Introduction
