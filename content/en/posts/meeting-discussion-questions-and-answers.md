@@ -7,113 +7,7 @@ date: 2023-08-18T08:00:00+05:30
 images: ["images/2023/08/project-meeting.png"]
 author: ahmad
 ---
-## Common Knowledge Transfer (KT) Session Sentences 
-
-### **1. Introduction to KT**
-
-**Q:** What is Knowledge Transfer (KT)?
-**A:** KT is sharing information and skills to help others understand and continue a project.
-
-### **2. Project Understanding**
-
-**Q:** What's the main goal of our project?
-**A:** We're creating an app that helps people organize their tasks.
-
-**Q:** Can you explain the project's structure briefly?
-**A:** Sure, we have a front-end for the user interface and a back-end for data handling.
-
-**Q:** How does each part of the project work together?
-**A:** The front-end displays the app, and the back-end stores and retrieves data.
-
-### **3. Tools and Technologies**
-
-**Q:** Are there any libraries or frameworks we're using?
-**A:** Yes, we're using a library called "requests" to make internet connections.
-
-### **4. Debugging and Troubleshooting**
-
-**Q:** How do you find and fix errors in code?
-**A:** We use error messages and read through the code to locate and solve issues.
-
-## Common Knowledge Transfer (KT) Session Sentences
-
-### **1. Introduction**
-
-- "Let's start by discussing the overall architecture of the project."
-- "I'll provide you with an overview of the system's components."
-
-### **2. High-Level Design**
-
-- "The system is designed using a microservices architecture."
-- "The database schema is normalized to ensure data integrity."
-
-### **3. Technology Stack**
-
-- "We use React for the front-end and Node.js for the back-end."
-- "The system relies on a NoSQL database, MongoDB."
-
-### **4. Code Structure**
-
-- "Our codebase follows the MVC (Model-View-Controller) pattern."
-- "Each module is organized into separate folders for clarity."
-
-### **5. Data Flow**
-
-- "Data flows from the user interface to the server through REST APIs."
-- "Here's how the data is transformed before reaching the database."
-
-### **6. Security Measures**
-
-- "We implement JWT authentication to secure user sessions."
-- "Sensitive data is encrypted both at rest and during transmission."
-
-### **7. Performance Considerations**
-
-- "Caching is implemented using Redis to improve response times."
-- "We optimize database queries to reduce loading times."
-
-### **8. Error Handling**
-
-- "We use custom error classes to provide meaningful error messages."
-- "Logging is set up to track and debug unexpected behaviors."
-
-### **9. Deployment Strategy**
-
-- "Our CI/CD pipeline automates deployment to production."
-- "We use Docker containers for consistent deployment environments."
-
-### **10. Testing Approach**
-
-- "Unit tests cover critical components to ensure functionality."
-- "Integration tests are run to validate the interaction of modules."
-
-### **11. Version Control**
-
-- "We use Git for version control and follow Gitflow for branching."
-- "Code reviews are mandatory before merging any changes."
-
-### **12. Documentation**
-
-- "API documentation is generated using tools like Swagger."
-- "We maintain a Wiki with detailed guides for developers."
-
-### **13. Future Roadmap**
-
-- "We're planning to implement real-time notifications in the next release."
-- "Enhancing the mobile responsiveness of the UI is on our roadmap."
-
-### **14. Lessons Learned**
-
-- "We learned the importance of load testing after an unexpected crash."
-- "Communication gaps during the last release caused delays."
-
-### **15. Tips for New Developers**
-
-- "Don't hesitate to ask questions; it's how we learn and improve."
-- "Reading the existing codebase can give you a good sense of its structure."
-
 ## Common Agile Development Meeting Sentences
-
 ### **1. Daily Standup Updates**
 
 **Q:** What did you work on yesterday?
@@ -422,4 +316,83 @@ author: ahmad
 
 ### **29. Feature Driven Development (FDD)**
 
-- **Feature Driven Development:** An Agile approach focusing on features and their delivery.
+- **Feature Driven Development:** An Agile approach focusing on features and their 
+- 
+### Questions to Ask Your Agile Team:
+
+1. **Project Overview:**
+   - What is the main goal and scope of the project?
+
+2. **Team and Roles:**
+   - Who are the key team members and their roles?
+
+3. **Agile Practices:**
+   - Which Agile framework or methodology are you following?
+   - How long are the sprint cycles, and what's the current sprint status?
+
+4. **User Stories and Backlog:**
+   - Could you explain the user stories that are currently in progress?
+   - How do you prioritize and manage the product backlog?
+
+5. **Tools and Communication:**
+   - What tools do you use for project management and communication?
+   - How often are meetings held and what's the purpose of each?
+
+6. **Expectations and Goals:**
+   - What is expected of me in terms of tasks and contributions?
+   - What are the short-term and long-term goals for the project?
+
+7. **Technical Stack:**
+   - What technologies, languages, and tools are being used in the project?
+   - Are there any coding or design standards I should be aware of?
+
+8. **Feedback and Collaboration:**
+   - How is feedback given and received within the team?
+   - How can I best collaborate with other team members?
+
+### Potential Questions Your Agile Team May Ask You:
+
+1. **Background and Skills:**
+   - Can you tell us about your experience with Agile methodologies?
+   - What technical skills do you bring to the team?
+
+2. **Availability and Commitment:**
+   - Are you available to attend daily standups and other Agile meetings?
+   - How much time can you dedicate to the project?
+
+3. **Adaptability:**
+   - Have you worked in a cross-functional team before?
+   - Are you comfortable with adapting to changes during a sprint?
+
+4. **Communication:**
+   - How do you prefer to communicate with the team?
+   - Can you provide regular updates on your tasks and progress?
+
+5. **Learning and Growth:**
+   - Are you open to learning new technologies or tools as needed?
+   - How do you usually approach learning and self-improvement?
+   - Are you comfortable with pair programming or code reviews?
+
+## Different testing terms
+
+1. **Unit Testing:** Testing individual components or functions to ensure they work correctly in isolation.
+2. **Integration Testing:** Testing the interaction between multiple components to ensure they function together properly.
+3. **Functional Testing:** Testing the application's functions against the specified requirements.
+4. **Regression Testing:** Re-testing the software after changes to ensure existing functionalities are not affected.
+5. **User Acceptance Testing (UAT):** Testing performed by users to ensure the software meets their needs and requirements.
+6. **Performance Testing:** Testing to evaluate the system's responsiveness, speed, and stability under different conditions.
+7. **Load Testing:** Testing to determine how well the system performs under expected load conditions.
+8. **Stress Testing:** Testing to determine the system's behavior under extreme conditions and its breaking point.
+9. **Security Testing:** Testing to identify vulnerabilities and ensure data protection and system security.
+10. **Smoke Testing:** Basic testing to ensure critical functionalities work after a new build.
+11. **Black Box Testing:** Testing without knowledge of internal code or logic, focusing on inputs and outputs.
+12. **White Box Testing:** Testing with knowledge of the internal code and logic, checking for proper code execution.
+13. **Gray Box Testing:** Testing with partial knowledge of the internal code and logic.
+14. **Boundary Testing:** Testing at the limits of valid and invalid inputs to check system behavior.
+15. **Exploratory Testing:** Simultaneous test design and execution to find defects and explore the application.
+16. **Automated Testing:** Using scripts or tools to automate the execution of tests.
+17. **Manual Testing:** Testing performed manually without the use of automation tools.
+18. **Compatibility Testing:** Testing to ensure software works on different devices, browsers, and operating systems.
+19. **Usability Testing:** Testing to assess how user-friendly and intuitive the software is for end-users.
+20. **Alpha Testing:** Testing performed by a select group of users before the official release.
+21. **Beta Testing:** Testing performed by a larger group of external users in a real-world environment before release.
