@@ -51,8 +51,15 @@ If you don't know angular how you lead the team and how to solve their problems 
 
 
 
+18 Feb 2024
 ## Introduction
-Give your brief Introduction
+My self [Your Name] working as a Senior Consultant, I have more than 12 years of experience in software development using Java, and SpringBoot, in the AWS cloud environment.
+I have worked on a microservices-based architecture and API integration.
+In my previous project, I worked for [HF] in Migration and APEX Project. I was working to integrate an on-premises app into vitech velocity.
+In which I have to read messages from IBM MQ then apply some business logic and then send that message to AWS SQS and then using aws code pipeline to build the code and then deploy the code using code deploy. after that aws step function process that SQS.
+
+In the Auto Migration Project, we had to prepare 2 parallel development paths. The challenge was that there were some backend apps through which some data is generated and then it gets pushed through dev to QA, QA to STG, and then the production environment. This challenge is how the data of 2nd development environment can be produced.
+To solve this, we created a shared sequence and a shared master table which we accessed through the DB link, and also created a trigger per table so that any data can be inserted/updated/deleted in the master table. It seemed as if it was there too.
 
 ## What was your Role and responsibilities in the previous project.
 
