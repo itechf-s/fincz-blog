@@ -49,9 +49,6 @@ Next, they may ask about any team lead experience you have what challenges you f
 
 If you don't know angular how you lead the team and how to solve their problems if they have any problems
 
-
-
-18 Feb 2024
 ## Introduction
 My self [Your Name] working as a Senior Consultant, I have more than 12 years of experience in software development using Java, and SpringBoot, in the AWS cloud environment.
 I have worked on a microservices-based architecture and API integration.
