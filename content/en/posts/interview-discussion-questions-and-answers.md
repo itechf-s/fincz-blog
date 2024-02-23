@@ -51,12 +51,17 @@ If you don't know angular how you lead the team and how to solve their problems 
 
 ## Introduction
 My self [Your Name] working as a Senior Consultant, I have more than 12 years of experience in software development using Java, and SpringBoot, in the AWS cloud environment.
-I have worked on a microservices-based architecture and API integration.
-In my previous project, I worked for [HF] in Migration and APEX Project. I was working to integrate an on-premises app into vitech velocity.
-In which I have to read messages from IBM MQ then apply some business logic and then send that message to AWS SQS and then using aws code pipeline to build the code and then deploy the code using code deploy. after that aws step function process that SQS.
+I am very comfortable in the Linux environment, Database, and Frontend Technologies.
+In my previous project, I worked for [HF] in Migration and APEX Project. I was working to integrate an on-premises app into Vitech Velocity.
+In which I have to read messages from IBM MQ apply some business logic and then send that message to AWS SQS and then use AWS code pipeline to build the code and then deploy the code using code deploy. after that aws step function process that SQS.
 
 In the Auto Migration Project, we had to prepare 2 parallel development paths. The challenge was that there were some backend apps through which some data is generated and then it gets pushed through dev to QA, QA to STG, and then the production environment. This challenge is how the data of 2nd development environment can be produced.
 To solve this, we created a shared sequence and a shared master table which we accessed through the DB link, and also created a trigger per table so that any data can be inserted/updated/deleted in the master table. It seemed as if it was there too.
+
+## Questions for Interviewr
+
+1. What would be the day-to-day responsibilities for this position?
+2. Can you talk about working culture and work/life balance?
 
 ## What was your Role and responsibilities in the previous project.
 
