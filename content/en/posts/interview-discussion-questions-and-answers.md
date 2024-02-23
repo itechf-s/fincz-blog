@@ -53,7 +53,7 @@ If you don't know angular how you lead the team and how to solve their problems 
 
 My self [Your Name] working as a Senior Consultant. I have more than 12 years of experience in software development using Java, and SpringBoot, in the AWS cloud environment.
 
-I am very comfortable in the Linux environment, Database, and Frontend Technologies.
+I am very comfortable in the Linux environment, DBMS, and Frontend Technologies.
 
 In my previous project, I worked for [HF] in Migration and APEX Project. I was working to integrate an on-premises app into Vitech Velocity.
 
