@@ -4,7 +4,7 @@ categories: [ Interview ]
 tags: [Interview]
 description: "Itechf Interview Preparation"
 date: 2024-04-02T08:00:00+05:30
-images: ["images/2023/06/Sample-Interview.jpg"]
+images: ["images/2024/04/itechf-interview-prep.png"]
 author: ahmad
 ---
 
