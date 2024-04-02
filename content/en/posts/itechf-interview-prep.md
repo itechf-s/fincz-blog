@@ -11,6 +11,11 @@ author: ahmad
 **Introduction (5 minutes)**
 
 * **Welcome and Context:** Hi everyone, thanks for joining! Today, I'm here to share some insights and tips to help you for your upcomming interviews with Itechf they are mostly using Java, Spring Boot, and PostgreSQL I recently interviewed and now working for itechf.
+
+* First Question as usual you may be asked to give your introduction. After that, they will ask you about the previous project, your role and responsibilities in it, and what work you have done.
+
+They can ask some questions about the work you have done in the previous project and whatever you will explain. And will put up questions one after the other from the same.
+
 * **Brief Overview:** "Let's start with a quick introduction to most common technologies they are using. 
 * Java is a versatile object-oriented programming language. 
 * Spring Boot is a framework that simplifies Spring development, allowing us to create production-grade applications quickly. 
