@@ -456,6 +456,11 @@ We experienced a major system outage due to a database failure. I quickly coordi
 90. **How do you ensure code scalability and maintainability in a long-term software project?**
 I follow modular and scalable architecture patterns, write clean and organized code, and utilize design principles like SOLID and DRY. Regular refactoring, code reviews, and automation testing contribute to maintainable and scalable codebases.
 
+91. **Request for Additional Work From Home**
+I am currently in my native place, Due to some family requirements I am unable to return back Delhi this month.
+Please allow me additional work from home for this month.
+Thank you for your understanding and consideration.
+
 ### Conclusion
 
 These interview questions and concise answers provide a glimpse into your experience as a Team Lead on an insurance management project. They cover various aspects such as project management, technical skills, soft skills, and lessons learned. Use them as a reference to prepare for interviews and showcase your expertise as a software developer. Good luck!
