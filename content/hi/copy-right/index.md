@@ -13,7 +13,7 @@ type: "page"
 Copy Right
 ============
   
-fincz.com Most of the Images from pixabay.com or pexels.com. And also we have taken a few images from Google Images, Pinterest, Flickr, Wikipedia, Tumblr, and Other Social Media Websites. Our many articles curated by authors using many website images. feel free to contact us at fincz.it@gmail.com we will remove if any copyrighted.
+Fincz.com की अधिकांश इमेजेस pixabay.com या pexels.com से ली गई हैं। और हमने Google Images, Pinterest, Flickr, Wikipedia, Tumblr और अन्य सोशल मीडिया वेबसाइट से भी कुछ इमेजेस ली हैं। हमारे कई लेख लेखकों द्वारा कई वेबसाइट की इमेजेस का उपयोग करके क्यूरेट किए गए हैं। fincz.it@gmail.com पर हमसे संपर्क करने में संकोच न करें, अगर कोई कॉपीराइट है तो हम उसे हटा देंगे।
 
-Please Provide these informations of Owner Like Name, Email, Url of the post and Image.
+कृपया इमेजेस मालिक ये जानकारी प्रदान करें जैसे नाम, ईमेल, पोस्ट का यूआरएल और इमेजेस का यूआरएल।
 
