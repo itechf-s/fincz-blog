@@ -16,3 +16,4 @@ Amazon Affiliate Disclosure
 “Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates”. All the Logos used on this website (fincz.com) are trademarks of the Respective websites or their affiliates.
 
 *   **[Privacy Policy](https://www.fincz.com/privacy-policy)**
+*   This page updated on 30 Jul 2024
