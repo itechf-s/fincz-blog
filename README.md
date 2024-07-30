@@ -6,3 +6,4 @@ Here you will learn how to Invest
 Fincz Blog Website
 
 Live URL [Fincz](https://Fincz.com/)
+Added Copy Right Info in Hindi
