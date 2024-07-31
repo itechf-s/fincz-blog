@@ -9,8 +9,7 @@ readingTime: false
 type: "page"
 ---
 
-Get In Touch
-============
+# Get In Touch
 
 Thank you for your interest in getting in touch with us. Please send your message using below email. We will reply as soon as possible!
 
