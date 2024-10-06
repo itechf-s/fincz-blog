@@ -461,6 +461,12 @@ I am currently in my native place, Due to some family requirements I am unable t
 Please allow me additional work from home for this month.
 Thank you for your understanding and consideration.
 
+92. **Subject: Upcoming Paternity Leave Notification**
+Hi All, Please be informed that I, will be taking paternity leave starting approximately 25 Oct 2024 for 2 weeks.   I will share the exact dates as soon as they are confirmed. Thank you for your understanding and support.
+
+Subject: Paternity Leave Confirmation
+Dear All, As previously informed, I will be taking paternity leave starting from 25 Oct 2024 and returning to work on 11 Nov 2024.  Thank you for your understanding and support during this time.
+
 ### Conclusion
 
 These interview questions and concise answers provide a glimpse into your experience as a Team Lead on an insurance management project. They cover various aspects such as project management, technical skills, soft skills, and lessons learned. Use them as a reference to prepare for interviews and showcase your expertise as a software developer. Good luck!
