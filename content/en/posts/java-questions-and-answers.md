@@ -10,118 +10,6 @@ author: ahmad
 
 ## Java Questions and Answers
 
-### 1. What are the new features introduced in Java 11?
-
-- **Local Variable Syntax for Lambda Parameters:** Allows var to be used as the type of lambda parameters.
-- **HTTP Client (Standard)**: Provides a new HTTP client API to handle HTTP requests and responses.
-- **Launch Single-File Source-Code Programs**: Enables running a Java source file directly with the `java` command.
-- **ZGC: A Scalable Low-Latency Garbage Collector**: A new garbage collector that aims to provide low-latency pause times for large heaps..
-- **Flight Recorder**: The Java Flight Recorder (JFR) is now available for use without any additional cost.
-
-### 2. What is the module system introduced in Java 9?
-Modules define clear boundaries, and only public APIs are accessible by default. Modules can also declare dependencies on other modules, ensuring a well-defined structure and reducing classpath issues.
-
-### 3. Explain the concept of var in Java 11.
-
-In Java 11, the `var` keyword allows for local variable type inference. It allows you to declare a variable without explicitly specifying its type, letting the compiler infer it based on the assigned value. However, the `var` keyword does not mean dynamic typing; the type is still determined at compile-time.
-
-### 4. What are the differences between `equals()` and `hashCode()` methods?
-
-- `equals()`: It is a method used to compare the equality of two objects in Java. By default, it checks for reference equality
-
-- `hashCode()`: It is a method that returns a hash code value for an object. The `hashCode()` method is used in hash-based data structures like `HashMap` and `HashSet` to determine the object's bucket or location. 
-
-### 5. What is the difference between method overloading and method overriding?
-
-Method Overloading:
-- It involves having multiple methods in a class with the same name but different parameters.
-- The methods are differentiated based on the number, type, or order of parameters.
-- Method overloading is determined at compile-time (static polymorphism).
-- Overloaded methods can have different return types.
-
-Method Overriding:
-- It involves creating a method in the subclass with the same name and parameters as in the superclass.
-- The method in the subclass provides a different implementation of the method defined in the superclass.
-- Method overriding is determined at runtime (dynamic polymorphism).
-- Overridden methods must have the same return type or a covariant (subclass) return type.
-
-### 6. What is the purpose of the `volatile` keyword in Java?
-- It ensures that any thread reading the variable always sees the most up-to-date value.
-- The `volatile` keyword is useful in scenarios where multiple threads are accessing a shared variable without synchronization.
-
-### Object-Oriented Programming (OOP) Concepts
-
-#### 1. Encapsulation
-Encapsulation is the practice of bundling data and methods together into a single unit called a class. It allows for data hiding and protects the internal state of an object, ensuring that it can only be accessed through defined methods.
-
-#### 2. Inheritance
-Inheritance is the mechanism by which one class inherits the properties and behaviors of another class. It enables code reuse and the creation of hierarchical relationships between classes, forming an "is-a" relationship.
-
-#### 3. Polymorphism
-Polymorphism allows objects of different classes to be treated as objects of a common superclass. It allows methods to be implemented in different ways in different classes, while still being called using the same interface.
-
-#### 4. Abstraction
-Abstraction is the process of simplifying complex systems by breaking them down into smaller, more manageable units. It focuses on the essential features of an object, hiding the unnecessary details and providing a clear and concise representation.
-
-#### 5. Association
-Association represents a relationship between two or more objects. It can be a one-to-one, one-to-many, or many-to-many relationship. Objects interact with each other through associations, enabling communication and collaboration.
-
-#### 6. Composition
-Composition is a strong form of association where one class is composed of one or more objects of other classes. The composed objects cannot exist independently, and their lifecycle is closely tied to the lifecycle of the containing class.
-
-#### 7. Aggregation
-Aggregation is a weaker form of composition where one class is associated with one or more objects of other classes. The associated objects can exist independently and have their lifecycle, even though they are part of the containing class.
-
-#### 8. Interface
-An interface defines a contract that classes can implement. It specifies a set of methods that implementing classes must adhere to, providing a way to achieve abstraction and standardization.
-
-### Design Patterns - Short Descriptions
-
-#### 1. Singleton
-- Ensures a class has only one instance and provides a global point of access to it.
-
-#### 2. Factory Method
-- Defines an interface for creating objects, but allows subclasses to decide which class to instantiate.
-
-#### 3. Abstract Factory
-- Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-
-#### 4. Builder
-- Separates the construction of complex objects from their representation, allowing the same construction process to create different representations.
-
-#### 5. Prototype
-- Creates new objects by cloning existing ones, allowing the copying of object properties and behaviors.
-
-#### 6. Adapter
-- Allows incompatible classes to work together by converting the interface of one class into another expected by the clients.
-
-#### 7. Decorator
-- Dynamically adds behavior to an object at runtime by wrapping it in a decorator class.
-
-#### 8. Composite
-- Represents a group of objects as a single object, treating both in a uniform manner.
-
-#### 9. Proxy
-- Provides a surrogate or placeholder for another object to control its access, add extra functionality, or perform lazy initialization.
-
-#### 10. Observer
-- Defines a one-to-many dependency between objects, so that when one object changes its state, all its dependents are notified and updated automatically.
-
-#### 11. Strategy
-- Defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
-
-#### 12. Template Method
-- Defines the skeleton of an algorithm in a superclass, allowing subclasses to provide specific implementations of certain steps.
-
-#### 13. State
-- Allows an object to alter its behavior when its internal state changes, treating each state as an individual class.
-
-#### 14. Facade
-- Provides a simplified interface to a complex system, hiding its complexities and improving usability.
-
-#### 15. Command
-- Encapsulates a request as an object, allowing parameterization of clients with different requests, queue or log requests, and support undoable operations.
-
 ### SOLID Design Principles
 
 SOLID is an acronym that represents a set of five design principles aimed at improving software design and maintainability. Here's a brief description of each principle:
@@ -151,6 +39,38 @@ SOLID is an acronym that represents a set of five design principles aimed at imp
 - It states that the dependency should be on abstractions rather than concrete implementations.
 - This principle promotes loose coupling, flexibility, and facilitates easier unit testing and modular design.
 
+
+#### Java Language Basics
+1. What is autoboxing and unboxing?
+   - Autoboxing is the automatic conversion of a primitive type to its corresponding wrapper class type. Unboxing is the opposite, converting a wrapper class object to its primitive type.
+
+2. What is a static initializer block?
+   - A static initializer block is a block of code inside a class that is executed only once when the class is loaded. It is used to initialize static variables or perform any other one-time initialization.
+ 
+### 1. What are the differences between `equals()` and `hashCode()` methods?
+
+- `equals()`: It is a method used to compare the equality of two objects in Java. By default, it checks for reference equality
+
+- `hashCode()`: It is a method that returns a hash code value for an object. The `hashCode()` method is used in hash-based data structures like `HashMap` and `HashSet` to determine the object's bucket or location. 
+
+### 2. What is the difference between method overloading and method overriding?
+
+Method Overloading:
+- It involves having multiple methods in a class with the same name but different parameters.
+- The methods are differentiated based on the number, type, or order of parameters.
+- Method overloading is determined at compile-time (static polymorphism).
+- Overloaded methods can have different return types.
+
+Method Overriding:
+- It involves creating a method in the subclass with the same name and parameters as in the superclass.
+- The method in the subclass provides a different implementation of the method defined in the superclass.
+- Method overriding is determined at runtime (dynamic polymorphism).
+- Overridden methods must have the same return type or a covariant (subclass) return type.
+
+### 3. What is the purpose of the `volatile` keyword in Java?
+- It ensures that any thread reading the variable always sees the most up-to-date value.
+- The `volatile` keyword is useful in
+- 
 ### Advanced Java Interview Questions and Very Short Answers for Experienced Software Developers
 
 Here are some advanced Java interview questions along with very short answers that can be helpful for a 12-year software developer:
@@ -181,69 +101,6 @@ Lambda expressions are anonymous functions introduced in Java 8. They allow you 
 
 #### Q9. What is the difference between the default and static methods in interfaces?
 Default methods were introduced in Java 8 to allow adding new methods to existing interfaces without breaking the implementations. They have a default implementation in the interface itself. Static methods in interfaces are similar to static methods in classes and can be called directly using the interface name.
-
-#### Java Language Basics
-1. What is autoboxing and unboxing?
-   - Autoboxing is the automatic conversion of a primitive type to its corresponding wrapper class type. Unboxing is the opposite, converting a wrapper class object to its primitive type.
-
-2. What is the difference between method overloading and method overriding?
-   - Method overloading refers to having multiple methods with the same name but different parameters within the same class. Method overriding occurs when a subclass provides its own implementation of a method defined in its superclass.
-
-3. What is a static initializer block?
-   - A static initializer block is a block of code inside a class that is executed only once when the class is loaded. It is used to initialize static variables or perform any other one-time initialization.
-
-4. What are varargs in Java?
-   - Varargs, short for variable-length arguments, allow a method to accept a variable number of arguments of the same type. They are declared using an ellipsis (...) after the parameter type.
-
-5. What is the difference between shallow copy and deep copy?
-   - Shallow copy creates a new object that shares the same memory as the original object. Deep copy creates a completely independent copy of the object with its own memory.
-
-6. What is the purpose of the finalize() method?
-   - The finalize() method is called by the garbage collector before an object is garbage collected. It can be overridden to perform any necessary cleanup operations.
-
-7. What is the difference between equals() and == in Java?
-   - The equals() method is used to compare the contents of two objects for equality. The == operator compares the references of two objects to check if they point to the same memory location.
-
-8. What is the purpose of the getClass() method?
-   - The getClass() method is used to get the runtime class of an object. It returns an instance of the Class class, which provides information about the class's methods, fields, and more.
-
-9. What are inner classes in Java?
-   - Inner classes are classes defined within another class. They have access to the members of the outer class and can be instantiated only with an instance of the outer class.
-
-10. What is the purpose of the transient keyword?
-    - The transient keyword is used to indicate that a variable should not be serialized when an object is serialized.
-
-#### Object-Oriented Programming (OOP) Concepts
-
-11. What are the four pillars of object-oriented programming?
-    - Encapsulation, inheritance, polymorphism, and abstraction.
-
-12. What is encapsulation in Java?
-    - Encapsulation is the bundling of data and methods together in a class. It provides data hiding and allows controlled access to the data through methods.
-
-13. What is inheritance in Java?
-    - Inheritance is a mechanism that allows classes to inherit properties and behaviors from other classes. It promotes code reuse and supports the concept of "is-a" relationships.
-
-14. What is polymorphism in Java?
-    - Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables objects to take on different forms and behave differently based on the context.
-
-15. What is abstraction in Java?
-    - Abstraction is the process of hiding unnecessary details and exposing only the essential features of an object. It is achieved using abstract classes and interfaces.
-
-16. What is the difference between an abstract class and an interface?
-    - An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods. A class can extend only one abstract class but can implement multiple interfaces.
-
-17. What is method overriding?
-    - Method overriding occurs when a subclass provides its own implementation of a method defined in its superclass. It is used to achieve runtime polymorphism.
-
-18. What is method overloading?
-    - Method overloading refers to having multiple methods with the same name but different parameters within the same class. The methods must differ in the number, type, or order of their parameters.
-
-19. What is the difference between composition and inheritance?
-    - Composition represents a "has-a" relationship between classes, where one class contains an instance of another class. Inheritance represents an "is-a" relationship between classes, where a subclass inherits properties and behaviors from a superclass.
-
-20. What is the purpose of the final keyword?
-    - The final keyword is used to restrict the modification of classes, methods, and variables. A final class cannot be subclassed, a final method cannot be overridden, and a final variable cannot be reassigned.
 
 #### Exception Handling and Multithreading
 
@@ -340,6 +197,81 @@ Default methods were introduced in Java 8 to allow adding new methods to existin
 
 50. What is the difference between a FileReader and FileInputStream?
     - FileReader is used for reading character data from a file, while FileInputStream is used for reading binary data from a file.
+ scenarios where multiple threads are accessing a shared variable without synchronization.
+
+
+### Object-Oriented Programming (OOP) Concepts
+
+#### 1. Encapsulation
+Encapsulation is the practice of bundling data and methods together into a single unit called a class. It allows for data hiding and protects the internal state of an object, ensuring that it can only be accessed through defined methods.
+
+#### 2. Inheritance
+Inheritance is the mechanism by which one class inherits the properties and behaviors of another class. It enables code reuse and the creation of hierarchical relationships between classes, forming an "is-a" relationship.
+
+#### 3. Polymorphism
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. It allows methods to be implemented in different ways in different classes, while still being called using the same interface.
+
+#### 4. Abstraction
+Abstraction is the process of simplifying complex systems by breaking them down into smaller, more manageable units. It focuses on the essential features of an object, hiding the unnecessary details and providing a clear and concise representation.
+
+#### 5. Association
+Association represents a relationship between two or more objects. It can be a one-to-one, one-to-many, or many-to-many relationship. Objects interact with each other through associations, enabling communication and collaboration.
+
+#### 6. Composition
+Composition is a strong form of association where one class is composed of one or more objects of other classes. The composed objects cannot exist independently, and their lifecycle is closely tied to the lifecycle of the containing class.
+
+#### 7. Aggregation
+Aggregation is a weaker form of composition where one class is associated with one or more objects of other classes. The associated objects can exist independently and have their lifecycle, even though they are part of the containing class.
+
+#### 8. Interface
+An interface defines a contract that classes can implement. It specifies a set of methods that implementing classes must adhere to, providing a way to achieve abstraction and standardization.
+
+### Design Patterns - Short Descriptions
+
+#### 1. Singleton
+- Ensures a class has only one instance and provides a global point of access to it.
+
+#### 2. Factory Method
+- Defines an interface for creating objects, but allows subclasses to decide which class to instantiate.
+
+#### 3. Abstract Factory
+- Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+#### 4. Builder
+- Separates the construction of complex objects from their representation, allowing the same construction process to create different representations.
+
+#### 5. Prototype
+- Creates new objects by cloning existing ones, allowing the copying of object properties and behaviors.
+
+#### 6. Adapter
+- Allows incompatible classes to work together by converting the interface of one class into another expected by the clients.
+
+#### 7. Decorator
+- Dynamically adds behavior to an object at runtime by wrapping it in a decorator class.
+
+#### 8. Composite
+- Represents a group of objects as a single object, treating both in a uniform manner.
+
+#### 9. Proxy
+- Provides a surrogate or placeholder for another object to control its access, add extra functionality, or perform lazy initialization.
+
+#### 10. Observer
+- Defines a one-to-many dependency between objects, so that when one object changes its state, all its dependents are notified and updated automatically.
+
+#### 11. Strategy
+- Defines a family of algorithms, encapsulates each one, and makes them interchangeable at runtime.
+
+#### 12. Template Method
+- Defines the skeleton of an algorithm in a superclass, allowing subclasses to provide specific implementations of certain steps.
+
+#### 13. State
+- Allows an object to alter its behavior when its internal state changes, treating each state as an individual class.
+
+#### 14. Facade
+- Provides a simplified interface to a complex system, hiding its complexities and improving usability.
+
+#### 15. Command
+- Encapsulates a request as an object, allowing parameterization of clients with different requests, queue or log requests, and support undoable operations.
 
 #### JDBC and Database Connectivity
 
