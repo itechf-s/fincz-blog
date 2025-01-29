@@ -40,6 +40,33 @@ I integrated a payment gateway API into an e-commerce platform. The main challen
 ### 10. How do you stay updated with the latest technologies and trends in software development?
 I regularly read tech blogs, participate in online communities and forums, attend conferences and webinars, and engage in continuous learning through online courses and tutorials.
 
+### Can you please explain your project Architecture diagram
+Microservices Oriented Architecture
+
+So Hello, everyone I am ... working for Itechf
+If we talk about B3 has a robust architecture that focuses on cloud native elasticity, resiliency security and scale. it is built from the ground up on microservices-oriented architecture
+
+B3 has composed a series of fit to purpose experiences serving a wide range of personas including employers, participants provider, broker and investors
+
+Experiences and components are designed to take advantages of cloud native elasticity. this includes elastic computing with infrastructure automation, container based and serverless deployments as well elastic storage
+
+An extensive library of API come pre packaged with B3 which streamlines interoperability by using Restful interfaces and GraphQL queries, kafka based queue for message based integrations and data lake for real time streaming large data processing and analytics
+
+B3's out of the box medium grained RESTful APIs are stateless support adaptable JSON payloads operate under Oath2 token based authentication and support versioning and API gateways
+
+B3 is built natively on AWS
+
+A Modern Technology Stack
+B3 employs a multi layered technology stack spanning user interfaces, business applications, on demand elasticity and managed services all of which are deployed natively on AWS cloud
+
+User interfaces run in standard browsers and represent single page application that communicate with the underlying components through REST and GraphQL
+
+The business application layer comprised of domain specific and enterprise wide microservices as well as growing number of AWS cloud services 
+
+B3 deliver on demand compute and storage elasticity using various AWS cloud services like Elastic Beanstalk, Lambda S3 etc
+
+The B3 manage services layer represent a turn-key offering that leverages the resiliency scalability and security fetuses.
+
 ### 1. What was your most challenging project, and how did you overcome the difficulties?
 The most challenging project I worked on was creating a game. I faced difficulties in designing the levels and implementing complex game mechanics. I overcame them by seeking guidance from online tutorials, asking for help from experienced developers, and breaking down the problem into smaller tasks.
 
