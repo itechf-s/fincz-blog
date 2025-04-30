@@ -27,3 +27,4 @@ vendor
 node_modules/
 public/
 *.html
+.hugo_build.lock
