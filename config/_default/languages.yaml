@@ -1,0 +1,12 @@
+en:
+  languageName: English
+  weight: 1
+
+hi:
+  languageName: हिंदी
+  weight: 2
+  params:
+    description: Fincz Finance Blog in Hindi
+    # keywords: बिजनेस फाइनेंस, वित्त
+    pwa:
+      manifest: {}
