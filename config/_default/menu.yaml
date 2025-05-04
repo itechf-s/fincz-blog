@@ -1,7 +1,7 @@
 main:
   - name: "Tools"
     identifier: "Tools"
-    pre: '<i class="fas fa-fw fa-tools"></i>'
+    pre: '<i class="fas fa-fw fa-chevron-circle-up"></i>'
     url: "/categories/tools/"
 
 footer:
