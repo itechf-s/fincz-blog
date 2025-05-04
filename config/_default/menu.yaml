@@ -1,12 +1,7 @@
 main:
-  - name: "Finance"
-    identifier: "Finance"
-    pre: '<i class="fas fa-fw fa-chevron-circle-down"></i>'
-    url: "/categories/finance/"
-
   - name: "Tools"
     identifier: "Tools"
-    pre: '<i class="fas fa-fw fa-chevron-circle-up"></i>'
+    pre: '<i class="fas fa-fw fa-tools"></i>'
     url: "/categories/tools/"
 
 footer:
@@ -75,15 +70,3 @@ footer:
     url: "https://bestrani.com"
     parent: "favorite-sites"
     weight: 2
-
-  - identifier: "itechf"
-    name: "Itechf"
-    url: "https://itechf.com"
-    parent: "favorite-sites"
-    weight: 3
-
-  - identifier: "dqote"
-    name: "Dqote"
-    url: "https://dqote.com"
-    parent: "favorite-sites"
-    weight: 4

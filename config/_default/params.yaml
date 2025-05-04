@@ -96,7 +96,7 @@ sidebar:
   # authors: true # Enable authors widget
   # postsToggle: false # Disable posts toggle
   # featuredPosts: true # Enable featured posts widget
-  recentPosts: true # Enable featured posts widget
+  # recentPosts: true # Enable featured posts widget
   taxonomiesToggleArchives: false # Disable archives toggle
   # collapsed: true # Collapse sidebar widgets by default on small screens.
 
