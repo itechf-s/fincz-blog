@@ -17,7 +17,7 @@ logo: images/fincz-logo-black.png
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
 
-brand: Finance
+brand: Fincz
 palette: blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
@@ -96,7 +96,8 @@ sidebar:
   # authors: true # Enable authors widget
   # postsToggle: false # Disable posts toggle
   # featuredPosts: true # Enable featured posts widget
-  # recentPosts: true # Enable featured posts widget
+  recentPosts: true # Enable featured posts widget
+  taxonomiesToggleArchives: false # Disable archives toggle
   # collapsed: true # Collapse sidebar widgets by default on small screens.
 
 codeBlock:
@@ -258,8 +259,8 @@ topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     github: itechf-s/fincz
-    patreon: razonyang
-    paypal: razonyang
+    # patreon: razonyang
+    # paypal: razonyang
 
 docs:
   nav:
