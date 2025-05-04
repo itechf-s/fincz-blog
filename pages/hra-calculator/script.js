@@ -1,0 +1,9 @@
+let bs=document.getElementById("inputBasicSalary");let da=document.getElementById("inputDearnessAllowance");let hra=document.getElementById("inputHra");let rent=document.getElementById("inputRent");let mc=document.getElementById("metroCity");let o_exempted_hra=document.getElementById("exemptedHra");let o_taxable_hra=document.getElementById("taxableHra");getParams();AttachInputListener();Calculate();function Calculate(){let bs_val=Number(bs.value);let da_val=Number(da.value);let hra_val=Number(hra.value);let rent_val=Number(rent.value);let mc_val=Number(mc.value);let exemptedHra=0;let taxableHra=0;if(bs_val>=1000&&da_val>=0&&hra_val>=500&&rent_val>=1000){let c1=(mc_val*(bs_val+da_val))/100;let c2=rent_val-(10*(bs_val+da_val))/100;if(hra_val>c2){taxableHra=hra_val-c2;}
+if(c2<=0){c2=0;exemptedHra=Math.min(hra_val,c1);}else{exemptedHra=Math.min(hra_val,c1,c2);}
+o_exempted_hra.innerHTML=`₹${exemptedHra.toLocaleString("en-IN")}`;o_taxable_hra.innerHTML=`₹${taxableHra.toLocaleString("en-IN")}`;}}
+function getParams(){let urlVal=window.location.href;let url=new URL(urlVal);let logo=url.searchParams.get("logo");if(logo==="true"){let logoElement=document.getElementById("logo");logoElement.style.display="block";}}
+function AttachInputListener(){bs.addEventListener("input",(e)=>{let val=e.target.value;if(val>2500000){bs.value=2500000;}
+Calculate();});da.addEventListener("input",(e)=>{let val=e.target.value;if(val>2500000){da.value=2500000;}
+Calculate();});hra.addEventListener("input",(e)=>{let val=e.target.value;if(val>2500000){hra.value=2500000;}
+Calculate();});rent.addEventListener("input",(e)=>{let val=e.target.value;if(val>2500000){rent.value=2500000;}
+Calculate();});mc.addEventListener("change",(e)=>{Calculate();});}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spring Boot on Fincz Finance Blog</title><link>/tags/spring-boot/</link><description>Recent content in Spring Boot on Fincz Finance Blog</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2020-{year} Fincz. All Rights Reserved.</copyright><lastBuildDate>Thu, 18 May 2023 08:00:00 +0530</lastBuildDate><atom:link href="/tags/spring-boot/index.xml" rel="self" type="application/rss+xml"/><item><title>Spring Boot Questions and Answers</title><link>/spring-boot-questions-and-answers/</link><pubDate>Thu, 18 May 2023 08:00:00 +0530</pubDate><guid>/spring-boot-questions-and-answers/</guid><description>&lt;h2 id="spring-boot">Spring Boot:&lt;/h2>
+&lt;h3 id="1-what-is-spring-boot">1. What is Spring Boot?&lt;/h3>
+&lt;p>Spring Boot is a Java framework that simplifies the development of Java applications by providing default configurations, dependency management, and production-ready features out of the box.&lt;/p>
+&lt;h3 id="2-explain-the-key-features-of-spring-boot">2. Explain the key features of Spring Boot.&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Auto-configuration&lt;/strong>: Spring Boot automatically configures application components based on classpath settings and dependencies.&lt;/li>
+&lt;li>&lt;strong>Starter dependencies&lt;/strong>: Spring Boot provides a set of curated dependencies that are commonly used together for specific functionalities.&lt;/li>
+&lt;li>&lt;strong>Embedded server&lt;/strong>: Spring Boot comes with an embedded server (e.g., Tomcat, Jetty) that eliminates the need for deploying applications to a separate server.&lt;/li>
+&lt;li>&lt;strong>Actuator&lt;/strong>: It provides production-ready features like health checks, metrics, and monitoring for applications.&lt;/li>
+&lt;li>&lt;strong>Spring Boot CLI&lt;/strong>: Spring Boot Command Line Interface allows rapid prototyping and development using Groovy scripts.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-how-does-spring-boot-differ-from-the-spring-framework">3. How does Spring Boot differ from the Spring Framework?&lt;/h3>
+&lt;p>Spring Boot builds on top of the Spring Framework and aims to simplify the configuration and setup process.&lt;/p></description></item></channel></rss>

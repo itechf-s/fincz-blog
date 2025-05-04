@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on Fincz Finance Blog</title><link>/categories/interview/</link><description>Recent content in Interview on Fincz Finance Blog</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2020-{year} Fincz. All Rights Reserved.</copyright><lastBuildDate>Tue, 14 May 2024 08:00:00 +0530</lastBuildDate><atom:link href="/categories/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>Java PGSql Interview Questions</title><link>/java-pgsql-interview-questions/</link><pubDate>Tue, 14 May 2024 08:00:00 +0530</pubDate><guid>/java-pgsql-interview-questions/</guid><description>&lt;h3 id="interview-start-script">Interview Start Script&lt;/h3>
+&lt;p>&lt;strong>Introduction:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Interviewer:&lt;/strong> &amp;ldquo;Hello [Candidate&amp;rsquo;s Name], thank you for joining us today. How are you?&amp;rdquo;&lt;/li>
+&lt;li>&lt;strong>Candidate:&lt;/strong> [Response]&lt;/li>
+&lt;li>&lt;strong>Interviewer:&lt;/strong> &amp;ldquo;Great to hear! My name is [Your Name], and I will be conducting your interview today. We appreciate your interest in the [Position] role at [Company Name].&amp;rdquo;&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Interview Overview:&lt;/strong>
+4. &lt;strong>Interviewer:&lt;/strong> &amp;ldquo;To give you a brief overview, today&amp;rsquo;s interview will consist of a few sections. We&amp;rsquo;ll start with some questions about your background and experience. Then, we&amp;rsquo;ll move on to technical questions related to Java, PostgreSQL, and full-stack development. Finally, we will discuss some situational questions to understand how you approach various scenarios.&amp;rdquo;&lt;/p></description></item><item><title>Itechf Interview Preparation</title><link>/itechf-interview-prep/</link><pubDate>Tue, 02 Apr 2024 08:00:00 +0530</pubDate><guid>/itechf-interview-prep/</guid><description>&lt;h1 id="introduction-5-minutes">Introduction (5 minutes)&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Welcome and Context:&lt;/strong> Hi everyone, thanks for joining! Today, I&amp;rsquo;m here to share some insights and tips to help you for your upcoming interviews with Itechf they are mostly using Java, Spring Boot, and PostgreSQL I recently interviewed and now working for itechf.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>First Question as usual you may be asked to give your introduction. After that, they will ask you about the previous project, your role and responsibilities in it, and what work you have done.&lt;/p></description></item><item><title>Project Migration Interview Questions and Answers</title><link>/project-migration-questions-and-answers/</link><pubDate>Thu, 10 Aug 2023 08:00:00 +0530</pubDate><guid>/project-migration-questions-and-answers/</guid><description>&lt;h2 id="project-migration">Project Migration&lt;/h2>
+&lt;p>Migrating from a monolithic architecture to a microservices architecture involves careful planning, design, and execution. Here are the steps to guide you through the process:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Assessment and Planning:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Understand the monolithic application&amp;rsquo;s architecture, components, dependencies, and pain points.&lt;/li>
+&lt;li>Define the goals and reasons for migrating to microservices. Identify the expected benefits.&lt;/li>
+&lt;li>Assess the feasibility of breaking down the monolith into microservices considering technical challenges and potential advantages.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Identify Microservices:&lt;/strong>&lt;/p></description></item><item><title>Previous Project Questions and Answers</title><link>/previous-project-questions-and-answers/</link><pubDate>Mon, 26 Jun 2023 08:00:00 +0530</pubDate><guid>/previous-project-questions-and-answers/</guid><description>&lt;h2 id="previous-project-questions-for-a-12-year-software-developer">Previous Project Questions for a 12-year Software Developer&lt;/h2>
+&lt;h3 id="1-what-are-the-key-features-you-implemented-in-your-last-project">1. What are the key features you implemented in your last project?&lt;/h3>
+&lt;p>I implemented a user authentication system, data encryption, and a responsive user interface.&lt;/p>
+&lt;h3 id="2-how-did-you-handle-scalability-in-your-previous-project">2. How did you handle scalability in your previous project?&lt;/h3>
+&lt;p>I designed the application using a microservices architecture and employed horizontal scaling techniques.&lt;/p>
+&lt;h3 id="3-describe-a-challenging-bug-you-encountered-and-how-you-resolved-it">3. Describe a challenging bug you encountered and how you resolved it.&lt;/h3>
+&lt;p>I faced a memory leak issue caused by improper object disposal. I used a memory profiler to identify the problem and manually released the resources, fixing the bug.&lt;/p></description></item><item><title>Sample Interview Questions and Answers</title><link>/interview-discussion-questions-and-answers/</link><pubDate>Tue, 20 Jun 2023 08:00:00 +0530</pubDate><guid>/interview-discussion-questions-and-answers/</guid><description>&lt;h2 id="interview-debrief">Interview Debrief&lt;/h2>
+&lt;p>Let me tell you about the interview process. First of all the interview will be in video mode.&lt;/p>
+&lt;p>There can be three people taking the interview. First Question as usual you may be asked to give your introduction. After that, they will ask you about the previous project, your role and responsibilities in it, and what work you have done.&lt;/p>
+&lt;p>They can ask some questions about the work you have done in the previous project and whatever you will explain. And will put up questions one after the other from the same.&lt;/p></description></item></channel></rss>

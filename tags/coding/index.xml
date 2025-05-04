@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding on Fincz Finance Blog</title><link>/tags/coding/</link><description>Recent content in Coding on Fincz Finance Blog</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2020-{year} Fincz. All Rights Reserved.</copyright><lastBuildDate>Tue, 22 Aug 2023 08:00:00 +0530</lastBuildDate><atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>Coding Standards and Guidelines</title><link>/coding-standards-and-guidelines/</link><pubDate>Tue, 22 Aug 2023 08:00:00 +0530</pubDate><guid>/coding-standards-and-guidelines/</guid><description>&lt;h2 id="general-coding-guideline">General coding guideline&lt;/h2>
+&lt;h3 id="variable-name">variable name&lt;/h3>
+&lt;p>Should not start with an underscore (_) and ($)
+Use camelCase
+Should have the meaning full name
+Common names for temporary variables are I,j,k,m,n for integers and c,d,e for chars&lt;/p>
+&lt;h3 id="constant-naming">constant naming&lt;/h3>
+&lt;p>Should not start with an underscore and $
+Use UPPER_CASE
+Separate by _&lt;/p>
+&lt;h3 id="avoid-hard-coding">Avoid hard coding&lt;/h3>
+&lt;p>Don&amp;rsquo;t Hard code any data/value within your code
+If it&amp;rsquo;s a text or numeric value that needs to be used in your application then convert that into constant&lt;/p></description></item></channel></rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spring Boot on Fincz Finance Blog</title><link>/categories/spring-boot/</link><description>Recent content in Spring Boot on Fincz Finance Blog</description><generator>Hugo</generator><language>en</language><copyright>Copyright © 2020-{year} Fincz. All Rights Reserved.</copyright><lastBuildDate>Tue, 29 Oct 2024 08:00:00 +0530</lastBuildDate><atom:link href="/categories/spring-boot/index.xml" rel="self" type="application/rss+xml"/><item><title>Insurance Product Questions and Answers</title><link>/insurence-product-questions-and-answers/</link><pubDate>Tue, 29 Oct 2024 08:00:00 +0530</pubDate><guid>/insurence-product-questions-and-answers/</guid><description>&lt;p>Interviewer: Good morning/afternoon [Candidate&amp;rsquo;s Name]. Thank you for taking the time to interview with us. Before we start, could you please tell us a bit about your experience?&lt;/p>
+&lt;p>Candidate: [Candidate&amp;rsquo;s response, typically covering their experience, skills, and reasons for interest]&lt;/p>
+&lt;p>Interviewer: That&amp;rsquo;s great. Let&amp;rsquo;s start with some technical questions:
+Please Rate yourself on a Scale of 1 to 10 for your top skills&lt;/p>
+&lt;h2 id="java-questions-and-answers">Java Questions and Answers&lt;/h2>
+&lt;h3 id="1-what-are-the-differences-between-equals-and-hashcode-methods">1. What are the differences between &lt;code>equals()&lt;/code> and &lt;code>hashCode()&lt;/code> methods?&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>equals()&lt;/code>: It is a method used to compare the equality of two objects in Java. By default, it checks for reference equality&lt;/p></description></item><item><title>Frequently Used Annotations in Spring Boot</title><link>/frequently-used-annotations-in-spring-boot/</link><pubDate>Thu, 18 May 2023 08:00:00 +0530</pubDate><guid>/frequently-used-annotations-in-spring-boot/</guid><description>&lt;h2 id="frequently-used-annotations-in-spring-boot">Frequently Used Annotations in Spring Boot&lt;/h2>
+&lt;p>When it comes to developing applications using Spring Boot, there are several annotations that are commonly used. Here are some of the most frequently used annotations in Spring Boot:&lt;/p>
+&lt;h3 id="1-restcontroller">1. &lt;code>@RestController&lt;/code>&lt;/h3>
+&lt;p>The &lt;code>@RestController&lt;/code> annotation is used to define a class as a RESTful controller. It combines the &lt;code>@Controller&lt;/code> and &lt;code>@ResponseBody&lt;/code> annotations, making it easier to create RESTful APIs.&lt;/p>
+&lt;h3 id="2-requestmapping">2. &lt;code>@RequestMapping&lt;/code>&lt;/h3>
+&lt;p>The &lt;code>@RequestMapping&lt;/code> annotation is used to map HTTP requests to specific controller methods. It allows you to define the URL path and HTTP method for handling the requests.&lt;/p></description></item><item><title>Java Questions and Answers</title><link>/java-questions-and-answers/</link><pubDate>Thu, 18 May 2023 08:00:00 +0530</pubDate><guid>/java-questions-and-answers/</guid><description>&lt;h2 id="java-questions-and-answers">Java Questions and Answers&lt;/h2>
+&lt;h3 id="solid-design-principles">SOLID Design Principles&lt;/h3>
+&lt;p>SOLID is an acronym that represents a set of five design principles aimed at improving software design and maintainability. Here&amp;rsquo;s a brief description of each principle:&lt;/p>
+&lt;h4 id="1-single-responsibility-principle-srp">1. Single Responsibility Principle (SRP)&lt;/h4>
+&lt;ul>
+&lt;li>A class should have only one reason to change.&lt;/li>
+&lt;li>It states that a class should have a single responsibility and should be focused on doing one thing well.&lt;/li>
+&lt;li>This principle promotes modularity and makes classes easier to understand, test, and maintain.&lt;/li>
+&lt;/ul>
+&lt;h4 id="2-openclosed-principle-ocp">2. Open/Closed Principle (OCP)&lt;/h4>
+&lt;ul>
+&lt;li>Software entities (classes, modules, functions) should be open for extension but closed for modification.&lt;/li>
+&lt;li>It suggests that code should be written in a way that new functionality can be added without modifying existing code.&lt;/li>
+&lt;li>This principle promotes code reusability, maintainability, and allows for easier integration of new features.&lt;/li>
+&lt;/ul>
+&lt;h4 id="3-liskov-substitution-principle-lsp">3. Liskov Substitution Principle (LSP)&lt;/h4>
+&lt;ul>
+&lt;li>Subtypes must be substitutable for their base types.&lt;/li>
+&lt;li>It ensures that objects of a superclass can be replaced with objects of its subclass without affecting the correctness of the program.&lt;/li>
+&lt;li>This principle promotes code reuse and helps maintain a consistent and predictable behavior of objects in a hierarchy.&lt;/li>
+&lt;/ul>
+&lt;h4 id="4-interface-segregation-principle-isp">4. Interface Segregation Principle (ISP)&lt;/h4>
+&lt;ul>
+&lt;li>Clients should not be forced to depend on interfaces they do not use.&lt;/li>
+&lt;li>It suggests that interfaces should be fine-grained and focused on specific client requirements.&lt;/li>
+&lt;li>This principle promotes decoupling, modularity, and prevents the problem of &amp;ldquo;fat&amp;rdquo; interfaces.&lt;/li>
+&lt;/ul>
+&lt;h4 id="5-dependency-inversion-principle-dip">5. Dependency Inversion Principle (DIP)&lt;/h4>
+&lt;ul>
+&lt;li>High-level modules should not depend on low-level modules; both should depend on abstractions.&lt;/li>
+&lt;li>It states that the dependency should be on abstractions rather than concrete implementations.&lt;/li>
+&lt;li>This principle promotes loose coupling, flexibility, and facilitates easier unit testing and modular design.&lt;/li>
+&lt;/ul>
+&lt;h4 id="java-language-basics">Java Language Basics&lt;/h4>
+&lt;ol>
+&lt;li>
+&lt;p>What is autoboxing and unboxing?&lt;/p></description></item></channel></rss>

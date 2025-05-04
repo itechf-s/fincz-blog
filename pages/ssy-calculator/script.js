@@ -1,0 +1,16 @@
+"use strict";var yiSlider=document.getElementById("myYI");var inputYI=document.getElementById("inputYI");var startYearSlider=document.getElementById("myStartYear");var inputStartYear=document.getElementById("inputStartYear");var ageSlider=document.getElementById("myAge");var inputAge=document.getElementById("inputAge");inputYI.innerHTML=yiSlider.value;inputStartYear.innerHTML=startYearSlider.value;inputAge.innerHTML=ageSlider.value;yiSlider.oninput=function(){inputYI.innerHTML=this.value;};startYearSlider.oninput=function(){inputStartYear.innerHTML=this.value;};ageSlider.oninput=function(){inputAge.innerHTML=this.value;};function showValAmount(newVal){yiSlider.value=newVal;calculateIt();}
+function showValRoi(newVal){startYearSlider.value=newVal;calculateIt();}
+function showValYears(newVal){ageSlider.value=newVal;calculateIt();}
+yiSlider.addEventListener("input",updateValueAmount);startYearSlider.addEventListener("input",updateValueRoi);ageSlider.addEventListener("input",updateValueYears);function updateValueAmount(e){inputYI.value=e.srcElement.value;calculateIt();}
+function updateValueRoi(e){inputStartYear.value=e.srcElement.value;calculateIt();}
+function updateValueYears(e){inputAge.value=e.srcElement.value;calculateIt();}
+AttachInputListeners();var initialLoad=true;var chart;getParams();calculateIt();function calculateIt(){let O_TI=document.getElementById("r1");let O_ER=document.getElementById("r2");let O_MY=document.getElementById("r3");let O_MV=document.getElementById("r4");let YI=Number(inputYI.value);let age=Number(inputAge.value);let startYear=Number(inputStartYear.value);if(YI>=250&&age>=1){let TI=YI*15;let MY=startYear+21;let MV=Math.round((((((YI/2)*(Math.pow(1+0.076/2,15*2)-1))/(0.076/2))*Math.pow(1+0.076/2,6*2))/1000)*1000);let ER=MV-TI;O_TI.innerHTML="₹"+TI.toLocaleString('en-IN');O_ER.innerHTML="₹"+ER.toLocaleString('en-IN');O_MY.innerHTML=MY;O_MV.innerHTML="₹"+MV.toLocaleString('en-IN');if(!initialLoad){chart.destroy();}
+DrawChart(TI,ER);initialLoad=false;}}
+function DrawChart(TI,ER){var ctx=document.getElementById("myChart").getContext("2d");chart=new Chart(ctx,{type:"doughnut",data:{labels:["Total Investment","Total Interest"],datasets:[{backgroundColor:["#5367ff","#00d09c"],data:[TI,ER],},],},options:{segmentShowStroke:false,responsive:true,},});}
+function getParams(){let urlVal=window.location.href;let url=new URL(urlVal);let cta=url.searchParams.get("cta");if(cta==="hide"){let ctaDiv=document.getElementById("cta");ctaDiv.style.display="none";}}
+function AttachInputListeners(){inputYI.addEventListener("input",(e)=>{let val=Number(e.target.value);if(val<0){inputYI.value=250;calculateIt();}
+if(val>150000){inputYI.value=150000;calculateIt();}});inputAge.addEventListener("input",(e)=>{let val=Number(e.target.value);if(!Number.isInteger(val)){val=Math.ceil(val);inputAge.value=val;calculateIt();}
+if(val<0){inputAge.value=1;calculateIt();}
+if(val>10){inputAge.value=10;calculateIt();}});inputStartYear.addEventListener("input",(e)=>{let val=Number(e.target.value);if(!Number.isInteger(val)){val=Math.ceil(val);inputStartYear.value=val;calculateIt();}
+if(val<2015){inputStartYear.value=2015;calculateIt();}
+if(val>2030){inputStartYear.value=2030;calculateIt();}});}
