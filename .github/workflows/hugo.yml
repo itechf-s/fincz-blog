@@ -63,7 +63,17 @@ jobs:
 
       - name: Install npm dependencies
         run: npm install
-
+      - name: Debug hugo_stats.json
+        run: |
+          ls -l hugo_stats.json || echo "❌ hugo_stats.json missing"
+      - name: Debug hugo_stats.json
+        run: |
+          if [ -f hugo_stats.json ]; then
+            echo "✅ hugo_stats.json exists"
+            cat hugo_stats.json
+          else
+            echo "❌ hugo_stats.json missing"
+          fi
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
