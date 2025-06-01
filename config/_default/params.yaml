@@ -18,7 +18,7 @@ logo: images/fincz-logo-black.png
 # logo: false # Disable Logo
 
 brand: Fincz
-palette: blue" # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: blue # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -140,10 +140,10 @@ siteVerification:
   shenma: 
 
 creativeCommons:
-  # by: true # Credit must be given to you, the creator.
-  # nc: true # Only noncommercial use of your work is permitted.
-  # nd: true # No derivatives or adaptations of your work are permitted.
-  # sa: true # Adaptations must be shared under the same terms.
+  by: true # Credit must be given to you, the creator.
+  nc: true # Only noncommercial use of your work is permitted.
+  nd: true # No derivatives or adaptations of your work are permitted.
+  sa: true # Adaptations must be shared under the same terms.
 
 utterances:
   repo: itechf-s/blog-comments # Replace with your repository.
@@ -258,7 +258,7 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: itechf-s/fincz
+    # github: itechf-s/fincz
     # patreon: razonyang
     # paypal: razonyang
 
