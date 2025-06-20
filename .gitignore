@@ -30,3 +30,4 @@ public/
 .hugo_build.lock
 package-lock.json
 */_gen/
+hugo_stats.json
