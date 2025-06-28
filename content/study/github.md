@@ -2360,5 +2360,192 @@ jobs:
 ✅ **Secrets को Git में Store करने के बजाय GitHub Secrets में रखें।**  
 
 ---
+## 🔧 GitHub CLI
 
-# 🎯 **Next Step: क्या आप Docker और Kubernetes के साथ CI/CD सीखना चाहेंगे?** 🚀
+GitHub CLI (`gh`) एक कमांड-लाइन टूल है जिससे आप GitHub से सीधे टर्मिनल के ज़रिए interact कर सकते हैं — जैसे repository create करना, PR merge करना, issues manage करना और deploy करना आदि।
+
+यहाँ GitHub CLI की step-by-step पूरी गाइड दी जा रही है:
+
+---
+
+## 🔧 Step 1: GitHub CLI Install करना
+
+### 🔹 Ubuntu / Debian:
+
+```bash
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
+  sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && \
+  sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && \
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] \
+  https://cli.github.com/packages stable main" | \
+  sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && \
+  sudo apt update && sudo apt install gh -y
+```
+
+### 🔹 macOS (Homebrew):
+
+```bash
+brew install gh
+```
+
+### 🔹 Windows (choco):
+
+```powershell
+choco install gh
+```
+
+---
+
+## 🔑 Step 2: GitHub Account से Login करें
+
+```bash
+gh auth login
+```
+
+* CLI पूछेगा:
+
+  * GitHub.com या Enterprise? → `GitHub.com`
+  * HTTPS या SSH? → आपका उपयोग
+  * ब्राउज़र से login करने का विकल्प आएगा
+
+> 🔐 यह `~/.config/gh/hosts.yml` में credentials स्टोर करता है
+
+---
+
+## 📁 Step 3: GitHub Repository बनाना
+
+### 🔹 नई repo बनाएं:
+
+```bash
+gh repo create
+```
+
+फिर CLI आपसे पूछेगा:
+
+* public/private?
+* local repo initialize करना है?
+* README चाहिए?
+* GitHub पर push करना है?
+
+या सीधे:
+
+```bash
+gh repo create my-repo-name --public --source=. --remote=origin --push
+```
+
+---
+
+## 🔀 Step 4: Fork Sync करना (UI वाला काम CLI से)
+
+### 🔹 किसी Fork को origin repo से sync करें:
+
+```bash
+gh repo sync
+```
+
+या किसी repo specify करके:
+
+```bash
+gh repo sync owner/repo
+```
+
+---
+
+## 📥 Step 5: Repo Clone करना
+
+```bash
+gh repo clone owner/repo-name
+```
+
+Example:
+
+```bash
+gh repo clone itechf-s/fincz-blog
+```
+
+---
+
+## 🔁 Step 6: Pull Requests Handle करना
+
+### 🔹 New PR बनाएँ:
+
+```bash
+gh pr create --base main --head my-feature-branch --title "New Feature" --body "This PR adds a new feature."
+```
+
+### 🔹 PR list देखें:
+
+```bash
+gh pr list
+```
+
+### 🔹 PR merge करें:
+
+```bash
+gh pr merge <PR-number or URL>
+```
+
+---
+
+## 🐛 Step 7: Issues Handle करना
+
+### 🔹 Issue list:
+
+```bash
+gh issue list
+```
+
+### 🔹 नई issue बनाएं:
+
+```bash
+gh issue create --title "Bug: Not working" --body "Steps to reproduce..."
+```
+
+---
+
+## ⚙️ Step 8: Alias और Customization
+
+### 🔹 एक alias बनाएं:
+
+```bash
+gh alias set co 'pr checkout'
+```
+
+अब `gh co 123` करने से PR #123 checkout हो जाएगा।
+
+### 🔹 Existing alias list करें:
+
+```bash
+gh alias list
+```
+
+---
+
+## 📌 Useful Commands Summary
+
+| Task         | Command                    |
+| ------------ | -------------------------- |
+| Login        | `gh auth login`            |
+| Logout       | `gh auth logout`           |
+| Repo create  | `gh repo create`           |
+| Clone repo   | `gh repo clone owner/repo` |
+| Sync fork    | `gh repo sync`             |
+| New PR       | `gh pr create`             |
+| PR merge     | `gh pr merge`              |
+| Issue create | `gh issue create`          |
+| List PRs     | `gh pr list`               |
+
+---
+
+## 🧠 Bonus: Help and Docs
+
+```bash
+gh help
+gh pr --help
+gh issue --help
+```
+
+---
+
+अगर आप चाहें तो मैं GitHub CLI की **cheat sheet PDF** या एक **video tutorial** भी recommend कर सकता हूँ। बताइए?
