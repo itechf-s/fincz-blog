@@ -9,7 +9,7 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 14: JDBC (Java Database Connectivity)**
+# 📘 **Module 13: JDBC (Java Database Connectivity)**
 
 ## 🔷 1. JDBC क्या है?
 

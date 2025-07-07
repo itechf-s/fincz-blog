@@ -8,7 +8,7 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 14: JDBC (Java Database Connectivity)**
+# 📘 **Module 13: JDBC (Java Database Connectivity)**
 
 JDBC में **Connection Pooling** एक advanced और बहुत ही important concept है — आइए इसे अच्छे से समझते हैं:
 

@@ -52,81 +52,81 @@ type: docs
 2. Function definition और calling
 3. Parameters और Return values
 4. Method Overloading
+5. Method Overriding
 
 ---
 
-### 🧱 **Module 5: Object Oriented Programming (OOP Basics)**
+### 🧱 **Module 5: Arrays & Strings in Java**
 
-1. Class और Object क्या हैं?
-2. Constructor और Default Constructor
-3. this keyword
-4. Encapsulation और Getters/Setters
-
----
-
-### 🧬 **Module 6: OOP Advanced Concepts**
-
-1. Inheritance (Single, Multilevel)
-2. super keyword
-3. Method Overriding
-4. Polymorphism (compile-time, run-time)
-5. Abstraction (abstract class vs interface)
-6. Final keyword
+1. Arrays & Strings
+2. String Functions
+3. Arrays Flow Diagram
+4. Practice Assignment
 
 ---
 
-### ⚠️ **Module 7: Exception Handling**
+### 🧱 **Module 6: Object Oriented Programming (OOPs)**
 
-1. Exception क्या है और क्यों आता है?
-2. try-catch block
-3. finally block
-4. throw और throws keyword
-5. Custom Exceptions (basic level)
-
----
-
-### 📁 **Module 8: Arrays & Strings**
-
-1. 1D और 2D Arrays
-2. Array operations
-3. String class और methods
-4. StringBuilder vs StringBuffer
+1. OOPs Introduction
+2. Class और Object
+3. Abstraction
+4. Encapsulation
+5. Inheritance
+6. Polymorphism
 
 ---
 
-### 🗃️ **Module 9: Java Collections Intro (Optional for Beginners)**
+### 🧬 **Module 7: Access Modifiers & Packages**
 
-1. List, ArrayList, HashSet, HashMap – Basic Use
-2. for-each loop
-3. Autoboxing और Generics Introduction
-
----
-
-### 🛠️ **Module 10: Mini Project**
-
-> 🎯 **Project Title:** Student Management System (Console Based)
-
-* Add / View / Delete / Search Students
-* Data Structure: ArrayList
-* Concepts used: Class, OOP, Methods, Loops, etc.
+1. Access Modifiers & Packages
+2. Real-World Example
 
 ---
 
-### 📋 **Bonus Module (Optional): Java 8 Features Overview**
+### ⚠️ **Module 8: Exception Handling in Java**
 
-* Lambda Expression
-* Stream API – only introduction
-* Functional Interfaces
+1. Exception Handling
+2. Checked vs Unchecked Exceptions
+3. try with resources
+4. Exception Hierarchy
+5. Custom Exception
 
 ---
 
-## 🧩 साथ में मिलने वाला कंटेंट:
+### 📁 **Module 9: File Handling in Java**
 
-| Type            | Details                                |
-| --------------- | -------------------------------------- |
-| 🎥 Videos       | 40–60 short videos (5-15 min each)     |
-| 📘 PDF Notes    | Summary per module + code snippets     |
-| 🧪 Exercises    | Practice questions after each module   |
-| 💻 Assignments  | 2-3 small coding tasks                 |
-| 🧠 Quiz         | MCQ-based test after each major module |
-| 📂 Project Code | Ready-to-run Java project source code  |
+1. File Handling
+2. Directory Operations
+3. I/O Streams
+
+---
+
+### 🗃️ **Module 10: Java Collections Framework (JCF)**
+
+1. Java Collections Framework
+2. List
+3. Set
+4. Map
+5. Fail-Fast vs Fail-Safe
+
+---
+
+### 🛠️ **Module 11: Generics, Autoboxing & Wrapper Classes**
+
+1. Generics, Autoboxing & Wrapper Classes
+2. Generics Cheat Sheet
+
+---
+
+### 📋 **Module 12: Multithreading & Concurrency in Java**
+
+1. Multithreading & Concurrency
+2. Threads Common Methods
+3. Thread Pool
+4. Thread Scheduling
+
+### 📋 **Module 13: JDBC (Java Database Connectivity)**
+
+1. JDBC Intro
+2. Connection Pooling
+3. Transaction Management

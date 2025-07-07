@@ -8,7 +8,7 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 14: JDBC (Java Database Connectivity)**
+# 📘 **Module 13: JDBC (Java Database Connectivity)**
 
 अब हम JDBC में एक और **real-world application** में काम आने वाला महत्वपूर्ण विषय सीखते हैं:
 

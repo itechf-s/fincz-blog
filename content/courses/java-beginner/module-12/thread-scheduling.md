@@ -8,7 +8,7 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 13: Multithreading & Concurrency in Java**
+# 📘 **Module 12: Multithreading & Concurrency in Java**
 
 ## 📘 **Thread Scheduling in Java (Thread Execution Order)**
 

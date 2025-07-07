@@ -9,7 +9,7 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 13: Multithreading & Concurrency in Java**
+# 📘 **Module 12: Multithreading & Concurrency in Java**
 
 अब हम Java के एक powerful और advanced topic पर आते हैं, जो real-world applications (जैसे: gaming, banking, server apps) में बहुत काम आता है —
 
