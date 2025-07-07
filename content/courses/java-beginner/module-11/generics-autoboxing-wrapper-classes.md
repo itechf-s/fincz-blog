@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Generics, Autoboxing & Wrapper Classes"
 date: 2025-06-01T07:00:23+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/generics-autoboxing-wrapper-classes.webp"]
 author: ahmad
 type: docs
 ---

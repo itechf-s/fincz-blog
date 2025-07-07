@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "JDBC (Java Database Connectivity)"
 date: 2025-06-01T07:00:18+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/jdbc.webp"]
 author: ahmad
 type: docs
 ---

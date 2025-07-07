@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Module 8: Exception Handling in Java"
 date: 2025-06-01T07:00:36+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/exception-handling.webp"]
 author: ahmad
 type: docs
 ---

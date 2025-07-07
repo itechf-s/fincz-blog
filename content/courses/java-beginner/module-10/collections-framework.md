@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Java Collections Framework (JCF)"
 date: 2025-06-01T07:00:28+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/collections-framework.webp"]
 author: ahmad
 type: docs
 ---

@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Introduction: Java का परिचय और सेटअप"
 date: 2025-06-01T07:00:59+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/introduction.webp"]
 author: ahmad
 type: docs
 ---

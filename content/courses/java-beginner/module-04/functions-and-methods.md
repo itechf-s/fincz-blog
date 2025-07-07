@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Module 4: Functions & Methods in Java"
 date: 2025-06-01T07:00:53+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/functions-and-methods.webp"]
 author: ahmad
 type: docs
 ---

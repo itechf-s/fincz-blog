@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Multithreading & Concurrency in Java"
 date: 2025-06-01T07:00:21+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/multithreading-concurrency.webp"]
 author: ahmad
 type: docs
 ---

@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Module 5: Arrays & Strings in Java"
 date: 2025-06-01T07:00:50+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/arrays-and-strings.webp"]
 author: ahmad
 type: docs
 ---

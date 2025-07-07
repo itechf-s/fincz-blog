@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Module 3: Control Flow (if-else, loops)"
 date: 2025-06-01T07:00:55+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/control-flow.webp"]
 author: ahmad
 type: docs
 ---

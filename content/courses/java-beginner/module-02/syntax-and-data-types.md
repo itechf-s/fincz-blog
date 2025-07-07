@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Module 2: Java Syntax और Data Types"
 date: 2025-06-01T07:00:56+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/syntax-and-data-types.webp"]
 author: ahmad
 type: docs
 ---

@@ -4,7 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Module 6: Object Oriented Programming (OOP)"
 date: 2025-06-01T07:00:46+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/06/oops-introduction.webp"]
 author: ahmad
 type: docs
 ---

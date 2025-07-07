@@ -4,6 +4,7 @@ categories: [ Java, Course]
 tags: [Basic]
 description: "Java Beginner Course का पूरा Syllabus"
 date: 2025-06-01T08:00:00+05:30
+images: ["images/2025/06/java-beginner-course-syllabus.webp"]
 author: ahmad
 type: docs
 ---
