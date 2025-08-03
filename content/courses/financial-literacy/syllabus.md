@@ -60,10 +60,14 @@ type: docs
 
 ### **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
 
-* निवेश क्यों ज़रूरी है?
+* Investment क्यों जरूरी है
 * Inflation से लड़ने का तरीका
-* Investment vs Saving
+* Inflation vs Investment Growth Chart
+* Investment और Saving का फर्क
+* Investment के मुख्य principles
 * Long Term vs Short Term निवेश
+* Risk vs Return की understanding
+* Investment शुरू करने के practical steps
 
 ---
 
