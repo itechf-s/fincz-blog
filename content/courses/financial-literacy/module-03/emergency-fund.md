@@ -9,7 +9,7 @@ author: ahmad
 type: docs
 ---
 
-# 🏦 **Module 3: Saving Strategies & Emergency Fund**
+# 🏦 **Module 3: Emergency Fund - ज़रूरत के वक़्त का सहारा**
 
 *("Paise ka suraksha kavach banaye")*
 

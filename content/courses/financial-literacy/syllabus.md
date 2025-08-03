@@ -51,8 +51,10 @@ type: docs
 
 * Savings Account, Current Account, FD, RD
 * UPI, Credit Card vs Debit Card
+* Cheque, Demand Draft, IMPS, NEFT, RTGS
 * Net Banking और सुरक्षा
 * Credit Score क्या होता है और इसे कैसे बनाए रखें?
+* Home Loan, Car Loan, Education Loan, Personal Loan और Gold Loan
 
 ---
 

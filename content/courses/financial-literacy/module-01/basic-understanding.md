@@ -9,7 +9,7 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Financial Literacy की बुनियादी समझ**
+# 📘 **Module 1: पैसे की समझ - Foundation of Financial Literacy**
 
 ---
 

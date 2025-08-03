@@ -9,7 +9,7 @@ author: ahmad
 type: docs
 ---
 
-# 💼 **Module 2: Budgeting & Expense Tracking**
+# 💼 **Module 2: Budgeting और खर्चों का मैनेजमेंट**
 
 *("Paise ka hisaab, zindagi ka intezam")*
 
