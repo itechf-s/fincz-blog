@@ -3,7 +3,7 @@ title: "6.11 REITs"
 categories: [ Finance, Course]
 tags: [Basic]
 description: "Real Estate Investment Trusts (REITs) – छोटे निवेश से बड़ा रियल एस्टेट"
-date: 2025-08-07T08:00:00+05:30
+date: 2025-08-07T07:00:58+05:30
 author: ahmad
 type: docs
 ---

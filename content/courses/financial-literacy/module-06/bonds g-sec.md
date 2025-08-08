@@ -3,7 +3,7 @@ title: "6.10 Bonds G-Sec"
 categories: [ Finance, Course]
 tags: [Basic]
 description: "Bonds & Government Securities (G-Sec)"
-date: 2025-08-07T08:00:00+05:30
+date: 2025-08-07T07:00:59+05:30
 author: ahmad
 type: docs
 ---
