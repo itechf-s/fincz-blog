@@ -57,7 +57,3 @@ Future Expense = Present Expense × (1 + Inflation Rate)^Years
 * **Equity Exposure:** Long-term में equity inflation को beat करती है
 * **Diversification:** Debt, Gold, Real Estate, Equity का सही mix
 * **Regular Review:** Portfolio को हर साल inflation के हिसाब से adjust करें
-
----
-
-अगर चाहें तो मैं आपको इसका **"Inflation vs Retirement Corpus" comparison chart** बना सकता हूँ जिससे learners को एक नजर में पता चले कि बिना inflation को ध्यान में रखे corpus कितना कम पड़ सकता है।

@@ -12,7 +12,11 @@ type: docs
 
 ## **💡 ULIP, Endowment Plans vs Pure Insurance – Detail में समझिए**
 
-Insurance Market में कई Products हैं, लेकिन उनमें से तीन बहुत Confusing होते हैं — **ULIP**, **Endowment Plan**, और **Pure Insurance (Term Plan)**।
+Insurance Market में कई Products हैं, लेकिन उनमें से तीन बहुत Confusing होते हैं 
+- **ULIP**
+- **Endowment Plan**
+- और **Pure Insurance (Term Plan)**
+
 नीचे इन्हें आसान भाषा में Compare करके समझते हैं।
 
 ---
@@ -32,14 +36,14 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 * Charges: Fund Management, Premium Allocation, Policy Administration Charges आदि
 
 **Pros:**
-✔ Insurance + Investment एक साथ
-✔ Equity में Exposure से High Returns की संभावना
-✔ Tax Benefit (Section 80C & 10(10D))
+- ✔ Insurance + Investment एक साथ
+- ✔ Equity में Exposure से High Returns की संभावना
+- ✔ Tax Benefit (Section 80C & 10(10D))
 
 **Cons:**
-❌ High Charges (especially starting years में)
-❌ Market Risk ज़्यादा
-❌ Pure Insurance Cover कम मिलता है
+- ❌ High Charges (especially starting years में)
+- ❌ Market Risk ज़्यादा
+- ❌ Pure Insurance Cover कम मिलता है
 
 **Best For:**
 
@@ -61,13 +65,13 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 * Risk लगभग Zero (Company Guarantee)
 
 **Pros:**
-✔ Safe & Predictable Returns
-✔ Insurance + Savings Together
-✔ Tax Benefits (80C, 10(10D))
+- ✔ Safe & Predictable Returns
+- ✔ Insurance + Savings Together
+- ✔ Tax Benefits (80C, 10(10D))
 
 **Cons:**
-❌ Returns Inflation से कम हो सकते हैं
-❌ Investment Growth बहुत Limited
+- ❌ Returns Inflation से कम हो सकते हैं
+- ❌ Investment Growth बहुत Limited
 
 **Best For:**
 
@@ -89,13 +93,13 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 * सिर्फ Protection Purpose
 
 **Pros:**
-✔ Maximum Life Cover at Minimum Cost
-✔ Simple to Understand
-✔ Ideal for Financial Protection of Family
+- ✔ Maximum Life Cover at Minimum Cost
+- ✔ Simple to Understand
+- ✔ Ideal for Financial Protection of Family
 
 **Cons:**
-❌ अगर आप जीवित रहे तो कोई पैसा वापस नहीं
-❌ Investment का Option नहीं
+- ❌ अगर आप जीवित रहे तो कोई पैसा वापस नहीं
+- ❌ Investment का Option नहीं
 
 **Best For:**
 
