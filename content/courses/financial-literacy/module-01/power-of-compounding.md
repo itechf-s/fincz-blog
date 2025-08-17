@@ -2,7 +2,7 @@
 title: "1.5 Power of Compounding"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Power of Compounding पैसा कमाने के तरीक़े"
+description: "Power of Compounding कैसे काम करता है"
 date: 2025-06-01T07:00:54+05:30
 author: ahmad
 type: docs

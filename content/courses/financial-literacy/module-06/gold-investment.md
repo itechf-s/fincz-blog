@@ -2,7 +2,7 @@
 title: "6.5 Gold Investment"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Gold Investment - सोने में निवेश*"
+description: "Gold Investment - सोने में निवेश"
 date: 2025-08-07T08:00:00+05:30
 author: ahmad
 type: docs

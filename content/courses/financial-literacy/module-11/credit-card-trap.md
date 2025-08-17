@@ -2,7 +2,7 @@
 title: "11.3 Credit Card Trap"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Credit Card Trap – Detailed Explanation"
+description: "Credit Card Trap से कैसे बचें?"
 date: 2025-08-10T08:00:00+05:30
 author: ahmad
 type: docs

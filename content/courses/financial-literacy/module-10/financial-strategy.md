@@ -2,7 +2,7 @@
 title: "10.3 Financial Strategy"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Health और Marriage Fund के लिए एक clear financial strategy"
+description: "Health और Marriage Fund के लिए Financial Strategy"
 date: 2025-08-10T08:00:00+05:30
 author: ahmad
 type: docs

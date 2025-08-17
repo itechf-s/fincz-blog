@@ -2,7 +2,7 @@
 title: "1.7 Wants vs Needs"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Wants vs Needs - फाइनेंशियल डिसिप्लिन की जड़"
+description: "WANTS vs NEEDS को कैसे पहचानें"
 date: 2025-06-01T07:00:52+05:30
 author: ahmad
 type: docs

@@ -2,7 +2,7 @@
 title: "3.4 EF Useful Rules"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Emergency Fund इस्तेमाल करने के Rules"
+description: "Emergency Fund इस्तेमाल करने के नियम"
 date: 2025-08-03T08:00:00+05:30
 author: ahmad
 type: docs

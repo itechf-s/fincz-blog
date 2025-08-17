@@ -2,7 +2,7 @@
 title: "2.2 Zero Based Budget"
 categories: [ Finance, Course]
 tags: [Basic]
-description: "Zero-Based Budget"
+description: "Zero-Based Budget (ZBB) क्या है?"
 date: 2025-06-01T07:00:50+05:30
 author: ahmad
 type: docs
