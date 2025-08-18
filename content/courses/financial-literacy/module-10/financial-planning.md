@@ -13,7 +13,7 @@ type: docs
 
 ---
 
-## **1. बच्चों की पढ़ाई के लिए Financial Planning क्यों ज़रूरी है?**
+## **बच्चों की पढ़ाई के लिए Financial Planning क्यों ज़रूरी है?**
 
 * शिक्षा की लागत हर साल **Inflation** से बढ़ रही है (Engineering, Medical, Foreign Education, etc.)।
 * अगर समय पर प्लान न करें तो बाद में लोन लेना पड़ सकता है।
@@ -21,7 +21,7 @@ type: docs
 
 ---
 
-## **2. Education Planning के Steps**
+## **Education Planning के Steps**
 
 1. **Goal Amount तय करें**
 
@@ -45,7 +45,7 @@ type: docs
 
 ---
 
-## **3. परिवार के अन्य Goals के लिए Planning**
+## **परिवार के अन्य Goals के लिए Planning**
 
 * **House Purchase**: Down payment के लिए SIP या FD
 * **Car Purchase**: Short-term investments जैसे RD, Liquid Funds
@@ -54,7 +54,7 @@ type: docs
 
 ---
 
-## **4. Planning करते समय Common Mistakes**
+## **Planning करते समय Common Mistakes**
 
 * Inflation को ignore करना
 * Last-minute लोन लेकर interest burden बढ़ाना
@@ -63,7 +63,7 @@ type: docs
 
 ---
 
-## **5. Practical Tips**
+## **Practical Tips**
 
 * हर goal के लिए अलग SIP शुरू करें
 * Yearly review करें और जरूरत के हिसाब से SIP amount बढ़ाएं

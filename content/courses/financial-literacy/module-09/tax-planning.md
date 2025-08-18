@@ -11,7 +11,7 @@ type: docs
 
 # **Module 9: Tax Planning**
 
-## **9.1 Tax Planning क्या है और क्यों ज़रूरी है**
+## **Tax Planning क्या है और क्यों ज़रूरी है**
 
 * **Definition**:
   Tax planning का मतलब है अपनी income, expenses, और investments को इस तरह manage करना कि legal तरीके से minimum tax देना पड़े।
@@ -23,7 +23,7 @@ type: docs
 
 ---
 
-## **9.2 Old vs New Tax Regime – Overview**
+## **Old vs New Tax Regime – Overview**
 
 | Particulars                 | **Old Regime**                                         | **New Regime**                                              |
 | --------------------------- | ------------------------------------------------------ | ----------------------------------------------------------- |
@@ -34,7 +34,7 @@ type: docs
 
 ---
 
-## **9.3 Income Tax Slabs (FY 2025–26 example)**
+## **Income Tax Slabs (FY 2025–26 example)**
 
 *(स्लैब future में change हो सकते हैं, ये सिर्फ understanding के लिए)*
 
@@ -57,7 +57,7 @@ type: docs
 
 ---
 
-## **9.4 कौन सा Regime चुनें?**
+## **कौन सा Regime चुनें?**
 
 * **Old Regime बेहतर है अगर:**
 
@@ -72,7 +72,7 @@ type: docs
 
 ---
 
-## **9.5 Common Deductions (Old Regime)**
+## **Common Deductions (Old Regime)**
 
 * **Section 80C** (Max ₹1,50,000) – PPF, EPF, ELSS, LIC premium, home loan principal
 * **Section 80D** – Health insurance premium
@@ -83,7 +83,7 @@ type: docs
 
 ---
 
-## **9.6 Tax Saving Strategies**
+## **Tax Saving Strategies**
 
 1. **Tax-efficient Investments** – ELSS funds, PPF, NPS
 2. **Insurance Planning** – Health & term insurance deductions
@@ -93,14 +93,14 @@ type: docs
 
 ---
 
-## **9.7 Advance Tax & TDS Understanding**
+## **Advance Tax & TDS Understanding**
 
 * अगर आपकी tax liability ₹10,000+ है तो advance tax देना जरूरी है।
 * TDS आपके employer या bank काटते हैं, लेकिन actual tax calculation साल के end में होती है।
 
 ---
 
-## **9.8 Common Tax Mistakes to Avoid**
+## **Common Tax Mistakes to Avoid**
 
 * सिर्फ tax बचाने के लिए बेकार investments करना
 * ITR filing delay करना

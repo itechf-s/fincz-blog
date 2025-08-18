@@ -15,7 +15,7 @@ type: docs
 
 ---
 
-## **1. Freelancing → Semi-Passive बनाना**
+## **Freelancing → Semi-Passive बनाना**
 
 * **क्या है?**
   Clients के लिए project-based काम करना (writing, graphic design, coding, video editing etc.)
@@ -29,7 +29,7 @@ type: docs
 
 ---
 
-## **2. Consulting → Passive बनाना**
+## **Consulting → Passive बनाना**
 
 * **क्या है?**
   किसी specific industry या topic में expert advice देना।
@@ -43,7 +43,7 @@ type: docs
 
 ---
 
-## **3. Blogging → Long-term Passive Income**
+## **Blogging → Long-term Passive Income**
 
 * **क्या है?**
   Online articles लिखकर audience बनाना और traffic से पैसा कमाना।
@@ -58,7 +58,7 @@ type: docs
 
 ---
 
-## **4. Rent → Pure Passive**
+## **Rent → Pure Passive**
 
 * **क्या है?**
   Property, vehicles, equipment किराए पर देना।
@@ -71,7 +71,7 @@ type: docs
 
 ---
 
-## **5. और Sources**
+## **और Sources**
 
 * **YouTube Channel** → एक बार videos upload करके views से लगातार income।
 * **Ebooks & Courses** → Amazon Kindle या Udemy जैसे platforms पर बेच सकते हो।

@@ -12,14 +12,14 @@ type: docs
 
 ## **ITR Filing: कैसे और कब करें?**
 
-## **1. ITR क्या है?**
+## **ITR क्या है?**
 
 * **ITR (Income Tax Return)** एक form है जिसमें आप अपनी साल भर की income, deductions, investments और tax payments की जानकारी Income Tax Department को देते हैं।
 * यह सिर्फ tax भरने के लिए नहीं, बल्कि आपकी income का **legal proof** भी है (loans, visas, tenders में काम आता है)।
 
 ---
 
-## **2. ITR क्यों भरना चाहिए?**
+## **ITR क्यों भरना चाहिए?**
 
 * अगर income taxable limit से ऊपर है (₹2.5L/₹3L/₹5L as per regime), तो ये mandatory है।
 * Loan, credit card, visa के लिए जरूरी
@@ -28,7 +28,7 @@ type: docs
 
 ---
 
-## **3. ITR Filing की Last Date**
+## **ITR Filing की Last Date**
 
 * **Without audit:** आमतौर पर 31 July (next financial year में)
 * **With audit:** 31 October
@@ -36,7 +36,7 @@ type: docs
 
 ---
 
-## **4. ITR Forms का सही Selection**
+## **ITR Forms का सही Selection**
 
 | **Form**          | **For**                                                |
 | ----------------- | ------------------------------------------------------ |
@@ -50,7 +50,7 @@ type: docs
 
 ---
 
-## **5. ITR Filing के लिए जरूरी Documents**
+## **ITR Filing के लिए जरूरी Documents**
 
 * **PAN Card**
 * **Aadhaar Card**
@@ -65,7 +65,7 @@ type: docs
 
 ---
 
-## **6. ITR Filing Process (Step-by-Step)**
+## **ITR Filing Process (Step-by-Step)**
 
 **A. Pre-filing Preparation**
 
@@ -85,7 +85,7 @@ type: docs
 
 ---
 
-## **7. e-Verification के Methods**
+## **e-Verification के Methods**
 
 * Aadhaar OTP
 * Net Banking login
@@ -95,7 +95,7 @@ type: docs
 
 ---
 
-## **8. ITR Filing Mistakes to Avoid**
+## **ITR Filing Mistakes to Avoid**
 
 * गलत ITR form चुनना
 * 26AS और AIS से mismatch
@@ -105,7 +105,7 @@ type: docs
 
 ---
 
-## **9. ITR Filing के Benefits**
+## **ITR Filing के Benefits**
 
 * Refund आसानी से मिलता है
 * Legal proof of income

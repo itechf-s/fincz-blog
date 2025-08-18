@@ -16,7 +16,7 @@ type: docs
 
 यह **"Tax on Different Income Types"** का simplified और practical breakdown है, जो आपके **Module 9: Tax Planning** में perfectly फिट होगा — और इसमें **New Tax Regime vs Old Tax Regime** का angle भी रहेगा।
 
-## **1. Salary Income**
+## **Salary Income**
 
 * **Definition:** Employee के employer से मिलने वाला basic pay, allowances, bonus आदि।
 * **Taxability:** "Income from Salary" head में taxable।
@@ -27,7 +27,7 @@ type: docs
 
 ---
 
-## **2. Business या Profession Income**
+## **Business या Profession Income**
 
 * **Definition:** Self-employed, freelancer, shop, consultancy आदि से income।
 * **Taxability:** "Profits & Gains of Business or Profession" head में taxable।
@@ -36,7 +36,7 @@ type: docs
 
 ---
 
-## **3. House Property Income**
+## **House Property Income**
 
 * **Definition:** Rent से income, या खुद के 2nd house पर notional rent।
 * **Taxability:** "Income from House Property" head में taxable।
@@ -47,7 +47,7 @@ type: docs
 
 ---
 
-## **4. Capital Gains**
+## **Capital Gains**
 
 * **Definition:** Property, shares, mutual funds, gold आदि बेचने से होने वाला profit।
 * **Types:**
@@ -61,7 +61,7 @@ type: docs
 
 ---
 
-## **5. Other Sources Income**
+## **Other Sources Income**
 
 * **Definition:** Savings account interest, FD interest, lottery, gifts, etc.
 * **Taxability:** "Income from Other Sources" head में taxable।
@@ -69,7 +69,7 @@ type: docs
 
 ---
 
-## **6. Agricultural Income**
+## **Agricultural Income**
 
 * **Definition:** Agriculture operations से directly earned income।
 * **Taxability:** Directly exempt, लेकिन tax rate calculation में consider हो सकता है।

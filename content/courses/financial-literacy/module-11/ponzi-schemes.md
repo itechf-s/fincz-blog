@@ -19,9 +19,9 @@ Ponzi Scheme एक ऐसा investment fraud है जिसमें पु�
 
 ---
 
-## **1. Ponzi Schemes की पहचान कैसे करें?**
+## **Ponzi Schemes की पहचान कैसे करें?**
 
-### **🔍 Common Warning Signs**
+**🔍 Common Warning Signs**
 
 1. **Unrealistic Returns**
 
@@ -48,14 +48,14 @@ Ponzi Scheme एक ऐसा investment fraud है जिसमें पु�
 
 ---
 
-## **2. Famous Examples**
+## **Famous Examples**
 
 * **Charles Ponzi (1920s)** – Postal coupons के नाम पर लोगों से पैसा लेकर पुराने investors को नए पैसे से भुगतान किया।
 * **Speak Asia, Saradha Chit Fund, GainBitcoin** – भारत में कई लोगों को करोड़ों का नुकसान हुआ।
 
 ---
 
-## **3. कैसे बचें?**
+## **कैसे बचें?**
 
 * High returns का लालच न करें।
 * SEBI/RBI registered platforms पर ही invest करें।
@@ -64,7 +64,7 @@ Ponzi Scheme एक ऐसा investment fraud है जिसमें पु�
 
 ---
 
-## **4. Other Scam Types**
+## **Other Scam Types**
 
 * **Pyramid Schemes:** Product sale के नाम पर सिर्फ नए members recruit करना।
 * **Advance Fee Scam:** Loan या lottery का वादा, लेकिन पहले processing fee मांगना।

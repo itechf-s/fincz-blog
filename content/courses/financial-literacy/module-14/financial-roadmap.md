@@ -14,7 +14,7 @@ type: docs
 
 ## **Life का Financial Roadmap** (Step-by-Step)
 
-### **Stage 1: Foundation Building (Age 20–30)**
+## **Stage 1: Foundation Building (Age 20–30)**
 
 🎯 **Primary Focus**: Habits, Skills, और Protection
 
@@ -27,7 +27,7 @@ type: docs
 
 ---
 
-### **Stage 2: Growth Phase (Age 30–40)**
+## **Stage 2: Growth Phase (Age 30–40)**
 
 🎯 **Primary Focus**: Family Security + Wealth Creation
 
@@ -40,7 +40,7 @@ type: docs
 
 ---
 
-### **Stage 3: Acceleration Phase (Age 40–50)**
+## **Stage 3: Acceleration Phase (Age 40–50)**
 
 🎯 **Primary Focus**: Asset Growth + Debt Clearance
 
@@ -52,7 +52,7 @@ type: docs
 
 ---
 
-### **Stage 4: Pre-Retirement Phase (Age 50–60)**
+## **Stage 4: Pre-Retirement Phase (Age 50–60)**
 
 🎯 **Primary Focus**: Wealth Safety + Retirement Preparation
 
@@ -64,7 +64,7 @@ type: docs
 
 ---
 
-### **Stage 5: Retirement & Legacy Phase (Age 60+)**
+## **Stage 5: Retirement & Legacy Phase (Age 60+)**
 
 🎯 **Primary Focus**: Peaceful & Secure Life
 

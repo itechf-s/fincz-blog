@@ -20,7 +20,7 @@ Emotional Spending तब होता है जब आप अपने **mood*
 
 ---
 
-## **1. Common Triggers (कारण)**
+## **Common Triggers (कारण)**
 
 * **Stress** → Online shopping, बाहर खाना
 * **Boredom** → Unplanned movie tickets, gadgets खरीदना
@@ -30,7 +30,7 @@ Emotional Spending तब होता है जब आप अपने **mood*
 
 ---
 
-## **2. Problem क्या है?**
+## **Problem क्या है?**
 
 * Budget बिगड़ जाता है
 * Savings और Investments कम हो जाती हैं
@@ -39,7 +39,7 @@ Emotional Spending तब होता है जब आप अपने **mood*
 
 ---
 
-## **3. कैसे पहचानें कि आप Emotional Spending कर रहे हैं?**
+## **कैसे पहचानें कि आप Emotional Spending कर रहे हैं?**
 
 * खरीदने के बाद guilt feel होना
 * ज़रूरत न होने पर भी “offer खत्म हो जाएगा” सोचकर खरीदना
@@ -48,7 +48,7 @@ Emotional Spending तब होता है जब आप अपने **mood*
 
 ---
 
-## **4. कैसे बचें?**
+## **कैसे बचें?**
 
 1. **Cooling-off Rule** – कुछ खरीदने से पहले 24–48 घंटे का gap लें
 2. **Shopping List Stick करें** – सिर्फ वही चीज़ें लें जो list में हों

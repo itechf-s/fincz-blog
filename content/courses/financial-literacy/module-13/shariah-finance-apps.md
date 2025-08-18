@@ -16,7 +16,7 @@ type: docs
 
 ## India में Shariah-Compliant Finance Apps
 
-### **Islamicly**
+## **Islamicly**
 
 * एक mobile app जो स्टॉक्स, mutual funds, और ETFs की **Shariah compliance** real-time में दिखाता है — सीधे portfolio से link कर सकते हैं।
 * "Islamicly Moons" feature के ज़रिए pre-built compliant portfolios और funds track कर सकते हैं, अर्थात यदि आप किसी mutual fund को halal subset के तौर पर देखना चाहते हों, तो यह काम आसान बनाता है। 
@@ -25,14 +25,14 @@ type: docs
 
 ---
 
-### **IslamicStock Screener**
+## **IslamicStock Screener**
 
 * यह app विशेष रूप से **NSE और BSE** पर लिस्टेड कंपनियों के लिए बनाया गया है, और अपने **six key Shariah filters** (जैसे interest-bearing debt ratio, non-halal income आदि) के आधार पर stocks को screen करता है।
 * उपयोगकर्ता वॉचलिस्ट बना सकते हैं और अपनी portfolios बना सकते हैं।
 
 ---
 
-### **Shariah-Compliant Mutual Funds in India**
+## **Shariah-Compliant Mutual Funds in India**
 
 भारत में उपलब्ध कुछ प्रमुख Shariah-Compliant Funds:
 
@@ -43,13 +43,13 @@ type: docs
 
 ---
 
-### **Fursai (Beta/Whatsapp Tool)**
+## **Fursai (Beta/Whatsapp Tool)**
 
 * एक AI-powered प्लेटफ़ॉर्म जो Shariah-compliant stock screening, Islamic finance queries का जवाब, और educational guidance खुद में पैक करता है — अभावग्रस्त समय में test phase में है।
 
 ---
 
-### **Indian Muslim Investors के Reddit विचार:**
+## **Indian Muslim Investors के Reddit विचार:**
 
 > “Taurus और Tata Ethical Fund ही दो ऐसे MF हैं जो इंडिया में Shariah-compliant explicitly हैं।”
 > “Fursai एक बढ़िया AI tool लग रहा है — investors और researchers सभी के लिए उपयोगी।”

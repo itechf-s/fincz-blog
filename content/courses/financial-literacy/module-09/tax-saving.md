@@ -17,7 +17,7 @@ type: docs
 
 ## **Legal तरीके से Tax कैसे बचाएं**
 
-## **1. Section 80C का पूरा फायदा लें**
+## **Section 80C का पूरा फायदा लें**
 
 * **Limit**: ₹1,50,000 तक deduction
 * **Eligible Investments**:
@@ -32,7 +32,7 @@ type: docs
 
 ---
 
-## **2. Health Insurance (Section 80D)**
+## **Health Insurance (Section 80D)**
 
 * **Limit**:
 
@@ -43,14 +43,14 @@ type: docs
 
 ---
 
-## **3. NPS (National Pension System) – Extra ₹50,000 deduction**
+## **NPS (National Pension System) – Extra ₹50,000 deduction**
 
 * **Section 80CCD(1B)** – 80C के अलावा extra benefit
 * अगर आप retirement के लिए save करना चाहते हैं, तो ये extra tax saving का अच्छा तरीका है।
 
 ---
 
-## **4. Home Loan Benefits**
+## **Home Loan Benefits**
 
 * **Section 24(b)** – Home loan interest पर ₹2 लाख तक deduction (self-occupied property)
 * **80C** – Principal repayment भी cover होता है
@@ -58,34 +58,34 @@ type: docs
 
 ---
 
-## **5. HRA (House Rent Allowance)**
+## **HRA (House Rent Allowance)**
 
 * अगर आप rent पर रहते हैं, तो HRA deduction ले सकते हैं (Old Regime में)।
 * Calculation based on: Basic Salary, HRA received, rent paid, और city (Metro/Non-Metro)।
 
 ---
 
-## **6. Education Loan Interest (Section 80E)**
+## **Education Loan Interest (Section 80E)**
 
 * Higher education loan का interest पूरा का पूरा tax free होता है (कोई limit नहीं, max 8 साल तक)।
 
 ---
 
-## **7. Leave Travel Allowance (LTA)**
+## **Leave Travel Allowance (LTA)**
 
 * Domestic travel के लिए 2 साल में 2 बार claim कर सकते हैं।
 * सिर्फ travel cost cover होता है (train/flight/bus fare), hotel और food नहीं।
 
 ---
 
-## **8. Capital Gains Planning**
+## **Capital Gains Planning**
 
 * **Long-term gains** (shares/mutual funds > 1 साल) पर ₹1 लाख तक tax free है।
 * Real estate बेचते समय **54, 54EC, 54F** sections से tax बचाया जा सकता है अगर आप specified assets में reinvest करते हैं।
 
 ---
 
-## **9. Salary Structuring**
+## **Salary Structuring**
 
 * Employer से discuss करके perks/allowances को tax-free components में change करें:
 
@@ -96,7 +96,7 @@ type: docs
 
 ---
 
-## **10. New vs Old Regime wisely चुनना**
+## **New vs Old Regime wisely चुनना**
 
 * अगर आपके पास बहुत deductions हैं → **Old Regime**
 * अगर deductions कम हैं और simple tax calculation चाहिए → **New Regime**

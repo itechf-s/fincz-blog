@@ -12,14 +12,14 @@ type: docs
 
 ## **Goal-based Investing**
 
-## **1. इसका मतलब क्या है?**
+## **इसका मतलब क्या है?**
 
 Goal-based investing एक ऐसी investment strategy है जिसमें आप पहले अपना **financial goal** तय करते हैं और फिर उसी के अनुसार investment plan बनाते हैं।
 मतलब, आप सिर्फ “पैसा बचाने” के लिए नहीं, बल्कि किसी specific target को achieve करने के लिए निवेश करते हैं — जैसे बच्चों की पढ़ाई, घर खरीदना, retirement, vacation, etc.
 
 ---
 
-## **2. यह कैसे काम करता है?**
+## **यह कैसे काम करता है?**
 
 1. **Goal Define करना** – उदाहरण:
 
@@ -49,7 +49,7 @@ Goal-based investing एक ऐसी investment strategy है जिसमे
 
 ---
 
-## **3. Goal-based Investing क्यों बेहतर है?**
+## **Goal-based Investing क्यों बेहतर है?**
 
 * आपके पैसों का **purpose clear** होता है
 * Risk और investment choice goal के हिसाब से decide होते हैं
@@ -58,7 +58,7 @@ Goal-based investing एक ऐसी investment strategy है जिसमे
 
 ---
 
-## **4. अगर Goal-based Investing न करें तो क्या होगा?**
+## **अगर Goal-based Investing न करें तो क्या होगा?**
 
 * पैसा invest तो होगा, लेकिन किसी specific target के लिए नहीं — जिससे goal achieve होने का certainty नहीं रहेगा
 * Short-term जरूरत में long-term investment तोड़ना पड़ सकता है

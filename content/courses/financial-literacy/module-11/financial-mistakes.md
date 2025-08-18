@@ -13,7 +13,7 @@ type: docs
 
 **Module 11: "Financial Mistakes से कैसे बचें"** को हम ऐसे structure कर सकते हैं, ताकि 30+ उम्र के लोग अपने पैसे को गलत decisions से बचा सकें और better financial habits बना सकें।
 
-## **1. Common Financial Mistakes**
+## **Common Financial Mistakes**
 
 * **Impulse Buying** – बिना जरूरत की चीज़ें खरीदना
 * **Overuse of Credit Cards** – सिर्फ minimum payment करना
@@ -25,7 +25,7 @@ type: docs
 
 ---
 
-## **2. Overspending के कारण**
+## **Overspending के कारण**
 
 * Lifestyle inflation (income बढ़ने पर unnecessary खर्च बढ़ाना)
 * Social media influence और comparison
@@ -33,7 +33,7 @@ type: docs
 
 ---
 
-## **3. Debt Management Mistakes**
+## **Debt Management Mistakes**
 
 * High-interest debt पहले clear न करना
 * Debt consolidation options को ignore करना
@@ -41,7 +41,7 @@ type: docs
 
 ---
 
-## **4. Investment Mistakes**
+## **Investment Mistakes**
 
 * सिर्फ एक asset class में invest करना
 * बिना research के "hot tips" पर invest करना
@@ -50,7 +50,7 @@ type: docs
 
 ---
 
-## **5. Tax Mistakes**
+## **Tax Mistakes**
 
 * Tax saving को साल के end में करना (last-minute decisions)
 * गलत tax regime चुनना (Old vs New regime confusion)
@@ -58,7 +58,7 @@ type: docs
 
 ---
 
-## **6. Financial Planning Mistakes**
+## **Financial Planning Mistakes**
 
 * Clear goals न बनाना
 * Regular review और portfolio rebalancing न करना
@@ -67,7 +67,7 @@ type: docs
 
 ---
 
-## **7. बचाव के Practical Steps**
+## **बचाव के Practical Steps**
 
 * Monthly budget बनाना और review करना
 * 6-12 months का Emergency Fund रखना

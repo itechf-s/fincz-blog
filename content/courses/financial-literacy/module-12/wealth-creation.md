@@ -13,14 +13,14 @@ type: docs
 
 ---
 
-## **1. Wealth Creation क्या है?**
+## **Wealth Creation क्या है?**
 
 Wealth Creation का मतलब है समय के साथ अपने **assets** (जैसे property, investments, businesses) का value बढ़ाना ताकि आपको **financial freedom** मिले।
 ये सिर्फ पैसा कमाने तक सीमित नहीं है, बल्कि उस पैसे को सही जगह invest करके उसे grow करना भी है।
 
 ---
 
-## **2. Wealth Creation के Pillars**
+## **Wealth Creation के Pillars**
 
 1. **Consistent Income** → Stable active income source
 2. **Smart Savings** → खर्चों से ज्यादा बचत
@@ -30,7 +30,7 @@ Wealth Creation का मतलब है समय के साथ अपन�
 
 ---
 
-## **3. Passive Income क्या है?**
+## **Passive Income क्या है?**
 
 Passive Income वो income है जो आपको **actively काम किए बिना** मिलती है, यानी एक बार setup करने के बाद वो income अपने आप आती रहती है।
 Examples:
@@ -43,7 +43,7 @@ Examples:
 
 ---
 
-## **4. Active vs Passive Income**
+## **Active vs Passive Income**
 
 | Feature         | Active Income               | Passive Income                        |
 | --------------- | --------------------------- | ------------------------------------- |
@@ -54,7 +54,7 @@ Examples:
 
 ---
 
-## **5. Passive Income Sources for Beginners**
+## **Passive Income Sources for Beginners**
 
 1. **Real Estate Rental Income**
 2. **Dividend-paying Stocks**
@@ -66,7 +66,7 @@ Examples:
 
 ---
 
-## **6. Wealth Creation के लिए Strategies**
+## **Wealth Creation के लिए Strategies**
 
 * **Start Early** – Compounding का फायदा लें
 * **Diversify Investments** – एक asset class पर depend मत करें
@@ -76,7 +76,7 @@ Examples:
 
 ---
 
-## **7. Common Mistakes to Avoid**
+## **Common Mistakes to Avoid**
 
 * जल्दी पैसे कमाने के चक्कर में high-risk bets लगाना
 * Passive income को luxury खर्च में उड़ा देना

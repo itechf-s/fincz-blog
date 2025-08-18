@@ -14,7 +14,7 @@ type: docs
 
 ---
 
-## **1. REITs (Real Estate Investment Trusts)**
+## **REITs (Real Estate Investment Trusts)**
 
 * **क्या है?**
   REITs ऐसी कंपनियां होती हैं जो **income-generating real estate** (जैसे malls, office buildings, warehouses, hotels) में invest करती हैं और उस income का बड़ा हिस्सा investors को **dividends** के रूप में देती हैं।
@@ -36,27 +36,27 @@ type: docs
 
 ---
 
-## **2. Digital Assets**
+## **Digital Assets**
 
 Digital assets वो online resources हैं जो **value generate करते हैं और income produce करते हैं**, जैसे:
 
-### **A. Domain Names**
+### **Domain Names**
 
 * Popular or brandable domain खरीदकर बाद में high price पर बेचना (Domain Flipping)
 * Example: voice.com \$30 million में बिका था
 
-### **B. NFTs (Non-Fungible Tokens)**
+### **NFTs (Non-Fungible Tokens)**
 
 * Digital art, music, videos या in-game assets को blockchain पर mint करके बेचना
 * Risk high है क्योंकि market volatile है
 
-### **C. Crypto Staking / Yield Farming**
+### **Crypto Staking / Yield Farming**
 
 * Crypto को blockchain network पर stake करके interest (rewards) earn करना
 * Example: Ethereum staking, Cardano staking
 * Risk: Price volatility और platform risk
 
-### **D. Digital Products**
+### **Digital Products**
 
 * Ebooks, Templates, Stock Photos, Online Courses जो एक बार बनाकर infinite बार बेच सकते हो
 * 100% passive once system setup हो जाए
