@@ -19,7 +19,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Net Banking क्या है?**
+## **Net Banking क्या है?**
 
 **Net Banking = Internet के जरिए अपने Bank Account को access करना**
 जिससे आप **bank में जाए बिना** ये काम कर सकते हैं:
@@ -32,7 +32,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Net Banking के फायदे**
+## **Net Banking के फायदे**
 
 * 24x7 access – कहीं से भी
 * Bank visit की जरूरत नहीं
@@ -41,7 +41,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Net Banking के Security Risks**
+## **Net Banking के Security Risks**
 
 अगर सावधानी न रखी जाए तो ये risks हो सकते हैं:
 
@@ -55,7 +55,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Net Banking में Safe रहने के Rules**
+## **Net Banking में Safe रहने के Rules**
 
 ### ✅ **Step 1: Secure Login**
 
@@ -96,7 +96,7 @@ type: docs
 
 ---
 
-## 🔹 **5. Net Banking Use का Smart Tip**
+## **Net Banking Use का Smart Tip**
 
 * Net Banking के लिए **separate SIM और email ID** रखें
 * SMS alerts **enable करें** → हर transaction पर तुरंत info मिलेगी

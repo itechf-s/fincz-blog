@@ -19,7 +19,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Emergency Fund रखने के Rules**
+## **Emergency Fund रखने के Rules**
 
 1. **Safe होना चाहिए**
 
@@ -36,7 +36,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Emergency Fund को Divide कैसे करें?**
+## **Emergency Fund को Divide कैसे करें?**
 
 **Best Practice: 50-30-20 Approach** (Emergency Fund के अंदर allocation)
 
@@ -48,7 +48,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Emergency Fund रखने के Best Options**
+## **Emergency Fund रखने के Best Options**
 
 ### 🟢 **Option 1: Savings Account**
 
@@ -92,7 +92,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Practical Allocation Example**
+## **Practical Allocation Example**
 
 मान लीजिए आपका **Emergency Fund = ₹2,40,000** (6 months expense)
 
@@ -110,7 +110,7 @@ type: docs
 
 ---
 
-## 🔹 **5. Emergency Fund बनाने और रखने की Strategy**
+## **Emergency Fund बनाने और रखने की Strategy**
 
 1. Monthly saving target set करें (जैसे ₹10,000/month)
 2. पहले Savings Account या RD में जमा करें

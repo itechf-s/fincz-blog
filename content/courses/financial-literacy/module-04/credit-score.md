@@ -22,7 +22,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Credit Score क्या है?**
+## **Credit Score क्या है?**
 
 **Credit Score = आपकी Financial Reputation**
 यानि आपने **loan या credit card का repayment कितना responsibly किया है**,
@@ -42,7 +42,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Credit Score क्यों Important है?**
+## **Credit Score क्यों Important है?**
 
 * Loan approval आसान होता है
 * Interest rate कम मिलता है (high score = low interest)
@@ -57,7 +57,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Credit Score कैसे Calculate होता है?**
+## **Credit Score कैसे Calculate होता है?**
 
 CIBIL लगभग इन factors पर score बनाता है:
 
@@ -71,7 +71,7 @@ CIBIL लगभग इन factors पर score बनाता है:
 
 ---
 
-## 🔹 **4. Credit Score को Maintain/Improve करने के Rules**
+## **Credit Score को Maintain/Improve करने के Rules**
 
 ### ✅ **Rule 1: Time पर Payment करो**
 
@@ -115,7 +115,7 @@ CIBIL लगभग इन factors पर score बनाता है:
 
 ---
 
-## 🔹 **5. Quick Example**
+## **Quick Example**
 
 👨‍💼 *Salman का CIBIL Score 620 था क्योंकि*
 

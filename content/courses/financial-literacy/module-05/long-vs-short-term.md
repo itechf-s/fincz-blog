@@ -20,7 +20,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Short Term Investment (कम अवधि का निवेश)**
+## **Short Term Investment (कम अवधि का निवेश)**
 
 **Duration:** 0-3 साल (Immediate to near future goals)
 
@@ -54,7 +54,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Long Term Investment (लंबी अवधि का निवेश)**
+## **Long Term Investment (लंबी अवधि का निवेश)**
 
 **Duration:** 3+ साल (Ideally 5-20 साल)
 
@@ -91,7 +91,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Feature              | Short Term Investment | Long Term Investment     |
 | -------------------- | --------------------- | ------------------------ |
@@ -104,7 +104,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Real-Life Example**
+## **Real-Life Example**
 
 👨‍💼 *Ali, 35 years*
 

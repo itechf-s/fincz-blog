@@ -19,7 +19,7 @@ type: docs
 
 ---
 
-## 🔹 **1. UPI (Unified Payments Interface)**
+## **UPI (Unified Payments Interface)**
 
 **Definition:**
 UPI एक **instant real-time payment system** है,
@@ -54,7 +54,7 @@ UPI एक **instant real-time payment system** है,
 
 ---
 
-## 🔹 **2. Debit Card (ATM Card)**
+## **Debit Card (ATM Card)**
 
 **Definition:**
 Debit Card = **आपके bank account का पैसा खर्च करने का tool**
@@ -87,7 +87,7 @@ Debit Card = **आपके bank account का पैसा खर्च कर
 
 ---
 
-## 🔹 **3. Credit Card**
+## **Credit Card**
 
 **Definition:**
 Credit Card = Bank आपको **short-term loan** देता है spend करने के लिए।
@@ -120,7 +120,7 @@ Credit Card = Bank आपको **short-term loan** देता है spend �
 
 ---
 
-## 🔹 **Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Feature         | UPI                  | Debit Card                 | Credit Card                  |
 | --------------- | -------------------- | -------------------------- | ---------------------------- |

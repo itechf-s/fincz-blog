@@ -27,7 +27,7 @@ type: docs
 
 ---
 
-### **1. Value of ₹1,00,000 in 10 Years (Approx)**
+## **Value of ₹1,00,000 in 10 Years (Approx)**
 
 | Year | Inflation @6% (Purchasing Power) | FD @5%    | Equity MF @12% |
 | ---- | -------------------------------- | --------- | -------------- |
@@ -40,7 +40,7 @@ type: docs
 
 ---
 
-### **2. Key Insights**
+## **Key Insights**
 
 * **Inflation** हर साल आपके पैसों की **value घटा देती है**
 * **FD/RD return** inflation से थोड़ा ही ऊपर है → **Real gain ≈ 0%**
@@ -48,7 +48,7 @@ type: docs
 
 ---
 
-### **3. Visual Representation (Text-based)**
+## **Visual Representation (Text-based)**
 
 ```
 ₹3,50,000 |                    

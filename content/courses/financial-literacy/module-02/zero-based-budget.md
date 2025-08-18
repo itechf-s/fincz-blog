@@ -64,7 +64,7 @@ Zero-Based Budgeting मतलब — **"हर महीने की income �
 
 ---
 
-## ❌ Common Misconceptions:
+## Common Misconceptions:
 
 | Myth                       | Truth                                            |
 | -------------------------- | ------------------------------------------------ |

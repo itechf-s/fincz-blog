@@ -12,7 +12,7 @@ type: docs
 
 ---
 
-## 🏁 **Investment शुरू करने के Practical Steps**
+## **Investment शुरू करने के Practical Steps**
 
 **Financial Literacy Course** में learners को ये सिखाना कि **Investment की शुरुआत practically कैसे करें**
 सबसे important part है, क्योंकि knowledge तभी useful है जब उसे action में बदला जाए।
@@ -20,7 +20,7 @@ type: docs
 
 ---
 
-## **1️⃣ अपनी Financial Health Check करें**
+## **अपनी Financial Health Check करें**
 
 Investment शुरू करने से पहले ये clear होना चाहिए:
 
@@ -35,7 +35,7 @@ Investment शुरू करने से पहले ये clear होन�
 
 ---
 
-## **2️⃣ Financial Goals Define करें**
+## **Financial Goals Define करें**
 
 Investment बिना goal के **भटकी हुई गाड़ी** की तरह है।
 
@@ -52,7 +52,7 @@ Investment बिना goal के **भटकी हुई गाड़ी** �
 
 ---
 
-## **3️⃣ Risk Appetite समझें**
+## **Risk Appetite समझें**
 
 * **Risk appetite = कितना loss temporarily handle कर सकते हैं**
 * Age, income stability, family responsibility पर depend करता है
@@ -64,7 +64,7 @@ Investment बिना goal के **भटकी हुई गाड़ी** �
 
 ---
 
-## **4️⃣ सही Investment Products चुनें**
+## **सही Investment Products चुनें**
 
 Goal और risk के हिसाब से product decide करें:
 
@@ -76,7 +76,7 @@ Goal और risk के हिसाब से product decide करें:
 
 ---
 
-## **5️⃣ Small से Start करें और SIP को Adopt करें**
+## **Small से Start करें और SIP को Adopt करें**
 
 * ₹500 या ₹1,000/month से भी SIP start हो सकती है
 * SIP = Discipline + Rupee Cost Averaging + Long-term growth
@@ -87,7 +87,7 @@ Goal और risk के हिसाब से product decide करें:
 
 ---
 
-## **6️⃣ Portfolio Diversify करें**
+## **Portfolio Diversify करें**
 
 * All money in one product = High risk
 * Balanced portfolio:
@@ -99,7 +99,7 @@ Goal और risk के हिसाब से product decide करें:
 
 ---
 
-## **7️⃣ Regular Review & Rebalance**
+## **Regular Review & Rebalance**
 
 * हर 6-12 महीने में portfolio check करें
 * **Market up-down पर react नहीं, plan पर stick करें**
@@ -107,7 +107,7 @@ Goal और risk के हिसाब से product decide करें:
 
 ---
 
-## 🔹 **Quick Real-Life Example**
+## **Quick Real-Life Example**
 
 👨‍💼 *Imran, 30 years, monthly saving ₹20,000*
 

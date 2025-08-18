@@ -37,7 +37,7 @@ type: docs
 तो **Investment (निवेश)** क्यों जरूरी है, ये समझना पहला कदम है।
 मैं आपको इसे **detail और real-life examples** के साथ समझाता हूँ।
 
-## 🔹 **1. Inflation को Beat करने के लिए**
+## **Inflation को Beat करने के लिए**
 
 * **Inflation = महंगाई बढ़ने की दर**
 * अगर आपका पैसा सिर्फ **Saving Account (3-4%)** या **Cash** में है,
@@ -54,7 +54,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Wealth Creation और Financial Freedom**
+## **Wealth Creation और Financial Freedom**
 
 * सिर्फ **salary या active income** से wealth create नहीं होती।
 * **Investment = पैसा आपके लिए काम करेगा (Passive Income)**
@@ -66,7 +66,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Future Goals Achieve करने के लिए**
+## **Future Goals Achieve करने के लिए**
 
 हर इंसान के कुछ financial goals होते हैं:
 
@@ -83,14 +83,14 @@ type: docs
 
 ---
 
-## 🔹 **4. Emergency Situation में Support**
+## **Emergency Situation में Support**
 
 * Emergency fund के अलावा **liquid investment** help करता है
 * Health emergency, job loss या big expense में burden कम होगा
 
 ---
 
-## 🔹 **5. Compounding का Magic**
+## **Compounding का Magic**
 
 * **Early investment = Time advantage**
 * **Compound Interest = Interest पर भी Interest**
@@ -102,7 +102,7 @@ type: docs
 
 ---
 
-## 🔹 **6. Only Savings से Risk बढ़ता है**
+## **Only Savings से Risk बढ़ता है**
 
 * Cash / Bank balance: Safe but **low return**
 * Inflation slowly पैसा खा जाएगी

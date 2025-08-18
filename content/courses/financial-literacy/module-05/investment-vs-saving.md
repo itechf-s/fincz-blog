@@ -20,7 +20,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Definition (परिभाषा)**
+## **Definition (परिभाषा)**
 
 | **Saving (बचत)**                        | **Investment (निवेश)**                           |
 | --------------------------------------- | ------------------------------------------------ |
@@ -34,7 +34,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Purpose (उद्देश्य)**
+## **Purpose (उद्देश्य)**
 
 * **Saving:**
 
@@ -48,7 +48,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Return और Risk**
+## **Return और Risk**
 
 | Aspect        | Saving         | Investment           |
 | ------------- | -------------- | -------------------- |
@@ -58,7 +58,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Example**
+## **Example**
 
 * **Saving:**
 
@@ -75,7 +75,7 @@ type: docs
 
 ---
 
-## 🔹 **5. Real-Life Example**
+## **Real-Life Example**
 
 👨‍💼 *Rohit, 32 years*
 
@@ -92,7 +92,7 @@ type: docs
 
 ---
 
-## 🔹 **6. Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Feature               | Saving               | Investment                |
 | --------------------- | -------------------- | ------------------------- |

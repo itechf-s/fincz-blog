@@ -21,7 +21,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Home Loan (घर का लोन)**
+## **Home Loan (घर का लोन)**
 
 **Purpose:**
 
@@ -49,7 +49,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Car Loan (वाहन लोन)**
+## **Car Loan (वाहन लोन)**
 
 **Purpose:**
 
@@ -74,7 +74,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Education Loan (शिक्षा ऋण)**
+## **Education Loan (शिक्षा ऋण)**
 
 **Purpose:**
 
@@ -99,7 +99,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Personal Loan (व्यक्तिगत ऋण)**
+## **Personal Loan (व्यक्तिगत ऋण)**
 
 **Purpose:**
 
@@ -124,7 +124,7 @@ type: docs
 
 ---
 
-## 🔹 **5. Gold Loan (सोने पर लोन)**
+## **Gold Loan (सोने पर लोन)**
 
 **Purpose:**
 
@@ -149,7 +149,7 @@ type: docs
 
 ---
 
-## 🔹 **Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Loan Type      | Interest Rate | Tenure       | Collateral         | Tax Benefit | Best Use Case            |
 | -------------- | ------------- | ------------ | ------------------ | ----------- | ------------------------ |

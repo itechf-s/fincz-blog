@@ -21,7 +21,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Cheque (चेक)**
+## **Cheque (चेक)**
 
 **Definition:**
 Cheque एक **written order** है जिसमें account holder bank को instruct करता है कि
@@ -46,7 +46,7 @@ Cheque एक **written order** है जिसमें account holder bank �
 
 ---
 
-## 🔹 **2. Demand Draft (DD)**
+## **Demand Draft (DD)**
 
 **Definition:**
 Bank द्वारा issue किया गया **prepaid instrument**,
@@ -67,7 +67,7 @@ Bank द्वारा issue किया गया **prepaid instrument**,
 
 ---
 
-## 🔹 **3. IMPS (Immediate Payment Service)**
+## **IMPS (Immediate Payment Service)**
 
 **Definition:**
 **24x7 real-time fund transfer service** (Mobile, Net Banking, UPI)।
@@ -86,7 +86,7 @@ Bank द्वारा issue किया गया **prepaid instrument**,
 
 ---
 
-## 🔹 **4. NEFT (National Electronic Funds Transfer)**
+## **NEFT (National Electronic Funds Transfer)**
 
 **Definition:**
 Bank-to-bank fund transfer in **hourly batches**।
@@ -105,7 +105,7 @@ Bank-to-bank fund transfer in **hourly batches**।
 
 ---
 
-## 🔹 **5. RTGS (Real Time Gross Settlement)**
+## **RTGS (Real Time Gross Settlement)**
 
 **Definition:**
 **High-value fund transfer system** जहाँ payment **real-time और individually** settle होती है।
@@ -125,7 +125,7 @@ Bank-to-bank fund transfer in **hourly batches**।
 
 ---
 
-## 🔹 **Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Method     | Speed         | Limit              | Cost     | Best Use Case                |
 | ---------- | ------------- | ------------------ | -------- | ---------------------------- |

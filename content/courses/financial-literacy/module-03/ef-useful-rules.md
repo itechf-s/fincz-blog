@@ -18,7 +18,7 @@ type: docs
 
 ---
 
-## 🔹 **Rule 1: सिर्फ असली Emergency में Use करें**
+## **सिर्फ असली Emergency में Use करें**
 
 Emergency Fund = **Financial Safety Net**
 इसे सिर्फ इन situations में use करें:
@@ -40,7 +40,7 @@ Emergency Fund = **Financial Safety Net**
 
 ---
 
-## 🔹 **Rule 2: Emergency Fund को पहले छोटा Use करें, फिर refill करें**
+## **Emergency Fund को पहले छोटा Use करें, फिर refill करें**
 
 * Emergency आने पर पहले **instant-access fund** (Savings + Sweep FD) use करें
 * फिर ज़रूरत हो तो **Breakable FD / Liquid MF** withdraw करें
@@ -50,7 +50,7 @@ Emergency Fund = **Financial Safety Net**
 
 ---
 
-## 🔹 **Rule 3: Borrowing से पहले Fund Use करें**
+## **Borrowing से पहले Fund Use करें**
 
 * Emergency Fund रखने का मक़सद है **loan और credit card interest से बचना**
 * Loan लेने से पहले अपने Fund का इस्तेमाल करें
@@ -58,7 +58,7 @@ Emergency Fund = **Financial Safety Net**
 
 ---
 
-## 🔹 **Rule 4: Fund हमेशा Separate रखें**
+## **Fund हमेशा Separate रखें**
 
 * Emergency Fund को **normal savings account से अलग** रखें
 * ताकि daily खर्च में गलती से use न हो
@@ -66,7 +66,7 @@ Emergency Fund = **Financial Safety Net**
 
 ---
 
-## 🔹 **Rule 5: Fund Use का Documentation रखें**
+## **Fund Use का Documentation रखें**
 
 Emergency Fund use करें तो **log maintain करें**:
 
@@ -78,7 +78,7 @@ Emergency Fund use करें तो **log maintain करें**:
 
 ---
 
-## 🔹 **Rule 6: Priority = Refill First, फिर नया Investment**
+## **Priority = Refill First, फिर नया Investment**
 
 * Emergency Fund use करने के बाद
 

@@ -21,7 +21,7 @@ type: docs
 
 ---
 
-## **1️⃣ Invest Early (जल्दी निवेश शुरू करें)**
+## **Invest Early (जल्दी निवेश शुरू करें)**
 
 * जितना जल्दी आप investment शुरू करेंगे, उतना **compounding का फायदा** मिलेगा।
 * **Time = सबसे बड़ा wealth creator**
@@ -34,7 +34,7 @@ type: docs
 
 ---
 
-## **2️⃣ Invest Regularly (नियमित निवेश करें)**
+## **Invest Regularly (नियमित निवेश करें)**
 
 * **Consistency** investment में सबसे important है।
 * **SIP (Systematic Investment Plan)** best तरीका है discipline maintain करने का।
@@ -46,7 +46,7 @@ type: docs
 
 ---
 
-## **3️⃣ Diversification (निवेश को बाँटना)**
+## **Diversification (निवेश को बाँटना)**
 
 * **Never put all eggs in one basket**
 * अलग-अलग asset classes में invest करें:
@@ -62,7 +62,7 @@ type: docs
 
 ---
 
-## **4️⃣ Understand Risk & Return (Risk को जानें)**
+## **Understand Risk & Return (Risk को जानें)**
 
 * **High Return = High Risk**, **Low Risk = Low Return**
 * Investment चुनने से पहले अपने **risk appetite** को समझें।
@@ -74,7 +74,7 @@ type: docs
 
 ---
 
-## **5️⃣ Long-Term Vision रखें**
+## **Long-Term Vision रखें**
 
 * **Short-term market up-down** से डरकर investment बंद मत करें
 * **Long-term holding** में ही wealth create होती है
@@ -86,7 +86,7 @@ type: docs
 
 ---
 
-## **6️⃣ Avoid Emotional Decisions**
+## **Avoid Emotional Decisions**
 
 * **Fear और Greed** investment का सबसे बड़ा दुश्मन है
 * Market गिरा → घबराकर sell करना = Loss
@@ -98,7 +98,7 @@ type: docs
 
 ---
 
-## **7️⃣ Review & Rebalance Portfolio**
+## **Review & Rebalance Portfolio**
 
 * हर 6-12 महीने में check करें:
 

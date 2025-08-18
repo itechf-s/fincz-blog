@@ -20,7 +20,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Risk और Return क्या है?**
+## **Risk और Return क्या है?**
 
 **Return (मुनाफ़ा):**
 
@@ -34,7 +34,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Basic Principle**
+## **Basic Principle**
 
 > **जितना ज्यादा Return चाहिए, उतना ज्यादा Risk लेना पड़ेगा।**
 > इसे कहते हैं **Risk-Return Tradeoff**।
@@ -44,7 +44,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Investment Types और Risk-Return**
+## **Investment Types और Risk-Return**
 
 | Investment Type          | Risk Level   | Expected Return | Time Horizon  |
 | ------------------------ | ------------ | --------------- | ------------- |
@@ -59,7 +59,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Risk को Manage कैसे करें?**
+## **Risk को Manage कैसे करें?**
 
 1. **Diversification** → Equity + Debt + Gold
 2. **Long-term Holding** → Short-term volatility ignore करें
@@ -68,7 +68,7 @@ type: docs
 
 ---
 
-## 🔹 **5. Real-Life Example**
+## **Real-Life Example**
 
 👨‍💼 *Arif, 32 years*
 
@@ -92,7 +92,7 @@ type: docs
 
 ---
 
-## 🔹 **6. Quick Visual (Text-based)**
+## **Quick Visual (Text-based)**
 
 ```
 High Return ↑

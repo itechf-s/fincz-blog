@@ -22,7 +22,7 @@ type: docs
 
 ---
 
-## 🔹 **1. Savings Account (बचत खाता)**
+## **Savings Account (बचत खाता)**
 
 **Purpose:**
 
@@ -44,7 +44,7 @@ type: docs
 
 ---
 
-## 🔹 **2. Current Account (करेंट खाता)**
+## **Current Account (करेंट खाता)**
 
 **Purpose:**
 
@@ -66,7 +66,7 @@ type: docs
 
 ---
 
-## 🔹 **3. Fixed Deposit (FD)**
+## **Fixed Deposit (FD)**
 
 **Purpose:**
 
@@ -88,7 +88,7 @@ type: docs
 
 ---
 
-## 🔹 **4. Recurring Deposit (RD)**
+## **Recurring Deposit (RD)**
 
 **Purpose:**
 
@@ -110,7 +110,7 @@ type: docs
 
 ---
 
-## 🔹 **Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Feature            | Savings Account    | Current Account       | FD                  | RD                        |
 | ------------------ | ------------------ | --------------------- | ------------------- | ------------------------- |
