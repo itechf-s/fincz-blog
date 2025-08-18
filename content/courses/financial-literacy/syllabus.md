@@ -16,9 +16,9 @@ type: docs
 
 ---
 
-## ✅ **Course Structure (Modules)**
+✅ **Course Structure (Modules)**
 
-### **Module 1: पैसे की समझ - Foundation of Financial Literacy**
+## **Module 1: पैसे की समझ - Foundation of Financial Literacy**
 
 * Basic Understanding of Financial Literacy
 * Money Mindset - पैसे को लेकर सोचने का नज़रिया
@@ -30,7 +30,7 @@ type: docs
 
 ---
 
-### **Module 2: Budgeting और खर्चों का मैनेजमेंट**
+## **Module 2: Budgeting और खर्चों का मैनेजमेंट**
 
 * Budgeting और खर्चों का मैनेजमेंट
 * Zero-Based Budget (ZBB) क्या है?
@@ -40,7 +40,7 @@ type: docs
 
 ---
 
-### **Module 3: Emergency Fund - ज़रूरत के वक़्त का सहारा**
+## **Module 3: Emergency Fund - ज़रूरत के वक़्त का सहारा**
 
 * Saving Strategies & Emergency Fund क्या होता है?
 * कितना Emergency Fund रखना चाहिए?
@@ -49,7 +49,7 @@ type: docs
 
 ---
 
-### **Module 4: बैंकों और Digital Tools की समझ**
+## **Module 4: बैंकों और Digital Tools की समझ**
 
 * Savings Account, Current Account, FD और RD Explained
 * UPI, Credit Card vs Debit Card Explained
@@ -60,7 +60,7 @@ type: docs
 
 ---
 
-### **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
+## **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
 
 * Investment क्यों जरूरी है
 * Inflation से लड़ने का तरीका
@@ -73,7 +73,7 @@ type: docs
 
 ---
 
-### **Module 6: निवेश के प्रकार - Beginners के लिए Guide**
+## **Module 6: निवेश के प्रकार - Beginners के लिए Guide**
 
 * निवेश के प्रकार – Beginners के लिए Guide
 * Stock Market – शुरुआती समझ
@@ -90,7 +90,7 @@ type: docs
 
 ---
 
-### **Module 7: बीमा (Insurance) की पूरी जानकारी**
+## **Module 7: बीमा (Insurance) की पूरी जानकारी**
 
 * बीमा (Insurance) क्या है?
 * Life Insurance vs Term Insurance
@@ -100,7 +100,7 @@ type: docs
 
 ---
 
-### **Module 8: Retirement Planning (सेवानिवृत्ति की तैयारी)**
+## **Module 8: Retirement Planning (सेवानिवृत्ति की तैयारी)**
 
 * Retirement Planning – Complete Guide
 * 30 की उम्र में Retirement क्यों सोचें?
@@ -113,7 +113,7 @@ type: docs
 
 ---
 
-### **Module 9: Tax Planning**
+## **Module 9: Tax Planning**
 
 * Tax Planning क्या है और क्यों ज़रूरी है?
 * Legal तरीके से Tax कैसे बचाएं?
@@ -123,7 +123,7 @@ type: docs
 
 ---
 
-### **Module 10: बच्चों की पढ़ाई और परिवार के लक्ष्यों के लिए प्लानिंग**
+## **Module 10: बच्चों की पढ़ाई और परिवार के लक्ष्यों के लिए प्लानिंग**
 
 * बच्चों की पढ़ाई और परिवार के लक्ष्यों के लिए प्लानिंग
 * Goal-based Investing क्या है?
@@ -133,7 +133,7 @@ type: docs
 
 ---
 
-### **Module 11: Financial Mistakes से कैसे बचें?**
+## **Module 11: Financial Mistakes से कैसे बचें?**
 
 * Financial Mistakes से कैसे बचें
 * Loan लेने से पहले सोचें – Detailed Guide
@@ -144,7 +144,7 @@ type: docs
 
 ---
 
-### **Module 12: Wealth Creation & Passive Income Sources**
+## **Module 12: Wealth Creation & Passive Income Sources**
 
 * Wealth Creation & Passive Income Sources
 * Freelancing, Consulting, Blogging, Rent, आदि से Passive Income
@@ -152,7 +152,7 @@ type: docs
 
 ---
 
-### **Module 13: Financial Tools & Apps**
+## **Module 13: Financial Tools & Apps**
 
 * Financial Tools & Apps
 * Best Budgeting Apps की लिस्ट
@@ -162,7 +162,7 @@ type: docs
 
 ---
 
-### **Module 14: Financial Planning Framework - A to Z**
+## **Module 14: Financial Planning Framework - A to Z**
 
 * Financial Planning Framework – A to Z
 * Life का Financial Roadmap (Step-by-Step)
