@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Module 5: Investment क्यों जरूरी है"
 date: 2025-08-03T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/why-investment.webp"]
 author: ahmad
 type: docs
 ---

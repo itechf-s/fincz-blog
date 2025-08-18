@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Module 10: बच्चों की पढ़ाई और परिवार के लक्ष्यों के लिए प्लानिंग"
 date: 2025-08-10T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/financial-planning.webp"]
 author: ahmad
 type: docs
 ---

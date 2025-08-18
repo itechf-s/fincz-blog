@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Financial Literacy for 30+ Age Group"
 date: 2025-07-18T08:00:59+05:30
-images: ["images/2025/06/java-beginner-course-syllabus.webp"]
+images: ["images/2025/08/syllabus.webp"]
 author: ahmad
 type: docs
 ---

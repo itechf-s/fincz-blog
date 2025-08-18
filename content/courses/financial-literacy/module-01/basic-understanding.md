@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Basic Understanding of Financial Literacy"
 date: 2025-06-01T07:00:58+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/basic-understanding.webp"]
 author: ahmad
 type: docs
 ---

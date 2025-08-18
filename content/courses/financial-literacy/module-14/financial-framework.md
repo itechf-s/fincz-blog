@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Module 14: Financial Planning Framework – A to Z"
 date: 2025-08-12T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/financial-framework.webp"]
 author: ahmad
 type: docs
 ---

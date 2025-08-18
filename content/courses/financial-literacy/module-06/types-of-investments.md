@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "निवेश के प्रकार – Beginners के लिए Guide"
 date: 2025-08-07T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/types-of-investments.webp"]
 author: ahmad
 type: docs
 ---

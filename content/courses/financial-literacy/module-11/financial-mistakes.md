@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Module 11: Financial Mistakes से कैसे बचें"
 date: 2025-08-10T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/financial-mistakes.webp"]
 author: ahmad
 type: docs
 ---

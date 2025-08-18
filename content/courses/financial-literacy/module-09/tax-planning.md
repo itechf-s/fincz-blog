@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Module 9: Tax Planning क्या है और क्यों ज़रूरी है"
 date: 2025-08-10T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/tax-planning.webp"]
 author: ahmad
 type: docs
 ---

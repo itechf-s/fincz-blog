@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Budgeting और खर्चों का मैनेजमेंट"
 date: 2025-06-01T07:00:51+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/budgeting.webp"]
 author: ahmad
 type: docs
 ---

@@ -4,7 +4,7 @@ categories: [ Finance, Course]
 tags: [Basic]
 description: "Module 12: Wealth Creation & Passive Income Sources"
 date: 2025-08-12T08:00:00+05:30
-images: ["images/2025/06/introduction.webp"]
+images: ["images/2025/08/wealth-creation.webp"]
 author: ahmad
 type: docs
 ---
