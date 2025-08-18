@@ -13,7 +13,7 @@ type: docs
 
 ---
 
-## 1️⃣ बीमा (Insurance) क्या है?
+## बीमा (Insurance) क्या है?
 
 **Insurance** एक **Financial Protection Tool** है जो आपके और Insurance Company के बीच एक **Contract (Policy)** होता है।
 इसमें आप **Premium** (नियमित भुगतान) देते हैं और बदले में कंपनी आपको **किसी नुकसान या घटना के समय Financial Support** देने का वादा करती है।
@@ -24,7 +24,7 @@ type: docs
 
 ---
 
-## 2️⃣ बीमा की ज़रूरत क्यों है?
+## बीमा की ज़रूरत क्यों है?
 
 | कारण                            | विवरण                                                        |
 | ------------------------------- | ------------------------------------------------------------ |
@@ -36,7 +36,7 @@ type: docs
 
 ---
 
-## 3️⃣ बीमा के मुख्य प्रकार
+## बीमा के मुख्य प्रकार
 
 ### **(A) Life Insurance – जीवन बीमा**
 
@@ -71,7 +71,7 @@ type: docs
 
 ---
 
-## 4️⃣ बीमा न लेने के नुकसान
+## बीमा न लेने के नुकसान
 
 * Emergency में बड़ी Financial Crisis
 * Medical Bills के लिए Savings खत्म हो सकती है
@@ -80,7 +80,7 @@ type: docs
 
 ---
 
-## 5️⃣ सही बीमा कैसे चुनें?
+## सही बीमा कैसे चुनें?
 
 | Step | Details                                                               |
 | ---- | --------------------------------------------------------------------- |
@@ -92,7 +92,7 @@ type: docs
 
 ---
 
-## 6️⃣ Premium और Coverage का संतुलन
+## Premium और Coverage का संतुलन
 
 * Premium बहुत कम हो तो Coverage भी कम मिलेगा
 * Premium बहुत ज़्यादा हो तो Budget बिगड़ेगा
@@ -100,7 +100,7 @@ type: docs
 
 ---
 
-## 7️⃣ Claim Process (Life & Health Insurance)
+## Claim Process (Life & Health Insurance)
 
 1. Incident होने पर Company को Inform करना
 2. Required Documents जमा करना (Policy Copy, ID Proof, Medical Reports आदि)
@@ -109,7 +109,7 @@ type: docs
 
 ---
 
-## 8️⃣ Common Myths (गलतफहमियां)
+## Common Myths (गलतफहमियां)
 
 | Myth                                      | Reality                                      |
 | ----------------------------------------- | -------------------------------------------- |
@@ -119,7 +119,7 @@ type: docs
 
 ---
 
-## 9️⃣ Tax Benefits
+## Tax Benefits
 
 * **Life Insurance Premium**: Section 80C के तहत ₹1.5 लाख तक छूट
 * **Health Insurance Premium**: Section 80D के तहत ₹25,000 (Senior Citizen के लिए ₹50,000)

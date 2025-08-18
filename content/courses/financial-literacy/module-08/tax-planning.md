@@ -10,7 +10,7 @@ type: docs
 
 # **📘 Module 8: Retirement Planning – Complete Guide**
 
-## **1. Retirement Corpus बनाते समय Tax Planning**
+## **Retirement Corpus बनाते समय Tax Planning**
 
 जब आप retirement के लिए पैसा जमा कर रहे होते हैं, तब आपको ऐसे investment चुनने चाहिए जो:
 
@@ -19,7 +19,7 @@ type: docs
 
 ---
 
-## **(A) Tax Saving Investment Options**
+## **Tax Saving Investment Options**
 
 | Investment             | Section   | Max Deduction | Tax on Maturity                                  |
 | ---------------------- | --------- | ------------- | ------------------------------------------------ |
@@ -31,7 +31,7 @@ type: docs
 
 ---
 
-## **(B) EEE vs EET Concept**
+## **EEE vs EET Concept**
 
 * **EEE (Exempt-Exempt-Exempt)** → Investment, interest, और maturity — तीनों tax-free
 
@@ -42,7 +42,7 @@ type: docs
 
 ---
 
-## **2. Retirement के बाद Income पर Tax Planning**
+## **Retirement के बाद Income पर Tax Planning**
 
 Retirement के बाद income के main sources हो सकते हैं:
 
@@ -54,7 +54,7 @@ Retirement के बाद income के main sources हो सकते ह�
 
 ---
 
-## **(A) Tax Slabs for Senior Citizens (FY 2025-26 example)**
+## **Tax Slabs for Senior Citizens (FY 2025-26 example)**
 
 * **Senior Citizen (60–80 years)**:
 
@@ -70,7 +70,7 @@ Retirement के बाद income के main sources हो सकते ह�
 
 ---
 
-## **(B) Tax Saving Strategies After Retirement**
+## **Tax Saving Strategies After Retirement**
 
 1. **Tax-Free Investments चुनें**
 
@@ -87,7 +87,7 @@ Retirement के बाद income के main sources हो सकते ह�
 
 ---
 
-## **3. Withdrawal Strategy for Minimum Tax**
+## **Withdrawal Strategy for Minimum Tax**
 
 Retirement corpus से पैसे निकालने का तरीका भी tax efficient होना चाहिए:
 
@@ -97,7 +97,7 @@ Retirement corpus से पैसे निकालने का तरीक�
 
 ---
 
-## **4. Common Mistakes to Avoid**
+## **Common Mistakes to Avoid**
 
 * पूरा पैसा FD में डालना (FD interest taxable होता है और inflation beat नहीं करता)
 * एक ही नाम पर सब investment रखना (tax slab जल्दी cross हो जाता है)

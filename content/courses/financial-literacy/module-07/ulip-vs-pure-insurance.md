@@ -21,7 +21,7 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 
 ---
 
-## **1️⃣ ULIP (Unit Linked Insurance Plan)**
+## **ULIP (Unit Linked Insurance Plan)**
 
 **Definition:**
 
@@ -51,7 +51,7 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 
 ---
 
-## **2️⃣ Endowment Plans**
+## **Endowment Plans**
 
 **Definition:**
 
@@ -79,7 +79,7 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 
 ---
 
-## **3️⃣ Pure Insurance (Term Insurance)**
+## **Pure Insurance (Term Insurance)**
 
 **Definition:**
 
@@ -107,7 +107,7 @@ Insurance Market में कई Products हैं, लेकिन उनम�
 
 ---
 
-## **📊 Quick Comparison Table**
+## **Quick Comparison Table**
 
 | Feature              | ULIP                              | Endowment           | Pure Insurance (Term)   |
 | -------------------- | --------------------------------- | ------------------- | ----------------------- |

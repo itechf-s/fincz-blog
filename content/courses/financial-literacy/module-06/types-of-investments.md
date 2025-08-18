@@ -16,7 +16,7 @@ type: docs
 
 ---
 
-### 🔹 1. **Stock Market (शेयर बाज़ार)**
+## **Stock Market (शेयर बाज़ार)**
 
 **क्या होता है?**
 जब आप किसी कंपनी के "shares" (हिस्सेदारी) ख़रीदते हैं, तो आप उस कंपनी के मालिक का छोटा हिस्सा बन जाते हैं।
@@ -33,7 +33,7 @@ type: docs
 
 ---
 
-### 🔹 2. **Mutual Funds (म्यूचुअल फंड)**
+## **Mutual Funds (म्यूचुअल फंड)**
 
 **क्या होता है?**
 यह एक ऐसा investment vehicle है जिसमें कई investors से पैसा इकट्ठा करके एक professional fund manager उसे अलग-अलग जगहों (stocks, bonds आदि) में invest करता है।
@@ -48,7 +48,7 @@ type: docs
 छोटे-छोटे amounts हर महीने invest करना – ideal for salaried individuals.
 
 ---
-### 🔹 3. **ETF (Exchange Traded Fund)**
+## **ETF (Exchange Traded Fund)**
 
 **ETF क्या होता है?**
 
@@ -58,7 +58,7 @@ type: docs
 > 📌 सरल भाषा में:
 > ETF = Mutual Fund + Share Market की Flexibility
 
-### 🔹 4. **Gold (सोना)**
+## **Gold (सोना)**
 
 **Traditional but stable investment**
 
@@ -75,7 +75,7 @@ type: docs
 
 ---
 
-### 🔹 5. **Real Estate (अचल संपत्ति)**
+## **Real Estate (अचल संपत्ति)**
 
 **क्या होता है?**
 Plot, Flat, Land आदि में निवेश।
@@ -93,7 +93,7 @@ Plot, Flat, Land आदि में निवेश।
 
 ---
 
-### 🔹 6. **Public Provident Fund (PPF)**
+## **Public Provident Fund (PPF)**
 
 **Government-backed savings scheme**
 
@@ -103,7 +103,7 @@ Plot, Flat, Land आदि में निवेश।
 
 ---
 
-### 🔹 7. **National Pension System (NPS)**
+## **National Pension System (NPS)**
 
 **Retirement-focused investment**
 
@@ -113,7 +113,7 @@ Plot, Flat, Land आदि में निवेश।
 
 ---
 
-### 🔹 8. **Fixed Deposits (FD) & Recurring Deposits (RD)**
+## **Fixed Deposits (FD) & Recurring Deposits (RD)**
 
 **Safe & traditional options**
 
@@ -123,7 +123,7 @@ Plot, Flat, Land आदि में निवेश।
 
 ---
 
-### 🔹 9. **Bonds & Government Securities (G-Sec)**
+## **Bonds & Government Securities (G-Sec)**
 
 **क्या होते हैं?**
 Loan to government या companies, बदले में interest मिलता है।
@@ -135,7 +135,7 @@ Loan to government या companies, बदले में interest मिल�
 
 ---
 
-### 🔹 10. **REITs (Real Estate Investment Trusts)**
+## **REITs (Real Estate Investment Trusts)**
 
 **Real estate में invest करने का नया तरीका**
 
@@ -145,7 +145,7 @@ Loan to government या companies, बदले में interest मिल�
 
 ---
 
-### 🔹 11. **Cryptocurrency (क्रिप्टोकरेंसी)**
+## **Cryptocurrency (क्रिप्टोकरेंसी)**
 
 **Highly risky & volatile**
 
@@ -154,7 +154,7 @@ Loan to government या companies, बदले में interest मिल�
 
 ---
 
-### 🔸 Summary Table:
+## Summary Table:
 
 | Investment Type | Risk      | Return   | Liquidity | Ideal For             |
 | --------------- | --------- | -------- | --------- | --------------------- |

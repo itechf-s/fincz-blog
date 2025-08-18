@@ -17,14 +17,14 @@ Retirement corpus का मतलब है – वो **कुल रकम** 
 
 ---
 
-## **1️⃣ Step 1 – अपने सालाना खर्च का अनुमान लगाइए**
+## **अपने सालाना खर्च का अनुमान लगाइए**
 
 * Example: अभी आपका monthly खर्च ₹50,000 है → सालाना खर्च ₹6,00,000
 * Retirement के बाद ये खर्च inflation के कारण बढ़ेगा।
 
 ---
 
-## **2️⃣ Step 2 – Retirement तक Inflation का असर**
+## **Retirement तक Inflation का असर**
 
 मान लें आपकी उम्र 30 साल है और आप 60 में retire होंगे, inflation 6% है:
 
@@ -33,13 +33,13 @@ Retirement corpus का मतलब है – वो **कुल रकम** 
 
 ---
 
-## **3️⃣ Step 3 – Retirement के बाद कितने साल जीना चाहते हैं**
+## **Retirement के बाद कितने साल जीना चाहते हैं**
 
 मान लें life expectancy 85 साल है → Retirement के बाद 25 साल का खर्च चाहिए।
 
 ---
 
-## **4️⃣ Step 4 – Retirement corpus का Formula**
+## **Retirement corpus का Formula**
 
 **Corpus = सालाना खर्च × Retirement years × Inflation Adjustment Factor**
 
@@ -57,14 +57,14 @@ Inflation adjustment के लिए हम annuity / withdrawal rate method us
 
 ---
 
-## **5️⃣ Quick Thumb Rule**
+## **Quick Thumb Rule**
 
 * Retirement corpus = (Annual expense at retirement × 25)
 * 4% withdrawal rule के हिसाब से safe है।
 
 ---
 
-## **6️⃣ Important Notes**
+## **Important Notes**
 
 * इसमें **medical emergencies, travel, hobbies, inflation** सब शामिल होने चाहिए।
 * जितना जल्दी invest करेंगे, उतना आसान होगा ये target पाना।

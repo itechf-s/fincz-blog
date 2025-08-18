@@ -17,7 +17,7 @@ Retirement planning कोई एक-दिन का काम नहीं ह
 
 ---
 
-## **1. Early Career Stage (Age: 20–30 years)**
+## **Early Career Stage (Age: 20–30 years)**
 
 🔹 **Focus:** Wealth Building & Habit Formation
 
@@ -32,7 +32,7 @@ Early start से compounding का maximum फायदा मिलता �
 
 ---
 
-## **2. Mid Career Stage (Age: 30–45 years)**
+## **Mid Career Stage (Age: 30–45 years)**
 
 🔹 **Focus:** Wealth Growth & Asset Creation
 
@@ -47,7 +47,7 @@ Early start से compounding का maximum फायदा मिलता �
 
 ---
 
-## **3. Late Career Stage (Age: 45–55 years)**
+## **Late Career Stage (Age: 45–55 years)**
 
 🔹 **Focus:** Wealth Protection & Risk Reduction
 
@@ -62,7 +62,7 @@ Early start से compounding का maximum फायदा मिलता �
 
 ---
 
-## **4. Pre-Retirement Stage (Age: 55–60 years)**
+## **Pre-Retirement Stage (Age: 55–60 years)**
 
 🔹 **Focus:** Retirement Ready Portfolio
 
@@ -76,7 +76,7 @@ Early start से compounding का maximum फायदा मिलता �
 
 ---
 
-## **5. Post-Retirement Stage (Age: 60+ years)**
+## **Post-Retirement Stage (Age: 60+ years)**
 
 🔹 **Focus:** Wealth Utilization & Legacy Planning
 

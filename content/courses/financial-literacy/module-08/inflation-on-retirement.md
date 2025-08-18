@@ -14,21 +14,21 @@ type: docs
 
 ---
 
-## **1. Inflation क्या है?**
+## **Inflation क्या है?**
 
 Inflation का मतलब है समय के साथ चीज़ों और सेवाओं की कीमतें बढ़ना।
 मतलब आज जो चीज़ ₹1000 में मिल रही है, 10–15 साल बाद वही चीज़ ₹2000–₹3000 में भी मिल सकती है।
 
 ---
 
-## **2. Retirement में Inflation क्यों खतरनाक है?**
+## **Retirement में Inflation क्यों खतरनाक है?**
 
 जब आप retire हो जाते हैं, तो आपकी active income (job/business income) बंद हो जाती है और आप savings या investments से अपना खर्च चलाते हैं।
 अगर आपने Inflation को ignore किया, तो जो पैसा आज काफी लगता है, वो future में खर्चों के लिए कम पड़ सकता है।
 
 ---
 
-## **3. Example Calculation**
+## **Example Calculation**
 
 मान लीजिए आज आपका मासिक खर्च = ₹50,000
 Inflation rate = 6%
@@ -44,14 +44,14 @@ Future Expense = Present Expense × (1 + Inflation Rate)^Years
 
 ---
 
-## **4. Impact on Retirement Corpus**
+## **Impact on Retirement Corpus**
 
 अगर आपको 20 साल तक post-retirement जीना है और महीने के ₹2.14 लाख चाहिए, तो आपका total retirement corpus **कई करोड़** का होना चाहिए।
 इसलिए सिर्फ Fixed Deposit जैसे low-return instruments से काम नहीं चलेगा — आपको Equity जैसे high-growth assets की ज़रूरत होगी।
 
 ---
 
-## **5. Inflation को Beat करने के तरीके**
+## **Inflation को Beat करने के तरीके**
 
 * **Early Start:** जल्दी investment शुरू करें
 * **Equity Exposure:** Long-term में equity inflation को beat करती है

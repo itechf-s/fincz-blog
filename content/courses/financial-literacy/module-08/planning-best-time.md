@@ -17,7 +17,7 @@ type: docs
 
 ---
 
-## **1️⃣ Power of Compounding का फायदा**
+## **Power of Compounding का फायदा**
 
 * अगर आप 30 की उम्र में investing शुरू करते हैं, तो आपके पास **कम से कम 25–30 साल** होते हैं compounding का फायदा लेने के लिए।
 * **Example:**
@@ -29,35 +29,35 @@ type: docs
 
 ---
 
-## **2️⃣ Early Financial Freedom Possible**
+## **Early Financial Freedom Possible**
 
 * अगर आप early invest करेंगे, तो **50–55 में भी retire** हो सकते हैं।
 * इसका मतलब है कि आप अपने *“dream lifestyle”* enjoy कर सकते हैं, न कि सिर्फ survival mode में जीना।
 
 ---
 
-## **3️⃣ Risk लेने का समय**
+## **Risk लेने का समय**
 
 * 30 की उम्र में responsibilities कम होती हैं (जैसे kids’ education, medical bills), तो आप high-growth assets में invest कर सकते हैं।
 * Young age में **risk tolerance ज्यादा** होती है।
 
 ---
 
-## **4️⃣ Inflation का असर कम करना**
+## **Inflation का असर कम करना**
 
 * आज का ₹1,00,000, 30 साल बाद सिर्फ ₹17,000 के बराबर होगा (अगर inflation 6% है)।
 * जल्दी शुरू करने से आप इस गिरावट को beat कर सकते हैं।
 
 ---
 
-## **5️⃣ Health Factor**
+## **Health Factor**
 
 * Retirement planning सिर्फ पैसे का नहीं, **lifestyle और health** का भी है।
 * जल्दी plan करने से आप अपने काम के साल कम कर सकते हैं और healthy, stress-free life जी सकते हैं।
 
 ---
 
-## **6️⃣ “Later” का Trap Avoid करना**
+## **“Later” का Trap Avoid करना**
 
 * 30 में सोचेंगे तो 40 में शुरू कर पाएंगे, 40 में सोचेंगे तो 50 में शुरू करेंगे, और फिर बहुत देर हो चुकी होगी।
 * जितना delay करेंगे, उतना ज्यादा पैसा invest करना पड़ेगा same result के लिए।

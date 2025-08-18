@@ -15,13 +15,13 @@ Retirement Planning मतलब ऐसा financial plan बनाना जि
 
 ---
 
-## **1️⃣ Retirement Planning क्या है?**
+## **Retirement Planning क्या है?**
 
 Retirement Planning एक process है जिसमें आप अपनी **post-retirement expenses, healthcare needs और lifestyle goals** को ध्यान में रखते हुए **savings और investments** करते हैं, ताकि future में आपके पास **steady income source** हो।
 
 ---
 
-## **2️⃣ Retirement Planning की जरूरत क्यों है?**
+## **Retirement Planning की जरूरत क्यों है?**
 
 * **Job/Business Income रुक जाती है** → खर्चे चलते रहते हैं।
 * **Inflation** से चीजें महंगी होती जाती हैं।
@@ -31,7 +31,7 @@ Retirement Planning एक process है जिसमें आप अपनी
 
 ---
 
-## **3️⃣ अगर Retirement Planning न करें तो क्या होगा?**
+## **अगर Retirement Planning न करें तो क्या होगा?**
 
 * Savings जल्दी खत्म हो जाएंगी।
 * Health emergency में परेशानी।
@@ -41,7 +41,7 @@ Retirement Planning एक process है जिसमें आप अपनी
 
 ---
 
-## **4️⃣ Retirement Planning कब शुरू करें?**
+## **Retirement Planning कब शुरू करें?**
 
 * **जितनी जल्दी शुरू करेंगे उतना बेहतर** (Power of Compounding)।
 * Ideal: First Job से ही शुरू करें।
@@ -49,7 +49,7 @@ Retirement Planning एक process है जिसमें आप अपनी
 
 ---
 
-## **5️⃣ Retirement Planning के Key Components**
+## **Retirement Planning के Key Components**
 
 1. **Retirement Age तय करें** – कब काम छोड़ना चाहते हैं (60, 55, या जल्दी)।
 2. **Life Expectancy मान लें** – भारत में औसतन 75–80 साल।
@@ -60,7 +60,7 @@ Retirement Planning एक process है जिसमें आप अपनी
 
 ---
 
-## **6️⃣ Retirement Corpus Calculation (Simple Example)**
+## **Retirement Corpus Calculation (Simple Example)**
 
 * Current Monthly Expense: ₹40,000
 * Retirement तक Inflation: 6%
@@ -69,7 +69,7 @@ Retirement Planning एक process है जिसमें आप अपनी
 
 ---
 
-## **7️⃣ Retirement Investment Options**
+## **Retirement Investment Options**
 
 * **NPS (National Pension System)** – long-term retirement fund + tax benefits।
 * **EPF (Employees’ Provident Fund)** – salaried लोगों के लिए mandatory saving।
@@ -80,7 +80,7 @@ Retirement Planning एक process है जिसमें आप अपनी
 
 ---
 
-## **8️⃣ Retirement Planning के Golden Rules**
+## **Retirement Planning के Golden Rules**
 
 * जितना जल्दी possible, शुरुआत करें।
 * Investment diversify करें – सिर्फ FD या सिर्फ stocks पर depend न रहें।

@@ -23,7 +23,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **1. EPF (Employee Provident Fund)**
+## **EPF (Employee Provident Fund)**
 
 * **क्यों अच्छा है?**
 
@@ -38,7 +38,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **2. PPF (Public Provident Fund)**
+## **PPF (Public Provident Fund)**
 
 * **क्यों अच्छा है?**
 
@@ -53,7 +53,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **3. NPS (National Pension System)**
+## **NPS (National Pension System)**
 
 * **क्यों अच्छा है?**
 
@@ -68,7 +68,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **4. Equity Mutual Funds (SIP)**
+## **Equity Mutual Funds (SIP)**
 
 * **क्यों अच्छा है?**
 
@@ -82,7 +82,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **5. Debt Mutual Funds**
+## **Debt Mutual Funds**
 
 * **क्यों अच्छा है?**
 
@@ -96,7 +96,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **6. SCSS (Senior Citizen Savings Scheme)**
+## **SCSS (Senior Citizen Savings Scheme)**
 
 * **क्यों अच्छा है?**
 
@@ -109,7 +109,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **7. Post Office Monthly Income Scheme (POMIS)**
+## **Post Office Monthly Income Scheme (POMIS)**
 
 * **क्यों अच्छा है?**
 
@@ -122,7 +122,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **8. Annuity Plans**
+## **Annuity Plans**
 
 * **क्यों अच्छा है?**
 
@@ -137,7 +137,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **9. Real Estate (Rental Income)**
+## **Real Estate (Rental Income)**
 
 * **क्यों अच्छा है?**
 
@@ -150,7 +150,7 @@ Retirement का मतलब है — **income बंद हो जाएग
 
 ---
 
-## **10. Gold / Sovereign Gold Bonds**
+## **Gold / Sovereign Gold Bonds**
 
 * **क्यों अच्छा है?**
 

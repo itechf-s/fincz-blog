@@ -21,7 +21,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **1. Retirement की Planning Late शुरू करना**
+## **Retirement की Planning Late शुरू करना**
 
 * लोग सोचते हैं कि retirement के लिए planning 40–45 की age में शुरू करेंगे, लेकिन जितनी जल्दी शुरू करेंगे, उतना **compounding** का फायदा मिलेगा।
 * **Impact**: Late start का मतलब है आपको ज्यादा पैसा invest करना पड़ेगा और फिर भी corpus छोटा हो सकता है।
@@ -29,7 +29,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **2. Inflation को Ignore करना**
+## **Inflation को Ignore करना**
 
 * लोग आज के खर्च के हिसाब से retirement needs calculate करते हैं, लेकिन **inflation** के कारण future में खर्च कई गुना बढ़ जाएगा।
 * Example: आज ₹50,000/माह का खर्च, 20 साल बाद 6% inflation पर ₹1.6 लाख/माह हो जाएगा।
@@ -37,7 +37,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **3. सिर्फ Fixed Deposit या Safe Assets पर Depend करना**
+## **सिर्फ Fixed Deposit या Safe Assets पर Depend करना**
 
 * बहुत से लोग सोचते हैं कि retirement के लिए सिर्फ FD या gold ही best है, लेकिन ये inflation beat नहीं करते।
 * **Impact**: आपका पैसा real value में घट सकता है।
@@ -45,7 +45,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **4. Retirement Corpus से पहले पैसा निकालना**
+## **Retirement Corpus से पहले पैसा निकालना**
 
 * कई लोग घर खरीदने, बच्चों की education, या luxury items के लिए retirement fund use कर लेते हैं।
 * **Impact**: Corpus छोटा हो जाता है और retirement में financial gap आ जाता है।
@@ -53,7 +53,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **5. Health Insurance ना लेना**
+## **Health Insurance ना लेना**
 
 * Retirement में medical expenses सबसे बड़ी cost होती है।
 * बिना health insurance, एक बड़ी बीमारी पूरा retirement corpus खत्म कर सकती है।
@@ -61,7 +61,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **6. Life Expectancy को कम Estimate करना**
+## **Life Expectancy को कम Estimate करना**
 
 * कई लोग सोचते हैं कि उन्हें 70–75 तक ही planning करनी है, लेकिन आज life expectancy 80+ हो रही है।
 * **Impact**: Corpus जल्दी खत्म हो सकता है।
@@ -69,7 +69,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **7. Tax Planning को Ignore करना**
+## **Tax Planning को Ignore करना**
 
 * लोग सिर्फ corpus size देखते हैं, tax के बाद कितना बचेगा, ये नहीं सोचते।
 * **Impact**: Retirement income पर ज्यादा tax लग सकता है।
@@ -77,7 +77,7 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **8. Diversification ना करना**
+## **Diversification ना करना**
 
 * सारे पैसे एक ही asset class या investment में लगा देना risky है।
 * **Impact**: Market down होने पर बड़ा loss हो सकता है।
@@ -85,14 +85,14 @@ Retirement planning में छोटी-सी गलती भी future म
 
 ---
 
-## **9. Emergency Fund ना बनाना**
+## **Emergency Fund ना बनाना**
 
 * Retirement में अचानक खर्च (medical, home repair) आने पर main corpus से पैसा निकालना पड़ता है।
 * **Avoid कैसे करें**: Retirement में भी कम से कम 6–12 महीने के खर्च का emergency fund अलग रखें।
 
 ---
 
-## **10. बच्चों पर Financial Depend रहना**
+## **बच्चों पर Financial Depend रहना**
 
 * कई लोग मान लेते हैं कि बच्चे उनका retirement support करेंगे, लेकिन आजकल nuclear families और rising expenses के कारण ये possible नहीं होता।
 * **Avoid कैसे करें**: अपनी financial independence खुद plan करें।
