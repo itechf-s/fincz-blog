@@ -111,3 +111,25 @@ In the last performance cycle, I received feedback to improve communication with
 I also made a conscious effort to update stakeholders in advance about any potential delays and shared solutions once the issue was resolved. Additionally, I’ve started maintaining a structured format for internal documentation, which helps in knowledge sharing and avoids repetition of issues.
 
 As a result, I’ve seen better collaboration with my team and quicker turnaround in resolving client queries. I will continue to build on this by being more transparent and proactive in my communication.
+
+## Document Sharing Request
+
+### Email
+
+Hope you are doing well.
+
+Degree certificate is a personal and confidential document. As per Comapny data privacy and compliance guidelines, sharing such documents directly is not allowed and may lead to policy violation.
+
+Hence, I won’t be able to share my degree certificate directly. Please route the request through official channels like HR, Immigration team.
+
+Thank you for your understanding.
+
+Regards,
+XXXX
+
+### Temas
+
+As per Company policy, sharing personal and confidential documents directly is not allowed and may lead to compliance issues.  
+Please check with HR / Immigration team.
+
+Thanks for understanding.
