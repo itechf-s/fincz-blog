@@ -195,25 +195,3 @@ When an AI is so complex that even its creators don't understand *how* it made a
 **43. Will AI take away jobs?**
 
 It will likely automate boring, repetitive tasks (like data entry), but it will also create new types of jobs. Humans will need to adapt and learn new skills to work alongside AI.
-
-## AI Tools for Developers
-
-**44. What is GitHub Copilot?**
-
-A coding assistant that suggests whole lines or blocks of code as you type. It's like an autocomplete on steroids.
-
-**45. What is ChatGPT?**
-
-A conversational AI that can answer questions, write code, explain concepts, and even debug your errors.
-
-**46. What is TensorFlow?**
-
-A free, open-source library by Google for building and training machine learning models. It's like a Lego set for building AI.
-
-**47. What is PyTorch?**
-
-Another open-source machine learning library (by Facebook/Meta) that is very popular for research because it's flexible and easy to use.
-
-**48. What is Hugging Face?**
-
-A platform (like GitHub for AI) where developers share pre-trained models and datasets, making it easy to use advanced AI without building from scratch.
