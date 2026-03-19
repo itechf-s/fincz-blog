@@ -112,3 +112,108 @@ A smart way to find the **shortest path** on a map (like Google Maps). It guesse
 **23. What is Tokenization in NLP?**
 
 Chopping up a sentence into pieces (words or letters) so the computer can digest it. E.g., "I love AI" -> ["I", "love", "AI"].
+
+**24. What is Regularization?**
+
+A technique to prevent **Overfitting**. It penalizes the model for being too complex, forcing it to keep things simple and general.
+
+**25. What is a Decision Tree?**
+
+A flowchart-like structure where you answer "Yes" or "No" questions to reach a decision. Like playing a game of "20 Questions".
+
+**26. What is Random Forest?**
+
+A collection of many **Decision Trees**. It's like asking a crowd of people for their opinion instead of just one person (Wisdom of Crowds) to get a better answer.
+
+**27. What is Dimensionality Reduction?**
+
+Simplifying data by removing unnecessary details. Like summarizing a long book into a few pages without losing the main story.
+
+**28. What is Cross-Validation?**
+
+A way to test if your model is reliable. You split your data into different parts and test the model on each part to ensure it works well everywhere, not just on one specific set.
+
+**29. What is Computer Vision?**
+
+Teaching computers to **see and understand** images or videos. Used in self-driving cars to spot pedestrians or in phones for face unlock.
+
+**30. What is Bias in AI?**
+
+When an AI makes **unfair decisions** because it was trained on bad or incomplete data. Example: A hiring AI that favors one gender because it was mostly trained on resumes from that gender.
+
+**31. What is Data Augmentation?**
+
+Creating **more training data** from what you already have. For images, this means flipping, rotating, or zooming in so the AI sees more variations and learns better.
+
+**32. What is Big Data?**
+
+Data that is so **huge and fast** that traditional tools can't handle it. AI needs Big Data to learn effectively.
+
+**33. What is Python's role in AI?**
+
+Python is the most popular language for AI because it is **easy to read** (like English) and has powerful "toolkits" (libraries like TensorFlow and PyTorch) that do the heavy math for you.
+
+**34. What is a Perceptron?**
+
+The simplest form of a Neural Network. Think of it as a single neuron that takes inputs, weighs them, and decides "Yes" or "No".
+
+**35. What is an Activation Function?**
+
+The "Switch" in a neuron that decides if it should fire or not based on the input. Examples: Sigmoid (smooth curve), ReLU (stops negatives). Without it, the network can't learn complex patterns.
+
+**36. What is Dropout?**
+
+A way to prevent **Overfitting**. We randomly "turn off" some neurons during training so the network doesn't rely too much on any single neuron. It forces the team (neurons) to work better together.
+
+**37. What is an Autoencoder?**
+
+A Neural Network that learns to **compress** data into a small code and then **recreate** it. Like zipping a file and then unzipping it, often used to remove noise from images.
+
+**38. What is the difference between Batch and Stochastic Gradient Descent?**
+
+*   **Batch:** Checks **all** study material before making a correction. Accurate but slow.
+*   **Stochastic:** Checks **one** item and corrects immediately. Fast but a bit messy/random.
+
+## Ethics in AI
+
+**39. What is AI Ethics?**
+
+Rules and morals to stop AI from hurting people. For example, making sure AI isn't biased or doesn't steal private data.
+
+**40. What are Deepfakes?**
+
+Fake videos or audio made by AI that look 100% real. They are dangerous because they can make people appear to say or do things they never did.
+
+**41. Why is Privacy a big issue in AI?**
+
+AI needs a lot of data to learn. Sometimes it uses personal information (photos, chats, health info) without permission, which violates privacy.
+
+**42. What is the "Black Box" problem?**
+
+When an AI is so complex that even its creators don't understand *how* it made a specific decision. It's risky because we can't trust or fix mistakes we don't understand.
+
+**43. Will AI take away jobs?**
+
+It will likely automate boring, repetitive tasks (like data entry), but it will also create new types of jobs. Humans will need to adapt and learn new skills to work alongside AI.
+
+## AI Tools for Developers
+
+**44. What is GitHub Copilot?**
+
+A coding assistant that suggests whole lines or blocks of code as you type. It's like an autocomplete on steroids.
+
+**45. What is ChatGPT?**
+
+A conversational AI that can answer questions, write code, explain concepts, and even debug your errors.
+
+**46. What is TensorFlow?**
+
+A free, open-source library by Google for building and training machine learning models. It's like a Lego set for building AI.
+
+**47. What is PyTorch?**
+
+Another open-source machine learning library (by Facebook/Meta) that is very popular for research because it's flexible and easy to use.
+
+**48. What is Hugging Face?**
+
+A platform (like GitHub for AI) where developers share pre-trained models and datasets, making it easy to use advanced AI without building from scratch.
