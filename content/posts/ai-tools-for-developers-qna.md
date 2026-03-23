@@ -309,3 +309,303 @@ It focuses on "instant" suggestions that feel like they are reading your mind by
 An AI knowledge platform for engineering teams. It indexes Slack, Notion, GitHub, and Jira to answer questions like "Why did we build this feature this way?"
 It prevents developers from having to tap colleagues on the shoulder for historical context.
 **Example:** Ask "Who worked on the billing API last year?" and Unblocked identifies the developer and links to the relevant PRs and Slack discussions.
+
+**51. What is FigJam AI?**
+
+An AI-powered whiteboarding tool from Figma that helps developers brainstorm, create diagrams (like flowcharts or architecture diagrams), and summarize notes automatically.
+It helps turn unstructured ideas into organized plans.
+**Example:** Type "Create a user authentication flow diagram," and FigJam AI generates the flowchart with login, registration, and password reset steps.
+
+**52. What is Bloop?**
+
+An AI-powered code search engine that uses natural language to find code across local and remote repositories.
+It understands the intent behind your search, making it easier to find relevant functions or code examples.
+**Example:** Instead of searching for a specific function name, you can ask, "How do we handle user payments in the backend?" and it finds the relevant code.
+
+**53. What is CodeWhisperer for command line?**
+
+An AI companion for the terminal from AWS that provides code completions and natural language-to-bash translation.
+It helps you find the right command without having to remember complex syntax or search online.
+**Example:** Type `cw ai translate "find all files larger than 1GB"` and it suggests the `find . -type f -size +1G` command.
+
+**54. What is Smol developer (swyx)?**
+
+A concept for an autonomous AI agent that can create an entire application from a very detailed prompt.
+It's a "scaffolder on steroids" that generates all the necessary files and boilerplate code for a project based on a single specification.
+**Example:** You provide a detailed prompt describing a "Todo app with React frontend and Express backend," and it generates the complete file structure and initial code.
+
+**55. What is Cursor's "Auto-debug" feature?**
+
+An AI feature within the Cursor editor that automatically analyzes errors from your terminal, finds the relevant code, and suggests a fix.
+It speeds up debugging by connecting the error message directly to the source code and providing a one-click solution.
+**Example:** When your code throws a `TypeError`, a button appears in the terminal. Clicking it opens the problematic file and shows the AI's suggested fix.
+
+**56. What is GitLab Duo?**
+
+An AI-powered suite within GitLab that helps with coding, security, and planning. It includes Code Suggestions and Chat.
+It integrates directly into the DevSecOps workflow to boost productivity and security.
+**Example:** In GitLab, type a comment asking for a vulnerability explanation, and Duo explains the security flaw in your merge request.
+
+**57. What is JetBrains AI Assistant?**
+
+An AI tool integrated into JetBrains IDEs (IntelliJ, PyCharm, etc.) that understands your project context to provide code completion, refactoring, and explanations.
+It uses multiple LLMs to provide the best results for the specific task at hand within the familiar IDE interface.
+**Example:** Highlight a complex class in IntelliJ IDEA and click "Explain Code" to get a breakdown of its functionality.
+
+**58. What is Locofy.ai?**
+
+A frontend development tool that converts designs from Figma or Adobe XD into production-ready code (React, Vue, etc.) using AI.
+It helps bridge the gap between designers and developers by automating the UI coding process.
+**Example:** Select a design frame in Figma, run the Locofy plugin, and it generates the responsive React code with Tailwind CSS.
+
+**59. What is Bito?**
+
+An AI coding assistant that lives in your IDE and CLI. It helps generate code, build unit tests, and explain code using models like GPT-4.
+It is known for its privacy features and ability to automate repetitive tasks via shortcuts.
+**Example:** Right-click a function and select "Generate Unit Tests" from the Bito menu to automatically create a test file.
+
+**60. What is AskCodi?**
+
+A coding assistant that helps developers write code, documentation, and SQL queries faster. It offers specific "workbooks" for different tasks.
+It provides a structured way to interact with AI for coding tasks rather than just a chat interface.
+**Example:** Use the "SQL Query" workbook in AskCodi to describe a data retrieval need in English, and it generates the complex SQL query.
+
+**61. What is Amazon CodeGuru?**
+
+A set of developer tools that uses ML to provide intelligent recommendations for improving code quality and identifying expensive lines of code.
+It has two main components: Reviewer (for static analysis) and Profiler (for runtime performance).
+**Example:** It scans your pull request and comments: "This line of code executes a database query inside a loop, which is inefficient."
+
+**62. What is Diffblue Cover?**
+
+An AI tool specifically for Java that autonomously writes unit tests.
+Unlike assistants that suggest code, Diffblue analyzes your codebase and generates compilable, strictly correct JUnit tests automatically.
+**Example:** You have a legacy Java class with no tests; Diffblue Cover runs and generates a full suite of regression tests for it in minutes.
+
+**63. What is CodeGeex?**
+
+An open-source, multilingual code generation model pre-trained on a large code corpus.
+It is known for its ability to translate code between different programming languages effectively.
+**Example:** You select a block of C++ code, and CodeGeex translates it into functionally equivalent Python code.
+
+**64. What is MarsCode (by ByteDance)?**
+
+An AI-powered IDE and coding assistant that offers features like code completion, generation, and debugging.
+It is a cloud-based environment that integrates AI deeply into the development workflow.
+**Example:** While typing in the cloud IDE, MarsCode predicts the next few lines of logic and offers a one-click fix for syntax errors.
+
+**65. What is Salesforce CodeT5?**
+
+An open-source Transformer-based model (Unified Pre-trained Encoder-Decoder) designed for code understanding and generation.
+It excels at tasks like code summarization (explaining what code does) and code refinement.
+**Example:** Input a complex function, and CodeT5 generates a concise natural language summary of its purpose for documentation.
+
+**66. What is Plandex?**
+
+An open-source, terminal-based AI coding engine capable of complex, multi-file tasks.
+It breaks down large requirements into smaller subtasks and executes them sequentially while managing context to avoid hallucinations.
+**Example:** Command: "Build a React component for a login form with validation," and Plandex creates the component file, the style file, and updates the main app file.
+
+**67. What is PolyCoder?**
+
+An open-source code generation model trained on multiple programming languages, known for being one of the first open alternatives to Codex.
+It is particularly strong in C programming languages and serves as a base for research and building custom coding tools.
+**Example:** A developer uses a fine-tuned version of PolyCoder to generate C++ code for embedded systems without sending data to external APIs.
+
+**68. What is Safurai?**
+
+An AI coding assistant extension that helps developers refactor, debug, and document code within their IDE.
+It emphasizes privacy and offers a "Super Search" to find code snippets and solutions quickly.
+**Example:** Highlight a variable name and ask Safurai to "Rename this variable everywhere to be more descriptive," and it performs the refactoring safely.
+
+**69. What is CodePal?**
+
+A web-based platform that offers a wide variety of AI coding helpers, from code generation to bug fixing and unit test creation.
+It acts as a "Swiss Army Knife" for coding tasks that might be tedious to do manually.
+**Example:** Paste a piece of minified JavaScript code into CodePal's "Code Extractor" or "Beautifier" to make it readable and understand its logic.
+
+**70. What is Greptile?**
+
+An AI tool that indexes entire GitHub repositories to allow developers to ask complex questions about their codebase in plain English.
+It is designed to help with onboarding and understanding legacy code by searching through the semantic meaning of the code, not just keywords.
+**Example:** Ask "How does the authentication middleware interact with the user database?" and Greptile explains the flow with references to specific files.
+
+**71. What is Bolt.new (by StackBlitz)?**
+
+A browser-based AI development environment that allows you to prompt, run, and edit full-stack web applications instantly. It runs Node.js directly in the browser (WebContainers).
+It eliminates setup time, letting you go from idea to running app in seconds.
+**Example:** Type "Build a blog with Next.js and Tailwind," and Bolt creates the project, installs dependencies, runs the server, and lets you edit it live.
+
+**72. What is Windsurf (by Codeium)?**
+
+An "agentic" IDE built by Codeium that focuses on deep context awareness called "Flows." It allows the AI and developer to work together on the codebase with shared context.
+It integrates the "Cascade" AI agent that can reason about your entire project state.
+**Example:** The "Cascade" feature allows you to describe a complex refactor, and Windsurf navigates multiple files to implement the changes while maintaining context.
+
+**73. What is OpenDevin?**
+
+An open-source platform for autonomous AI agents that perform software engineering tasks. It is a community-driven, open-source alternative to Devin.
+It runs in a sandboxed environment where it can execute shell commands, write code, and browse the web.
+**Example:** You can run OpenDevin locally using Docker, give it a task like "Fix issue #42 in this repo," and it will attempt to write code and run tests to solve it.
+
+**74. What is Zed AI?**
+
+The AI integration within the high-performance Zed code editor. It allows for fast, context-aware chat and code generation, often using models like Claude 3.5 Sonnet.
+It emphasizes speed and minimal friction, allowing developers to bring files into the AI context easily.
+**Example:** In Zed, you can open the Assistant panel, drag in relevant files for context, and ask it to refactor a specific module for better performance.
+
+**75. What is Galileo AI?**
+
+An AI tool for interface design that generates high-fidelity UI designs from text prompts. It is useful for quickly creating mockups that can be exported to Figma.
+It helps bridge the gap between an idea and a visual prototype for developers and designers.
+**Example:** Prompt: "A settings page for a mobile fitness app with dark mode," and Galileo generates editable UI designs with layers and components.
+
+**76. What is Rift?**
+
+An open-source, AI-native IDE that allows developers to build and run their own local AI agents for coding tasks.
+It focuses on giving developers control over the AI, allowing them to create personalized agents that can read files, execute commands, and edit code.
+**Example:** You could create a Rift agent to automatically add logging statements to every new function in your project according to your team's specific format.
+
+**77. What is Devika?**
+
+An open-source AI software engineer that aims to be an alternative to Devin. It can take high-level instructions and build entire software projects.
+It uses a multi-agent system to research, plan, write code, and debug, simulating a human development team.
+**Example:** Prompt Devika to "Create a web app that tracks cryptocurrency prices using the CoinGecko API," and it will plan the project and write the code.
+
+**78. What is Builder.io?**
+
+A visual development platform that uses AI to help convert designs (like from Figma) into clean, responsive code for frameworks like React or Vue.
+It allows teams to build web pages with a drag-and-drop interface, which developers can then integrate into their codebase via an API.
+**Example:** A marketing team can visually build a new landing page, and developers can render it within their Next.js app without writing the UI code from scratch.
+
+**79. What is Applitools?**
+
+An AI-powered visual testing platform that automates UI testing by comparing screenshots of an application against a baseline.
+Its AI can detect meaningful visual bugs (like a broken layout) while ignoring insignificant pixel-level changes.
+**Example:** In a CI/CD pipeline, Applitools can automatically flag a pull request if a code change unintentionally breaks the UI on a specific browser.
+
+**80. What is Fine.dev?**
+
+A platform for creating and deploying autonomous AI agents that can perform complex software development tasks defined in a simple YAML file.
+It orchestrates LLMs and code interpreters to handle tasks like code generation, refactoring, and dependency management.
+**Example:** Define a task for a Fine.dev agent to upgrade all dependencies in a project, run the tests, and attempt to fix any breaking changes it finds.
+
+**81. What is FigJam AI?**
+
+An AI-powered whiteboarding tool from Figma that helps developers brainstorm, create diagrams (like flowcharts or architecture diagrams), and summarize notes automatically.
+It helps turn unstructured ideas into organized plans.
+**Example:** Type "Create a user authentication flow diagram," and FigJam AI generates the flowchart with login, registration, and password reset steps.
+
+**82. What is Bloop?**
+
+An AI-powered code search engine that uses natural language to find code across local and remote repositories.
+It understands the intent behind your search, making it easier to find relevant functions or code examples.
+**Example:** Instead of searching for a specific function name, you can ask, "How do we handle user payments in the backend?" and it finds the relevant code.
+
+**83. What is CodeWhisperer for command line?**
+
+An AI companion for the terminal from AWS that provides code completions and natural language-to-bash translation.
+It helps you find the right command without having to remember complex syntax or search online.
+**Example:** Type `cw ai translate "find all files larger than 1GB"` and it suggests the `find . -type f -size +1G` command.
+
+**84. What is Smol developer (swyx)?**
+
+A concept for an autonomous AI agent that can create an entire application from a very detailed prompt.
+It's a "scaffolder on steroids" that generates all the necessary files and boilerplate code for a project based on a single specification.
+**Example:** You provide a detailed prompt describing a "Todo app with React frontend and Express backend," and it generates the complete file structure and initial code.
+
+**85. What is Cursor's "Auto-debug" feature?**
+
+An AI feature within the Cursor editor that automatically analyzes errors from your terminal, finds the relevant code, and suggests a fix.
+It speeds up debugging by connecting the error message directly to the source code and providing a one-click solution.
+**Example:** When your code throws a `TypeError`, a button appears in the terminal. Clicking it opens the problematic file and shows the AI's suggested fix.
+
+**86. What is Adrenaline?**
+
+An AI-powered debugger that connects to your codebase. You can ask it questions about bugs, and it helps you find the root cause and suggests fixes.
+It can analyze stack traces and understand the context of your code to provide relevant debugging help.
+**Example:** You get a `NullPointerException`. You can ask Adrenaline, "Why is this value null here?" and it will trace the variable's origin to find the problem.
+
+**87. What is Tabby?**
+
+An open-source, self-hosted AI coding assistant. It's an alternative to GitHub Copilot that you can run on your own infrastructure for privacy and customization.
+It can be fine-tuned on your organization's codebase to provide more relevant suggestions.
+**Example:** A company can deploy Tabby on its own servers, ensuring that its proprietary code is never sent to a third-party cloud service.
+
+**88. What is CodeGemma?**
+
+A family of lightweight, open-source code models from Google, built on the Gemma architecture.
+They are designed to run efficiently on a developer's local machine for tasks like code completion and generation.
+**Example:** You can use CodeGemma with a tool like Ollama to get fast code suggestions directly in your IDE without needing a powerful GPU or internet connection.
+
+**89. What is Second.dev?**
+
+An AI tool that automates large-scale codebase migrations and refactoring, similar to Grit.io.
+It helps upgrade frameworks, migrate languages, or enforce new coding standards across thousands of files automatically.
+**Example:** Use Second.dev to automatically migrate a large Python 2 codebase to Python 3, handling syntax changes and library updates.
+
+**90. What is Magic.dev?**
+
+An AI software engineer designed to work alongside human developers. It can understand complex requests and perform tasks like implementing features or fixing bugs.
+It aims to be a collaborative partner rather than just a code completion tool.
+**Example:** You can ask Magic.dev to "Implement the user profile page based on the Figma design" and it will generate the necessary components and logic.
+
+**91. What is LangSmith?**
+
+A platform by LangChain for debugging, testing, evaluating, and monitoring LLM applications. It helps developers move from prototype to production.
+It provides visibility into the "black box" of LLM chains and agents.
+**Example:** You can trace exactly why an LLM chain failed or produced a wrong answer by inspecting the inputs and outputs of every step.
+
+**92. What is Vercel AI SDK?**
+
+A library for building AI-powered user interfaces in JavaScript/TypeScript frameworks like Next.js. It simplifies streaming responses from LLMs to the frontend.
+It provides hooks and utilities to connect to various model providers like OpenAI, Anthropic, and Hugging Face easily.
+**Example:** The `useChat` hook handles the state of the chat input and messages, streaming the AI response character by character to the UI.
+
+**93. What is Lovable?**
+
+A generative AI tool that builds full-stack web applications from natural language descriptions. It focuses on creating high-quality, visually appealing software.
+It integrates with backend services (like Supabase) to create real, functional apps, not just UI mockups.
+**Example:** Describe a "Personal finance dashboard with charts," and Lovable generates the React code, database schema, and connects them.
+
+**94. What is Marblism?**
+
+A platform that generates a fully functional SaaS boilerplate from a single prompt. It creates the database schema, API endpoints, and frontend pages automatically.
+It is designed to jumpstart development by handling the repetitive setup of a new web application.
+**Example:** Prompt "A platform for walking dogs," and Marblism scaffolds a project with user authentication, booking tables, and a dashboard.
+
+**95. What is Promptfoo?**
+
+A CLI tool for testing and evaluating LLM prompts. It helps developers ensure their prompts produce consistent and correct outputs across different models.
+It allows for regression testing of prompts, ensuring that changes don't break expected behavior.
+**Example:** You can run a test suite to check if your "summarize" prompt works correctly on GPT-4, Claude, and Llama 3 simultaneously.
+
+**96. What is Cline?**
+
+An open-source autonomous coding agent that lives in your IDE (VS Code). It handles complex software development tasks by executing terminal commands, creating files, and editing code.
+It gives you full control over the "loop" of the agent, allowing you to approve every step or let it run autonomously.
+**Example:** Ask Cline to "Refactor this entire module to use TypeScript interfaces," and it will iteratively edit files and fix errors until done.
+
+**97. What is the Model Context Protocol (MCP)?**
+
+An open standard introduced by Anthropic that allows AI assistants (like Claude Desktop or IDEs) to connect to external data and tools safely.
+It solves the "integrations" problem by providing a universal way for AIs to access local files, databases, or APIs.
+**Example:** A developer uses an MCP server to let Claude read their local SQLite database and answer questions about the schema directly in the chat.
+
+**98. What is Trae?**
+
+An adaptive AI IDE created by ByteDance that integrates AI natively into the coding workflow. It features a "Builder" mode similar to Windsurf's Flows.
+It focuses on understanding the user's intent and context to provide faster and more accurate code generation.
+**Example:** You can drag and drop an image of a UI design into Trae, and it will generate the corresponding React code using your project's existing components.
+
+**99. What is LibreChat?**
+
+An enhanced, open-source web interface for interacting with various AI models (OpenAI, Anthropic, Mistral, LocalAI).
+It provides features like conversation branching, plugin support, and artifact rendering that are often missing or paid in official apps.
+**Example:** A developer sets up LibreChat on their local server to provide the entire team with a unified, secure interface to access GPT-4 and Claude 3.5.
+
+**100. What is Qodo Merge (formerly CodiumAI PR-Agent)?**
+
+An AI-powered tool specifically for automating pull request (PR) reviews and management. It integrates with GitHub, GitLab, and Bitbucket.
+It provides automatic PR descriptions, code suggestions, and security analysis to speed up the review process.
+**Example:** When a developer opens a PR, Qodo Merge automatically scans the changes, writes a detailed summary, and tags the relevant reviewers.
