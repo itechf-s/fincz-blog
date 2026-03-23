@@ -4,7 +4,7 @@ categories: [ AI, Development ]
 tags: [Prompt Engineering, LLM, GPT, Guide]
 description: "Master the art of prompt engineering with this comprehensive guide covering zero-shot, few-shot, chain-of-thought, and best practices for developers."
 date: 2026-03-22T08:00:00+05:30
-images: ["images/2026/03/prompt-engineering.png"]
+images: ["images/2026/03/prompt-engineering.webp"]
 author: ahmad
 ---
 
