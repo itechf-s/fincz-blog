@@ -133,3 +133,36 @@ As per Company policy, sharing personal and confidential documents directly is n
 Please check with HR / Immigration team.
 
 Thanks for understanding.
+
+## Sample check-in format (14 Apr 2026)
+
+### Q1: Key career aspiration / goal that you want to focus on
+
+My key career aspiration is to grow into a Techno-Functional Lead role where I can take end-to-end ownership of delivery, including solution design, development, and client engagement.
+
+I aim to build strong expertise in the insurance domain along with deep technical capabilities, so that I can contribute effectively in both business and technical discussions.
+
+I am focusing on leveraging AI-driven tools and concepts to improve productivity, code quality, and problem-solving efficiency. I aim to explore how AI can be effectively used in areas like debugging, automation, and intelligent solutions within the project context.
+
+### ✅ Q2: How you plan to achieve the career goal
+
+> I plan to achieve this goal by focusing on the following areas:
+>
+> * Building strong understanding of the MyClient platform and its integration with existing Vitech systems to effectively support the ongoing transformation
+> * Enhancing my technical skills in system design, debugging, and performance optimization to handle complex scenarios
+> * Gaining deeper insurance domain knowledge to contribute confidently in functional and business discussions
+> * Taking end-to-end ownership of assigned modules and actively contributing to design and solution discussions
+> * Leveraging AI tools and concepts to improve productivity, optimize code quality, and assist in faster debugging and issue resolution
+> Additionally, I will continue to upskill through relevant learning, certifications, and by adapting quickly to new tools and processes introduced as part of the MyClient transition.
+
+### ✅ Q3: What kind of support do you need from company/team/manager to achive the above career goal?
+
+To achieve my career goals, I would appreciate the following support:
+
+Opportunities to take ownership of modules and contribute to design and solution discussions
+Guidance and feedback from my manager to improve in both technical and functional areas
+Exposure to client interactions and business discussions to strengthen my techno-functional capabilities
+Support in understanding the MyClient platform and ongoing transition activities
+Access to relevant learning resources, trainings, or certifications to enhance my skills, including in areas like system design and AI
+
+This support will help me align better with project expectations and contribute more effectively to the team.
