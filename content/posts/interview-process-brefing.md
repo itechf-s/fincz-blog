@@ -1,10 +1,10 @@
 ---
-title: "Itechf Interview Preparation"
+title: "Interview Process Brefing"
 categories: [ Interview ]
 tags: [Interview]
-description: "Itechf Interview Preparation"
+description: "Interview Process Brefing"
 date: 2024-04-02T08:00:00+05:30
-images: ["images/2024/04/itechf-interview-prep.png"]
+images: ["images/2024/04/interview-process-brefing.png"]
 author: ahmad
 ---
 
@@ -166,3 +166,20 @@ Support in understanding the MyClient platform and ongoing transition activities
 Access to relevant learning resources, trainings, or certifications to enhance my skills, including in areas like system design and AI
 
 This support will help me align better with project expectations and contribute more effectively to the team.
+
+
+
+------------
+
+I worked primarily on Claims Processing and Healthcare Insurance workflows, including claim adjudication, HCSA claims, benefit configurations, COB calculations, business rule implementation, defect fixing, production support, and enhancement requests. I also collaborated with business teams to understand requirements and translate them into technical solutions.
+
+I have worked below items during my work at majesco/vitech
+claim procecing like DentaleClaim, HealtheClaim, HCSA claim, claim auto adjudication
+Member enrollment work flow
+payment and transectoin json generation
+business rule implementation
+diffirent type of batch like disburment queue, gocument generation, print eob batch etc.
+PBO configuration and implementation
+different type of rest api like, member balance, claim creation, memeber, group creation, plan creation etc.
+debugging and fixing of client reported issues, SA and QA reported issues, production issues including OOM and long running queries.
+
