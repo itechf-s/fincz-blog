@@ -163,30 +163,13 @@ My responsibilities include:
 
 ## Technical Skills
 
-### Backend
-
-* Java
-* Spring
-* Spring Boot
-* REST APIs
-* SQL
-* Microservices
-
-### Database
-
-* Oracle
-* PostgreSQL
-
-### Tools
-
-* Eclipse
-* Git
-* Maven
-* VS Code
-
+**Backend** : Java, Spring, Spring Boot, REST APIs, SQL and Microservices
+**Database** : Oracle, PostgreSQL
+**Tools** : VS Code, Eclipse, Git, Maven
+**AI Tools** : Github Copilot, ChatGPT, Gemini
 ---
 
-## If Interviewer Asks: "What exactly did you do?"
+## What exactly did you do?
 
 I worked primarily on Claims Processing and Healthcare Insurance workflows, including claim adjudication, HCSA claims, benefit configurations, business rule implementation, PBO customization, defect fixing, and production support.
 
@@ -194,7 +177,7 @@ I was also involved in debugging complex production issues, performance optimiza
 
 ---
 
-## If Interviewer Asks: "What is your biggest strength?"
+## What is your biggest strength?
 
 My biggest strength is the combination of:
 

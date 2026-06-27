@@ -4,7 +4,7 @@ categories: [ Interview ]
 tags: [Interview]
 description: "Interview Process Brefing"
 date: 2024-04-02T08:00:00+05:30
-images: ["images/2024/04/interview-process-brefing.png"]
+images: ["images/2024/04/interview-process-brefing.jpg"]
 author: ahmad
 ---
 
