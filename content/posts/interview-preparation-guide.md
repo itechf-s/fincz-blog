@@ -196,13 +196,12 @@ I bring 14 years of experience in enterprise application development, strong Jav
 
 ## Questions for the Interviewer
 
-1. What would be the day-to-day responsibilities for this position?
-2. Can you talk about working culture and work/life balance?
-3. What are the biggest technical challenges the team is currently facing?
-4. Can you describe the development process here, such as your approach to code reviews, testing, and deployments?
-5. What does success look like for someone in this role in the first 90 days?
-6. What is the long-term vision for this project, and how does this role contribute to it?
-7. What are the opportunities for professional growth and learning?
+1. What is the nature of the project? (New development, enhancement, or production support?)
+2. What would be the day-to-day responsibilities for this position?
+3. Which technologies are being used? (Java version, Spring Boot, Microservices, Cloud?)
+4. Can you talk about working culture and work/life balance?
+5. Is this a client-facing role?
+6. What are the opportunities for professional growth and learning?
 
 
 ## Closing Statement
