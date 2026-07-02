@@ -1,8 +1,8 @@
 ---
-title: "Interview Process Brefing"
+title: "Quarterly Check-ins with Interview Process Brefing"
 categories: [ Interview ]
 tags: [Interview]
-description: "Interview Process Brefing"
+description: "Quarterly Check-ins with Interview Process Brefing"
 date: 2024-04-02T08:00:00+05:30
 images: ["images/2024/04/interview-process-brefing.jpg"]
 author: ahmad
@@ -47,6 +47,24 @@ Technologies I use daily (Java, Spring, Eclipse IDE, PostgreSQL, and browser dev
 
 Thanks for joining me today! I hope this session will be helpful for all of you.
 All the very best for your interview. If you need any thing else please feel free to ping me.
+
+# Sample check-in format (02 Jul 2025)
+
+## What has gone well in the past quarter?
+
+In the past quarter, I successfully delivered on several key tasks, including HCSA and OCS claims, and resolved multiple PBO and interface-related issues. I effectively debugged and fixed client-reported problems, which improved claim processing performance and helped reduce the backlog of open tickets.
+
+## What could have been done better
+
+While I managed to deliver on all assigned tasks, I believe I could have been more proactive in communicating progress on high-priority tickets to all stakeholders. I also see an opportunity to improve my documentation of solutions for better knowledge sharing. I am now focusing on providing more regular updates and creating clearer documentation.
+
+## What actions have you taken to develop the skills identified against your goal? 
+
+I have focused on deepening my domain knowledge by reviewing client documentation and analyzing historical tickets to understand recurring patterns. I've also actively participated in team walkthroughs for HCSA and OCS interfaces and started maintaining detailed solution notes to improve my troubleshooting speed and accuracy.
+
+## What kind of support do you need from company/team/manager to achieve the desired skill levels?
+
+To continue my growth, I would appreciate continued mentorship on complex domain scenarios, particularly around PBO and interface logic. Access to more structured technical documentation and opportunities to work on more challenging design tasks would also be very beneficial for my development.
 
 # Sample check-in format (13 Apr 2025)
 
@@ -182,4 +200,3 @@ diffirent type of batch like disburment queue, gocument generation, print eob ba
 PBO configuration and implementation
 different type of rest api like, member balance, claim creation, memeber, group creation, plan creation etc.
 debugging and fixing of client reported issues, SA and QA reported issues, production issues including OOM and long running queries.
-

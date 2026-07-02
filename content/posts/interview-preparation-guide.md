@@ -163,10 +163,10 @@ My responsibilities include:
 
 ## Technical Skills
 
-**Backend** : Java, Spring, Spring Boot, REST APIs, SQL and Microservices
-**Database** : Oracle, PostgreSQL
-**Tools** : VS Code, Eclipse, Git, Maven
-**AI Tools** : Github Copilot, ChatGPT, Gemini
+- **Backend** : Java, Spring, Spring Boot, REST APIs, SQL and Microservices
+- **Database** : Oracle, PostgreSQL
+- **Tools** : VS Code, Eclipse, Git, Maven
+- **AI Tools** : Github Copilot, ChatGPT, Gemini
 ---
 
 ## What exactly did you do?
