@@ -1,8 +1,8 @@
 ---
-title: "Interview Preparation Guide"
-categories: [ Interview ]
-tags: [Interview]
-description: "Interview Preparation Guide"
+title: "Backend Developer Interview Guide: Java, Insurance & Client-Facing Roles"
+categories: [ "Interview", "Career" ]
+tags: ["Java", "Backend", "Interview Guide", "Insurance Domain", "Client Interview"]
+description: "Prepare for your next backend developer interview with this comprehensive guide. Includes sample answers for questions on Java, Spring Boot, SQL, and the healthcare insurance domain."
 date: 2024-04-22T08:00:00+05:30
 lastmod: 2026-07-05T08:00:00+05:30
 images: ["images/2024/04/interview-preparation-guide.png"]
@@ -93,6 +93,30 @@ Business Rules are configurable logic that defines how insurance processes behav
 
 These rules make the application flexible, allowing us to adapt to client needs without changing the core code.
 
+### 9a. An example of a complex business rule you have implemented?
+
+"Certainly. A common scenario is implementing a multi-layered rule for a major dental procedure, like a 'Dental Crown'. Here’s how I would approach it based on a typical set of requirements:
+
+**Business Requirements:**
+1.  **Coverage:** 50% of the billed amount.
+2.  **Plan Eligibility:** Only applies to 'Premium' and 'Gold' plans. 'Basic' plans have 0% coverage.
+3.  **Age Restriction:** Members under 18 are not eligible.
+
+**My Technical Implementation Steps:**
+
+**Step 1: Initial Eligibility Checks**
+First, I'd add gateway checks to fail fast.
+*   **Age Check:** Fetch the member's date of birth. If they are under 18, deny the claim line with a reason code like 'AGE_INELIGIBLE' and stop processing.
+*   **Plan Check:** Retrieve the member's plan. If it's 'Basic', deny the claim line with 'PLAN_EXCLUSION'.
+
+**Step 2: Benefit Calculation**
+If the member is eligible, I'll calculate the plan's payment.
+*   Assuming the billed amount for the crown is `$1000`.
+*   The plan covers 50%, so the `payableAmount` is `50% of $1000`, which is `$500`.
+
+**Implementation Details:**
+This logic would be encapsulated within our platform's rule engine. Typically, this would be a dedicated Java service that performs the necessary database lookups and calculations. The service would return a result object containing the final payable amount and any denial reasons. Writing thorough unit tests for all conditions is crucial for ensuring accuracy."
+
 ## 10. What is PBO Configuration?
 
 PBO stands for **Plan Benefit Option**. PBO Configuration is used to customize benefits, coverages, and rules for different insurance plans. This allows for client-specific customizations without major code changes.
@@ -126,7 +150,7 @@ Production Support involves resolving issues reported by clients and monitoring 
 
 My responsibilities include:
 
-* Root cause analysis, Log analysis, Performance optimization, Deployment support
+* Root cause analysis, Log analysis, Performance optimization, and Deployment support.
 
 ## 14. Tell me about a challenging production issue.
 
