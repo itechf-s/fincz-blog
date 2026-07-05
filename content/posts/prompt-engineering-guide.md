@@ -4,6 +4,7 @@ categories: [ AI, Development ]
 tags: [Prompt Engineering, LLM, GPT, Guide]
 description: "Master the art of prompt engineering with this comprehensive guide covering zero-shot, few-shot, chain-of-thought, and best practices for developers."
 date: 2026-03-22T08:00:00+05:30
+lastmod: 2026-07-05T08:00:00+05:30
 images: ["images/2026/03/prompt-engineering.webp"]
 author: ahmad
 ---
@@ -271,6 +272,48 @@ Developers aksar confuse hote hain ki kab Fine-tuning use karein aur kab RAG. Do
 2.  **Use Delimiters (Vibhajak ka upyog karein):** Instructions ko data se alag karne ke liye triple quotes (`"""`), backticks (`` ` ``), ya XML tags (`<context>`) ka istemal karein.
 3.  **Specify Output Format (Output format batayein):** Agar aapko JSON, XML, ya koi specific code structure chahiye, to use saaf-saaf batayein.
 4.  **Iterate (Dohrayein aur sudharein):** Prompt engineering ek iterative process hai. Model ke output ke aadhar par apne prompt ko behtar banayein.
+
+## Optimizing Prompts for Cost Savings (Token Management)
+
+LLM APIs ka bill aapke use kiye gaye tokens (input + output) par depend karta hai. Prompts ko optimize karke aap significant cost savings kar sakte hain. Yahan kuch best practices hain:
+
+### 1. Be Concise and Direct (Sankshipt aur Seedha)
+Lamba-chauda prompt likhne se bachein. Apne task ko kam se kam shabdon mein saaf-saaf batayein.
+
+*   **Verbose (Zyada Tokens):**
+    > "Hello, I would be very grateful if you could please act as a Python expert and write a piece of code for me. The code I need is a function that takes a list of numbers as input and then it should return a new list that contains only the even numbers from the original list."
+
+*   **Concise (Kam Tokens):**
+    > "As a Python expert, write a function that filters a list of numbers and returns only the even ones."
+
+**Result:** Dono prompts se lagbhag same output milega, lekin dusra prompt kafi sasta hai.
+
+### 2. Control Output Length (Output ki Lambai Niyantrit Karein)
+Model ko kam shabdon mein jawab dene ke liye kahein. Isse output tokens bachte hain.
+
+*   **Uncontrolled Output:**
+    > "Explain the concept of Object-Oriented Programming."
+    (Model ek lamba, detailed essay de sakta hai).
+
+*   **Controlled Output:**
+    > "Explain Object-Oriented Programming in 3 key points, under 100 words."
+
+Aap API call mein `max_tokens` parameter ka bhi use kar sakte hain, lekin isse jawab adhoora cut ho sakta hai. Prompt mein instruction dena behtar hai.
+
+### 3. Use Smaller Models for Simpler Tasks (Saral Kaamo ke liye Chhote Models)
+Har kaam ke liye sabse powerful model (jaise GPT-4) ki zaroorat nahi hoti. Simple tasks jaise text classification, summarization, ya sentiment analysis ke liye chhote aur saste models (jaise GPT-3.5-Turbo, Gemini Flash) ka use karein.
+
+*   **Use Case:** Ek user review ka sentiment (positive/negative) pata karna.
+*   **Costly Approach:** Using GPT-4.
+*   **Efficient Approach:** Using a smaller, faster model like GPT-3.5-Turbo.
+
+### 4. Use Zero-Shot Prompting When Possible
+Few-shot prompting (examples dena) accuracy badhata hai, lekin har example aapke input tokens ko badhata hai. Hamesha zero-shot se shuru karein. Agar output sahi nahi hai, tabhi few-shot ka use karein.
+
+### 5. Cache Responses
+Agar aapki application mein baar-baar ek hi sawal pucha jaata hai, to API ko dubara call karne ke bajaye pehle response ko cache (save) kar lein. Isse API calls aur costs dono kam hote hain.
+
+**Example:** Ek e-commerce site par "What is your return policy?" jaise sawalon ka jawab cache kiya ja sakta hai.
 
 ## Common Prompting Mistakes to Avoid
 

@@ -57,6 +57,28 @@ Vitech V3locity is an enterprise insurance administration platform that helps in
 
 It supports business processes such as Member Enrollment, Claims Processing, Benefits Administration, Payments, Billing, Business Rules, and Policy Administration.
 
+### 4a. Can you please explain your project's architecture?
+
+"Certainly. The V3locity platform I worked on is built on a **cloud-native, microservices-oriented architecture**, hosted entirely on **AWS**. I can break it down into four main layers:
+
+**1. Presentation Layer (Frontend):**
+*   This layer consists of several single-page applications (SPAs) built for different user personas like members, providers, and administrators.
+*   These frontends communicate with the backend services primarily through a central **API Gateway** using RESTful APIs and GraphQL.
+
+**2. Application Layer (Backend Microservices):**
+*   This is where I spent most of my time. The core business logic is broken down into domain-specific microservices. For example, we had separate services for `Claims`, `Members`, `Billing`, and `Payments`.
+*   These services are built using **Java** and **Spring Boot**. They are designed to be stateless to allow for horizontal scaling.
+
+**3. Communication and Integration Layer:**
+*   **Synchronous Communication:** For direct request/response interactions, services communicate via REST APIs through the API Gateway, which handles routing, authentication (using OAuth2), and rate limiting.
+*   **Asynchronous Communication:** For decoupling services and handling background tasks, we used a message-based system with **Kafka**. For instance, when a claim was finalized, a `ClaimFinalized` event was published to a Kafka topic. Downstream services, like the document generation service, would consume this event to create an EOB (Explanation of Benefits).
+
+**4. Data and Infrastructure Layer:**
+*   **Databases:** Each microservice had its own database to ensure loose coupling. We primarily used **PostgreSQL** and **Oracle** for transactional data.
+*   **Infrastructure:** The entire application is deployed on **AWS**. We used services like **Elastic Beanstalk** for deploying our Spring Boot applications and **Amazon S3** for storing documents and other static assets. The architecture is designed for elasticity and resiliency, leveraging AWS's auto-scaling and load-balancing features.
+
+This architecture allowed our teams to develop, deploy, and scale their services independently, which is a key advantage of the microservices approach."
+
 ## 5. Explain Claims Processing.
 
 Claims Processing starts when a healthcare provider or member submits a claim.
