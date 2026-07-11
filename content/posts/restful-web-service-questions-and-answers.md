@@ -1,331 +1,179 @@
 ---
-title: "RESTful Web Service Questions and Answers"
+title: "Advanced REST API Interview Questions for Senior Developers"
 categories: [ Spring ]
 tags: [RESTful Web Service]
-description: "RESTful Web Service Questions and Answers"
+description: "A curated list of the 27 most important RESTful web service interview questions for experienced developers, with business use cases from the healthcare insurance domain."
 date: 2023-05-18T08:00:00+05:30
+lastmod: 2026-07-11T08:00:00+05:30
 images: ["images/2023/05/RESTful-web-service.jpg"]
 author: ahmad
 ---
 
-## RESTful Web Service with Spring Boot Questions and Short Answers
+## Top 25 REST API Questions for Experienced Developers
 
-### 1. What is REST?
+### 1. What are the key principles of REST?
+**Business Use Case:** "When designing a new set of APIs for our claims processing system, what core principles guide your design to ensure it's scalable and maintainable?"
 
-REST (Representational State Transfer) is an architectural style for designing networked applications. It relies on the HTTP protocol and emphasizes stateless, client-server communication through standard CRUD operations (Create, Read, Update, Delete).
+**Answer:** REST (Representational State Transfer) is an architectural style guided by several principles:
+*   **Statelessness:** Each request from a client must contain all the information needed to understand and process it. The server does not store any client context between requests. This is crucial for scalability.
+*   **Client-Server:** The client and server are separated, allowing them to evolve independently.
+*   **Uniform Interface:** Using standard HTTP methods (GET, POST, PUT, DELETE), URIs for resources, and a consistent data format like JSON.
+*   **Resource-Based:** Everything is a resource (e.g., a claim, a member, a policy), identified by a unique URI.
 
-### 2. What is a RESTful web service?
+### 2. What are the most important HTTP methods you've used?
+**Business Use Case:** "In our insurance platform, how would you map the core operations—like creating a claim, viewing it, updating it, and deleting it—to HTTP methods?"
 
-A RESTful web service is an implementation of the REST architecture that allows clients to interact with resources over the web using HTTP methods like GET, POST, PUT, and DELETE. It follows the principles of statelessness, uniform resource identification, and representation.
+**Answer:** I map them to standard CRUD operations:
+*   `GET`: To retrieve a resource (e.g., `GET /api/claims/{id}` to fetch a specific claim).
+*   `POST`: To create a new resource (e.g., `POST /api/claims` to submit a new claim).
+*   `PUT`: To replace/update an entire resource (e.g., `PUT /api/members/{id}` to update a member's entire profile).
+*   `DELETE`: To delete a resource (e.g., `DELETE /api/claims/{id}`).
+*   `PATCH`: For partial updates (e.g., `PATCH /api/claims/{id}` to only update a claim's status).
 
-### 3. How can you create a RESTful web service in Spring Boot?
+### 3. What is the significance of HTTP status codes?
+**Business Use Case:** "How does your API inform the client application whether a claim submission was successful, if the client sent bad data, or if a server error occurred?"
 
-In Spring Boot, you can create a RESTful web service by annotating a class with `@RestController` and defining methods that handle HTTP requests using annotations like `@GetMapping`, `@PostMapping`, etc. Spring Boot automatically handles the serialization/deserialization of objects to/from JSON/XML.
+**Answer:** HTTP status codes are essential for clear communication.
+*   `2xx` (Success): `200 OK` for a successful GET, `201 Created` for a successful POST.
+*   `4xx` (Client Error): `400 Bad Request` for validation errors, `401 Unauthorized` for missing credentials, `403 Forbidden` for insufficient permissions, `404 Not Found` when a resource doesn't exist.
+*   `5xx` (Server Error): `500 Internal Server Error` for unexpected exceptions in my backend logic.
 
-### 4. What is the purpose of the `@RestController` annotation?
+### 4. How do you design a REST endpoint in Spring Boot?
+**Business Use Case:** "How do you set up a new controller in Spring Boot to handle requests for member data?"
 
-The `@RestController` annotation is used to annotate a class in Spring Boot that will handle incoming HTTP requests and generate HTTP responses. It combines the `@Controller` and `@ResponseBody` annotations, making it convenient for building RESTful web services.
+**Answer:** I use the `@RestController` annotation on a class. This combines `@Controller` and `@ResponseBody`, telling Spring that this class will handle web requests and that its methods will return JSON/XML directly, not a view. I then use mapping annotations like `@GetMapping` on methods to define the specific endpoints.
 
-### 5. What is the difference between `@RequestMapping` and `@GetMapping`?
+### 5. How do you handle dynamic data in the URL?
+**Business Use Case:** "How would you design an API to fetch a specific claim using its unique claim ID from the URL?"
 
-`@RequestMapping` is a general annotation used to map HTTP requests to methods in a controller. It allows you to specify the request URL, HTTP method, and other parameters. `@GetMapping` is a specialized version of `@RequestMapping` for handling GET requests specifically.
+**Answer:** I use the `@PathVariable` annotation. For an endpoint like `/api/claims/{claimId}`, I would annotate a method parameter with `@PathVariable("claimId")` to capture the ID from the URL and use it to query the database.
 
-### 6. How can you pass data in the URL path in a RESTful web service?
+### 6. How do you process incoming JSON data?
+**Business Use Case:** "When a provider submits a new dental claim, the claim details are sent as a JSON object. How does your service receive and process this?"
 
-You can pass data in the URL path of a RESTful web service by using path variables. Annotate a method parameter with `@PathVariable` and provide the corresponding variable name in the URL mapping. Spring Boot will bind the value from the URL to the parameter.
+**Answer:** I use the `@RequestBody` annotation on a method parameter. Spring Boot's Jackson library automatically deserializes the incoming JSON from the request body into a Java object (e.g., a `ClaimDTO`), which I can then process.
 
-### 7. How can you pass data in the request body in a RESTful web service?
+### 7. How do you handle URL query parameters?
+**Business Use Case:** "We need an API to search for members. How would you allow clients to filter by last name and city, like `/api/members?lastName=Smith&city=NewYork`?"
 
-To pass data in the request body of a RESTful web service, use the `@RequestBody` annotation on a method parameter. Spring Boot automatically deserializes the request body content (e.g., JSON) into the specified parameter type.
+**Answer:** I use the `@RequestParam` annotation on method parameters. For example, `public List<Member> searchMembers(@RequestParam String lastName, @RequestParam(required = false) String city)`. This binds the URL query parameters to the method variables.
 
-### 8. What is the purpose of the `@PostMapping` annotation?
+### 8. How do you control the HTTP response status and headers?
+**Business Use Case:** "After creating a new member via a POST request, how do you return a `201 Created` status and include a `Location` header pointing to the new member's URL?"
 
-The `@PostMapping` annotation is used to handle HTTP POST requests in a RESTful web service. It maps the specified URL to the annotated method, allowing you to process incoming POST requests.
+**Answer:** I use the `ResponseEntity` class as the return type of my controller method. It gives me full control over the response, allowing me to set the status code, headers, and the response body.
 
-### 9. How can you return JSON responses from a RESTful web service in Spring Boot?
+### 9. What is your strategy for handling exceptions?
+**Business Use Case:** "If a request comes in for a claim that doesn't exist, or if the database is down, how do you ensure the API returns a clean, standardized error message instead of a stack trace?"
 
-To return JSON responses from a RESTful web service in Spring Boot, annotate the method with `@ResponseBody` and return a Java object. Spring Boot will automatically serialize the object to JSON.
+**Answer:** I use a centralized exception handler. I create a class annotated with `@RestControllerAdvice` and define methods annotated with `@ExceptionHandler`. Each method handles a specific exception (e.g., `ClaimNotFoundException`) and returns a custom error DTO with a clear message and the appropriate HTTP status code.
 
-### 10. What is the purpose of the `@RequestBody` annotation?
+### 10. What is idempotency and why is it important?
+**Business Use Case:** "If a client's network connection times out while submitting a payment and they retry the request, how do we prevent charging the member twice?"
 
-The `@RequestBody` annotation is used to bind the HTTP request body to a method parameter in a RESTful web service. It allows you to receive and process data sent by the client in the request body.
+**Answer:** Idempotency means that making the same request multiple times has the same effect as making it once. This is crucial for `PUT` and `DELETE` operations, and very important for `POST` in financial systems. To handle this, I would require the client to send a unique `Idempotency-Key` in the header. My service would track processed keys for a short period and, if a duplicate request comes in, return the original response without reprocessing the payment.
 
-### 11. How can you handle query parameters in a RESTful web service?
+### 11. How do you handle partial updates of a resource?
+**Business Use Case:** "A user wants to update only their phone number, not their entire member profile. Should we use PUT or PATCH?"
 
-To handle query parameters in a RESTful web service, annotate a method parameter with `@RequestParam`. The value of the query parameter will be automatically bound to the annotated parameter.
+**Answer:** For this scenario, `PATCH` is the correct and more efficient choice. Here's a detailed breakdown:
+*   **`PUT` is for complete replacement.** When you use `PUT`, you are telling the server to replace the entire resource at the given URI with the new representation you are sending. If you only send the phone number in a `PUT` request to `/api/members/{id}`, the server would replace the existing member object, likely nullifying other fields like name and address. `PUT` is naturally idempotent because sending the same complete payload multiple times has the same result.
 
-### 12. What is the purpose of the `@PutMapping` annotation?
+*   **`PATCH` is for partial modification.** When you use `PATCH`, you are sending a set of instructions on how to change the resource. The request body only needs to contain the fields you want to update. For example, a request with `{"phoneNumber": "555-1234"}` would instruct the server to only change the phone number field, leaving all other fields intact.
 
-The `@PutMapping` annotation is used to handle HTTP PUT requests in a RESTful web service. It maps the specified URL to the annotated method, allowing you to process incoming PUT requests.
+While `PATCH` is not guaranteed to be idempotent (e.g., a request to increment a value), a simple update like this one is. Using `PATCH` is more network-efficient and less error-prone for partial updates.
 
-### 13. How can you handle HTTP DELETE requests in a RESTful web service?
+### 12. How do you implement versioning for your REST APIs?
+**Business Use Case:** "We need to add a new required field to our claim submission API. How can we do this without breaking existing client applications that haven't been updated yet?"
 
-To handle HTTP DELETE requests in a RESTful web service, use the `@DeleteMapping` annotation. It maps the specified URL to the annotated method, allowing you to process incoming DELETE requests.
+**Answer:** API versioning is essential for this. A common approach is URI versioning, where the version is included in the URL (e.g., `/api/v1/claims` and `/api/v2/claims`). This allows us to maintain the old `v1` endpoint for legacy clients while new clients can use the `v2` endpoint with the new field.
 
-### 14. What is HATEOAS in the context of RESTful web services?
+### 13. How do you secure your REST APIs?
+**Business Use Case:** "How do you ensure that only an authenticated provider can submit a claim and that a member can only view their own claim history?"
+
+**Answer:** I use Spring Security with a token-based approach like JWT (JSON Web Tokens).
+*   **Authentication:** The user logs in and receives a JWT. This token is sent in the `Authorization` header of every subsequent request.
+*   **Authorization:** The token contains the user's ID and roles (e.g., 'MEMBER', 'PROVIDER'). My service validates the token and uses method-level security (`@PreAuthorize`) to check if the user has the right role and if the resource they are trying to access belongs to them.
+
+### 14. What is HATEOAS?
+**Business Use Case:** "After a client fetches a claim, how can we make our API 'self-discoverable' so the client knows it can also fetch the member details or the associated EOB without hard-coding URLs?"
 
 HATEOAS (Hypermedia as the Engine of Application State) is a principle of RESTful web services that involves including hypermedia links in the API responses. These links allow clients to discover and navigate the available resources and actions dynamically.
 
-### 15. How can you enable HATEOAS in a Spring Boot RESTful web service?
+### 15. How do you handle file uploads?
+**Business Use Case:** "When submitting a claim, a provider might need to upload a supporting document (like a PDF or image). How does your API handle this?"
 
-In Spring Boot, you can enable HATEOAS support by adding the `spring-boot-starter-hateoas` dependency to your project. It provides classes and annotations for building hypermedia-driven RESTful web services.
+**Answer:** I would create a multipart endpoint using `@PostMapping`. The method parameter would be annotated with `@RequestParam("file") MultipartFile`. Spring Boot handles the complexities of parsing the multipart request, and I can then process the file's input stream to save it to a service like Amazon S3.
 
-### 16. What is content negotiation in RESTful web services?
+### 16. What is your approach to validating incoming requests?
+**Business Use Case:** "How do you ensure that a new claim submission contains all the required fields, like `memberId` and `serviceDate`, before it hits your business logic?"
 
-Content negotiation in RESTful web services involves determining the format of the response based on the client's preferences. The client can specify the desired content type (e.g., JSON, XML) using the `Accept` header in the HTTP request.
+**Answer:** I use the Bean Validation API. I annotate the fields in my DTO (Data Transfer Object) with constraints like `@NotNull`, `@Size`, and `@Pattern`. Then, in my controller method, I annotate the `@RequestBody` parameter with `@Valid`. Spring Boot will automatically validate the incoming object and throw an exception if the constraints are not met, which my global exception handler can catch.
 
-### 17. How can you enable content negotiation in a Spring Boot RESTful web service?
+### 17. How do you implement pagination?
+**Business Use Case:** "An API to fetch a member's claim history could return hundreds of records. How do you design it to be efficient and not overload the client?"
 
-Content negotiation can be enabled in a Spring Boot RESTful web service by configuring the `ContentNegotiationConfigurer` in a `@Configuration` class. You can specify the supported media types and their associated serializers/deserializers.
+**Answer:** I implement pagination using query parameters like `page` and `size`. In Spring Data JPA, I can pass a `Pageable` object to my repository method. It automatically adds the necessary `LIMIT` and `OFFSET` clauses to the SQL query. The API then returns a `Page` object, which includes the list of claims for the current page and metadata like the total number of pages.
 
-### 18. What is the purpose of the `@ResponseStatus` annotation?
+### 18. What is CORS and how do you manage it?
+**Business Use Case:** "Our new single-page web application, running on a different domain, needs to call our backend APIs. How do you allow this securely?"
 
-The `@ResponseStatus` annotation is used to specify the HTTP response status code for a method in a RESTful web service. It allows you to customize the response status code based on the outcome of the method execution.
+**Answer:** This requires CORS (Cross-Origin Resource Sharing). In Spring Boot, I can manage this globally in my security configuration or on a per-controller basis using the `@CrossOrigin` annotation. This allows me to whitelist the specific domains, methods, and headers that are allowed to access my API.
 
-### 19. How can you handle exceptions in a Spring Boot RESTful web service?
+### 19. How do you improve API performance with caching?
+**Business Use Case:** "Our API to fetch PBO (Plan Benefit Option) configurations is called frequently, but the data rarely changes. How can we reduce the load on the database?"
 
-To handle exceptions in a Spring Boot RESTful web service, you can annotate a method with `@ExceptionHandler` and specify the exception type it should handle. You can then return a custom error response or perform any other necessary actions.
+**Answer:** I would implement caching. With Spring Boot, I can add the `@EnableCaching` annotation and then annotate the service method that fetches the PBO data with `@Cacheable("pbo-configs")`. The first time the method is called, it will fetch the data from the database and store it in a cache. Subsequent calls will return the data directly from the cache, which is much faster.
 
-### 20. What is the purpose of the `@ExceptionHandler` annotation?
+### 20. How do you handle long-running asynchronous operations?
+**Business Use Case:** "When a user requests a large EOB (Explanation of Benefits) report for the entire year, generating it can take a long time. How do you prevent the API request from timing out?"
 
-The `@ExceptionHandler` annotation is used to define methods that handle specific exceptions in a Spring Boot RESTful web service. When an exception occurs, the corresponding `@ExceptionHandler` method is invoked to handle the exception.
+**Answer:** For long-running tasks, I would use an asynchronous approach. The controller would immediately return a `202 Accepted` response with a link to a status endpoint. The report generation task would be pushed to a message queue (like Kafka or RabbitMQ) and processed by a separate worker service. The client can then poll the status endpoint to check when the report is ready for download.
 
-### 21. How can you enable CORS (Cross-Origin Resource Sharing) in a Spring Boot RESTful web service?
+### 21. What is Content Negotiation?
+**Business Use Case:** "Some of our clients want to receive claim data as JSON, while a legacy client needs it in XML format. How can the same endpoint support both?"
 
-To enable CORS in a Spring Boot RESTful web service, you can annotate the controller class or specific methods with `@CrossOrigin`. This allows requests from different origins to access the resources.
+**Answer:** This is handled by Content Negotiation. The client specifies its desired format in the `Accept` header of the request (e.g., `Accept: application/json` or `Accept: application/xml`). If I have the necessary libraries (like Jackson for JSON and JAXB for XML) on my classpath, Spring Boot can automatically serialize the response object into the format requested by the client.
 
-### 22. What is the purpose of the `@CrossOrigin` annotation?
+### 22. How do you implement rate limiting?
+**Business Use Case:** "To prevent abuse, we want to limit a single user to 100 API requests per minute. How would you implement this?"
 
-The `@CrossOrigin` annotation is used to enable CORS (Cross-Origin Resource Sharing) for a controller or specific methods in a Spring Boot RESTful web service. It allows requests from different origins to access the annotated endpoints.
+**Answer:** I would implement rate limiting at the API Gateway level. Services like Spring Cloud Gateway can be configured with filters (e.g., using Redis as a backend) to track the number of requests per user or IP address and return a `429 Too Many Requests` status if the limit is exceeded.
 
-### 23. How can you handle file uploads in a Spring Boot RESTful web service?
+### 23. What is your strategy for logging API requests and responses?
+**Business Use Case:** "A client is reporting an error with a claim submission, but we can't reproduce it. How can we get the information needed to debug the issue in production?"
 
-To handle file uploads in a Spring Boot RESTful web service, use the `@RequestParam` annotation with the `MultipartFile` type as a method parameter. Spring Boot will automatically handle the file upload and provide access to the uploaded file.
+**Answer:** I implement structured logging using a library like Logback. I would use an `HandlerInterceptor` or a `Filter` to log key details for every request and response, such as the HTTP method, URL, status code, and response time. For error-level logs, I would also include a unique correlation ID to trace the request across different microservices. I would be careful to mask any sensitive PHI data in the logs.
 
-### 24. What is the purpose of the `@RequestParam` annotation?
+### 24. How do you handle conditional requests using ETags?
+**Business Use Case:** "A mobile app frequently fetches a member's profile. How can we avoid re-sending the same data if it hasn't changed, to save bandwidth?"
 
-The `@RequestParam` annotation is used to bind a request parameter to a method parameter in a Spring Boot RESTful web service. It allows you to extract values from the query string or form data.
+**Answer:** I would use ETags (Entity Tags). When the client first requests the member profile, the server includes an `ETag` header in the response, which is a hash of the data. For the next request, the client sends this ETag value in the `If-None-Match` header. The server can then quickly check if the data has changed. If it hasn't, the server returns a `304 Not Modified` status with an empty body, saving bandwidth.
 
-### 25. How can you validate request parameters in a Spring Boot RESTful web service?
+### 25. How do you document your REST APIs?
+**Business Use Case:** "How do you ensure that the frontend team and other service teams know exactly how to use the new Member API you've built, including all the endpoints, request formats, and response codes?"
 
-To validate request parameters in a Spring Boot RESTful web service, you can use the validation annotations provided by the Bean Validation API (e.g., `@NotNull`, `@Min`, `@Max`). Annotate the method parameter with the appropriate validation annotations.
+**Answer:** I use the OpenAPI specification (formerly Swagger). By adding the `springdoc-openapi` dependency and annotating my controllers and DTOs, I can automatically generate interactive API documentation. This documentation serves as a live contract, is always in sync with the code, and allows other developers to try out the API directly from their browser.
 
-### 26. What is the purpose of the `@Valid` annotation?
+### 26. What are the best practices for REST API security?
+**Business Use Case:** "Our APIs handle sensitive Protected Health Information (PHI). What key security measures would you implement to protect this data from unauthorized access and attacks?"
 
-The `@Valid` annotation is used to trigger the validation of method parameters or request bodies in a Spring Boot RESTful web service. It applies the validation rules defined by the validation annotations.
+**Answer:** Securing APIs, especially those handling PHI, is critical. My approach involves a defense-in-depth strategy:
+1.  **Always Use HTTPS (TLS):** All communication must be encrypted to prevent man-in-the-middle attacks. There are no exceptions for this.
+2.  **Strong Authentication with OAuth 2.0 and JWTs:** I would use a standard like OAuth 2.0 to handle authentication. Once authenticated, the client receives a short-lived JSON Web Token (JWT) which must be sent with every request.
+3.  **Granular Authorization:** Authentication isn't enough. Every endpoint must perform authorization checks. For example, a member should only be able to access their own claims (`/api/members/{memberId}/claims`). This is enforced by checking the `memberId` from the JWT against the one in the URL.
+4.  **Input Validation:** I would validate all incoming data to prevent injection attacks (like SQL Injection or XSS). This includes checking data types, lengths, and formats.
+5.  **Principle of Least Privilege:** API tokens should have the minimum scopes necessary. A read-only client should not have a token that allows write access.
+6.  **Rate Limiting and Throttling:** To protect against Denial-of-Service (DoS) attacks and brute-force attempts, I would implement rate limiting at the API gateway level.
+7.  **Secure Logging:** I would log all important events but ensure that no sensitive PHI is ever written to the logs. I would mask fields like Social Security Numbers or diagnosis codes.
 
-### 27. How can you handle pagination in a Spring Boot RESTful web service?
+### 27. What is the difference between Authentication and Authorization?
+**Business Use Case:** "In our insurance portal, a doctor needs to log in and view their patients' claims, but they should not be able to see claims from other doctors. How do you distinguish between the two security concepts at play here?"
 
-To handle pagination in a Spring Boot RESTful web service, you can use query parameters to specify the page number, page size, and other pagination parameters. The service can then apply pagination logic to retrieve the appropriate subset of data.
+**Answer:** This scenario perfectly illustrates the difference between Authentication and Authorization.
 
-### 28. What is the purpose of the `@PageableDefault` annotation?
+*   **Authentication (AuthN) is about identity.** It's the process of verifying who a user is. When the doctor logs in with their username and password, the system is **authenticating** them to confirm they are a valid user. It answers the question: "Are you really Dr. Smith?"
 
-The `@PageableDefault` annotation is used to define the default values for pagination parameters in a Spring Boot RESTful web service. It allows you to specify the default page size, sort order, and other pagination options.
+*   **Authorization (AuthZ) is about permissions.** This happens *after* authentication. It's the process of determining what a verified user is allowed to do. When Dr. Smith tries to access `/api/claims`, the system checks if they have the permission to view claims. Furthermore, it checks if they are authorized to view the *specific* claims of their own patients, but not others. It answers the question: "Now that I know you are Dr. Smith, what are you allowed to see and do?"
 
-### 29. How can you handle versioning in a Spring Boot RESTful web service?
-
-There are several approaches to handle versioning in a Spring Boot RESTful web service, such as using different URL paths, request headers, or query parameters. Choose an approach that suits your requirements and annotate the corresponding endpoints accordingly.
-
-### 30. What is the purpose of the `@PathVariable` annotation?
-
-The `@PathVariable` annotation is used to bind a URL path variable to a method parameter in a Spring Boot RESTful web service. It allows you to extract values from the URL path and use them in the method logic.
-
-### 31. How can you handle content negotiation based on the request header in a Spring Boot RESTful web service?
-
-To handle content negotiation based on the request header in a Spring Boot RESTful web service, you can use the `produces` attribute of the request mapping annotations (e.g., `@GetMapping`, `@PostMapping`). Specify the media types you support in the `produces` attribute.
-
-### 32. What is the purpose of the `@ResponseBody` annotation?
-
-The `@ResponseBody` annotation is used to indicate that the return value of a method in a Spring Boot RESTful web service should be serialized and included in the HTTP response body. It enables you to return non-view objects as the response.
-
-### 33. How can you handle conditional requests in a Spring Boot RESTful web service?
-
-To handle conditional requests in a Spring Boot RESTful web service, you can use the `If-Match`, `If-None-Match`, `If-Modified-Since`, and `If-Unmodified-Since` headers to validate the current state of the resource and return an appropriate response.
-
-### 34. What is the purpose of the `@ResponseBodyAdvice` annotation?
-
-The `@ResponseBodyAdvice` annotation is used to define classes that can customize the response body or apply transformations to the response in a Spring Boot RESTful web service. It allows you to intercept and modify the response before it is sent to the client.
-
-### 35. How can you handle content negotiation based on the request parameter in a Spring Boot RESTful web service?
-
-To handle content negotiation based on the request parameter in a Spring Boot RESTful web service, you can use the `params` attribute of the request mapping annotations (e.g., `@GetMapping`, `@PostMapping`). Specify the request parameters that indicate the desired media type.
-
-### 36. What is the purpose of the `@ResponseStatusException` annotation?
-
-The `@ResponseStatusException` annotation is used to declare the response status code and reason in a Spring Boot RESTful web service when an exception occurs. It allows you to customize the error response for specific exceptions.
-
-### 37. How can you handle content negotiation based on the request body in a Spring Boot RESTful web service?
-
-To handle content negotiation based on the request body in a Spring Boot RESTful web service, you can use the `consumes` attribute of the request mapping annotations (e.g., `@PostMapping`, `@PutMapping`). Specify the media types you support for request bodies.
-
-### 38. What is the purpose of the `@RestControllerAdvice` annotation?
-
-The `@RestControllerAdvice` annotation is used to define classes that provide global exception handling, response customization, or other advice for all controllers in a Spring Boot RESTful web service. It allows you to centralize common logic for multiple controllers.
-
-### 39. How can you handle partial updates in a Spring Boot RESTful web service?
-
-To handle partial updates in a Spring Boot RESTful web service, you can use the `PATCH` method and apply the changes specified in the request body to the existing resource. Implement the logic to merge the changes with the current state of the resource.
-
-### 40. What is the purpose of the `@RequestBody` annotation?
-
-The `@RequestBody` annotation is used to bind the request body to a method parameter in a Spring Boot RESTful web service. It allows you to receive and process data sent by the client in the request body.
-
-### 41. How can you implement content compression in a Spring Boot RESTful web service?
-
-To implement content compression in a Spring Boot RESTful web service, you can configure compression settings in the server configuration or use libraries like GZIP compression to compress the response content before sending it to the client.
-
-### 42. What is the purpose of the `@RequestHeader` annotation?
-
-The `@RequestHeader` annotation is used to bind a request header to a method parameter in a Spring Boot RESTful web service. It allows you to access the values of specific headers sent by the client.
-
-### 43. How can you handle long-running asynchronous operations in a Spring Boot RESTful web service?
-
-To handle long-running asynchronous operations in a Spring Boot RESTful web service, you can use the `CompletableFuture` class or reactive programming libraries like Spring WebFlux. Perform the long-running operation in a separate thread or asynchronously and return a `CompletableFuture` or a reactive stream.
-
-### 44. What is the purpose of the `@ModelAttribute` annotation?
-
-The `@ModelAttribute` annotation is used to bind request attributes or form data to a method parameter in a Spring Boot RESTful web service. It allows you to access and process additional data sent by the client.
-
-### 45. How can you handle concurrent requests in a Spring Boot RESTful web service?
-
-To handle concurrent requests in a Spring Boot RESTful web service, you can use synchronization mechanisms like locks or concurrent data structures to ensure thread safety. Alternatively, you can design the service to be stateless and handle requests concurrently without shared mutable state.
-
-### 46. What is the purpose of the `@ControllerAdvice` annotation?
-
-The `@ControllerAdvice` annotation is used to define classes that provide global exception handling, data binding, or other advice for all controllers in a Spring Boot RESTful web service. It allows you to centralize common logic for multiple controllers.
-
-### 47. How can you handle method-specific exceptions in a Spring Boot RESTful web service?
-
-To handle method-specific exceptions in a Spring Boot RESTful web service, you can use the `@ExceptionHandler` annotation on methods within the controller. Each method can handle a specific exception type and provide a customized error response.
-
-### 48. What is the purpose of the `@PathVariable` annotation?
-
-The `@PathVariable` annotation is used to bind a URL path variable to a method parameter in a Spring Boot RESTful web service. It allows you to extract values from the URL path and use them in the method logic.
-
-### 49. How can you implement rate limiting in a Spring Boot RESTful web service?
-
-To implement rate limiting in a Spring Boot RESTful web service, you can use libraries or frameworks that provide rate limiting functionality, such as Spring Cloud Gateway or Spring Rate Limiter. Configure the rate limit rules and apply them to your service endpoints.
-
-### 50. What is the purpose of the `@RequestPart` annotation?
-
-The `@RequestPart` annotation is used to bind a part of a multipart request to a method parameter in a Spring Boot RESTful web service. It allows you to handle multipart requests containing files or other data.
-
-### 51. How can you implement caching in a Spring Boot RESTful web service?
-
-To implement caching in a Spring Boot RESTful web service, you can use the caching annotations provided by the Spring Framework (e.g., `@Cacheable`, `@CachePut`). Configure a caching provider (e.g., Redis, Ehcache) and annotate the appropriate methods to cache the results.
-
-### 52. What is the purpose of the `@ResponseEntity` class?
-
-The `ResponseEntity` class is used to customize the HTTP response in a Spring Boot RESTful web service. It allows you to set the response status code, headers, and body explicitly.
-
-### 53. How can you implement request logging in a Spring Boot RESTful web service?
-
-To implement request logging in a Spring Boot RESTful web service, you can configure a logging framework (e.g., Logback, Log4j) and log the incoming requests at the desired log level. Customize the log format and include relevant request details.
-
-### 54. What is the purpose of the `@ResponseBody` annotation?
-
-The `@ResponseBody` annotation is used to indicate that the return value of a method in a Spring Boot RESTful web service should be serialized and included in the HTTP response body. It enables you to return non-view objects as the response.
-
-### 55. How can you implement request validation in a Spring Boot RESTful web service?
-
-To implement request validation in a Spring Boot RESTful web service, you can use the Bean Validation API annotations (`@NotNull`, `@Size`, etc.) on method parameters or request DTOs. Configure a validator and apply validation rules to the incoming requests.
-
-### 56. What is the purpose of the `@RestControllerAdvice` annotation?
-
-The `@RestControllerAdvice` annotation is used to define classes that provide global exception handling, response customization, or other advice for all controllers in a Spring Boot RESTful web service. It allows you to centralize common logic for multiple controllers.
-
-### 57. How can you implement security in a Spring Boot RESTful web service?
-
-To implement security in a Spring Boot RESTful web service, you can use frameworks like Spring Security. Configure authentication and authorization rules, handle access control, and protect sensitive endpoints or resources.
-
-### 58. What is the purpose of the `@RequestAttribute` annotation?
-
-The `@RequestAttribute` annotation is used to bind a request attribute to a method parameter in a Spring Boot RESTful web service. It allows you to access custom attributes set on the request.
-
-### 59. How can you handle versioning in a Spring Boot RESTful web service using custom media types?
-
-To handle versioning in a Spring Boot RESTful web service using custom media types, you can define different media types for different versions of your API (e.g., `application/vnd.company.v1+json`). Use the `produces` and `consumes` attributes of the request mapping annotations to specify the media types.
-
-### 60. What is the purpose of the `@RequestBody` annotation?
-
-The `@RequestBody` annotation is used to bind the request body to a method parameter in a Spring Boot RESTful web service. It allows you to receive and process data sent by the client in the request body.
-
-### 61. How can you implement request/response logging in a Spring Boot RESTful web service?
-
-To implement request/response logging in a Spring Boot RESTful web service, you can use libraries or frameworks that provide logging functionality, such as Spring Boot's default logging framework. Configure the log level, log format, and include the relevant details of the request and response.
-
-### 62. What is the purpose of the `@RestController` annotation?
-
-The `@RestController` annotation is used to indicate that a class is a RESTful controller in a Spring Boot application. It combines the `@Controller` and `@ResponseBody` annotations, simplifying the creation of RESTful controllers that return serialized response bodies.
-
-### 63. How can you implement custom error handling in a Spring Boot RESTful web service?
-
-To implement custom error handling in a Spring Boot RESTful web service, you can create an exception handler class annotated with `@ControllerAdvice` and define methods to handle specific exception types. Customize the error response or perform additional actions based on the encountered exceptions.
-
-### 64. What is the purpose of the `@PathVariable` annotation?
-
-The `@PathVariable` annotation is used to bind a URL path variable to a method parameter in a Spring Boot RESTful web service. It allows you to extract values from the URL path and use them in the method logic.
-
-### 65. How can you implement request/response logging using an interceptor in a Spring Boot RESTful web service?
-
-To implement request/response logging using an interceptor in a Spring Boot RESTful web service, you can create a custom interceptor by implementing the `HandlerInterceptor` interface. Override the `preHandle` and `postHandle` methods to log the request and response details.
-
-### 66. What is the purpose of the `@RequestHeader` annotation?
-
-The `@RequestHeader` annotation is used to bind a request header to a method parameter in a Spring Boot RESTful web service. It allows you to access the values of specific headers sent by the client.
-
-### 67. How can you implement pagination in a Spring Boot RESTful web service using query parameters?
-
-To implement pagination in a Spring Boot RESTful web service using query parameters, you can define query parameters for page number, page size, and other pagination options. Use these parameters to retrieve the appropriate subset of data from your data source.
-
-### 68. What is the purpose of the `@ResponseBodyAdvice` annotation?
-
-The `@ResponseBodyAdvice` annotation is used to define classes that can customize the response body or apply transformations to the response in a Spring Boot RESTful web service. It allows you to intercept and modify the response before it is sent to the client.
-
-### 69. How can you implement request/response logging using a filter in a Spring Boot RESTful web service?
-
-To implement request/response logging using a filter in a Spring Boot RESTful web service, you can create a custom filter by implementing the `javax.servlet.Filter` interface. Override the `doFilter` method to log the request and response details.
-
-### 70. What is the purpose of the `@ResponseStatus` annotation?
-
-The `@ResponseStatus` annotation is used to specify the HTTP response status code for a method in a Spring Boot RESTful web service. It allows you to customize the response status code based on the outcome of the method execution.
-
-### 71. How can you handle content negotiation based on the Accept-Language header in a Spring Boot RESTful web service?
-
-To handle content negotiation based on the Accept-Language header in a Spring Boot RESTful web service, you can use the `headers` attribute of the request mapping annotations (e.g., `@GetMapping`, `@PostMapping`). Specify the Accept-Language header value as a condition for the mapping.
-
-### 72. What is the purpose of the `@ExceptionHandler` annotation?
-
-The `@ExceptionHandler` annotation is used to define methods that handle specific exception types in a Spring Boot RESTful web service. It allows you to customize the error handling logic for different types of exceptions.
-
-### 73. How can you implement request/response logging using an aspect in a Spring Boot RESTful web service?
-
-To implement request/response logging using an aspect in a Spring Boot RESTful web service, you can create a custom aspect by implementing the `org.aspectj.lang.annotation.Aspect` interface. Define pointcuts for request and response handling and log the necessary details.
-
-### 74. What is the purpose of the `@RequestAttribute` annotation?
-
-The `@RequestAttribute` annotation is used to bind a request attribute to a method parameter in a Spring Boot RESTful web service. It allows you to access custom attributes set on the request.
-
-### 75. How can you implement content negotiation based on the URL extension in a Spring Boot RESTful web service?
-
-To implement content negotiation based on the URL extension in a Spring Boot RESTful web service, you can configure the `ContentNegotiationConfigurer` to enable path extension content negotiation. Define media types for different URL extensions in your application configuration.
-
-### 76. What is the purpose of the `@RestControllerAdvice` annotation?
-
-The `@RestControllerAdvice` annotation is used to define classes that provide global exception handling, response customization, or other advice for all controllers in a Spring Boot RESTful web service. It allows you to centralize common logic for multiple controllers.
-
-### 77. How can you implement response compression in a Spring Boot RESTful web service?
-
-To implement response compression in a Spring Boot RESTful web service, you can configure compression settings in the server configuration or use libraries like GZIP compression to compress the response content before sending it to the client.
-
-### 78. What is the purpose of the `@Validated` annotation?
-
-The `@Validated` annotation is used to enable method-level validation in a Spring Boot RESTful web service. It allows you to apply validation rules defined by the validation annotations on method parameters or request bodies.
-
-### 79. How can you handle file uploads in a Spring Boot RESTful web service?
-
-To handle file uploads in a Spring Boot RESTful web service, you can use the `@RequestParam` annotation to bind the uploaded file to a method parameter. Configure a multipart resolver to handle multipart requests containing files.
-
-### 80. What is the purpose of the `@ModelAttribute` annotation?
-
-The `@ModelAttribute` annotation is used to bind request attributes or form data to a method parameter in a Spring Boot RESTful web service. It allows you to access and process additional data sent by the client.
+In short, Authentication is the key to get into the building, while Authorization determines which doors you can open inside.
