@@ -61,7 +61,7 @@ The `ClaimStatusChecker` would then only implement the specific, smaller interfa
 ### Q: Explain the Dependency Inversion Principle (DIP) and how it's used in a framework like Spring.
 **Business Use Case:** "Our `ClaimAdjudicationService` directly creates an instance of an `EmailNotifier`. How does this violate DIP, and what problems would it cause if we need to add SMS or push notifications for claim status updates?"
 
-**Answer:** "This design violates DIP because a high-level module (`ClaimAdjudicationService`) directly depends on a low-level, concrete implementation (`EmailNotifier`). This creates tight coupling. If we want to add an SMS notification option, we'd have to modify the `ClaimAdjudicationService` class, which is risky and violates the Open/Closed Principle.
+**Answer:** "This design violates DIP because a high-level module (`ClaimAdjudicationService`) directly depends on a low-level, concrete implementation (`EmailNotifier`). This creates tight coupling. If we want to add an SMS notification option, we'd have to modify the `ClaimAdjudicationService`, which is risky and violates the Open/Closed Principle.
 
 DIP states that we should depend on abstractions, not concretions. The solution is to introduce a `Notifier` interface. The `ClaimAdjudicationService` would then depend only on this interface.
 
@@ -77,11 +77,11 @@ This is exactly how Spring's Dependency Injection works. We define our dependenc
 ## Object-Oriented Programming (OOP)
 
 ### Q: Beyond the textbook definition, how do you decide between using an abstract class and an interface?
-**Business Use Case:** "We need to integrate with multiple external claims clearinghouses. They all must have a `submitClaim` method, but some might share common logic for generating the claim submission file format (like X12 EDI). Would you use an abstract class or an interface?"
+**Business Use Case:** "We need to integrate with multiple external claims clearinghouses. They all must have a `submitClaim` method, but some might share common logic for generating the claim submission file format (like X12 EDI). How would you model this?"
 
-**Answer:** "My approach would be to use both. I'd start by defining an `interface PaymentGateway` with the core contract method: `processPayment()`. This ensures any class implementing it *must* provide that functionality.
+**Answer:** "My approach would be to use both. I'd start by defining an `interface ClearinghouseClient` with the core contract method: `submitClaim()`. This ensures any class implementing it *must* provide that functionality.
 
-Then, if I find that multiple payment gateways share common, non-public logic (like logging or formatting transaction IDs), I would create an `abstract class AbstractPaymentGateway implements PaymentGateway`. This abstract class would contain the shared helper methods. The concrete classes like `StripeGateway` and `PayPalGateway` would then extend `AbstractPaymentGateway`.
+Then, if I find that multiple clearinghouses share common, non-public logic (like formatting the X12 EDI file), I would create an `abstract class AbstractClearinghouseClient implements ClearinghouseClient`. This abstract class would contain the shared helper methods. The concrete classes for each clearinghouse would then extend `AbstractClearinghouseClient`.
 
 This gives me the best of both worlds: a clean, enforceable contract with the interface, and code reuse through the abstract class, without forcing an inheritance structure on all implementations."
 
@@ -95,8 +95,9 @@ This is a classic case for 'Composition over Inheritance'. Instead of inheriting
 I would create interfaces like `ClaimCodeHandler` with implementations like `DentalCodeHandler` and `MedicalCodeHandler`. The `DentalClaim` class would then *have-a* `DentalCodeHandler` instance to manage its specific logic.
 
 ```java
-class Bird {
-    private Movable moveBehavior = new FlyingBehavior();
+class DentalClaim {
+    private ClaimCodeHandler codeHandler = new DentalCodeHandler();
+    // ...
 }
 ```
 This approach is far more flexible. If we later invent a swimming bird, we can just create a `SwimmingBehavior` and compose it without changing the `Bird` class hierarchy."

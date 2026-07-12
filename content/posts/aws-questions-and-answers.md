@@ -1,396 +1,134 @@
 ---
-title: "AWS Cloud Questions and Answers"
+title: "Top 20 AWS Interview Questions for Senior Developers"
 categories: [ AWS ]
 tags: [AWS Cloud]
-description: "AWS Cloud Questions and Answers"
+description: "A curated list of the 20 most important AWS interview questions for experienced developers, with business use cases from the healthcare insurance domain."
 date: 2023-05-18T08:00:00+05:30
+lastmod: 2026-07-11T08:00:00+05:30
 images: ["images/2023/05/AWS_Services_for_Data_Engineering.png"]
 author: ahmad
 ---
-## AWS Cloud Questions and Answers
+## Top 20 AWS Questions for Experienced Developers
 
-#### Q1. What is AWS CloudFormation, and how does it work?
+### 1. What is Amazon EC2?
+**Business Use Case:** "Where would you host the main Java application for our claims processing system?"
 
-AWS CloudFormation is a service that allows you to define and provision infrastructure resources in a declarative manner. It uses templates written in YAML or JSON format to describe the desired state of your infrastructure.
+**Answer:** Amazon EC2 (Elastic Compute Cloud) provides virtual servers, called instances, in the cloud. It's the backbone of AWS, allowing you to run applications. For the claims processing system, I would deploy our Spring Boot application on a set of EC2 instances.
 
-#### Q2. What is AWS Lambda, and how does it work?
+### 2. What is Amazon S3?
+**Business Use Case:** "Where would you store generated EOB (Explanation of Benefits) documents, claim attachments, and daily data backups?"
 
-AWS Lambda is a serverless compute service that allows you to run your code without provisioning or managing servers. With Lambda, you can upload your code and specify the event sources that trigger its execution.
+**Answer:** Amazon S3 (Simple Storage Service) is a highly scalable and durable object storage service. It's perfect for storing unstructured data like PDF documents, images, and backups. I would use S3 to store all generated EOBs and any supporting documents attached to a claim.
 
-#### Q3. How does AWS Elastic Beanstalk work, and what are its benefits?
+### 3. What is AWS Lambda?
+**Business Use Case:** "We need to automatically process a claim attachment as soon as it's uploaded. How can we do this without a dedicated server running 24/7?"
 
-AWS Elastic Beanstalk is a fully managed service that simplifies the deployment and management of applications. It provides a platform for running web applications and abstracts away the underlying infrastructure details. 
+**Answer:** AWS Lambda is a serverless compute service. It lets you run code in response to events without managing servers. I would configure a Lambda function to be triggered whenever a new file is uploaded to a specific S3 bucket. The function would then process the attachment, for example, by running OCR to extract text.
 
-#### Q5. What is Amazon EC2 Auto Scaling, and how does it work?
+### 4. What is Amazon RDS?
+**Business Use Case:** "Where would you store structured data like member profiles, policy information, and claim details?"
 
-Amazon EC2 Auto Scaling is a service that automatically adjusts the number of EC2 instances in a group based on demand. It helps maintain application availability and scale capacity up or down dynamically.
+**Answer:** Amazon RDS (Relational Database Service) is a managed service for relational databases like PostgreSQL, MySQL, and Oracle. It automates administrative tasks like backups and patching. I would use RDS with PostgreSQL to store the core transactional data for our insurance platform.
 
-#### Q6. How can you secure your resources in AWS?
+### 5. What is Amazon DynamoDB?
+**Business Use Case:** "We need to store a high volume of audit logs for every action taken on a claim, and we need to retrieve them with very low latency. Would a relational database be a good fit?"
 
-- Identity and Access Management (IAM): Manage user access and permissions to AWS services and resources.
-- Virtual Private Cloud (VPC): Isolate your resources in a private network and define fine-grained network access controls.
-- Security Groups and Network ACLs: Control inbound and outbound traffic to your resources at the instance and subnet level.
+**Answer:** For this use case, a NoSQL database like Amazon DynamoDB is a better fit. It's designed for high-volume, low-latency key-value lookups. Storing audit logs in DynamoDB would be much faster and more scalable than using a relational database.
 
-#### Q8. What is AWS CloudWatch, and how can it help in monitoring and managing your resources?
+### 6. What is a VPC?
+**Business Use Case:** "How do you ensure that our entire insurance platform, including its databases and internal services, is isolated from the public internet for security?"
 
-AWS CloudWatch is a monitoring and management service that provides insights into your AWS resources and applications. It collects and tracks metrics, logs, and events from various AWS services, giving you a unified view of your environment.
+**Answer:** A VPC (Virtual Private Cloud) allows you to create a logically isolated section of the AWS cloud where you can launch resources in a virtual network that you define. I would place all our application servers and databases in private subnets within a VPC, with no direct access from the internet.
 
-#### Q1. What is AWS CloudFormation?
-AWS CloudFormation is a service for provisioning and managing infrastructure resources in a declarative manner using templates.
+### 7. What are Security Groups?
+**Business Use Case:** "How do you allow the `ClaimService` to connect to the `MemberDatabase` on the PostgreSQL port, but block all other traffic?"
 
-#### Q2. What is AWS Lambda?
-AWS Lambda is a serverless compute service that allows running code without managing servers.
+**Answer:** Security Groups act as a virtual firewall for EC2 instances. They control inbound and outbound traffic. I would create a security group for the database that only allows inbound traffic on port 5432 from the security group attached to the `ClaimService` instances.
 
-#### Q3. What is AWS Elastic Beanstalk?
-AWS Elastic Beanstalk is a fully managed service for deploying and scaling applications without worrying about infrastructure management.
+### 8. What is an Elastic Load Balancer (ELB)?
+**Business Use Case:** "Our claim submission API will be used by thousands of providers. How do we distribute the traffic evenly across multiple instances of our application?"
 
-#### Q4. What are the storage options in AWS?
-AWS provides various storage options such as Amazon S3, Amazon EBS, Amazon EFS, Amazon RDS, Amazon DynamoDB, and Amazon Redshift.
+**Answer:** An ELB (Elastic Load Balancer) automatically distributes incoming application traffic across multiple targets, such as EC2 instances. I would place an Application Load Balancer (ALB) in front of our `ClaimService` instances to ensure high availability and scalability.
 
-#### Q5. What is Amazon EC2 Auto Scaling?
-Amazon EC2 Auto Scaling automatically adjusts the number of EC2 instances based on demand to ensure optimal performance and cost-efficiency.
+### 9. What is Auto Scaling?
+**Business Use Case:** "During open enrollment season, traffic to our member portal increases by 5x. How can we handle this load without manually adding servers?"
 
-#### Q6. How can you secure resources in AWS?
-Securing resources in AWS involves using IAM for access management, configuring VPC for network isolation, encryption for data protection, and leveraging security monitoring services.
+**Answer:** An Auto Scaling Group automatically adjusts the number of EC2 instances to meet demand. I would configure it to monitor the CPU utilization of our instances. If the average CPU goes above 70%, it would automatically launch new instances. When the traffic decreases, it would terminate the extra instances to save costs.
 
-#### Q7. How does AWS Lambda integrate with other AWS services?
-AWS Lambda integrates with services like Amazon S3, Amazon DynamoDB, Amazon SNS, Amazon SQS, API Gateway, and AWS Step Functions to enable event-driven architectures and workflows.
+### 10. What is AWS IAM?
+**Business Use Case:** "How do you give our `ClaimService` permission to read and write to an S3 bucket, but prevent it from deleting anything?"
 
-#### Q8. What is AWS CloudWatch?
-AWS CloudWatch is a monitoring and management service that provides insights into AWS resources and applications through metrics, logs, and events.
+**Answer:** AWS IAM (Identity and Access Management) is used to manage access to AWS services securely. I would create an IAM Role with a policy that grants specific permissions (e.g., `s3:GetObject`, `s3:PutObject`) to the S3 bucket. I would then assign this role to the EC2 instances running the `ClaimService`. This is much more secure than hard-coding API keys.
 
-#### Q9. What is Amazon S3?
-Amazon S3 (Simple Storage Service) is an object storage service that provides scalable and durable storage for files and objects.
+### 11. What is Amazon SQS?
+**Business Use Case:** "When a claim is submitted, we need to put it into a queue for a separate batch process to adjudicate later. How can we ensure no claims are lost if the batch process is temporarily down?"
 
-#### Q10. What is Amazon RDS?
-Amazon RDS (Relational Database Service) is a managed service that simplifies the setup, operation, and scaling of relational databases such as MySQL, PostgreSQL, and Oracle.
+**Answer:** Amazon SQS (Simple Queue Service) is a fully managed message queuing service. The API service would send a message containing the claim details to an SQS queue. This decouples the services. The batch process can then pull messages from the queue at its own pace. If the batch process is down, the messages will be safely stored in the queue until it comes back online.
 
-#### Q11. What is AWS CloudFront?
-AWS CloudFront is a content delivery network (CDN) service that accelerates the delivery of static and dynamic web content, including websites, APIs, and streaming media.
+### 12. What is Amazon SNS?
+**Business Use Case:** "When a claim is finalized, we need to notify multiple downstream systems: the payment service, the EOB generation service, and an audit service. How can we do this efficiently?"
 
-#### Q12. What is AWS IAM?
-AWS IAM (Identity and Access Management) is a service that enables you to manage user access and permissions to AWS services and resources.
+**Answer:** Amazon SNS (Simple Notification Service) is a publish/subscribe messaging service. The `ClaimService` would publish a single `ClaimFinalized` message to an SNS topic. All interested services can subscribe to this topic and will receive a copy of the message. This is a great way to fan out notifications to multiple systems.
 
-#### Q13. What is AWS VPC?
-AWS VPC (Virtual Private Cloud) is a virtual network environment that allows you to provision and isolate resources in a logically isolated section of the AWS cloud.
+### 13. What is the difference between SQS and SNS?
+**Answer:** The key difference is the delivery model. **SNS** uses a **pub/sub** model where a message is pushed to many subscribers. **SQS** uses a **polling** model where a message is sent to a queue, and a single consumer pulls and processes it. You often use them together: an SNS topic can have an SQS queue as one of its subscribers for durable, asynchronous processing.
 
-#### Q14. What is AWS Lambda@Edge?
-AWS Lambda@Edge allows you to run Lambda functions at the edge locations of the AWS global network, closer to the end users, to deliver low-latency responses for content customization and security.
+### 14. What is AWS CloudWatch?
+**Business Use Case:** "How do you monitor our production services and get an alert if the claim adjudication service's CPU usage is too high or if it starts logging a lot of errors?"
 
-#### Q15. What is AWS CloudTrail?
-AWS CloudTrail is a service that provides comprehensive auditing and logging of API calls made within your AWS account, helping you track and monitor user activity and changes to resources.
+**Answer:** AWS CloudWatch is a monitoring service. It collects logs, metrics, and events. I would use it to:
+*   **Collect Metrics:** Track CPU Utilization, memory, and other metrics from our EC2 instances.
+*   **Set Alarms:** Create an alarm that sends a notification (e.g., via SNS) if CPU usage stays above 80% for 5 minutes.
+*   **Centralize Logs:** Ship all application logs to CloudWatch Logs for centralized searching and analysis.
 
-#### Q16. What is AWS Elastic Load Balancer (ELB)?
-AWS Elastic Load Balancer automatically distributes incoming application traffic across multiple EC2 instances, improving fault tolerance and scalability.
+### 15. What is an API Gateway?
+**Business Use Case:** "Our frontend portal needs to call multiple microservices (Member, Claim, Provider). How can we provide a single, secure entry point for all these calls?"
 
-#### Q17. What is AWS Route 53?
-AWS Route 53 is a scalable domain name system (DNS) web service that translates human-readable domain names into IP addresses, enabling reliable and efficient routing of web traffic.
+**Answer:** Amazon API Gateway is a managed service for creating and managing APIs. It acts as a "front door" for our backend services. It can handle request routing, authentication and authorization, rate limiting, and caching, which simplifies the logic in our downstream microservices.
 
-#### Q18. What is AWS SNS?
-AWS SNS (Simple Notification Service) is a messaging service that enables the publishing and delivery of messages to subscribers or other AWS services.
+### 16. What is AWS CloudFormation?
+**Business Use Case:** "We need to set up a new, identical environment for a new client. How can we do this quickly and without manual errors?"
 
-#### Q19. What is AWS CloudFormation Stack?
-An AWS CloudFormation Stack is a collection of AWS resources that are created, updated, or deleted together as a single unit using a CloudFormation template.
+**Answer:** AWS CloudFormation is an Infrastructure as Code (IaC) service. I would define our entire infrastructure—VPC, EC2 instances, databases, load balancers—in a YAML or JSON template. We can then use this template to automatically and repeatably provision the entire stack of resources, ensuring consistency and reducing manual effort.
 
-#### Q20. What is AWS CodeDeploy?
-AWS CodeDeploy is a fully managed deployment service that automates application deployments to Amazon EC2 instances, on-premises instances, and serverless Lambda functions.
+### 17. What is AWS Elastic Beanstalk?
+**Business Use Case:** "A small team needs to quickly deploy a simple member-facing web application without having to worry about configuring servers, load balancers, or auto-scaling."
 
-#### Q21. What is AWS S3 Glacier?
-AWS S3 Glacier is a secure and durable archival storage service designed for long-term data retention and backup.
+**Answer:** AWS Elastic Beanstalk is a Platform as a Service (PaaS) that automates the deployment and management of applications. The team can just upload their code (e.g., a WAR file), and Elastic Beanstalk automatically handles the provisioning of servers, load balancing, and scaling. It's great for simple applications where you don't need fine-grained control over the infrastructure.
 
-#### Q22. What is AWS CloudFront Edge Location?
-AWS CloudFront Edge Locations are global points of presence where content is cached to deliver low-latency performance for users accessing your applications.
+### 18. What is AWS ECS?
+**Business Use Case:** "We are moving our microservices to Docker containers. How can we run and manage these containers at scale on AWS?"
 
-#### Q23. What is AWS DynamoDB?
-AWS DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
+**Answer:** AWS ECS (Elastic Container Service) is a container orchestration service. It allows us to define our application as a set of services and tasks, and ECS takes care of placing the containers on a cluster of EC2 instances, managing their lifecycle, and integrating with load balancers.
 
-#### Q24. What is AWS ECS?
-AWS ECS (Elastic Container Service) is a fully managed container orchestration service that allows you to run and scale Docker containers on AWS.
+### 19. What is AWS Secrets Manager?
+**Business Use Case:** "How do we securely store and manage database passwords and third-party API keys without hard-coding them in our application's configuration files?"
 
-#### Q25. What is AWS Elasticache?
-AWS Elasticache is a fully managed in-memory data store service that supports popular caching engines like Redis and Memcached.
+**Answer:** AWS Secrets Manager is a service for securely storing and managing secrets. We can store our database credentials in Secrets Manager and use IAM roles to give our application permission to retrieve them at runtime. It also supports automatic rotation of secrets, which is a key security best practice.
 
-#### Q26. What is AWS CloudWatch Logs?
-AWS CloudWatch Logs is a service for monitoring, storing, and accessing log files generated by AWS resources and applications.
+### 20. What is AWS CloudFront?
+**Business Use Case:** "Our member portal has static assets like images, CSS, and JavaScript files. How can we ensure these files load quickly for users across the country?"
 
-#### Q27. What is AWS Kinesis?
-AWS Kinesis is a platform for collecting, processing, and analyzing real-time streaming data at scale.
+**Answer:** AWS CloudFront is a Content Delivery Network (CDN). It caches copies of your static content in "edge locations" around the world, closer to your users. When a user requests a file, it's served from the nearest edge location instead of your main server, which significantly reduces latency and improves load times.
 
-#### Q28. What is AWS Direct Connect?
-AWS Direct Connect is a dedicated network connection between your on-premises data center and AWS, providing a private and reliable link.
+### 21. Explain the difference between RDS and DynamoDB in more detail.
+**Business Use Case:** "In our insurance platform, we need to store member policy details, which have complex, structured relationships. We also need to store user session data for our web portal, which requires very fast reads and writes. Which database would you choose for each, and why?"
 
-#### Q29. What is AWS Secrets Manager?
-AWS Secrets Manager is a service that helps you protect sensitive information such as API keys, database credentials, and other secrets.
+**Answer:** This scenario perfectly highlights why you'd choose one over the other. They are both managed databases but are designed for fundamentally different problems.
 
-#### Q30. What is AWS Step Functions?
-AWS Step Functions is a serverless workflow service that enables you to coordinate and orchestrate multiple AWS services into a visual workflow.
+| Feature | Amazon RDS (Relational) | Amazon DynamoDB (NoSQL) |
+| :--- | :--- | :--- |
+| **Data Model** | Tables with rows and columns (like a spreadsheet). | Key-value pairs and documents (like a JSON object). |
+| **Schema** | Fixed and predefined. You must define your table structure before you insert data. | Flexible. Each item can have a different structure. |
+| **Scalability** | Scales **vertically** (by increasing the server's CPU/RAM). Can be complex to scale horizontally. | Scales **horizontally** (by adding more servers/partitions). Built for massive scale. |
+| **Querying** | Powerful and flexible using **SQL**. Excellent for complex queries, joins, and aggregations. | Optimized for very fast reads/writes based on a **primary key**. Complex queries are less efficient. |
 
-#### Q31. What is AWS Elastic Load Balancer (ELB)?
-AWS Elastic Load Balancer automatically distributes incoming application traffic across multiple EC2 instances, improving fault tolerance and scalability.
+*   **For Member Policy Data, I would choose Amazon RDS (e.g., PostgreSQL).**
+    *   The data is highly structured with clear relationships (members, policies, dependents).
+    *   We need the power of SQL to run complex reports, like "find all members in a specific group who have a dental plan."
+    *   Transactional integrity (ACID compliance) is critical to ensure data consistency.
 
-#### Q32. What is AWS S3 Cross-Region Replication?
-AWS S3 Cross-Region Replication is a feature that automatically replicates data from one S3 bucket to another in a different AWS region for redundancy and data protection.
-
-#### Q33. What is AWS CloudFormation Stack?
-An AWS CloudFormation Stack is a collection of AWS resources that are created, updated, or deleted together as a single unit using a CloudFormation template.
-
-#### Q34. What is AWS Aurora?
-AWS Aurora is a fully managed relational database engine that is compatible with MySQL and PostgreSQL, offering high performance and scalability.
-
-#### Q35. What is AWS Elastic Beanstalk?
-AWS Elastic Beanstalk is a fully managed service for deploying and scaling applications without worrying about infrastructure management.
-
-#### Q36. What is AWS VPC?
-AWS VPC (Virtual Private Cloud) is a virtual network environment that allows you to provision and isolate resources in a logically isolated section of the AWS cloud.
-
-#### Q37. What is AWS CloudWatch?
-AWS CloudWatch is a monitoring and management service that provides insights into AWS resources and applications through metrics, logs, and events.
-
-#### Q38. What is AWS Lambda?
-AWS Lambda is a serverless compute service that allows running code without managing servers.
-
-#### Q39. What is AWS API Gateway?
-AWS API Gateway is a fully managed service that makes it easy to create, publish, and manage APIs at any scale.
-
-#### Q40. What is AWS RDS?
-AWS RDS (Relational Database Service) is a managed service that simplifies the setup, operation, and scaling of relational databases such as MySQL, PostgreSQL, and Oracle.
-
-#### Q41. What is AWS CloudTrail?
-AWS CloudTrail is a service that provides comprehensive auditing and logging of API calls made within your AWS account, helping you track and monitor user activity and changes to resources.
-
-#### Q42. What is AWS DynamoDB?
-AWS DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
-
-#### Q43. What is AWS SQS?
-AWS SQS (Simple Queue Service) is a fully managed message queuing service that enables decoupling and asynchronous communication between distributed components of an application.
-
-#### Q44. What is AWS Glue?
-AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to prepare and transform data for analytics.
-
-#### Q45. What is AWS CloudFront?
-AWS CloudFront is a content delivery network (CDN) service that accelerates the delivery of static and dynamic web content, including websites, APIs, and streaming media.
-
-#### Q46. What is AWS Elastic Beanstalk?
-AWS Elastic Beanstalk is a fully managed service for deploying and scaling applications without worrying about infrastructure management.
-
-#### Q47. What is AWS S3?
-AWS S3 (Simple Storage Service) is an object storage service that provides scalable and durable storage for files and objects.
-
-#### Q48. What is AWS IAM?
-AWS IAM (Identity and Access Management) is a service that enables you to manage user access and permissions to AWS services and resources.
-
-#### Q49. What is AWS Lambda?
-AWS Lambda is a serverless compute service that allows running code without managing servers.
-
-#### Q50. What is AWS CloudFormation?
-AWS CloudFormation is a service for provisioning and managing infrastructure resources in a declarative manner using templates.
-
-#### Q51. What is AWS EBS?
-AWS EBS (Elastic Block Store) is a scalable block storage service that provides persistent storage volumes for use with Amazon EC2 instances.
-
-#### Q52. What is AWS ECS?
-AWS ECS (Elastic Container Service) is a fully managed container orchestration service that allows you to run and scale Docker containers on AWS.
-
-#### Q53. What is AWS SNS?
-AWS SNS (Simple Notification Service) is a messaging service that enables the publishing and delivery of messages to subscribers or other AWS services.
-
-#### Q54. What is AWS CodePipeline?
-AWS CodePipeline is a fully managed continuous integration and continuous delivery (CI/CD) service that helps automate the release process of your applications.
-
-#### Q55. What is AWS CloudWatch Logs?
-AWS CloudWatch Logs is a service for monitoring, storing, and accessing log files generated by AWS resources and applications.
-
-#### Q56. What is AWS Athena?
-AWS Athena is an interactive query service that allows you to analyze data stored in Amazon S3 using standard SQL queries.
-
-#### Q57. What is AWS Kinesis?
-AWS Kinesis is a platform for collecting, processing, and analyzing real-time streaming data at scale.
-
-#### Q58. What is AWS Secrets Manager?
-AWS Secrets Manager is a service that helps you protect sensitive information such as API keys, database credentials, and other secrets.
-
-#### Q59. What is AWS AppSync?
-AWS AppSync is a fully managed service that simplifies the development of scalable GraphQL APIs by providing real-time data synchronization and offline capabilities.
-
-#### Q60. What is AWS X-Ray?
-AWS X-Ray is a service for analyzing and debugging distributed applications, providing insights into the performance and behavior of your application components.
-
-#### Q61. What is AWS RDS?
-AWS RDS (Relational Database Service) is a fully managed database service that supports multiple relational database engines such as MySQL, PostgreSQL, Oracle, and SQL Server.
-
-#### Q62. What is AWS Lambda?
-AWS Lambda is a serverless compute service that allows you to run your code without provisioning or managing servers, paying only for the compute time consumed.
-
-#### Q63. What is AWS CloudFormation?
-AWS CloudFormation is a service that allows you to define and provision AWS infrastructure resources in a predictable and repeatable manner using templates.
-
-#### Q64. What is AWS Elastic Beanstalk?
-AWS Elastic Beanstalk is a fully managed service that makes it easy to deploy, run, and scale web applications and services using popular programming languages.
-
-#### Q65. What is AWS S3?
-AWS S3 (Simple Storage Service) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
-
-#### Q66. What is AWS CloudFront?
-AWS CloudFront is a global content delivery network (CDN) service that accelerates the delivery of your static and dynamic web content to end users.
-
-#### Q67. What is AWS SQS?
-AWS SQS (Simple Queue Service) is a fully managed message queuing service that enables decoupling and asynchronous communication between distributed systems.
-
-#### Q68. What is AWS EC2?
-AWS EC2 (Elastic Compute Cloud) is a scalable virtual server in the cloud that provides compute capacity for running applications.
-
-#### Q69. What is AWS DynamoDB?
-AWS DynamoDB is a fully managed NoSQL database service that provides single-digit millisecond latency at any scale, making it suitable for high-performance applications.
-
-#### Q70. What is AWS SNS?
-AWS SNS (Simple Notification Service) is a messaging service that enables you to send notifications to individuals or groups via email, SMS, mobile push, and other endpoints.
-
-#### Q71. What is AWS IAM?
-AWS IAM (Identity and Access Management) is a service that helps you securely control access to AWS resources by managing users, groups, and permissions.
-
-#### Q72. What is AWS VPC?
-AWS VPC (Virtual Private Cloud) is a virtual network environment that enables you to launch AWS resources in a logically isolated section of the AWS cloud.
-
-#### Q73. What is AWS S3 Glacier?
-AWS S3 Glacier is a secure and durable archival storage service designed for long-term data retention and backup.
-
-#### Q74. What is AWS Route 53?
-AWS Route 53 is a scalable domain name system (DNS) web service that provides highly reliable and cost-effective domain registration, DNS routing, and health checking.
-
-#### Q75. What is AWS CloudWatch?
-AWS CloudWatch is a monitoring and management service that provides visibility into your AWS resources, applications, and services through logs, metrics, and events.
-
-#### Q76. What is AWS Lambda?
-AWS Lambda is a serverless compute service that runs your code in response to events and automatically scales to handle the load.
-
-#### Q77. What is AWS Redshift?
-AWS Redshift is a fully managed data warehousing service that allows you to analyze large datasets using standard SQL queries.
-
-#### Q78. What is AWS Elastic Beanstalk?
-AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that makes it easy to deploy, run, and scale web applications and services.
-
-#### Q79. What is AWS CloudFormation?
-AWS CloudFormation is a service that allows you to define and manage your AWS infrastructure as code using declarative templates.
-
-#### Q80. What is AWS Glue?
-AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to prepare and transform data for analytics.
-
-#### Q81. What is AWS Elasticache?
-AWS Elasticache is a fully managed in-memory caching service that helps improve the performance and scalability of applications by reducing database load.
-
-#### Q82. What is AWS Step Functions?
-AWS Step Functions is a serverless workflow service that allows you to coordinate and visualize multiple AWS services to build scalable and fault-tolerant applications.
-
-#### Q83. What is AWS Kinesis Data Firehose?
-AWS Kinesis Data Firehose is a fully managed service that helps you capture, transform, and load streaming data into data lakes, data stores, and analytics services.
-
-#### Q84. What is AWS Cloud9?
-AWS Cloud9 is a cloud-based integrated development environment (IDE) that provides a collaborative environment for coding, testing, and debugging applications.
-
-#### Q85. What is AWS Secrets Manager?
-AWS Secrets Manager is a secrets management service that helps you protect sensitive information such as API keys, database credentials, and other secrets.
-
-#### Q86. What is AWS Snowball?
-AWS Snowball is a data transfer device that allows you to securely and quickly transfer large amounts of data into and out of the AWS cloud.
-
-#### Q87. What is AWS Glue Data Catalog?
-AWS Glue Data Catalog is a central metadata repository that stores metadata information about data sources, transformations, and targets used in AWS Glue jobs.
-
-#### Q88. What is AWS Batch?
-AWS Batch is a fully managed service that enables you to run batch computing workloads on the AWS Cloud without the need to manage the underlying infrastructure.
-
-#### Q89. What is AWS CloudTrail?
-AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
-
-#### Q90. What is AWS Data Pipeline?
-AWS Data Pipeline is a web service that helps you orchestrate and automate the movement and transformation of data between different AWS services and on-premises data sources.
-
-#### Q91. What is AWS Athena?
-AWS Athena is an interactive query service that allows you to analyze data directly in Amazon S3 using standard SQL queries.
-
-#### Q92. What is AWS EKS?
-AWS EKS (Elastic Kubernetes Service) is a fully managed Kubernetes service that makes it easy to run, scale, and manage containerized applications using Kubernetes on AWS.
-
-#### Q93. What is AWS CloudFront?
-AWS CloudFront is a content delivery network (CDN) service that delivers your static and dynamic web content with low latency and high transfer speeds.
-
-#### Q94. What is AWS Aurora?
-AWS Aurora is a relational database engine that provides high-performance and scalable database storage for applications running on AWS.
-
-#### Q95. What is AWS Step Functions?
-AWS Step Functions is a serverless workflow service that allows you to coordinate and automate the components of your application using visual workflows.
-
-#### Q96. What is AWS S3 Glacier Deep Archive?
-AWS S3 Glacier Deep Archive is a low-cost storage service designed for long-term data archival, providing durability and security for infrequently accessed data.
-
-#### Q97. What is AWS CloudWatch Logs Insights?
-AWS CloudWatch Logs Insights is an interactive log analytics service that helps you analyze and explore your log data using query expressions.
-
-#### Q98. What is AWS Amplify?
-AWS Amplify is a development platform that enables you to build scalable and secure web and mobile applications with features like authentication, storage, and APIs.
-
-#### Q99. What is AWS Elastic Transcoder?
-AWS Elastic Transcoder is a media transcoding service that makes it easy to convert media files into different formats suitable for playback on various devices.
-
-#### Q100. What is AWS CodeStar?
-AWS CodeStar is a fully managed service that helps you develop, build, and deploy applications on AWS quickly and easily with integrated tools and services.
-
-#### Q101. What is AWS Cloud9?
-AWS Cloud9 is a cloud-based integrated development environment (IDE) that allows you to write, run, and debug your code with a browser-based interface.
-
-#### Q102. What is AWS AppSync?
-AWS AppSync is a fully managed service that makes it easy to develop GraphQL APIs by automatically generating schema and resolvers based on your data sources.
-
-#### Q103. What is AWS Transfer Family?
-AWS Transfer Family is a fully managed service that enables you to transfer files over the internet using protocols like FTP, FTPS, and SFTP.
-
-#### Q104. What is AWS CodePipeline?
-AWS CodePipeline is a fully managed continuous delivery service that helps you automate your software release process, from build to deployment.
-
-#### Q105. What is AWS DataSync?
-AWS DataSync is a data transfer service that makes it easy to move large amounts of data between on-premises storage systems and AWS.
-
-#### Q106. What is AWS Step Functions?
-AWS Step Functions is a serverless workflow service that allows you to coordinate multiple AWS services and build applications with complex business logic.
-
-#### Q107. What is AWS Serverless Application Model (SAM)?
-AWS SAM is an open-source framework for building serverless applications, providing a simplified way to define, manage, and deploy serverless resources.
-
-#### Q108. What is AWS Glue DataBrew?
-AWS Glue DataBrew is a visual data preparation tool that allows you to clean and transform data for analytics and machine learning.
-
-#### Q109. What is AWS IoT Core?
-AWS IoT Core is a managed cloud service that allows you to connect devices securely to the AWS Cloud and interact with them using MQTT and HTTP protocols.
-
-#### Q110. What is AWS Secrets Manager?
-AWS Secrets Manager is a secrets management service that helps you protect sensitive information, such as API keys and database credentials, with encryption and access control.
-
-#### Q111. What is AWS CloudFormation?
-AWS CloudFormation is a service that allows you to provision and manage AWS resources using a declarative template, enabling infrastructure as code.
-
-#### Q112. What is AWS Step Functions?
-AWS Step Functions is a serverless workflow service that allows you to coordinate distributed applications and microservices using visual workflows.
-
-#### Q113. What is AWS Lambda?
-AWS Lambda is a serverless compute service that lets you run your code without provisioning or managing servers, scaling automatically based on demand.
-
-#### Q114. What is AWS DynamoDB?
-AWS DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability and high availability.
-
-#### Q115. What is AWS Elastic Beanstalk?
-AWS Elastic Beanstalk is a platform as a service (PaaS) offering that simplifies the deployment and management of applications on AWS.
-
-#### Q116. What is AWS S3?
-AWS S3 (Simple Storage Service) is an object storage service that offers industry-leading scalability, durability, and security for storing and retrieving data.
-
-#### Q117. What is AWS EC2?
-AWS EC2 (Elastic Compute Cloud) is a scalable compute service that allows you to provision virtual servers and run applications in the cloud.
-
-#### Q118. What is AWS RDS?
-AWS RDS (Relational Database Service) is a managed database service that makes it easy to set up, operate, and scale a relational database in the cloud.
-
-#### Q119. What is AWS SQS?
-AWS SQS (Simple Queue Service) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
-
-#### Q120. What is AWS Kinesis?
-AWS Kinesis is a platform for real-time streaming data ingestion and processing, allowing you to collect, process, and analyze large streams of data in real-time.
+*   **For User Session Data, I would choose Amazon DynamoDB.**
+    *   The data structure is simple (e.g., `sessionId` as the key and user data as the value).
+    *   The primary requirement is extremely fast reads and writes to provide a snappy user experience. We are always fetching the data by a single key (`sessionId`).
+    *   It can handle massive traffic spikes without performance degradation.
