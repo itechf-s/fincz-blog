@@ -4,12 +4,31 @@ categories: [ Interview ]
 tags: [Interview, Java, Insurance]
 description: "A focused list of insurance domain-specific interview questions and answers for backend developers working with claims processing, PBO, auto-adjudication, and more."
 date: 2023-06-20T08:00:00+05:30
-lastmod: 2026-07-05T08:00:00+05:30
+lastmod: 2026-07-11T08:00:00+05:30
 images: ["images/2023/06/Sample-Interview.jpg"]
 author: ahmad
 ---
 
 ## Core Insurance Domain Questions
+### Domain Knowledge & Definitions (Healthcare Insurance)
+
+> Here are some key terms I work with daily:
+>
+> *   **Provider**: Any person (like a doctor or dentist) or institution (like a hospital or clinic) that provides medical services.
+> *   **Member Enrollment**: The process of adding an individual or a group to a health insurance plan. This is the first step in the insurance lifecycle for a member.
+> *   **Coverage**: This defines what services and treatments the insurance plan will pay for. For example, a plan might have coverage for dental check-ups but not for cosmetic surgery.
+> *   **Claim**: A formal request for payment submitted by a provider to the insurance company for services rendered to a member.
+> *   **Line Item**: A single entry on a claim form that represents a specific service or procedure. For example, a dental claim might have one line item for an X-ray and another for a cleaning. Each has its own procedure code and charge.
+> *   **Fee Schedule**: A comprehensive list of fees used by insurance companies to determine the maximum amount they will pay for each medical service. If a doctor charges more than the fee schedule amount, the excess may not be covered.
+> *   **Adjudication**: This is the core process of reviewing a claim. My code checks the member's eligibility, coverage, and applies business rules (like checking for duplicate claims or medical necessity) to decide whether to pay, deny, or adjust the claim.
+> *   **EOB (Explanation of Benefits)**: After a claim is adjudicated, an EOB is sent to the member. It's **not a bill**. It explains what the provider billed, what the insurance paid, and what the member's financial responsibility is (like copay or deductible).
+> *   **COB (Coordination of Benefits)**: This process is triggered when a member is covered by more than one health plan (e.g., their own and a spouse's). It determines which plan is primary (pays first) and which is secondary to prevent overpayment.
+> *   **Deductible, Copay, and Coinsurance**: These are forms of cost-sharing for the member.
+>     *   **Deductible**: The amount you pay for covered services before your insurance plan starts to pay.
+>     *   **Copay**: A fixed amount (e.g., $25) you pay for a service.
+>     *   **Coinsurance**: Your share of the costs of a service, calculated as a percentage (e.g., 20%).
+> *   **Out-of-Pocket Maximum**: The most a member has to pay for covered services in a plan year. Once this limit is reached, the insurance company pays 100% of the costs for covered benefits.
+> *   **Lab Fee**: The specific charge for laboratory tests, like blood work or urinalysis, which is often a separate line item on a claim.
 
 ### What is the difference between a policy and a claim?
 
