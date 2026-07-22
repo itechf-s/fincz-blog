@@ -5,7 +5,7 @@ tags: ["Java", "Design Patterns", "OOP", "Interview"]
 description: "A practical guide to the most common Java design patterns with real-world business use cases from the insurance domain, perfect for senior developer interviews."
 date: 2024-05-20T08:00:00+05:30
 lastmod: 2026-07-11T08:00:00+05:30
-images: ["images/2024/05/java-design-patterns.png"]
+images: ["images/2026/07/java-design-patterns.gif"]
 author: ahmad
 ---
 

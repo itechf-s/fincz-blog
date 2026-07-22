@@ -5,7 +5,7 @@ tags: ["PostgreSQL", "SQL", "Database", "Security", "Interview Guide"]
 description: "Advanced PostgreSQL interview questions for senior developers, with business use cases for indexing, transactions, performance tuning, and advanced features like JSONB."
 date: 2023-05-19T08:00:00+05:30
 lastmod: 2026-07-11T08:00:00+05:30
-images: ["images/2023/05/postgresql-logo.png"]
+images: ["images/2026/07/postgresql-questions-and-answers.png"]
 author: ahmad
 ---
 
@@ -121,14 +121,28 @@ The solution is **connection pooling**. A connection pooler (like PgBouncer on a
 
 ## Transactions & Concurrency
 
-### Q11: What are the ACID properties?
-**Business Use Case:** "When processing a financial transaction like a claim payment, what guarantees does the database provide to ensure data integrity, even if the system crashes mid-operation?"
+### Q11: Explain the ACID properties with a detailed insurance claim payment example.
+**Business Use Case:** "When we approve a claim for payment, our system needs to perform two actions: 1) update the `claims` table to set the status to 'PAID', and 2) insert a new record into the `payments` table. How does the database guarantee that this operation is reliable and that our data remains consistent, even if the server crashes mid-process?"
 
-**Answer:** "The database provides these guarantees through its ACID properties:
-*   **Atomicity:** Ensures that a transaction is 'all or nothing.' The payment will either be fully completed (e.g., debit from one account, credit to another) or not at all.
-*   **Consistency:** Ensures that a transaction brings the database from one valid state to another.
-*   **Isolation:** Ensures that concurrent transactions do not interfere with each other, preventing issues like dirty reads.
-*   **Durability:** Ensures that once a transaction has been committed, it will remain so, even in the event of a power loss or crash."
+**Answer:** "This is a perfect scenario to explain the **ACID** properties, which are the fundamental guarantees a transactional database provides to ensure data integrity. Let's break down how each property applies to the claim payment process:
+
+*   **A - Atomicity (All or Nothing):**
+    *   **What it means:** The entire transaction (updating the claim and inserting the payment) is treated as a single, indivisible unit. It either succeeds completely or fails completely.
+    *   **Insurance Example:** If the system successfully updates the claim status to 'PAID' but then crashes before it can insert the record into the `payments` table, atomicity ensures that the entire transaction is rolled back. The claim status will revert to its previous state, preventing a situation where a claim is marked as paid but no payment record exists.
+
+*   **C - Consistency (Data Stays Valid):**
+    *   **What it means:** The transaction will only bring the database from one valid state to another, preserving all predefined rules and constraints.
+    *   **Insurance Example:** Let's say our database has a rule that a 'PAID' claim *must* have a corresponding entry in the `payments` table. The transaction ensures this rule is never violated. The database is in a consistent state before the transaction (claim is 'APPROVED', no payment) and after (claim is 'PAID', one payment record exists). An inconsistent state where the claim is 'PAID' but no payment record exists is prevented.
+
+*   **I - Isolation (Transactions Don't Interfere):**
+    *   **What it means:** Concurrent transactions are isolated from each other. The intermediate state of one transaction is not visible to others.
+    *   **Insurance Example:** While our payment transaction is in progress, another user might be running a financial report that sums up all payments. Isolation guarantees that the report will not see the new payment record until our transaction is fully and successfully committed. This prevents the report from including data from a transaction that might still be rolled back.
+
+*   **D - Durability (Changes are Permanent):**
+    *   **What it means:** Once a transaction has been successfully committed, the changes are permanent and will survive any subsequent system failure, like a power outage or server crash.
+    *   **Insurance Example:** As soon as the claim payment transaction is committed and the API returns a success message, we can be 100% confident that the claim status update and the new payment record are permanently saved in the database's transaction log. Even if the server crashes one second later, the data will be safe and will be there when the system comes back online.
+
+In summary, ACID properties are what allow us to trust the database to handle critical financial operations reliably."
 
 ### Q12: What are transaction isolation levels?
 **Business Use Case:** "While one transaction is generating a long-running financial report, another transaction is processing new claims. How do we prevent the report from including partially complete, uncommitted claim data (a 'dirty read')?"
