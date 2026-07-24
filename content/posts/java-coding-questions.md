@@ -611,3 +611,47 @@ public class StreamPipelineExample {
     }
 }
 ```
+
+### Q19: Sort an Array using Bubble Sort (Easy to Remember)
+
+**Problem:** Write a simple function to sort an integer array in ascending order using the Bubble Sort algorithm. Explain why this logic is easy to remember.
+
+**Answer:**
+
+Bubble Sort is one of the simplest sorting algorithms. The logic is easy to remember because it works just like bubbles rising to the surface. You repeatedly step through the list, compare adjacent elements, and swap them if they are in the wrong order. The largest elements "bubble up" to the end of the list with each pass.
+
+**The Logic:**
+1.  **Outer Loop:** Loop through the array from the beginning. This loop determines how many passes you make.
+2.  **Inner Loop:** In each pass, loop through the array and compare each element with the one next to it.
+3.  **Swap:** If `array[j]` is greater than `array[j+1]`, swap them.
+
+After the first pass, the largest element will be at the end. After the second pass, the second largest will be in its correct place, and so on.
+
+```java
+import java.util.Arrays;
+
+public class BubbleSort {
+
+    /**
+     * Sorts an array using the Bubble Sort algorithm.
+     * @param arr The input array to be sorted.
+     */
+    public static void bubbleSort(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return;
+        }
+
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) { // Outer loop for passes
+            for (int j = 0; j < n - i - 1; j++) { // Inner loop for comparisons
+                if (arr[j] > arr[j + 1]) {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+}
+```
