@@ -1,8 +1,8 @@
 ---
-title: "Top Java Coding Interview Questions for Senior Developers"
+title: "Most important Java coding standards for Senior Developers"
 categories: [ Interview ]
 tags: [Java, Coding, Interview]
-description: "A curated list of the most important Java coding standards and hands-on interview questions for experienced developers, with business use cases from the healthcare insurance domain."
+description: "A curated list of the most important Java coding standards"
 date: 2023-08-22T08:00:00+05:30
 images: ["images/2023/08/coding-standards-for-programming-languages.png"]
 author: ahmad
@@ -80,446 +80,258 @@ This helps future developers understand the business reason behind the complex l
 
 ---
 
-## Hands-On Java Coding Questions
+## Code Optimization in a Coding Round
 
-### Q1: Reverse a String (Warm-up)
+Here is a step-by-step guide on how to approach a code optimization task during a client-facing interview. The key is to demonstrate a systematic and thoughtful process, not just to jump into coding.
 
-**Business Use Case:** "As a simple warm-up, imagine you need to reverse a member's ID for a legacy system's hashing algorithm. How would you write a function to do this?"
+### The Goal: Show Them *How* You Think
 
-**Answer:**
+In a senior role, the client isn't just looking for a correct answer. They want to see your architectural thinking, your ability to communicate complex ideas, and your understanding of trade-offs.
 
-```java
-public class StringReverser {
-    public static String reverseString(String str) {
-        if (str == null || str.isEmpty()) {
-            return str;
-        }
-        
-        // Use StringBuilder for efficient string manipulation
-        StringBuilder reversed = new StringBuilder(str.length());
-        
-        // Loop from the end of the string to the beginning
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reversed.append(str.charAt(i));
-        }
-        
-        return reversed.toString();
-    }
-}
-```
+### A Senior Architect's Guide to Code Optimization in an Interview
 
-### Q2: Check if a String is a Palindrome
+Here is the step-by-step process to follow when an interviewer gives you a piece of code and asks you to "optimize it."
 
-**Problem:** Write a method to check if a given string is a palindrome (reads the same forwards and backwards), ignoring case and non-alphanumeric characters.
+#### Step 1: Don't Touch the Code. Understand First.
 
-**Answer:**
+Your first instinct might be to start coding, but a senior developer's first instinct is to understand. Pause, and ask clarifying questions. This shows maturity and a methodical approach.
 
-```java
-public class PalindromeChecker {
-    public static boolean isPalindrome(String str) {
-        if (str == null) {
-            return false;
-        }
-        
-        // 1. Sanitize the string: remove non-alphanumeric chars and convert to lower case.
-        String sanitized = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
-        
-        // 2. Use two pointers to check for palindrome property.
-        int left = 0;
-        int right = sanitized.length() - 1;
-        
-        while (left < right) {
-            if (sanitized.charAt(left) != sanitized.charAt(right)) {
-                return false; // Characters don't match
-            }
-            left++;
-            right--;
-        }
-        
-        return true; // All characters matched
-    }
-}
-```
+**What to do:**
+1.  **Clarify the Goal:** "What is the primary goal of this optimization? Are we trying to reduce **latency** (make it faster), decrease **memory usage**, or improve **readability**?"
+2.  **Understand the Business Context:** "What does this code do from a business perspective? For example, is this part of a real-time API for claim validation or a nightly batch job?"
+3.  **Ask About Constraints & Scale:** "What is the expected scale for the input? Are we talking about 100 records, or 10 million? The best solution will depend on the scale."
 
-### Q3: Find the Second Largest Number in an Array
+**Why this is important:** It shows you don't make assumptions. The "best" optimization for a small dataset might be terrible for a large one.
 
-**Problem:** Write a method to find the second largest number in an integer array.
+#### Step 2: Analyze and Identify the Bottlenecks
 
-**Answer:**
+Now, look at the code and analyze its performance characteristics. Verbalize your analysis so the interviewer can follow your thought process.
+
+**What to do:**
+1.  **Analyze Time & Space Complexity (Big O Notation):** This is the most important part.
+    *   "I see a nested `for` loop here that iterates over the same collection. This suggests a time complexity of **O(n²)**. If the input list has 10,000 items, this could be very slow."
+    *   "This solution creates a new copy of the list inside the loop. This could lead to high memory usage, with a space complexity of **O(n²)**."
+
+2.  **Spot Common Performance Killers:**
+    *   **Expensive Operations Inside Loops:** Are there database queries, network calls, or heavy object creations inside a loop?
+    *   **Inefficient Data Structures:** Is the code using a `List` for frequent lookups where a `HashMap` would be O(1)?
+    *   **String Concatenation in Loops:** Is the `+` operator being used to build a large string inside a loop? (You should suggest `StringBuilder`).
+
+**Example Dialogue:**
+> "Looking at this code, the main bottleneck appears to be the nested loop structure, which gives it quadratic time complexity. For every element, we are iterating through the list again. We can definitely improve on this."
+
+#### Step 3: Propose a Solution and Discuss Trade-offs
+
+Before you write a single line of new code, propose your optimized approach and explain the trade-offs. This is a key architect-level skill.
+
+**What to do:**
+1.  **Propose the New Algorithm/Data Structure:**
+    *   "My proposed solution is to use a `HashMap` to store the values we've already seen. We can iterate through the list just once. For each element, we can check the map for its complement. This would reduce the time complexity from **O(n²)** to **O(n)**."
+
+2.  **Explicitly State the Trade-offs:**
+    *   "The trade-off here is that we will be using more memory. The `HashMap` will store up to 'n' elements, so our space complexity will increase from **O(1)** to **O(n)**. Given that the goal is to improve speed for a large dataset, this is a very reasonable trade-off."
+
+**Why this is important:** Discussing trade-offs (Time vs. Space) is a hallmark of a senior engineer. It shows you think about the bigger picture.
+
+#### Step 4: Implement the Optimized Code
+
+Now, with the interviewer's buy-in, you can start coding.
+
+**What to do:**
+1.  **Write Clean, Readable Code:** Use clear variable names and follow standard coding conventions.
+2.  **Explain As You Go:** Briefly narrate what you are doing. "Okay, first I'll initialize the `HashMap`. Now, I'll start the single loop through the array. Inside the loop, I'll calculate the complement and check if it exists in our map."
+
+#### Example: Optimizing the "Two Sum" Problem
+
+Let's say they give you this naive, O(n²) solution:
 
 ```java
-public class SecondLargestFinder {
-    public static int findSecondLargest(int[] arr) {
-        if (arr == null || arr.length < 2) {
-            throw new IllegalArgumentException("Array must contain at least two elements.");
-        }
-        
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
-        
-        for (int number : arr) {
-            if (number > largest) {
-                secondLargest = largest;
-                largest = number;
-            } else if (number > secondLargest && number != largest) {
-                secondLargest = number;
-            }
-        }
-        
-        return secondLargest;
-    }
-}
-```
-
-### Q4: Find Duplicate Characters in a String
-
-**Problem:** Write a method to find and print all duplicate characters in a given string.
-
-**Answer:**
-
-```java
-import java.util.HashMap;
-import java.util.Map;
-
-public class DuplicateCharacterFinder {
-    public static void findDuplicates(String str) {
-        if (str == null || str.isEmpty()) {
-            System.out.println("String is empty or null.");
-            return;
-        }
-
-        Map<Character, Integer> charCountMap = new HashMap<>();
-
-        // Count occurrences of each character
-        for (char c : str.toCharArray()) {
-            charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
-        }
-
-        System.out.println("Duplicate characters in '" + str + "':");
-        // Print characters that appear more than once
-        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
-            if (entry.getValue() > 1) {
-                System.out.println(entry.getKey() + ": " + entry.getValue() + " times");
+// BEFORE: Naive O(n^2) solution
+public int[] findTwoSum_Naive(int[] nums, int target) {
+    for (int i = 0; i < nums.length; i++) {
+        for (int j = i + 1; j < nums.length; j++) {
+            if (nums[i] + nums[j] == target) {
+                return new int[] { i, j };
             }
         }
     }
+    throw new IllegalArgumentException("No solution found");
 }
 ```
 
-### Q5: Check if Two Strings are Anagrams
+After following the steps, you would write the optimized O(n) solution shown in the `TwoSum` problem earlier in this post.
 
-**Problem:** Write a method to determine if two strings are anagrams of each other. Anagrams are words or phrases formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+#### Step 5: Verify and Conclude
 
-**Answer:**
+After writing the optimized code, don't just stop. Quickly verify it and summarize the improvement.
 
-```java
-import java.util.Arrays;
+**What to do:**
+1.  **Dry Run:** "Let's quickly walk through this with a simple example: `[2, 7, 11]` and a target of `9`..."
+2.  **Summarize the Win:** "So, to summarize, we have improved the time complexity from **O(n²)** to **O(n)** at the cost of increasing space complexity to **O(n)**, which will provide a significant performance boost for large inputs."
 
-public class AnagramChecker {
-    public static boolean areAnagrams(String str1, String str2) {
-        // Sanitize strings: remove whitespace and convert to lower case
-        String sanitized1 = str1.replaceAll("\\s", "").toLowerCase();
-        String sanitized2 = str2.replaceAll("\\s", "").toLowerCase();
+---
 
-        if (sanitized1.length() != sanitized2.length()) {
-            return false;
-        }
+## Avoiding Logical Fallacies in Technical Arguments
 
-        // Convert strings to char arrays and sort them
-        char[] charArray1 = sanitized1.toCharArray();
-        char[] charArray2 = sanitized2.toCharArray();
-        Arrays.sort(charArray1);
-        Arrays.sort(charArray2);
+Technical discussions, code reviews, and architectural debates are core to a developer's job. To have productive conversations, it's important to use sound logic and avoid common logical fallacies. Recognizing these fallacies helps you make stronger arguments and identify weaknesses in others' reasoning.
 
-        // Compare the sorted arrays
-        return Arrays.equals(charArray1, charArray2);
-    }
-}
+### 1. Ad Hominem
+**What it is:** Attacking the person making the argument, rather than the argument itself.
+**Technical Example:**
+> "You only think we should use React because you're a frontend developer and don't understand the backend complexities."
+**Why it's a fallacy:** The developer's role is irrelevant to the technical merits of using React. The focus should be on the technology choice, not the person suggesting it.
+
+### 2. Straw Man
+**What it is:** Misrepresenting or exaggerating someone's argument to make it easier to attack.
+**Technical Example:**
+> **Person A:** "I think we should add more logging to this service to make debugging easier."
+> **Person B:** "So you want us to log every single variable and grind our application to a halt with I/O performance issues? That's a terrible idea."
+**Why it's a fallacy:** Person B has twisted a reasonable suggestion (more logging) into an extreme and absurd one (logging everything) to easily dismiss it.
+
+### 3. Appeal to Authority
+**What it is:** Claiming something is true because an authority figure said it, without providing any other supporting evidence.
+**Technical Example:**
+> "We should use MongoDB for this project because the lead architect at Google said it's the best database."
+**Why it's a fallacy:** While an expert's opinion is valuable, it's not a substitute for an argument. The choice of database should be based on our project's specific requirements (data model, scale, consistency needs), not just a blanket endorsement.
+
+### 4. Anecdotal Evidence
+**What it is:** Using a personal experience or an isolated example as evidence, instead of a sound argument or data.
+**Technical Example:**
+> "I used that library once on a personal project and it was slow, so we should never use it in our enterprise application."
+**Why it's a fallacy:** A single experience is not statistically significant. The performance issue could have been due to a specific use case, bad configuration, or an old version. A proper evaluation would involve performance benchmarks relevant to the current project.
+
+### 5. False Dichotomy (or False Dilemma)
+**What it is:** Presenting two options as the only possibilities, when in fact more options exist.
+**Technical Example:**
+> "We either have to refactor this entire legacy service now, or we accept that it will be unmaintainable forever."
+**Why it's a fallacy:** This ignores other valid options, such as incremental refactoring, using the Strangler Fig pattern to slowly replace parts of the service, or adding a facade to isolate the legacy code.
+
+### 6. Slippery Slope
+**What it is:** Arguing that a small, initial step will inevitably lead to a chain of related, negative events.
+**Technical Example:**
+> "If we allow developers to use this new AI code generation tool, soon they'll stop thinking for themselves, our code quality will drop, and our entire system will become a buggy mess."
+**Why it's a fallacy:** This argument assumes a worst-case chain reaction without any evidence. It's possible to introduce a new tool with proper guidelines and reviews to mitigate potential downsides.
+
+---
+
+## The Five Whys: A Simple Technique for Root Cause Analysis
+
+The "Five Whys" is a simple but powerful problem-solving technique used to explore the cause-and-effect relationships underlying a particular problem. The primary goal is to determine the *root cause* of a defect or problem by repeatedly asking the question "Why?".
+
+By finding the root cause, you can fix the underlying process, preventing the problem from ever happening again, instead of just fixing the surface-level symptom.
+
+### How It Works: A Real-World Software Example
+
+Let's use a real-world software bug scenario.
+
+**Problem:** The `Available Balance API` is returning incorrect data for some members.
+
+1.  **Why #1: Why is the API returning incorrect data?**
+    *   *Answer:* Because the `coverage_end_date` check is failing for active policies.
+
+2.  **Why #2: Why is the check failing for active policies?**
+    *   *Answer:* Because for active policies, the `coverage_end_date` is `null`, and the code doesn't handle the null case correctly, causing it to misinterpret the member's status.
+
+3.  **Why #3: Why doesn't the code handle the null case?**
+    *   *Answer:* Because the original developer made an assumption that the date would always be present.
+
+4.  **Why #4: Why did they make that assumption?**
+    *   *Answer:* Because the initial requirements document for the feature did not specify how to handle active, open-ended policies.
+
+5.  **Why #5: Why weren't the requirements clear on this edge case?**
+    *   *Answer:* Because there was no formal review process for the requirements with a business analyst to identify and document potential edge cases before development started.
+
+### The Outcome
+
+*   **The Symptom:** The API is returning bad data.
+*   **The Root Cause:** The team's requirement gathering process is flawed.
+
+By using the Five Whys, we've identified that the real problem isn't just a bug in the code, but a weakness in the development process.
+
+*   **The Quick Fix (Fixing the symptom):** Add a null check to the code.
+*   **The Real Fix (Fixing the root cause):** Implement a mandatory requirement review session with Business Analysts and developers before starting any new feature. This will prevent similar bugs from happening in the future.
+
+---
+
+## How to Write a Good Commit Message
+
+A good commit message is a crucial part of professional software development. It serves as a log of *why* a change was made, making it easier for your future self and your teammates to understand the code's history.
+
+### The Structure of a Great Commit Message
+
+A widely-accepted format follows this structure:
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
 ```
 
-### Q6: Find Duplicate Elements in a List using Java 8 Streams
+#### 1. The Subject Line
+The subject line is the most important part. It should be a concise summary of the change.
 
-**Problem:** Given a list of integers, find all the duplicate elements using the Java 8 Stream API.
+*   **Use the imperative mood:** Write as if you are giving a command (e.g., "Fix bug", not "Fixed bug" or "Fixes bug").
+*   **Start with a type:** Common types include `feat` (new feature), `fix` (bug fix), `docs` (documentation), `style` (formatting), `refactor` (code refactoring), `test` (adding tests), `chore` (build tasks, etc.).
+*   **Keep it short:** Aim for 50 characters or less.
+*   **Don't end with a period.**
 
-**Answer:**
+**Example Subject:** `feat(auth): Add JWT token validation`
 
-```java
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
+#### 2. The Body (Optional)
+The body is used to explain the *what* and *why* of the change, not the *how*.
 
-public class StreamDuplicateFinder {
-    public static Set<Integer> findDuplicates(List<Integer> list) {
-        Set<Integer> seen = new HashSet<>();
-        // Filter for elements that cannot be added to the 'seen' set.
-        // The add() method of a Set returns false if the element is already present.
-        return list.stream()
-                   .filter(n -> !seen.add(n))
-                   .collect(Collectors.toSet());
-    }
-}
-```
+*   Separate the body from the subject with a blank line.
+*   Explain the problem the change solves.
+*   Wrap lines at 72 characters.
 
-### Q7: FizzBuzz
+#### 3. The Footer (Optional)
+The footer is used for referencing issue tracker IDs.
 
-**Problem:** Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
+**Example Footer:** `Fixes #123` or `Closes JIRA-456`
 
-**Answer:**
+### Putting It All Together: A Good vs. Bad Example
 
-```java
-public class FizzBuzz {
-    public static void printFizzBuzz(int n) {
-        for (int i = 1; i <= n; i++) {
-            if (i % 15 == 0) { // or (i % 3 == 0 && i % 5 == 0)
-                System.out.println("FizzBuzz");
-            } else if (i % 3 == 0) {
-                System.out.println("Fizz");
-            } else if (i % 5 == 0) {
-                System.out.println("Buzz");
-            } else {
-                System.out.println(i);
-            }
-        }
-    }
+**❌ Bad Commit Message:**
+> `updated code`
 
-    public static void main(String[] args) {
-        printFizzBuzz(100);
-    }
-}
-```
+**✅ Good Commit Message:**
+> ```
+> fix(claims): Correct COB calculation for secondary payer
+> 
+> The previous logic did not correctly apply the secondary plan's deductible before calculating the coinsurance, leading to overpayment in some COB scenarios. This commit refactors the CobCalculator to ensure the secondary deductible is applied first.
+> 
+> Fixes: #789
+> ```
 
-### Q8: Two Sum
+This message is clear, concise, and provides all the necessary context for anyone reviewing the code's history.
 
-**Problem:** Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`. You may assume that each input would have exactly one solution, and you may not use the same element twice.
+---
 
-**Answer:**
+## Pull Request vs. Merge Request: What's the Difference?
 
-```java
-import java.util.HashMap;
-import java.util.Map;
+In collaborative software development, the terms "Pull Request" and "Merge Request" are often used. While they sound different, they refer to the **exact same concept**: a way to propose changes to a codebase and request that they be merged into another branch. The difference in name is simply due to the platform you are using.
 
-public class TwoSum {
-    public static int[] findTwoSum(int[] nums, int target) {
-        Map<Integer, Integer> numMap = new HashMap<>();
-        
-        for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
-            if (numMap.containsKey(complement)) {
-                // Found the pair
-                return new int[] { numMap.get(complement), i };
-            }
-            // Add the current number and its index to the map
-            numMap.put(nums[i], i);
-        }
-        
-        // No solution found
-        throw new IllegalArgumentException("No two sum solution");
-    }
-}
-```
+### Pull Request (PR)
 
-### Q9: Group Anagrams
+*   **Platform:** Used by **GitHub**.
+*   **Concept:** You are requesting that the project maintainer "pull" your changes into their repository or branch.
 
-**Problem:** Given an array of strings, group the anagrams together. You can return the answer in any order.
+### Merge Request (MR)
 
-**Answer:**
+*   **Platform:** Used by **GitLab** and **Bitbucket**.
+*   **Concept:** You are requesting to "merge" your changes from your feature branch into the main branch (like `master` or `main`).
 
-```java
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+### The Core Purpose
 
-public class GroupAnagrams {
-    public static List<List<String>> group(String[] strs) {
-        if (strs == null || strs.length == 0) {
-            return new ArrayList<>();
-        }
-        
-        Map<String, List<String>> map = new HashMap<>();
-        for (String s : strs) {
-            char[] charArray = s.toCharArray();
-            Arrays.sort(charArray);
-            String sortedKey = String.valueOf(charArray);
-            
-            map.computeIfAbsent(sortedKey, k -> new ArrayList<>()).add(s);
-        }
-        
-        return new ArrayList<>(map.values());
-    }
-}
+Regardless of the name, both PRs and MRs serve the same critical functions:
+1.  **Propose Changes:** They allow a developer to notify team members that they have completed a feature or bugfix on a separate branch.
+2.  **Initiate Code Review:** They are the starting point for a discussion. Team members can review the code, leave comments, suggest improvements, and ask questions.
+3.  **Run Automated Checks:** They trigger CI/CD pipelines to run automated tests, linting, and security scans on the proposed changes.
+4.  **Controlled Merging:** They provide a controlled way to merge the changes into the main codebase after the code has been reviewed and approved.
 
-### Q10: Fibonacci Sequence
-
-**Problem:** Write a method to generate the nth number in the Fibonacci sequence. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
-
-**Answer:**
-
-```java
-public class Fibonacci {
-    // Iterative solution is more efficient than recursive for this problem
-    public static int fib(int n) {
-        if (n <= 1) {
-            return n;
-        }
-        
-        int a = 0, b = 1;
-        
-        for (int i = 2; i <= n; i++) {
-            int sum = a + b;
-            a = b;
-            b = sum;
-        }
-        
-        return b;
-    }
-}
-```
-
-### Q11: Valid Parentheses
-
-**Problem:** Given a string `s` containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if:
-1.  Open brackets must be closed by the same type of brackets.
-2.  Open brackets must be closed in the correct order.
-
-**Answer:**
-
-```java
-import java.util.Stack;
-
-public class ValidParentheses {
-    public static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
-        
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') {
-                stack.push(c);
-            } else if (c == ')' && !stack.isEmpty() && stack.peek() == '(') {
-                stack.pop();
-            } else if (c == '}' && !stack.isEmpty() && stack.peek() == '{') {
-                stack.pop();
-            } else if (c == ']' && !stack.isEmpty() && stack.peek() == '[') {
-                stack.pop();
-            } else {
-                return false; // Invalid character or closing bracket without an opening one
-            }
-        }
-        
-        return stack.isEmpty(); // Stack should be empty if all brackets are matched
-    }
-}
-```
-
-### Q12: Maximum Subarray Sum
-
-**Problem:** Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. (This is a classic problem solved efficiently by Kadane's algorithm).
-
-**Answer:**
-
-```java
-public class MaxSubarraySum {
-    public static int maxSubArray(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return 0;
-        }
-        
-        int maxSoFar = nums[0];
-        int maxEndingHere = nums[0];
-        
-        for (int i = 1; i < nums.length; i++) {
-            maxEndingHere = Math.max(nums[i], maxEndingHere + nums[i]);
-            maxSoFar = Math.max(maxSoFar, maxEndingHere);
-        }
-        
-        return maxSoFar;
-    }
-}
-
-### Q13: Merge Two Sorted Arrays
-
-**Problem:** Given two sorted integer arrays `nums1` and `nums2`, merge `nums2` into `nums1` as one sorted array. Assume `nums1` has enough space to hold additional elements from `nums2`.
-
-**Answer:**
-
-```java
-public class MergeSortedArrays {
-    public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        // Pointers for nums1, nums2, and the end of the merged array
-        int p1 = m - 1;
-        int p2 = n - 1;
-        int i = m + n - 1;
-
-        // Merge in reverse order
-        while (p2 >= 0) {
-            if (p1 >= 0 && nums1[p1] > nums2[p2]) {
-                nums1[i--] = nums1[p1--];
-            } else {
-                nums1[i--] = nums2[p2--];
-            }
-        }
-    }
-}
-```
-
-### Q14: Find Missing Number in an Array
-
-**Problem:** Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
-
-**Answer:**
-
-```java
-public class MissingNumberFinder {
-    public static int findMissingNumber(int[] nums) {
-        int n = nums.length;
-        // Calculate the expected sum of numbers from 0 to n
-        int expectedSum = n * (n + 1) / 2;
-        
-        int actualSum = 0;
-        for (int num : nums) {
-            actualSum += num;
-        }
-        
-        // The difference is the missing number
-        return expectedSum - actualSum;
-    }
-}
-```
-
-### Q15: Check if a Number is Prime
-
-**Problem:** Write a method to check if a given integer is a prime number.
-
-**Answer:**
-
-```java
-public class PrimeChecker {
-    public static boolean isPrime(int n) {
-        // Prime numbers are greater than 1
-        if (n <= 1) {
-            return false;
-        }
-        // 2 is the only even prime number
-        if (n == 2) {
-            return true;
-        }
-        // All other even numbers are not prime
-        if (n % 2 == 0) {
-            return false;
-        }
-        
-        // Check for odd factors from 3 up to the square root of n
-        for (int i = 3; i <= Math.sqrt(n); i += 2) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        
-        return true;
-    }
-}
+**In summary:** If you know how to use a Pull Request, you know how to use a Merge Request. The workflow and purpose are identical.
 ```
 ```
 ```

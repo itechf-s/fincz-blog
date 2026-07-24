@@ -5,6 +5,7 @@ tags: ["Java", "Backend", "Interview Guide", "Insurance Domain", "Client Intervi
 description: "Prepare for your next backend developer interview with this comprehensive guide. Includes sample answers for questions on Java, Spring Boot, SQL, and the healthcare insurance domain."
 date: 2024-04-22T08:00:00+05:30
 lastmod: 2026-07-05T08:00:00+05:30
+featuredPosts: true
 images: ["images/2024/04/interview-preparation-guide.png"]
 author: ahmad
 ---
