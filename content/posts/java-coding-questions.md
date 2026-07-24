@@ -509,3 +509,105 @@ public class DuplicateRemover {
     }
 }
 ```
+
+### Q16: Find the Maximum Value in a List using Streams
+
+**Problem:** Given a list of integers, find the maximum value element present in it using the Java 8 Stream API.
+
+**Answer:**
+
+```java
+import java.util.List;
+import java.util.Optional;
+
+public class MaxElementFinder {
+    /**
+     * Finds the maximum value in a list of integers using streams.
+     * @param numbers The list of integers.
+     * @return An Optional containing the maximum value, or an empty Optional if the list is empty.
+     */
+    public static Optional<Integer> findMax(List<Integer> numbers) {
+        if (numbers == null || numbers.isEmpty()) {
+            return Optional.empty();
+        }
+        
+        // The max() terminal operation finds the maximum element based on the provided Comparator.
+        return numbers.stream()
+                      .max(Integer::compareTo);
+    }
+}
+```
+
+### Q17: Group a List of Objects by a Property using Streams
+
+**Business Use Case:** "We have a list of `Employee` objects, and we need to group them by their department to generate a report. How would you do this efficiently using streams?"
+
+**Answer:** The `Collectors.groupingBy()` collector is perfect for this task. It allows you to group elements of a stream into a `Map`.
+
+```java
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+// A simple Employee class for the example
+class Employee {
+    private int id;
+    private String name;
+    private String department;
+
+    public Employee(int id, String name, String department) {
+        this.id = id;
+        this.name = name;
+        this.department = department;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" + "name='" + name + '\'' + '}';
+    }
+}
+
+public class GroupingExample {
+    /**
+     * Groups a list of employees by their department.
+     * @param employees The list of Employee objects.
+     * @return A Map where the key is the department name and the value is a list of employees in that department.
+     */
+    public static Map<String, List<Employee>> groupEmployeesByDepartment(List<Employee> employees) {
+        return employees.stream()
+                        .collect(Collectors.groupingBy(Employee::getDepartment));
+    }
+}
+```
+
+### Q18: Chain Multiple Stream Operations
+
+**Problem:** Given a list of integers, write a method that uses streams to:
+1.  Filter out the odd numbers.
+2.  Square each of the remaining even numbers.
+3.  Collect the results into a new list.
+
+**Answer:** This demonstrates the power of chaining intermediate stream operations together in a pipeline.
+
+```java
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamPipelineExample {
+    /**
+     * Filters for even numbers, squares them, and collects them into a new list.
+     * @param numbers The input list of integers.
+     * @return A new list containing the squared even numbers.
+     */
+    public static List<Integer> processNumbers(List<Integer> numbers) {
+        return numbers.stream()
+                      .filter(n -> n % 2 == 0)      // 1. Filter for even numbers
+                      .map(n -> n * n)              // 2. Square each even number
+                      .collect(Collectors.toList());// 3. Collect results into a list
+    }
+}
+```
