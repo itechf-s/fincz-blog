@@ -281,6 +281,7 @@ public class GroupAnagrams {
         return new ArrayList<>(map.values());
     }
 }
+```
 
 ### Q10: Fibonacci Sequence
 
@@ -309,41 +310,7 @@ public class Fibonacci {
 }
 ```
 
-### Q11: Valid Parentheses
-
-**Problem:** Given a string `s` containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if:
-1.  Open brackets must be closed by the same type of brackets.
-2.  Open brackets must be closed in the correct order.
-
-**Answer:**
-
-```java
-import java.util.Stack;
-
-public class ValidParentheses {
-    public static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
-        
-        for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') {
-                stack.push(c);
-            } else if (c == ')' && !stack.isEmpty() && stack.peek() == '(') {
-                stack.pop();
-            } else if (c == '}' && !stack.isEmpty() && stack.peek() == '{') {
-                stack.pop();
-            } else if (c == ']' && !stack.isEmpty() && stack.peek() == '[') {
-                stack.pop();
-            } else {
-                return false; // Invalid character or closing bracket without an opening one
-            }
-        }
-        
-        return stack.isEmpty(); // Stack should be empty if all brackets are matched
-    }
-}
-```
-
-### Q12: Maximum Subarray Sum
+### Q11: Maximum Subarray Sum
 
 **Problem:** Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. (This is a classic problem solved efficiently by Kadane's algorithm).
 
@@ -367,58 +334,9 @@ public class MaxSubarraySum {
         return maxSoFar;
     }
 }
-
-### Q13: Merge Two Sorted Arrays
-
-**Problem:** Given two sorted integer arrays `nums1` and `nums2`, merge `nums2` into `nums1` as one sorted array. Assume `nums1` has enough space to hold additional elements from `nums2`.
-
-**Answer:**
-
-```java
-public class MergeSortedArrays {
-    public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        // Pointers for nums1, nums2, and the end of the merged array
-        int p1 = m - 1;
-        int p2 = n - 1;
-        int i = m + n - 1;
-
-        // Merge in reverse order
-        while (p2 >= 0) {
-            if (p1 >= 0 && nums1[p1] > nums2[p2]) {
-                nums1[i--] = nums1[p1--];
-            } else {
-                nums1[i--] = nums2[p2--];
-            }
-        }
-    }
-}
 ```
 
-### Q14: Find Missing Number in an Array
-
-**Problem:** Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return the only number in the range that is missing from the array.
-
-**Answer:**
-
-```java
-public class MissingNumberFinder {
-    public static int findMissingNumber(int[] nums) {
-        int n = nums.length;
-        // Calculate the expected sum of numbers from 0 to n
-        int expectedSum = n * (n + 1) / 2;
-        
-        int actualSum = 0;
-        for (int num : nums) {
-            actualSum += num;
-        }
-        
-        // The difference is the missing number
-        return expectedSum - actualSum;
-    }
-}
-```
-
-### Q15: Check if a Number is Prime
+### Q12: Check if a Number is Prime
 
 **Problem:** Write a method to check if a given integer is a prime number.
 
@@ -448,6 +366,146 @@ public class PrimeChecker {
         }
         
         return true;
+    }
+}
+```
+
+### Q13: Find the First Non-Repeating Character in a String
+
+**Problem:** Write a method to find the first character in a string that does not repeat. For example, in the string "swiss", the first non-repeating character is 'w'.
+
+**Answer:**
+
+A simple and easy-to-remember approach is to make two passes through the string. The first pass counts the occurrences of each character, and the second pass finds the first character with a count of one. A `LinkedHashMap` is perfect for this because it maintains the insertion order of the characters.
+
+```java
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class FirstNonRepeatingFinder {
+
+    /**
+     * Finds the first non-repeating character in a string using a two-pass approach.
+     * The logic is easy to remember: 1. Count frequencies, 2. Find the first with count 1.
+     *
+     * @param str The input string.
+     * @return The first non-repeating character, or null if none is found.
+     */
+    public static Character findFirstNonRepeatingChar(String str) {
+        if (str == null || str.isEmpty()) {
+            return null;
+        }
+
+        // Step 1: Count character frequencies while preserving insertion order.
+        // A LinkedHashMap is perfect because it maintains the order of keys.
+        Map<Character, Integer> charCounts = new LinkedHashMap<>();
+        for (char c : str.toCharArray()) {
+            charCounts.put(c, charCounts.getOrDefault(c, 0) + 1);
+        }
+
+        // Step 2: Find the first entry in the map with a count of 1.
+        // Because we used a LinkedHashMap, the first one we find is the answer.
+        for (Map.Entry<Character, Integer> entry : charCounts.entrySet()) {
+            if (entry.getValue() == 1) {
+                return entry.getKey(); // Found it!
+            }
+        }
+
+        // If no non-repeating character is found, return null.
+        return null;
+    }
+}
+```
+
+### Q14: Find the Highest and Second Highest Number in an Array
+
+**Problem:** Write a method to find the highest and second highest number in an integer array without sorting it.
+
+**Answer:**
+
+The most efficient way to solve this is to iterate through the array just once. We can maintain two variables, `largest` and `secondLargest`, and update them as we scan the array. This single-pass approach has a time complexity of O(n).
+
+```java
+import java.util.Arrays;
+
+public class SecondLargestFinder {
+
+    /**
+     * Finds the largest and second largest numbers in an array in a single pass.
+     * @param arr The input integer array.
+     */
+    public static void findHighestAndSecondHighest(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            System.out.println("Array must contain at least two elements to find a second highest number.");
+            return;
+        }
+
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+
+        for (int number : arr) {
+            if (number > largest) {
+                secondLargest = largest; // Old largest becomes second largest
+                largest = number;        // New number is the new largest
+            } else if (number > secondLargest && number != largest) {
+                secondLargest = number; // New number is the new second largest
+            }
+        }
+
+        System.out.println("Input Array: " + Arrays.toString(arr));
+        System.out.println("Highest number: " + largest);
+        System.out.println("Second highest number: " + secondLargest);
+    }
+}
+```
+
+### Q15: Remove Duplicate Elements from an Array
+
+**Problem:** Write a method to remove duplicate elements from an integer array. The solution should preserve the original order of the elements.
+
+**Answer:**
+
+The most straightforward and idiomatic way to remove duplicates while preserving order is to use a `LinkedHashSet`. A `LinkedHashSet` is a `Set` that maintains the insertion order of elements. A more modern approach uses the Java 8 Stream API.
+
+Using `LinkedHashSet` (Classic Approach)
+
+This approach is easy to remember: convert the array to a `LinkedHashSet` to automatically remove duplicates, then convert it back to an array.
+
+```java
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+
+public class DuplicateRemover {
+
+    /**
+     * Removes duplicates from an array using a LinkedHashSet to preserve order.
+     * @param arr The input array with potential duplicates.
+     * @return A new array with unique elements in their original order.
+     */
+    public static int[] removeDuplicates(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return arr;
+        }
+
+        // 1. Use LinkedHashSet to store unique elements in insertion order.
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+        for (int number : arr) {
+            set.add(number);
+        }
+
+        // 2. Convert the set back to an array.
+        int[] result = new int[set.size()];
+        int i = 0;
+        for (int number : set) {
+            result[i++] = number;
+        }
+
+        return result;
+    }
+
+    // A more concise way using Java 8 Streams
+    public static int[] removeDuplicatesWithStream(int[] arr) {
+        return Arrays.stream(arr).distinct().toArray();
     }
 }
 ```

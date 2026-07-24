@@ -1,8 +1,8 @@
 ---
-title: "Most important Java coding standards for Senior Developers"
+title: "The Professional Developer's Guide: Coding Standards, Optimization, and Collaboration"
 categories: [ Interview ]
 tags: [Java, Coding, Interview]
-description: "A curated list of the most important Java coding standards"
+description: "A comprehensive guide for senior developers covering Java coding standards, code optimization techniques, logical fallacies in technical debates, root cause analysis, and Git best practices."
 date: 2023-08-22T08:00:00+05:30
 images: ["images/2023/08/coding-standards-for-programming-languages.png"]
 author: ahmad
@@ -332,6 +332,66 @@ Regardless of the name, both PRs and MRs serve the same critical functions:
 4.  **Controlled Merging:** They provide a controlled way to merge the changes into the main codebase after the code has been reviewed and approved.
 
 **In summary:** If you know how to use a Pull Request, you know how to use a Merge Request. The workflow and purpose are identical.
+
+
+---
+
+## How to Resolve Merge Conflicts in Git
+
+A merge conflict is something every developer will face. It happens when Git is unable to automatically resolve differences in code between two branches that are being merged.
+
+### Why Do Merge Conflicts Happen?
+
+A conflict occurs when two developers have changed the **same lines** in the **same file** on different branches. When you try to merge these branches, Git doesn't know which change is correct, so it stops and asks you to resolve it manually.
+
+### Step-by-Step Guide to Resolving a Merge Conflict
+
+Let's say you are merging the `feature` branch into `main` (`git merge feature`) and you get a conflict.
+
+**Step 1: Identify the Conflicted Files**
+
+Run `git status`. Git will clearly tell you which files have unmerged paths:
+
+```sh
+$ git status
+On branch main
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   src/main/java/com/example/ClaimService.java
 ```
+
+**Step 2: Open the Conflicted File**
+
+Open `ClaimService.java` in your editor. You will see conflict markers added by Git:
+
+```java
+public class ClaimService {
+    public void processClaim() {
+        // Logic from your current branch (main)
+        System.out.println("Processing claim with V2 logic.");
+    }
+}
 ```
+
+*   `<<<<<<< HEAD`: This is the start of the conflict. The code between this and `=======` is from your current branch (`main`).
+*   `=======`: This separates the two conflicting changes.
+*   `>>>>>>> feature`: This is the end of the conflict. The code between `=======` and this is from the branch you are merging (`feature`).
+
+**Step 3: Manually Edit the File to Resolve the Conflict**
+
+Your job is to decide what the final code should look like. You can keep your changes, the incoming changes, both, or write something completely new. You must **delete the conflict markers**.
+
+**Step 4: Stage the Resolved File**
+
+Once you've saved the file, tell Git that you have resolved the conflict using `git add`.
+
+```sh
+git add src/main/java/com/example/ClaimService.java
 ```
+
+**Step 5: Commit the Merge**
+
+Finally, create the merge commit to finalize the process. Running `git commit` will open an editor with a pre-populated commit message like "Merge branch 'feature' into main". You can just save and close it.
