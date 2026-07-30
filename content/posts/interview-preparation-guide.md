@@ -18,7 +18,7 @@ This guide is structured to help you walk through a typical senior backend devel
 
 ### 1. Introduction (Your Elevator Pitch)
 
-> "Hi, my name is ---. I'm a Senior Backend Engineer with over 14 years of experience, mostly working with Java, Spring Boot, and microservices.
+> Hi, my name is ---. I have over 14 years of experience in software development, mainly working as a Backend Engineer using Java, Spring, Spring Boot, REST APIs, SQL, and Microservices.
 >
 > For the past several years, I've been working in the **Healthcare Insurance domain** on the Vitech V3locity platform. My core responsibilities involved the claims processing, PBO configuration, Business Rule Implementation, API development and Production Support.
 >
