@@ -1,243 +1,218 @@
 ---
-title: "Google Antigravity CLI (agy) Guide: Terminal-First AI Agent, Installation, Skills aur Best Practices"
+title: "Google Antigravity CLI (agy) Guide: Terminal AI Agent, Skills, Token Optimization aur Best Practices"
 categories: [ AI, Development, Tools ]
-tags: [Antigravity CLI, agy, Google Antigravity, AI Agents, Terminal, Guide]
-description: "Google Antigravity CLI (agy) ka complete guide: Terminal me AI agent chalane ka tarika, Ubuntu/Windows installation, slash commands, shortcuts, custom skills aur token optimization."
+tags: [Antigravity CLI, agy, Google Antigravity, AI Agents, Terminal, Skills, Guide]
+description: "Google Antigravity CLI (agy) ka complete guide: Installation, Hands-on commands, Inbuilt & Online Skills, Google plugins listing, Token optimization with real examples, Alternatives comparison aur Nateeja."
 date: 2026-08-21T08:00:00+05:30
-lastmod: 2026-08-21T08:25:00+05:30
+lastmod: 2026-08-21T08:48:00+05:30
 images: ["images/2026/08/google-antigravity-guide.webp"]
 author: ahmad
 ---
 
 ## Introduction
 
-Agar aap ek terminal-lover developer hain aur bina heavy IDE khole seedha command-line se powerful AI coding agent chalana chahte hain, toh **Google Antigravity CLI (`agy`)** aapke liye sabse behtareen tool hai.
+Software development me terminal-first workflow hamesha sabse tez aur lightweight mana jata hai. Jab baat AI coding agents ki aati hai, toh **Google Antigravity CLI (`agy`)** developers ke liye ek game-changer tool bankar ubhra hai.
 
-`agy` ek lightweight, ultra-fast, terminal-based AI coding assistant hai jo Google DeepMind ke agentic models par chalta hai. Ye seedha aapke bash/zsh shell me rehta hai, files edit karta hai, terminal commands run karta hai, background subagents spawn karta hai aur complex projects ko autonomously manage karta hai.
+Ye Google DeepMind ke agentic reasoning models par chalta hai aur seedha aapke bash ya zsh shell ke andar rehta hai. Isse aapko baar-baar browser ya heavy IDE kholne ki zaroorat nahi padti — aap terminal me command run karke code likhva sakte hain, automated tests execute karwa sakte hain, subagents spawn kar sakte hain aur production bugs fix karwa sakte hain.
 
 Is comprehensive guide me hum seekhenge:
-1. **Antigravity CLI (`agy`) kya hai aur iske core use cases**
-2. **History aur Evolution**
-3. **Ubuntu/Linux aur Windows me Step-by-Step Installation**
-4. **CLI Flags, TUI Shortcuts aur Slash Commands**
-5. **Skills System: Online install karna aur Custom Skills banana**
-6. **Token Optimization aur CLI Best Practices**
-7. **Configuration: `settings.json` aur Important Terms**
+1. **Antigravity CLI (`agy`) kya hai aur iski installation**
+2. **Essential Commands with Hands-On Examples**
+3. **Inbuilt Skills vs Online Skills (Google Hub, Plugins, aur React Casing/Best Practices)**
+4. **Google Plugins Listing (`@google/chrome-devtools`, Modern Web Guidance, etc.)**
+5. **Token Optimization with Practical Examples**
+6. **`agy` vs Alternatives (Claude Code, Cursor, Aider, Devin) — Advantages & Disadvantages**
+7. **Nateeja (Conclusion)**
 
 ---
 
-## 1. Antigravity CLI (`agy`) kya hai? (What, Why, Where)
+## 1. Antigravity CLI (`agy`) kya hai aur Installation
 
-### What is `agy`?
-`agy` Google Antigravity platform ka official command-line interface (CLI) hai. Ye ek Terminal User Interface (TUI) provide karta hai jaha aap natural language me instructions dete hain aur agent aapke terminal par seedha actions execute karta hai.
+`agy` Google Antigravity framework ka official terminal client hai.
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
-│                 Antigravity CLI (agy)                     │
+│                 Antigravity CLI (agy) Architecture        │
 ├─────────────────┬───────────────────┬─────────────────────┤
-│ 1. TUI Session  │ 2. Subagent Engine│ 3. Tool Execution   │
+│ 1. TUI Engine   │ 2. Subagent Engine│ 3. Tool Execution   │
 │    (Interactive)│    (Background)   │    (Bash/File Edits)│
 ├─────────────────┴───────────────────┴─────────────────────┤
-│ 4. Config: ~/.gemini/antigravity-cli/settings.json        │
+│ 4. Customizations: Skills, AGENTS.md, Plugins, MCP        │
 └───────────────────────────────────────────────────────────┘
 ```
 
-### Why use CLI over GUI/IDE?
-- **Blazing Fast & Lightweight:** Zero memory overhead, bina heavy browser ya electron apps ke fast chalta hai.
-- **Remote Server / SSH Friendly:** Cloud VPS, AWS EC2, ya headless Linux servers par bina display ke chal sakta hai.
-- **Seamless Unix Piping:** Scripting aur terminal workflows me asani se integrate hota hai.
+### Quick Installation:
 
-### Real-World Use Cases:
-- **Fast Bug Fixing:** Terminal me error aate hi `agy` khol kar bug investigate aur fix karwana.
-- **Git & PR Workflows:** Git status check karna, branch banana, meaningful commits likhna aur PR description draft karna.
-- **Automated Refactoring:** Large codebases me multi-file edits aur non-blocking build checks chalana.
-- **DevOps & Infra:** Dockerfiles, CI/CD YAML files aur server setup scripts automate karna.
+**Ubuntu / Linux:**
+```bash
+sudo apt update && sudo apt install -y curl git python3
+curl -fsSL https://antigravity.google/install.sh | bash
+echo 'export PATH="$HOME/.gemini/antigravity-cli/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+agy auth login
+```
 
----
-
-## 2. Antigravity CLI ki History
-
-1. **Phase 1 (PaLM / Codey CLI):** Initial experiments terminal code completion ke liye.
-2. **Phase 2 (Gemini CLI):** Terminal me multi-turn basic conversation support.
-3. **Phase 3 (Google Antigravity `agy` 2025-2026):** Pura agentic engine terminal me integrate kiya gaya — jisme self-healing terminal execution, dynamic subagent management, MCP (Model Context Protocol) aur Progressive Skills support shamil hai.
-
----
-
-## 3. Installation Guide (Step-by-Step)
-
-### A. Ubuntu / Linux me Install Karein
-
-1. **Prerequisites Install Karein:**
-   ```bash
-   sudo apt update && sudo apt install -y curl git python3
-   ```
-
-2. **Official Installer Run Karein:**
-   ```bash
-   curl -fsSL https://antigravity.google/install.sh | bash
-   ```
-
-3. **Path Verify Karein:**
-   ```bash
-   echo 'export PATH="$HOME/.gemini/antigravity-cli/bin:$PATH"' >> ~/.bashrc
-   source ~/.bashrc
-   ```
-
-4. **Login aur Start Karein:**
-   ```bash
-   agy auth login
-   agy
-   ```
-
----
-
-### B. Windows me Install Karein (PowerShell / WSL)
-
-**Method 1: Windows Native PowerShell**
+**Windows (PowerShell Admin):**
 ```powershell
-# Open PowerShell as Administrator
 iwr -useb https://antigravity.google/install.ps1 | iex
 ```
 
-**Method 2: WSL2 Ubuntu (Highly Recommended)**
-Windows par WSL enable karke Ubuntu terminal me upar wala Linux command run karein.
-
 ---
 
-## 4. Useful Commands, Flags aur Slash Commands
+## 2. Essential Commands with Hands-On Examples
 
-### A. CLI Command Line Flags
+`agy` ko aap do tariko se use kar sakte hain: **Non-Interactive One-Shot** aur **Interactive TUI Session**.
 
+### A. Terminal Command-Line Flags (Hands-on)
+
+#### 1. One-Shot Task (Bina chat session khole seedha kaam karna)
 ```bash
-# Direct task run karke exit ho jana (Non-interactive mode)
-agy "Fix the lint errors in src/index.ts"
-
-# Specific model ke sath CLI start karna
-agy --model gemini-2.5-pro
-
-# Auto-approve mode (read-only tasks ke liye fast execution)
-agy --approval-level auto-edit
+# Bug fix karke turant exit ho jana
+agy "content/posts/ me sabhi markdown files ka lastmod date update kar do"
 ```
 
-### B. TUI Keyboard Shortcuts
+#### 2. Specific Model Select Karna
+```bash
+# Fast reasoning ya complex task ke hisab se model choose karna
+agy --model gemini-2.5-pro "Backend architecture redesign karne ka plan banao"
+```
 
-| Shortcut | Kaam |
-| :--- | :--- |
-| `Ctrl + C` | Current running tool call ya output cancel karna |
-| `Ctrl + D Ctrl + D` | CLI session safely exit karna |
-| `Up / Down Arrow` | Previous prompt history scroll karna |
-| `Tab` | Slash commands aur file paths auto-complete karna |
-
-### C. Essential In-Chat Slash Commands
-
-| Slash Command | Use Case | Real-World Example |
-| :--- | :--- | :--- |
-| `/help` | Sabhi available commands ki list dekhna | `/help` |
-| `/goal` | Complex long-running task jo bina ruke finish karna ho | `/goal Migrate all API routes to Fastify` |
-| `/plan` | Execution shuru karne se pehle detailed roadmap banana | `/plan Add OAuth2 authentication` |
-| `/grill-me` | Agent aapse sawal puch kar design requirements final karta hai | `/grill-me` |
-| `/schedule` | Background timer ya cron schedule set karna | `/schedule in 5m "Check deployment status"` |
-| `/learn` | Agent ko naye rules aur preferences sikhana | `/learn Hamesha simple Hindi me explain karo` |
-| `/teamwork-preview`| Multi-agent parallel coordination view karna | `/teamwork-preview` |
+#### 3. Auto-Approval Mode (Fast Execution)
+```bash
+# Safe read-only tasks ya auto edits ke liye confirmation prompt skip karna
+agy --approval-level auto-edit "src/components me unused imports delete karo"
+```
 
 ---
 
-## 5. Antigravity SKILLS: Terminal Me Kaise Use Karein
+### B. Interactive TUI Slash Commands (Hands-on)
 
-**Skill kya hai?**
-Ek Skill ek folder hota hai jisme `SKILL.md` file hoti hai, jo CLI agent ko kisi specific framework ya tool me train karti hai.
+Jab aap terminal me `agy` likhkar session start karte hain, toh in slash commands ka use karein:
 
-### Progressive Disclosure (Token Saving)
-CLI agent shuru me sabhi skills ka poora content load nahi karta. Wo sirf Skill ka **Name** aur **Description** dekhta hai. Jab aap kisi task me uski zaroorat padti hai, tabhi poora `SKILL.md` context me inject hota hai.
+| Slash Command | Asli Kaam (Use Case) | Hands-on Example |
+| :--- | :--- | :--- |
+| `/goal` | **Autonomous Deep Execution:** Bada task jo agent bina ruke khud test & verify karke complete kare. | `/goal MySQL se PostgreSQL migration complete karo aur saare tests pass hone chahiye` |
+| `/plan` | **Architecture Roadmap:** Direct code likhne se pehle step-by-step strategy banana. | `/plan React app me Stripe payment gateway integrate karne ka plan banao` |
+| `/grill-me` | **Interactive Interview:** Agent aapse counter-questions puch kar requirements finalize karta hai. | `/grill-me New microservices database schema` |
+| `/schedule` | **Liveness / Background Timers:** Specific time baad agent ko reminder ya build check trigger karna. | `/schedule in 10m "Check if Docker build finished"` |
+| `/learn` | **Persistent Knowledge:** Agent ko apni personal preference ya project convention yaad karwana. | `/learn Hamesha simple bolchal ki Hindi/Urdu use karo aur pure Hindi se bacho` |
+| `/teamwork-preview` | **Multi-Subagent Coordination:** Ek sath Frontend, Backend aur QA subagents ka work status dekhna. | `/teamwork-preview` |
+
+---
+
+## 3. Antigravity SKILLS: Complete Deep Dive
+
+**Skill kya hoti hai?**
+Skill ek structured folder hota hai jisme `SKILL.md` file hoti hai. Ye agent ko kisi specific technology, standard ya workflow (jaise React casing conventions, accessibility audit, Chrome DevTools) par expert banata hai.
+
+### Progressive Disclosure (Token Bachane Ka Secret)
+`agy` shuru me saari skills ka poora document context me nahi daalta. Wo sirf Skill ka **Name** aur **Description** padhta hai. Jab user ke sawal se description match hoti hai, tabhi poora `SKILL.md` load hota hai.
+
+---
+
+### Inbuilt Skills Kaise Check aur Use Karein?
+
+`agy` ke sath kuch system skills pehle se aati hain. Inhe dekhne ke liye:
+- **Built-in Path:** `~/.gemini/antigravity-cli/builtin/skills/`
+- **Popular Inbuilt Skills:**
+  1. `antigravity_guide`: CLI aur IDE commands ka pura offline manual.
+  2. `agy-customizations`: Skills, Rules, Plugins aur Hooks create karne ki official guide.
+  3. `permissioned-github`: GitHub pull requests aur repo permissions manage karna.
+
+**Inhe use kaise karein?**
+Aapko alag se command nahi chalani padti. Aap bas aam bhasha me bolein:
+> *"Mujhe Antigravity CLI me custom hook banana sikhao"* → Agent automatic `agy-customizations` skill activate kar lega!
+
+---
+
+## 4. Online Skills & Plugins: Kaha Milegi aur Kaise Install Karein?
+
+Aksar developers sochte hain: *"React App me PascalCase/camelCase lagane ki best practice skill kaha se milegi?"* ya *"Google ki official skills kaise dekhein?"*
+
+### A. Skill Discovery & Providers
+Skills 3 levels par exist karti hain:
 
 ```text
-[ Global & Workspace Skills ] 
-            │ (Metadata only: Name + Description)
-            ▼
-[ Terminal Prompt: "Check webpage accessibility" ]
-            │
-            ▼ (Matches: 'a11y-debugging')
-[ Loads SKILL.md dynamically into context ]
+Discovery Hierarchy:
+1. Workspace Level   ──► .agents/skills/  (Aapke project me, Git me commit hoti hai)
+2. Global Level      ──► ~/.gemini/config/plugins/  (Aapke pure computer ke liye)
+3. Built-in Level    ──► ~/.gemini/antigravity-cli/builtin/skills/
 ```
 
-### A. Online Skills Install Karna:
-```bash
-agy skill install @google/chrome-devtools
-agy skill install @google/modern-web-guidance
-```
+### B. Google Official Plugins & Skills Listing
 
-### B. Custom Project Skill Banana:
-Apne project root me `.agents/skills/hugo-expert/SKILL.md` banayein:
+Google dwara provide kiye gaye official plugins `~/.gemini/config/plugins/` me store hote hain:
 
-```markdown
+| Plugin Name | Shamil Skills (Skills Included) | Asli Kaam (Use Case) |
+| :--- | :--- | :--- |
+| **`@google/chrome-devtools-plugin`** | `chrome-devtools`<br>`a11y-debugging`<br>`debug-optimize-lcp`<br>`memory-leak-debugging`<br>`troubleshooting` | Browser automation, Core Web Vitals (LCP) improve karna, Memory leak check karna aur Accessibility (a11y) audit karna. |
+| **`@google/modern-web-guidance-plugin`**| `modern-web-guidance`<br>`chrome-extensions` | Modern HTML/CSS, Container queries, View Transitions aur Chrome Extensions (Manifest V3) develop karna. |
+| **`@google/antigravity-sdk`** | `google-antigravity-sdk` | Python SDK se multi-agent orchestration aur custom tool leasing karna. |
+
+### C. Example: React Casing & Coding Standard Skill Banana
+
+Agar aapko apne project me **React naming conventions (Components in PascalCase, hooks in camelCase, CSS modules)** enforce karni hai:
+
+1. Apne project root me folder banayein:
+   ```bash
+   mkdir -p .agents/skills/react-casing-guidelines
+   ```
+2. Uske andar `SKILL.md` banayein:
+   ```markdown
+   ---
+   name: react-casing-guidelines
+   description: Use this skill whenever creating or refactoring React components, hooks, or files. Enforces PascalCase and camelCase rules.
+   ---
+
+   # React Naming Conventions
+   - Component Files: Hamesha PascalCase me hon (e.g., `UserProfile.tsx`).
+   - Custom Hooks: Hamesha `use` prefix ke sath camelCase me hon (e.g., `useAuthStatus.ts`).
+   - Helper Utilities: `camelCase.ts`.
+   - Never use kebab-case for React components.
+   ```
+Jab bhi aap bolein: *"Ek naya login component banao"*, agent automatically is rule ko follow karega!
+
 ---
-name: hugo-expert
-description: Hugo static site ke liye SEO-optimized blog posts likhna aur frontmatter verify karna.
----
 
-# Hugo Expert Guidelines
-- Posts `content/posts/<slug>.md` me banayein.
-- Frontmatter me `title`, `date`, `lastmod`, `images` zaroor ho.
-- Bhasha hamesha simple bolchal ki Hindi/Urdu ho.
-```
+## 5. Token Optimization: Practical Examples ke Sath
 
----
-
-## 6. Token Optimization & Best Practices
-
-Terminal me kaam karte waqt tokens bachane ke liye in rules ka dhyan rakhein:
+LLMs me context window aur token consumption sabse keemti cheez hai. `agy` me tokens kaise bachayein:
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
-│               Token Optimization in CLI                   │
-├───────────────────────────────────────────────────────────┤
-│ 1. Project Rules (AGENTS.md) instead of long prompts      │
-│ 2. Use Small Diffs (replace_file_content over rewrite)    │
-│ 3. Subagent Offloading (Keep main terminal session clean) │
-│ 4. Clear/Compact Session when switching contexts          │
-└───────────────────────────────────────────────────────────┘
+│               Token Optimization Comparison               │
+├─────────────────────────────┬─────────────────────────────┤
+│ ❌ Token Barbadi (Bad)      │ ✅ Token Bachat (Optimized)  │
+├─────────────────────────────┼─────────────────────────────┤
+│ 1. Har prompt me rules      │ 1. AGENTS.md me 1 bar rules │
+│    repeat karna (~800 tok)  │    likhna (Auto-cached)     │
+│ 2. Poori 1000 line file ko  │ 2. replace_file_content se  │
+│    rewrite karna            │    sirf 5 lines change karna│
+│ 3. Main chat me 20 files ka │ 3. Research subagent ko     │
+│    content dump karna       │    background me bhejna     │
+└─────────────────────────────┴─────────────────────────────┘
 ```
 
-1. **`AGENTS.md` File Use Karein:**
-   Har prompt me bar-bar project rules samjhane ki zaroorat nahi hai. Project root par `AGENTS.md` rakhein, `agy` ise automatic read kar lega.
-2. **Subagents Spawn Karein:**
-   Agar badi search karni ho ya bohot saari files read karni ho, toh `research` subagent ko kaam de dein taaki aapka main CLI terminal context clutter na ho.
-3. **Targeted Line Edits:**
-   Badi files ko poora rewrite karne se bachein; agent targeted line replacements se fast aur saste me kaam karta hai.
+### Real Example:
+- **Galat Tarika:** Agent se kehna: *"Pura `server.js` dobara likho aur usme port change karke 8080 kar do."* (Cost: ~4,000 tokens).
+- **Sahi Tarika (`agy` default):** Agent targeted replace tool use karke sirf line number 45 par `PORT = 8080` replace karta hai (Cost: ~150 tokens — **96% Token Bachat!**).
 
 ---
 
-## 7. Configuration (`settings.json`) aur Glossary
+## 6. Antigravity CLI (`agy`) vs Alternatives
 
-CLI ki settings **`~/.gemini/antigravity-cli/settings.json`** me hoti hain:
-
-```json
-{
-  "model": "gemini-2.5-pro",
-  "approval_level": "default",
-  "theme": "dark",
-  "telemetry": false
-}
-```
-
-### Important Glossary:
-
-| Term | Aasan Matlab |
-| :--- | :--- |
-| **`agy`** | Antigravity CLI ka executable command name. |
-| **Subagent** | Background process jo parallel task complete karke CLI me report karta hai. |
-| **MCP** | Model Context Protocol — terminal tools aur databases ko connect karne ka standard. |
-| **Progressive Disclosure** | On-demand skill loading technique jisse token waste nahi hote. |
-| **Artifacts** | Agent dwara generate kiye gaye structured diffs aur files. |
+| Tool / Platform | Kaun Banata Hai? | Advantages (Fayde) | Disadvantages (Nuksan) |
+| :--- | :--- | :--- | :--- |
+| **Google Antigravity (`agy`)** | Google DeepMind | • Subagent Swarms & Parallel Tasks<br>• Progressive Skills architecture<br>• Terminal native & super lightweight<br>• Highly customizable (`AGENTS.md`, MCP) | • New platform hai, community plugins abhi grow ho rahe hain. |
+| **Claude Code** | Anthropic | • Terminal workflow<br>• Claude 3.5 Sonnet ki high coding accuracy | • Background subagent management limited hai<br>• Token consumption heavy sessions me zyada ho sakti hai. |
+| **Cursor IDE** | Anysphere | • Visual GUI (VS Code fork)<br>• Great inline autocomplete (Tab-Tab) | • Heavy GUI (Electron based)<br>• SSH / Headless remote server par directly nahi chalta. |
+| **Aider** | Open-source | • Direct git commits automate karta hai<br>• Multiple LLM providers support karta hai | • Multi-agent autonomous loops aur dynamic skills system nahi hai. |
+| **Devin** | Cognition AI | • Autonomous web-based sandbox | • Bohot expensive (High enterprise pricing)<br>• Local terminal me direct integration nahi hai. |
 
 ---
 
-## 8. Quick Revision Summary
+## 7. Nateeja (Conclusion)
 
-- **Antigravity CLI (`agy`):** Terminal-native autonomous AI coding agent.
-- **Fast Install:** `curl -fsSL https://antigravity.google/install.sh | bash`
-- **Exit Shortcut:** `Ctrl+D Ctrl+D` ya `/exit`.
-- **Custom Skills:** `.agents/skills/<name>/SKILL.md` bana kar agent ko customize karein.
-- **Project Guidelines:** `AGENTS.md` banakar team ke sath rules share karein.
-- **Optimization:** Targeted edits aur subagents se token cost aur context limit optimize karein.
+**Google Antigravity CLI (`agy`)** modern software developers ke liye terminal ke andar ek personal senior developer ki tarah kaam karta hai.
 
+Iska sabse bada power iska **Skills System** aur **Progressive Disclosure** hai — jisse aap apne project ke complex rules aur conventions ko ek baar define kar dete hain aur agent bina token waste kiye unhe follow karta hai. Chahe aapko single-line bug fix karna ho ya poora multi-agent background task chalana ho, `agy` terminal development ko 10x fast aur smart bana deta hai.
