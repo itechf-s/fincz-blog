@@ -16,7 +16,17 @@ This guide is structured to help you walk through a typical senior backend devel
 
 ## Part 1: The Opening
 
-### 1. Introduction (Your Elevator Pitch)
+### 1.a Introduction (Scrum)
+Hi everyone, I’m ---. I have over 14 years of experience in software development, mainly working with Java, Spring Boot, REST APIs, React, and Angular.
+
+I have strong experience in the healthcare insurance domain, particularly in claims processing, business rules, member enrollment etc. 
+I’ve also worked extensively on debugging, production issue resolution, and performance optimization.
+
+I’m excited to be part of the this team and 
+Looking forward to working with all of you.
+Thank you.
+
+### 1.b Introduction (Your Elevator Pitch)
 
 > Hi, my name is ---. I have over 14 years of experience in software development, mainly working as a Backend Engineer using Java, Spring, Spring Boot, REST APIs, SQL, and Microservices.
 >
