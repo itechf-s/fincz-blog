@@ -158,7 +158,57 @@ Meeting end karne ke formal closing phrases:
 
 ---
 
-## 8. Hindi-Medium Developers Ke Liye Golden Tips
+## 8. Real-Life Scenarios & Slack Messages (Rozana Ki Zaroori Baatein)
+
+Aksar hume team ya client ko personal updates, unexpected situations (barish, light cut, school pick-up, khana) batani hoti hain. In situations ke liye ready-to-use sentences aur paragraphs:
+
+### 🌧️ Scenario 1: Barish / Waterlogging (WFH Update)
+- **Chat / Email:**  
+  > *"Hi team, it’s raining heavily in my area and there is severe waterlogging on the roads. Because of the traffic situation, I won’t be able to travel to the office today. I’ll be working from home (WFH) and will be fully available on Slack and calls."*
+- **Hindi Matlab:** Mere yaha bohot tez barish ho rahi hai aur sadko par pani bhara hua hai. Isliye main aaj office nahi ja paunga, ghar se kaam karunga aur Slack/call par available hu.
+
+### 🚗 Scenario 2: Office se Ghar Jate Waqt (Commute / Travel Time)
+- **Quick Slack Message:**  
+  > *"Hi team, I'm just heading out of the office and heading home. I'll be in transit for about 30 to 45 minutes. If there’s anything urgent, please ping me on mobile. I’ll be back online as soon as I reach home."*
+- **Hindi Matlab:** Main abhi office se ghar ke liye nikal raha hu aur raste me 30-45 minute lagenge. Agar koi zaroori kaam ho toh mobile par ping karein, ghar pahunch kar turant online aa jaunga.
+
+### 🍽️ Scenario 3: Lunch Break (Khana Khane Jate Waqt)
+- **Short Status:**  
+  > *"Stepping away for a quick lunch break. I'll be back online in about 30 minutes."*
+- **Hindi Matlab:** Main chote lunch break ke liye ja raha hu, lagbhag 30 minute me wapas aa jaunga.
+
+### 👧 Scenario 4: School se Bacche ko Pick-up Karna
+- **Polite Message:**  
+  > *"Hey, please give me a few minutes. I need to step out quickly to pick up my daughter from school. I'll be back at my desk within 20–25 minutes and will follow up with you right away."*
+- **Hindi Matlab:** Mujhe thoda time dein, main apni beti ko school se lene ja raha hu. 20-25 minute me desk par wapas aakar aapse baat karta hu.
+
+### ⚡ Scenario 5: Power Cut / WiFi Down (Call Miss Hone Par)
+- **Apology & Update:**  
+  > *"Hi everyone, apologies for missing the first few minutes of the call. We had a sudden power outage in my area, which caused the Wi-Fi router to restart. Everything is back up now and I am ready."*
+- **Hindi Matlab:** Shuruati minutes miss karne ke liye maafi chahta hu. Mere yaha achanak light chali gayi thi jisse Wi-Fi band ho gaya tha. Ab sab theek hai aur main call par hu.
+
+### 🏕️ Scenario 6: Weekend Talk & Casual Sharing
+- **Casual Sharing in Meeting:**  
+  > *"Over the weekend, I went on a short road trip with my family to the hills. The weather was amazing and it was a great way to recharge. How about you?"*
+- **Hindi Matlab:** Weekend par main apni family ke sath pahado par ek choti trip par gaya tha. Mausam bohot achha tha aur mood refresh ho gaya. Aapka weekend kaisa raha?
+
+### 🏥 Scenario 7: Tabiyat Theek Na Hone Par / Doctor Appointment
+- **Health Update:**  
+  > *"Hi team, I'm feeling a bit under the weather today / I have a quick doctor’s appointment scheduled at 3 PM. I'll be away from my desk for about an hour, but I will make up for the time later this evening."*
+- **Hindi Matlab:** Aaj meri tabiyat thodi theek nahi hai / 3 baje doctor ka appointment hai. Main 1 ghante ke liye offline rahunga aur shaam ko time compensate kar lunga.
+
+### 🤝 Scenario 8: Kisi Se Baat Ki, Step Liya Par Kaam Abhi Hua Nahi (Cross-Team Dependency)
+- **Standup / Meeting Script (Short):**  
+  > *"I spoke with Rahul yesterday regarding the database timeout issue. He suggested increasing the connection pool size, which I did, but we are still seeing the same error in the logs. I'll follow up with him again today to debug further."*
+- **Hindi Matlab:** Maine kal Rahul se database timeout ke baare me baat ki thi. Usne connection pool badhane ko kaha, jo maine kar diya, lekin logs me abhi bhi wahi error aa raha hai. Main aaj uske sath dobara follow-up karke aage debug karunga.
+
+- **API / Requirement Script (Variations):**  
+  > *"I synced up with the backend team (John) about the missing user payload fields. As per his advice, I updated the request headers, but the API is still returning a 403 Forbidden. I am waiting on him for updated permissions."*
+- **Hindi Matlab:** Maine backend team (John) se baat ki thi missing fields ke baare me. Uske kehne ke mutabiq maine request headers update kiye, par API abhi bhi 403 error de rahi hai. Main permissions update hone ka wait kar raha hu.
+
+---
+
+## 9. Hindi-Medium Developers Ke Liye Golden Tips
 
 1. **Slow Down (Jaldi me mat boliye):** Fast bolne se galti aur hesitation badhti hai. Dheere aur clear boliye — foreign clients slow aur clear English pasand karte hain.
 2. **Filler Words se Bachiye:** *"Ummm"*, *"Aaa"* bolne ke bajaye 1-2 second ka natural pause lein.
@@ -167,7 +217,7 @@ Meeting end karne ke formal closing phrases:
 
 ---
 
-## 9. Quick Revision Cheat Sheet
+## 10. Quick Revision Cheat Sheet
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
@@ -181,6 +231,12 @@ Meeting end karne ke formal closing phrases:
 ├───────────────────┼───────────────────────────────────────┤
 │ Clarification     │ "Just to confirm, are we prioritizing │
 │                   │  A over B?"                           │
+├───────────────────┼───────────────────────────────────────┤
+│ Power Cut / WiFi  │ "Apologies, had a quick power cut and │
+│                   │  Wi-Fi restarted. Back online now!"   │
+├───────────────────┼───────────────────────────────────────┤
+│ Stepping Away     │ "Stepping away for 20 mins to pick up │
+│                   │  my daughter from school."            │
 ├───────────────────┼───────────────────────────────────────┤
 │ Don't Know Answer │ "Let me double check that and get     │
 │                   │  back to you by EOD."                 │
