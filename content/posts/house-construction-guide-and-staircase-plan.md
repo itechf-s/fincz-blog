@@ -1,116 +1,122 @@
 ---
-title: "House Construction Guide: Contractor Requirements"
-categories: [ Construction, Real Estate, Guide ]
-tags: [House Construction, Staircase Design, Jaunpur, Civil Engineering, Contractor Agreement, Guide]
-description: "Ghar banwane ka step-by-step guide. 12 foot floor height ke liye safe aur easy U-shape staircase"
+title: "आदमपुर (जौनपुर) घर निर्माण: काम की देखरेख और सीढ़ी का जरूरी प्लान"
+categories: [ Personal, House Construction ]
+tags: [House Construction, Jaunpur, Staircase Plan, Quality Checklist]
+description: "आदमपुर, जौनपुर में घर निर्माण के लिए जरूरी निर्देश, ठेकेदार के काम की जांच, और 12 फीट ऊंचाई के लिए आरामदायक यू-शेप सीढ़ी का पूरा नाप-जोख।"
 date: 2026-08-27T18:30:00+05:30
-lastmod: 2026-08-27T18:30:00+05:30
-images: ["images/2026/08/house-construction-guide.webp"]
+lastmod: 2026-09-12T23:15:00+05:30
+images: ["images/2026/08/footing-layout-plan.webp"]
 author: ahmad
 ---
 
-## 1. Plot Measurements & Site Details
-
-Site par kisi bhi confusion se bachne ke liye plot ki dimensions
-
-| Side / Disha | Measurement (Naap) |
-| :--- | :--- |
-| **South (Dakshin / Makan)** | **30'-0"** |
-| **North (Uttar / Front)** | **32'-6"** |
-| **East (Purva / Other Plot)** | **35'-3"** |
-| **West (Paschim / Gali)** | **32'-0"** |
+यह नोट इसलिए तैयार किया है ताकि ठेकेदार या मिस्त्री कोई भी जरूरी काम जल्दबाजी में न छोड़ें और घर मजबूत व सुरक्षित बने।
 
 ---
 
-## 2. 12 Feet Floor Height ke liye Easy Staircase
+## 1. हमारे प्लॉट की सही नाप (Plot Dimensions)
 
-| Parameter | Proposed Value | Expert Review & Recommendation | Status |
-| :--- | :--- | :--- | :--- |
-| **Floor-to-Floor Height** | **12'-0" (144 inches)** | Ground floor se first floor ke slab top tak. | Standard & Spacious |
-| **Riser (Step Height)** | **6 Inches** | Ideal standard hai (6" se zyada bilkul na karein). | ✅ Best for Elders |
-| **Tread (Step Width)** | **11 Inches** | Poora pair araam se aayega, slip hone ka darr nahi. | ✅ Super Safe |
-| **Total Risers** | **24 Steps** | 144 \div 6 = 24 steps. | ✅ Perfectly Balanced |
-| **Flight 1 & Flight 2** | **12 + 12 Risers** | 6 feet par aaramdayak chauki (Landing). | ✅ Fatigue-free |
-| **Landing Width** | **4'-0" (48 inches)** | U-Turn lete waqt saman le jana aur rukna bohot easy. | ✅ Spacious |
-| **Stair Clear Width** | **4'-0" (Har side)** | 2 log ek sath asani se cross ho sakte hain. | ✅ Premium |
-| **Central Gap** | **1'-0" (12 inches)** | Railing lagane aur hawa/light aane ke liye behtar. | ✅ Recommended |
+प्लॉट की चारों तरफ की नाप इस प्रकार है ताकि दीवार या पिलर का ले-आउट करने में ठेकेदार को कोई उलझन न हो:
 
----
-
-### 🏛️ Staircase Flow Diagram (U-Shape Double Flight)
-
-```text
-[ First Floor Level : 12'-0" Height ]
-              ▲
-              │  (Flight 2: 12 Risers / 11 Steps)
-              │
-┌──────────────────────────────┐
-│  Mid-Landing Platform (4'-0")│ ◄── Height at 6'-0" (Chauki)
-└──────────────────────────────┘
-              ▲
-              │  (Flight 1: 12 Risers / 11 Steps)
-              │
-[ Ground Floor Level : 0'-0" ]
-```
-
-### Space Calculation (Jagah ki Zarurat):
-- **Total Required Length:** 11 Treads × 11" = 121" (10'-1") + 4'-0" Landing = **14'-1"**
-- **Total Required Width:** 4'-0" (Flight 1) + 1'-0" (Gap) + 4'-0" (Flight 2) = **9'-0"**
-- **Nateeja:** 14'-1" × 9'-0" ka space
----
-
-## 2. Construction Stages & Milestones
-
-Ghar banwate waqt payment hamesha stage-wise milestone par karein:
-
-```text
-[ Phase 1: Excavation & Footing ] ──► [ Phase 2: Plinth Beam & DPC ]
-                 │
-                 ▼
-[ Phase 3: Column & Brickwork ]   ──► [ Phase 4: Slab/Lenter Casting & Curing ]
-```
-
-1. **Stage 1 (Excavation & PCC):** Gaddha khodna, mitti dhomus karna, aur 4-inch PCC bed dalna.
-2. **Stage 2 (Footing & Column Raft):** Jali (mesh) lagakar column khada karna aur M20 concrete bharna.
-3. **Stage 3 (Plinth Beam & Soil Filling):** Plinth level par beam dhalna aur achhi tarah pani daal kar mitti dabana (Compaction).
-4. **Stage 4 (Brickwork & Lintels):** Khidki/darwaze ke upar lintel beam zaroor dalein taaki load frames par na pade.
-5. **Stage 5 (Staircase & Roof Slab):** Jeena aur Chhat ka sariya bandhte waqt fan box aur electrical pipes lagana.
-
----
-
-## 3. Site Execution & Quality Control Tips
-
-1. **Cover Block Zaroor Lagwayein:** Sariya ke neeche 20mm (slabs) aur 40mm (footing) ke cement cover block lagayein taaki sariya bahar se na dikhe.
-2. **Vibrator ka Istemal:** Shuttering ke dauran vibrator zaroor chalwayein taaki concrete me ganj (honeycombing) na bane.
-3. **Pani ka Level (Water Level):** Jeene ki dhalai shuru karne se pehle dono side ki deewar par har step ka nishan (chalk/pencil) se lagwayein.
-
-
-## 4. Zaroori Construction Terms (Quick Glossary)
-
-| Term | Aasan Matlab (Desi Bhasha) | Real-Life Kaam |
+| दिशा (Side) | नाप (Measurement) | आस-पास का संदर्भ |
 | :--- | :--- | :--- |
-| **Footing / Foundation** | Neev (Ghar ka base) | Column ka bojh zameen me barabar baantna. |
-| **Plinth Beam (DPC)** | Zameen ke upar di jane wali bandish beam | Seelan (Dampness) aur deewaron ke crack rokna. |
-| **Riser** | Jeene ke step ki khadi unchai (Height) | Paanv upar uthane ki unchai (Best: 5.5" to 6"). |
-| **Tread** | Jeene ka wo hissa jahan pair rakha jata hai (Chaudai) | Pair poora aana chahiye (Best: 11" to 12"). |
-| **Landing (Chauki)** | Jeene ke beech ka aaram karne wala flat platform | U-turn lene aur chadhne me thakan mitane ke liye (Min: 3.5' to 4'). |
-| **Curing (Tarai)** | Concrete aur eent par pani chhidakna | Cement ki poori mazbooti lane ke liye (7 se 14 din). |
-| **Cover Block** | Sariya aur shuttering ke beech ka gap maintain karne wala gatta | Sariya ko hawa aur zang (rust) se bachana. |
+| **दक्षिण (South - पीछे)** | **30'-0" (30 फीट)** | पड़ोसी का मकान |
+| **उत्तर (North - आगे/Front)** | **32'-6" (32 फीट 6 इंच)** | रास्ता / मुख्य फ्रंट |
+| **पूर्व (East - दायां)** | **35'-3" (35 फीट 3 इंच)** | खाली प्लॉट |
+| **पश्चिम (West - बायां)** | **32'-0" (32 फीट)** | साइड की गली |
 
 ---
 
-## 5. Requirement Checklist
+## 2. Step-by-Step Quality Checklist
 
-1. **Drawing Compliance (Naksha Anusar Kaam):**
-   - Sabhi column ki location, size aur footing ki gehrai engineer ke pass kiye gaye **Footing Layout Plan v2** ke mutabiq hi khudegi aur bhari jayegi.
-   - Bina engineer/owner ki permission ke kisi bhi column ya deewar ki jagah nahi badli jayegi.
+हर चरण पर नीचे दी गई बातों का ध्यान रखना है:
 
-2. **Material Ratio & Concrete Mix (Masala Ratio):**
-   - **Footing & Column:** M20 Grade (1 hissa Cement : 1.5 hissa Ret/Balu : 3 hissa Gitti) standard concrete vibrator ke sath bhara jaye.
-   - **Brickwork (Eent ki chinai):** 9-inch outer wall ke liye 1:6 ratio, aur 4.5-inch partition wall ke liye 1:4 ratio masala.
+---
 
-3. **Curing / Tarai ki Zimmedari:**
-   - Har dhalai (Column, Beam, Chhat) aur chinai par subah-shaam kam se kam **10 se 14 din** tarai honi chahiye.
+### 🟢 चरण 1: गड्ढा खुदाई (Excavation) और पीसीसी (PCC Bed)
+- **क्या सही है:** गड्ढे की गहराई ड्राइंग के हिसाब से (4.5 से 5 फीट) होनी चाहिए। नीचे की मिट्टी को दुर्मुस (धोमुस) से अच्छी तरह कूटना जरूरी है, फिर 4 इंच मोटी सीमेंट-बालू-गिट्टी की पीसीसी (PCC) डलेगी।
+- **ठेकेदार की लापरवाही:** बिना मिट्टी कूटे ढीली मिट्टी पर ही मसाला डाल देना।
+- **देखने वाली बात:** पीसीसी डालने से पहले गड्ढे और कूटाई की एक फोटो।
 
-4. **Safety & Leveling:**
-   - Shuttering hamesha water-level aur sahul (plumb bob) check karke lagai jaye taaki deewar ya column tedha na ho.
+---
+
+### 🟢 चरण 2: फुटिंग की जाली और पिलर का सरिया
+- **क्या सही है:** जाली के नीचे **40mm के सीमेंट कवर ब्लॉक** (गुटके) लगे होने चाहिए ताकि सरिया मिट्टी से ऊपर रहे। पिलर का सरिया नीचे कम से कम 12 इंच का 'L' बेंड होकर जाली से बंधे।
+- **पिलर का 90° सीधा होना:** फुटिंग बांधते समय ही पिलर का सेंटर लाइन सूत (Dori) से मिलाया जाए ताकि पिलर बिल्कुल 90 डिग्री सीधा खड़ा हो, किसी भी तरफ झुका न हो।
+- **ठेकेदार की लापरवाही:** सीमेंट गुटके की जगह ईंट का टुकड़ा लगा देना (ईंट से सरिये में जंग लगती है)।
+- **देखने वाली बात:** जाली के नीचे लगे सीमेंट गुटके और सीधे खड़े पिलर की क्लोज-अप फोटो।
+
+---
+
+### 🟢 चरण 3: कुर्सी का लेवल (Plinth Beam) और मिट्टी भराई के नियम
+- **कुर्सी (Plinth) का लेवल:** घर की कुर्सी का लेवल **सामने सड़क से 2.5 फीट (30 इंच) ऊपर** रहेगा ताकि बारिश का पानी कभी अंदर न आए।
+- **मिट्टी भराई का सही नियम:** पूरी मिट्टी एक साथ कभी न भरी जाए। **हर बार 10-10 इंच मिट्टी भरनी है, फिर उस पर खूब पानी डालकर दुर्मुस (धोमुस) से अच्छी तरह कूटना (पिटाई करना) है।** जब वह पूरी तरह बैठ जाए, तभी अगली 10 इंच मिट्टी भरें।
+- **ठेकेदार की लापरवाही:** पूरी मिट्टी एक साथ भरकर ऊपर से हल्का पानी छिड़क देना, जिससे बाद में फर्श धंस जाता है और टाइल्स टूट जाती हैं।
+- **देखने वाली बात:** 10 इंच मिट्टी पर पानी डालकर दुर्मुस से कुटाई करते हुए वीडियो।
+
+---
+
+### 🟢 चरण 4: पिलर की ढलाई, 90° सीधाई और बोरे से तराई (Curing)
+- **पिलर का 90° सीधा होना (साहुल चेक):** पिलर की शटरिंग (फर्मा) लगाते समय चारों तरफ से **साहुल (Plumb Bob)** लटकाकर चेक करना बेहद जरूरी है। पिलर 1 सूत भी किसी तरफ झुका नहीं होना चाहिए, बिल्कुल 90 डिग्री सीधा हो।
+- **मसाला और वाइब्रेटर:** पिलर में **M20 मसाला** (1 बोरी सीमेंट : 1.5 बोरी बालू/मोरंग : 3 बोरी गिट्टी) का इस्तेमाल हो और ढलाई के समय **वाइब्रेटर** जरूर चले ताकि अंदर कोई छेद (गांज) न रहे।
+- **बोरे से ढककर तराई:** पिलर की शटरिंग खुलते ही **पिलर को चारों तरफ से टाट के बोरे (Hessian bags) से अच्छी तरह लपेटकर बांध देना है** और 14 दिनों तक सुबह-शाम बोरे को पूरी तरह भिगोकर तर रखना है (सूखा पिलर कमजोर हो जाता है)।
+- **देखने वाली बात:** साहुल लगाकर पिलर की सीधाई की फोटो और बोरे से लपेटे हुए पिलर की तराई की फोटो।
+
+---
+
+### 🟢 चरण 5: ईंट की चिनाई (Brickwork) और लिंटेल बीम
+- **क्या सही है:** 9 इंच की बाहरी दीवार में 1:6 का मसाला (1 सीमेंट : 6 बालू) और 4.5 इंच की दीवार में 1:4 का मसाला लगे। ईंट पहले से पानी में भीगी होनी चाहिए। खिड़की और दरवाजे के ऊपर **लिंटेल बीम** (कम से कम 6 इंच मोटी) जरूर डले।
+- **ठेकेदार की लापरवाही:** सूखी ईंट लगाना या दरवाजे के ऊपर डायरेक्ट पटिया रख देना।
+- **देखने वाली बात:** साहुल लगाकर दीवार की सीधाई और लिंटेल बीम की फोटो।
+
+---
+
+### 🟢 चरण 6: 12 फीट छत के लिए आरामदायक यू-शेप सीढ़ी (Staircase Plan)
+
+चिनाई के बाद छत ढलने से पहले सीढ़ी तैयार होती है। हमारी सबसे बड़ी जरूरत यह है कि **घर के बुजुर्ग, महिलाएं और छोटे बच्चे** बिना घुटनों के दर्द या थकान के आसानी से चढ़ सकें। ठेकेदार अक्सर सीढ़ी बहुत खड़ी (steep) बना देते हैं, इसलिए मिस्त्री को नीचे दिए गए नाप पर ही काम करने को कहें:
+
+#### 📐 सीढ़ी का सही नाप (Dimensions):
+
+| बिंदु (Parameter) | सही नाप | इसका फायदा / जरूरी बात |
+| :--- | :--- | :--- |
+| **फर्श से फर्श की ऊंचाई** | **12'-0" (144 इंच)** | ग्राउंड फ्लोर से पहली मंजिल की छत तक। |
+| **राइजर (पायदान की ऊंचाई)** | **6 इंच (6")** | पैर उठाने में जोर नहीं पड़ेगा। **6 इंच से ज्यादा कतई न रखें।** |
+| **ट्रेड (पैर रखने की चौड़ाई)** | **11 इंच (11")** | पूरा पैर आराम से आएगा, फिसलने का कोई डर नहीं। |
+| **कुल सीढ़ियां (Risers)** | **24 सीढ़ियां** | 12 सीढ़ी चढ़ने के बाद आरामदायक चौकी (लैंडिंग)। |
+| **चौकी की चौड़ाई (Landing)** | **4'-0" (4 फीट)** | 6 फीट की ऊंचाई पर U-टर्न लेने और रुकने के लिए चौड़ी जगह। |
+| **सीढ़ी की चौड़ाई** | **4'-0" (प्रत्येक तरफ)** | दो लोग एक साथ आसानी से आ-जा सकते हैं। |
+| **बीच का गैप (Central Gap)** | **1'-0" (1 फीट)** | रेलिंग लगाने और हवा-रोशनी आने के लिए। |
+| **कुल जगह की जरूरत** | **14'-1" लंबाई × 9'-0" चौड़ाई** | सीढ़ी के लिए इतनी जगह तय रखनी है। |
+
+> **टिप:** सीढ़ी की ढलाई से पहले दीवार पर मिस्त्री से पेंसिल या चाक से हर 6 इंच की सीढ़ी का निशान बनवा लें, ताकि पहला और आखिरी पायदान छोटा-बड़ा न बने।
+
+---
+
+### 🟢 चरण 7: छत की ढलाई (Roof Slab / Lenter)
+- **क्या सही है:** छत के सरिये के नीचे हर 1 मीटर पर **20mm के सीमेंट कवर ब्लॉक** लगे हों ताकि सरिया शटरिंग से न चिपके। बिजली के पाइप और पंखे के बक्से (Fan Box) टेप से अच्छी तरह सील हों। छत की मोटाई कम से कम 5 इंच हो।
+- **तराई (Ponding):** ढलाई के 24-48 घंटे बाद छत पर सीमेंट की क्यारियां बनाकर कम से कम 21 दिनों तक पानी भरा रहे।
+- **देखने वाली बात:** ढलाई से पहले छत पर बिछे बिजली के पाइप व कवर ब्लॉक की फोटो, और अगले दिन पानी की क्यारी की फोटो।
+
+---
+
+## 3. ठेकेदार को किस्तों में भुगतान (Payment Schedule)
+
+ठेकेदार को काम से आगे कभी एडवांस न दें, काम पूरा होने और जांच के बाद ही किस्त जारी करें:
+
+| चरण (Milestone) | काम का विवरण | भुगतान प्रतिशत |
+| :--- | :--- | :--- |
+| **किस्त 1** | गड्ढा खुदाई + पीसीसी + फुटिंग और पिलर जमीन लेवल तक | 15% |
+| **किस्त 2** | प्लिंथ बीम की ढलाई + 10-10 इंच मिट्टी भराई और कुटाई | 15% |
+| **किस्त 3** | ग्राउंड फ्लोर के सभी पिलर की ढलाई + बोरे से 14 दिन तराई | 15% |
+| **किस्त 4** | 9" और 4.5" ईंट की चिनाई + लिंटेल बीम | 20% |
+| **किस्त 5** | सीढ़ी + छत (लेंटर) की ढलाई और 21 दिन पानी की क्यारी | 25% |
+| **किस्त 6 (अंतिम)** | शटरिंग खुलने के बाद, प्लास्टर व फाइनल हिसाब | 10% |
+
+---
+
+## 4. Quick Summary
+
+1. **कुर्सी लेवल:** सड़क से 2.5 फीट ऊपर रहेगा।
+2. **मिट्टी भराई:** पूरी मिट्टी एक साथ न भरें, 10-10 इंच मिट्टी डालकर पानी व दुर्मुस से कुटाई करके ही आगे भरें।
+3. **पिलर 90° सीधा व बोरे से तराई:** साहुल से पिलर बिल्कुल सीधा चेक करें और शटरिंग खुलते ही बोरे से लपेटकर 14 दिन तराई करें।
+4. **सीमेंट कवर ब्लॉक:** जाली और छत के सरिये के नीचे सीमेंट के गुटके जरूर लगवाएं (ईंट का टुकड़ा नहीं)।
+5. **सीढ़ी (6 इंच राइजर):** 6 इंच से ज्यादा ऊंची सीढ़ी मिस्त्री को कतई न बनाने दें।
