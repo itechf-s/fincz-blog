@@ -2,7 +2,7 @@
 title: "6.3 Plugins & Ecosystem"
 categories: [ AI, Course ]
 tags: [ClaudeCode, Plugins, Ecosystem, Cheatsheet, BestPractices]
-description: "Claude Code Plugins ecosystem aur Ultimate Cheatsheet: Commands, shortcuts aur production best practices ka complete guide."
+description: "Claude Code Plugins ecosystem और Ultimate Cheatsheet: कमांड्स, शॉर्टकट्स और बेस्ट प्रैक्टिसेज का पूरा गाइड।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,94 +13,82 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Claude Code ke **Plugins aur Extensions Ecosystem** ko samajh payenge.
-- **Ultimate Claude Code Cheatsheet** ke zariye saari zaruri commands ko ek nazar me yaad rakh sakenge.
-- Production environment me AI coding ke Best Practices seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- Claude Code के **Plugins और कम्युनिटी इकोसिस्टम** को समझ पाएंगे।
+- **Ultimate Claude Code Cheatsheet** से सारे जरूरी कमांड्स को एक नज़र में याद रख सकेंगे।
+- रियल प्रोजेक्ट्स में AI कोडिंग के बेस्ट प्रैक्टिसेज सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Smart Phone Ke App Store & Cheat Codes):**  
-> Smartphone me apps install karke aap uski powers badhate hain (jaise WhatsApp, Camera filters, Maps).  
-> **Plugins** Claude Code ke wahi apps hain jo community ne banaye hain, aur **Cheatsheet** wo master diary hai jisme gaming ke sabhi cheat codes ek jagah likhe hote hain!
+> **मिसाल (स्मार्टफोन का ऐप स्टोर & चीट कोड्स):**  
+> स्मार्टफोन में ऐप्स डालकर आप उसकी ताकत बढ़ाते हैं (जैसे कैमरा फिल्टर्स, मैप्स)।  
+> **Plugins** Claude Code के वही ऐप्स हैं, और **Cheatsheet** वह मास्टर डायरी है जिसमें सारे शॉर्टकट्स एक जगह लिखे होते हैं!
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Plugin** | Community dwara banaya gaya add-on tool | Linter plugin, Git booster |
-| **Cheatsheet** | Saare shortcuts aur commands ki quick reference table | CLI Quick Guide |
-| **Headless Mode** | Bina interactive UI ke terminal scripts me Claude Code run karna | CI/CD pipeline runs |
-| **Production Safety** | Secrets aur live database ko safe rakhne ke niyam | `.env` ignore rules |
+| **Plugin** | कम्युनिटी द्वारा बनाया गया एक्स्ट्रा टूल | लिंटर प्लगइन, गिट बूस्टर |
+| **Cheatsheet** | सारे शॉर्टकट्स और कमांड्स की क्विक टेबल | CLI Quick Guide |
+| **Headless Mode** | बिना इंटरएक्टिव स्क्रीन के टर्मिनल स्क्रिप्ट्स में चलाना | CI/CD ऑटोमेशन |
+| **Production Safety**| पासवर्ड्स और लाइव डेटाबेस को सुरक्षित रखने के नियम | `.env` को अनदेखा करना |
 
 ---
 
 ## 📑 **The Ultimate Claude Code Master Cheatsheet**
 
-Niche Claude Code ke sabhi commands aur shortcuts ka master table diya gaya hai:
-
-| Category | Command / Shortcut | Description |
+| कैटेगरी | कमांड / शॉर्टकट | काम (Description) |
 | :--- | :--- | :--- |
-| **Navigation & Help** | `> /help` | Saari available commands dekhna |
-| **Project Setup** | `> /init` | Tech-stack scan karke `CLAUDE.md` create karna |
-| **Diagnostics** | `> /doctor` | Node, Git aur API keys ki health check karna |
-| **Token & Budget** | `> /cost` | Current session ka token spend aur USD cost dekhna |
-| **Memory Management**| `> /compact` | Context ko summarize karke memory aur paise bachana |
-| **Session Reset** | `> /clear` | Poora session reset karke fresh chat shuru karna |
-| **Code Review** | `> /review` | Git diffs aur PR quality check karna |
-| **Exit** | `> /exit` ya `Ctrl + C` | Claude Code CLI se bahar aana |
-| **Images Pass Karna** | Drag & drop file | Screenshot ya UI mockup prompt me attach karna |
-| **Custom Commands** | `.claude/commands/xyz.md` | Apna shortcut command `/xyz` banana |
-| **Domain Skills** | `.agents/skills/<name>/SKILL.md` | Auto-activating domain expertise banana |
+| **मदद और लिस्ट** | `> /help` | सभी उपलब्ध कमांड्स देखना |
+| **प्रोजेक्ट सेटअप** | `> /init` | कोड स्कैन करके `CLAUDE.md` बनाना |
+| **हेल्थ चेक** | `> /doctor` | Node, Git और API keys की सेहत चेक करना |
+| **टोकन और बजट** | `> /cost` | इस सेशन का टोकन खर्च और डॉलर देखना |
+| **मेमोरी बचाना** | `> /compact` | पुरानी चैट समेटकर टोकन और पैसे बचाना |
+| **नया सेशन** | `> /clear` | चैट साफ करके बिल्कुल नया काम शुरू करना |
+| **कोड रिव्यू** | `> /review` | कोड बदलाव और PR की क्वालिटी चेक करना |
+| **बाहर निकलना** | `> /exit` या `Ctrl + C` | टर्मिनल से बाहर आना |
+| **इमेज भेजना** | Drag & drop file | स्क्रीनशॉट या डिज़ाइन प्रॉम्प्ट में जोड़ना |
+| **कस्टम कमांड्स** | `.claude/commands/xyz.md` | अपना शॉर्टकट कमांड `/xyz` बनाना |
 
 ---
 
-## 🛡️ **Production Best Practices (Top 5 Golden Rules)**
+## 🛡️ **प्रोडक्शन के 5 नियम (Top Golden Rules)**
 
-1. **`.env` Files Ko Hamesha Ignore Karein:**  
-   Kabhi bhi real database passwords ya production API secrets AI prompt me na bhejein.
-
-2. **Always Run Tests Before Commit:**  
-   Har change ke baad Claude Code se bole: *"Saare unit tests run karke verify karo"*.
-
-3. **Use Spec-Driven Development:**  
-   Bade feature ke liye pehle `specs/` markdown file likhein, fir execution start karein.
-
-4. **Keep `CLAUDE.md` Clean & Sharp:**  
-   `CLAUDE.md` me sirf kaam ki baatein aur commands likhein (under 150 lines).
-
-5. **Regularly Compact Context:**  
-   Har 30-40 minutes me `> /compact` chala kar tokens aur paise bachaayein.
+1. **`.env` फाइल्स को हमेशा इग्नोर करें:** असली डेटाबेस पासवर्ड्स कभी AI प्रॉम्प्ट में न भेजें।
+2. **कमिट से पहले टेस्ट चलाएं:** हमेशा कहें: *"सारे यूनिट टेस्ट्स रन करके चेक करो"*.
+3. **Spec-Driven तरीका अपनाएं:** बड़े फीचर के लिए पहले `specs/` फाइल लिखें।
+4. **`CLAUDE.md` को साफ रखें:** इसमें सिर्फ जरूरी नियम लिखें (150 लाइनों के अंदर)।
+5. **नियमित रूप से कॉम्पैक्ट करें:** हर 30-40 मिनट में `> /compact` चलाएं।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** Har project me alag-alag unorganized prompts use karna.
-- ✅ **Pro Tip:** Apni team ke liye standard `.claude/commands/` aur `CLAUDE.md` templates maintain karein.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Is cheatsheet ko bookmark kar lein.
-2. Apne terminal me `claude` open karke `> /help` aur `> /cost` test karein.
+- ❌ **गलती:** हर प्रोजेक्ट में बिना किसी नियम के अलग-अलग प्रॉम्प्ट्स देते रहना।
+- ✅ **Pro Tip:** अपनी टीम के लिए स्टैंडर्ड `.claude/commands/` और `CLAUDE.md` इस्तेमाल करें।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- Plugins aur MCP servers se Claude Code ki powers extend hoti hain.
-- Cheatsheet ke top commands (`/init`, `/compact`, `/cost`, `/doctor`) roz ke kaam aate hain.
-- Production safety rules follow karne se bugs aur security risks zero rehte hain.
+1. इस चीटशीट को बुकमार्क कर लें।
+2. टर्मिनल में `claude` खोलकर `> /help` और `> /cost` टेस्ट करें।
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- Plugins और MCP सर्वर्स से Claude Code की क्षमता कई गुना बढ़ जाती है।
+- चीटशीट के टॉप कमांड्स (`/init`, `/compact`, `/cost`, `/doctor`) रोज़ काम आते हैं।
+- सुरक्षा के नियमों का पालन करने से प्रोजेक्ट हमेशा बग-फ्री रहता है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [6.2 Lifecycle Hooks](/courses/claude-code/module-06-mcp-and-integrations/02-lifecycle-hooks/)
-- ➡️ **Agla Module:** [Module 7: Real-World Capstone Projects](/courses/claude-code/module-07-production-projects/)
+- ⬅️ **पिछला Lesson:** [6.2 Lifecycle Hooks](/courses/claude-code/module-06-mcp-and-integrations/02-lifecycle-hooks/)
+- ➡️ **अगला Module:** [Module 7: Real-World Capstone Projects](/courses/claude-code/module-07-production-projects/)

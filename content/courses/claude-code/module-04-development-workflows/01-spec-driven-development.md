@@ -2,7 +2,7 @@
 title: "4.1 Spec-Driven Development (SDD)"
 categories: [ AI, Course ]
 tags: [ClaudeCode, SDD, Specifications, Engineering]
-description: "Spec-Driven Development (SDD) kya hai? Janein kaise requirements aur specs likh kar 100% accurate code banwayen."
+description: "Spec-Driven Development (SDD) क्या है? जानें कैसे रिक्वायरमेंट्स और स्पेक्स लिखकर 100% सटीक कोड बनवाएं।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,127 +13,127 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Spec-Driven Development (SDD)** kya hota hai aur ye prompt-and-pray se behtar kyu hai.
-- Feature ke liye clean **Specification / PRD markdown file** likhna seekhenge.
-- Claude Code ko spec file dekar bina kisi galti ke multi-file feature implement karwa sakenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Spec-Driven Development (SDD)** क्या होता है और यह अंदाज़े से कोडिंग करने से बेहतर क्यों है।
+- किसी भी फीचर के लिए एक साफ **Specification / PRD markdown फाइल** लिखना सीखेंगे।
+- Claude Code को स्पेक फाइल देकर बिना किसी गलती के पूरा फीचर बनवाना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Ghar Banana vs Architect Ka Blueprint):**  
-> Agar aap majdooron se bolen *"ek 3 kamre ka ghar bana do jaisa achha lage"*, toh wo aisi building banayenge jisme na kitchen theek hoga na bathroom.  
-> Lekin agar aap pehle **Architect se poora Blueprint (Spec)** banwate hain jisme ek-ek inch ki naap likhi ho, toh har deewar aur pillar perfect banta hai.  
-> **SDD** coding me wahi Blueprint tayyar karne ka tareeqa hai.
+> **मिसाल (मकान बनाना vs आर्किटेक्ट का नक्शा):**  
+> अगर आप मजदूरों से कहें *"एक 3 कमरे का मकान बना दो जैसा अच्छा लगे"*, तो वे ऐसा घर बनाएंगे जिसमें न किचन सही होगा न बाथरूम।  
+> लेकिन अगर आप पहले **आर्किटेक्ट से पूरा नक्शा (ब्लूप्रिंट)** बनवाते हैं जिसमें एक-एक इंच का नाप लिखा हो, तो हर दीवार और पिलर बिल्कुल सही बनता है।  
+> **SDD** कोडिंग में वही नक्शा (ब्लूप्रिंट) तैयार करने का तरीका है।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Spec (Specification)** | Feature ki clear requirements aur rules wali document | `specs/auth-feature.md` |
-| **SDD (Spec-Driven Dev)** | Pehle spec likhna aur fir AI se exact code implement karwana | Spec ➔ Test ➔ Code ➔ Verify |
-| **PRD (Product Requirement Doc)**| Product ka goal, user stories aur edge cases | Product Manager ki document |
-| **Deterministic Code** | Wo code jo bina andaze ke bilkul exact requirements ke hisaab se bane | Bug-free code |
+| **Spec (Specification)**| फीचर की रिक्वायरमेंट्स और नियमों वाली डॉक्यूमेंट फाइल | `specs/auth-feature.md` |
+| **SDD** | पहले स्पेक लिखना और फिर AI से बिल्कुल सटीक कोड बनवाना | Spec ➔ Test ➔ Code ➔ Check |
+| **PRD** | प्रोडक्ट का मकसद, जरूरी फीचर्स और नियमों की लिस्ट | Product Requirement Doc |
+| **Deterministic Code** | बिना अंदाज़े के बिल्कुल सही नियमों पर बना कोड | बग-फ्री कोड |
 
 ---
 
-## 🔄 **SDD Ka 4-Step Engineering Workflow**
+## 🔄 **SDD का 4-स्टेप वर्कफ़्लो**
 
 ```text
   ┌───────────────────────────────────────────────────────────┐
-  │ 1. Write Spec File (specs/feature-name.md)                │
-  │    - Inputs / Outputs                                     │
-  │    - Database Schema & Edge Cases                         │
+  │ 1. स्पेक फाइल लिखें (specs/feature-name.md)               │
+  │    - इनपुट / आउटपुट                                       │
+  │    - डेटाबेस स्कीमा और नियम                               │
   └─────────────────────────────┬─────────────────────────────┘
                                 │
                                 ▼
   ┌───────────────────────────────────────────────────────────┐
-  │ 2. Feed to Claude Code                                    │
-  │    > "Read specs/auth-feature.md and implement the steps" │
+  │ 2. Claude Code को फाइल दें                                │
+  │    > "specs/auth.md फाइल पढ़ो और स्टेप्स लागू करो"        │
   └─────────────────────────────┬─────────────────────────────┘
                                 │
                                 ▼
   ┌───────────────────────────────────────────────────────────┐
-  │ 3. Automated Test Writing & Implementation                │
-  │    - Claude creates unit tests from specs                 │
-  │    - Implements controllers, services & routes            │
+  │ 3. कोड और टेस्ट्स बनाना                                   │
+  │    - Claude स्पेक्स के हिसाब से यूनिट टेस्ट्स बनाता है    │
+  │    - API रूट्स और लॉजिक लिखता है                          │
   └─────────────────────────────┬─────────────────────────────┘
                                 │
                                 ▼
   ┌───────────────────────────────────────────────────────────┐
-  │ 4. Verification & Green Checks                            │
-  │    - Runs test suite: All tests PASS                      │
+  │ 4. चेकिंग और वेरिफिकेशन                                   │
+  │    - टेस्ट्स रन करता है: All tests PASS ✅                │
   └───────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📝 **Sample Spec File Template (`specs/auth.md`)**
+## 📝 **सैंपल स्पेक फाइल (`specs/auth.md`)**
 
-Apne project me ek folder banayein `specs/` aur file likhein:
+प्रोजेक्ट में `specs/` फोल्डर बनाकर फाइल लिखें:
 
 ```markdown
-# Feature: User Authentication & JWT
+# Feature: User Login & Register
 
 ## 1. Goal
-Users ko email aur password se login aur register karne ki suvidha dena.
+यूज़र्स को ईमेल और पासवर्ड से लॉगिन और रजिस्टर करने की सुविधा देना।
 
 ## 2. API Endpoints
 - `POST /api/auth/register` (body: email, password, name)
-  - Agar email pehle se exist kare toh `409 Conflict` return kare.
+  - अगर ईमेल पहले से मौजूद है तो `409 Conflict` एरर दे।
 - `POST /api/auth/login` (body: email, password)
-  - Sahi credentials par JWT access token (expiry: 1 hour) return kare.
+  - सही पासवर्ड पर JWT टोकन रिटर्न करे।
 
 ## 3. Security Rules
-- Passwords ko `bcrypt` se hash karna hai (Salt rounds: 10).
-- Input validation me email format check hona chahiye.
+- पासवर्ड्स को `bcrypt` से हैश करना है।
+- ईमेल का सही फॉर्मेट चेक होना चाहिए।
 
 ## 4. Test Cases
-- Sahi data par user register hona chahiye.
-- Wrong password par `401 Unauthorized` milna chahiye.
+- सही डेटा पर यूज़र रजिस्टर होना चाहिए।
+- गलत पासवर्ड पर `401 Unauthorized` मिलना चाहिए।
 ```
 
 ---
 
-## 💻 **Terminal Prompt Se Execute Karwana**
+## 💻 **टर्मिनल में इसे कैसे चलाएं?**
 
-Ab Claude Code me bas ye simple prompt chalayein:
+अब Claude Code में यह प्रॉम्प्ट दें:
 
 ```text
-> "specs/auth.md file ko padho. Iske hisaab se auth routes, controllers, aur unit tests implement karo. Jab saare tests pass ho jayein tab mujhe report karo."
+> "specs/auth.md फाइल को पढ़ो। इसके हिसाब से auth routes, controllers, और unit tests बनाओ। जब सारे टेस्ट्स पास हो जाएं तब मुझे बताओ।"
 ```
 
-Claude Code bina kisi andaze ke exact endpoints, validation aur tests bana dega!
+Claude Code बिना किसी अंदाज़े के बिल्कुल सही कोड और टेस्ट्स बनाकर तैयार कर देगा!
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** Chhat-pat code likhne ke chakkar me spec likhna skip karna aur fir ghanto bugs fix karna.
-- ✅ **Pro Tip:** 10 minute spec likhne me lagayein, isse AI ka coding time 80% fast aur bilkul accurate ho jata hai.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Apne project ke kisi naye feature ke liye `specs/todo-api.md` file likhein.
-2. Usme 3 endpoints aur 2 test cases define karein.
-3. Claude Code ko spec file pass karein aur dekhein kitna clean code banta hai!
+- ❌ **गलती:** जल्दबाजी में बिना स्पेक लिखे सीधा कोडिंग शुरू करवाना और फिर घंटों बग्स ढूंढना।
+- ✅ **Pro Tip:** 10 मिनट स्पेक लिखने में लगाएं, इससे AI का कोडिंग समय 80% तेज़ और बिल्कुल सही हो जाता है।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- Spec-Driven Development me code likhne se pehle requirements ki doc banti hai.
-- Ye AI ko "bina bhatke" seedha sahi code likhne me guide karta hai.
-- Specs se AI automated test cases bhi khud bana leta hai.
+1. अपने किसी नए फीचर के लिए `specs/todo-api.md` फाइल लिखें।
+2. उसमें 3 API रूट्स और 2 टेस्ट केसेस तय करें।
+3. Claude Code को स्पेक फाइल पास करें और देखें कितना साफ कोड बनता है!
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- SDD में कोड लिखने से पहले रिक्वायरमेंट्स की साफ फाइल बनती है।
+- यह AI को "बिना भटके" सीधा सही कोड लिखने में मदद करता है।
+- स्पेक्स से AI खुद-ब-खुद ऑटोमैटिक टेस्ट केसेस भी बना लेता है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Module:** [Module 3: Memory & CLAUDE.md](/courses/claude-code/module-03-context-and-memory/)
-- ➡️ **Agla Lesson:** [4.2 Plan Mode & Ultraplan](/courses/claude-code/module-04-development-workflows/02-plan-mode-and-ultraplan/)
+- ⬅️ **पिछला Module:** [Module 3: Memory & CLAUDE.md](/courses/claude-code/module-03-context-and-memory/)
+- ➡️ **अगला Lesson:** [4.2 Plan Mode & Ultraplan](/courses/claude-code/module-04-development-workflows/02-plan-mode-and-ultraplan/)

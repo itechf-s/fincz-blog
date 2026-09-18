@@ -2,7 +2,7 @@
 title: "6.2 Lifecycle Hooks"
 categories: [ AI, Course ]
 tags: [ClaudeCode, LifecycleHooks, Automation, Security, Linter]
-description: "Claude Code me Lifecycle Hooks kya hote hain? Janein Pre-tool aur Post-tool hooks se code formatting aur safety automate karna."
+description: "Claude Code में Lifecycle Hooks क्या होते हैं? जानें Pre-tool और Post-tool hooks से ऑटोमैटिक कोड फॉर्मेटिंग और सुरक्षा।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,120 +13,96 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Lifecycle Hooks** kya hote hain.
-- **Pre-Tool Hooks** se dangerous commands ko block karna seekhenge.
-- **Post-Tool Hooks** se file edit hote hi automatically **Prettier / ESLint** run karwana seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Lifecycle Hooks** क्या होते हैं।
+- **Pre-Tool Hooks** से खतरनाक कमांड्स को ब्लॉक करना सीखेंगे।
+- **Post-Tool Hooks** से फाइल बदलते ही अपने-आप **Prettier / ESLint** चलवाना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Airport Security Check & Sanitization):**  
-> - **Pre-Hook (Boarding se pehle):** Security guard check karta hai ki aapke paas koi dangerous cheez toh nahi hai. Agar hai, toh rokk deta hai.  
-> - **Post-Hook (Flight se utarne ke baad):** Automatic conveyor belt aapka bag sanitise karke aapko handover karta hai.  
-> **Lifecycle Hooks** Claude Code me bilkul yahi security aur cleaning automate karte hain!
+> **मिसाल (एयरपोर्ट सिक्योरिटी चेक & सैनिटाइजेशन):**  
+> - **Pre-Hook (फ्लाइट पर चढ़ने से पहले):** गार्ड चेक करता है कि आपके पास कोई खतरनाक सामान तो नहीं है। अगर है, तो रोक देता है।  
+> - **Post-Hook (उतरने के बाद):** कन्वेयर बेल्ट आपके बैग को सैनिटाइज करके आपको सौंपती है।  
+> **Lifecycle Hooks** कोडिंग में बिल्कुल यही काम करते हैं!
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Pre-Tool Hook** | AI dwara koi action lene se theek pehle chalne wali script | Dangerous command check |
-| **Post-Tool Hook** | AI dwara file change karne ke turant baad chalne wali script | Auto-run Prettier linter |
-| **Linter / Formatter** | Code ke indentation aur formatting ko clean karne wala tool | `prettier --write` |
-| **Guardrail** | Galti se koi data ya file delete hone se rokne wala suraksha niyam | Block `DROP DATABASE` |
+| **Pre-Tool Hook** | AI द्वारा कोई कदम उठाने से ठीक पहले चलने वाली स्क्रिप्ट | खतरनाक कमांड रोकना |
+| **Post-Tool Hook**| फाइल बदलने के तुरंत बाद चलने वाली स्क्रिप्ट | Prettier चलाना |
+| **Linter / Formatter**| कोड के स्पेस और स्टाइल को साफ करने वाला टूल | `prettier --write` |
+| **Guardrail** | गलती से कोई फाइल डिलीट होने से रोकने वाला नियम | ब्लॉक `DROP TABLE` |
 
 ---
 
-## ⚙️ **Hooks Ka Execution Flow**
+## ⚙️ **Hooks कैसे काम करते हैं?**
 
 ```text
-[ User Prompt: "Update auth controller logic" ]
+[ यूज़र प्रॉम्प्ट: "auth controller अपडेट करो" ]
                        │
                        ▼
-[ Pre-Hook Check ] ────> Kya koi secret key ya dangerous command toh nahi? (Pass ✅)
+[ Pre-Hook Check ] ────> क्या कोई सीक्रेट की या खतरनाक कमांड तो नहीं? (Pass ✅)
                        │
                        ▼
-[ Claude Edits File ] ─> `src/controllers/auth.js` modified
+[ Claude Edits File ] ─> `src/controllers/auth.js` में कोड बदल गया
                        │
                        ▼
-[ Post-Hook Action ] ──> Automatically runs `npx prettier --write src/controllers/auth.js`
+[ Post-Hook Action ] ──> अपने आप चल गया: `npx prettier --write src/controllers/auth.js`
                        │
                        ▼
-[ Final Output ] ──────> Perfectly formatted & secured code ready!
+[ Final Output ] ──────> बिल्कुल साफ और सुरक्षित कोड तैयार!
 ```
 
 ---
 
-## 🛠️ **Practical Example: Auto-Formatter Post-Hook Setup**
+## 🛠️ **ऑटो-फॉर्मेटिंग पोस्ट-हुक का उदाहरण**
 
-Apne `.claude/hooks/` folder me ek script add karein:
+अपने `.claude/hooks/` फोल्डर में स्क्रिप्ट जोड़ें:
 
 ```bash
 # .claude/hooks/post-file-edit.sh
 #!/bin/bash
 FILE_PATH=$1
 
-# Agar JavaScript/TypeScript file modify hui hai toh Prettier chalayein
-if [[ "$FILE_PATH" == *.js || "$FILE_PATH" == *.ts || "$FILE_PATH" == *.jsx || "$FILE_PATH" == *.tsx ]]; then
+# अगर JS/TS फाइल बदली है तो Prettier चलाएं
+if [[ "$FILE_PATH" == *.js || "$FILE_PATH" == *.ts || "$FILE_PATH" == *.jsx ]]; then
   echo "🧹 Running Prettier on $FILE_PATH..."
   npx prettier --write "$FILE_PATH"
 fi
 ```
 
-Ab jab bhi Claude Code kisi file ko edit karega, aapko manually format karne ki zarurat nahi hogi — Prettier automatically run ho jayega!
+अब जब भी Claude Code कोई फाइल एडिट करेगा, कोड अपने-आप फॉर्मेट हो जाएगा!
 
 ---
 
-## 🛡️ **Practical Example: Pre-Hook Security Guard**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-```bash
-# .claude/hooks/pre-command.sh
-#!/bin/bash
-COMMAND=$1
-
-# Agar command me dangerous words hain toh block karein
-if [[ "$COMMAND" =~ "rm -rf /" || "$COMMAND" =~ "DROP DATABASE" ]]; then
-  echo "🚨 BLOCKED: Dangerous command detected!"
-  exit 1
-fi
-```
+- ❌ **गलती:** Pre-hook में बहुत भारी स्क्रिप्ट लगा देना जिससे हर बार 10 सेकंड का इंतज़ार करना पड़े।
+- ✅ **Pro Tip:** हुक स्क्रिप्ट्स को हमेशा बहुत तेज़ और हल्का रखें।
 
 ---
 
-## ⚡ **Lifecycle Hooks Ke Fayde**
+## 📝 **Practice Challenge (खुद सोचें)**
 
-1. **Zero Bad Formatting:** Team ke code style rules hamesha 100% follow hote hain.
-2. **Iron-Clad Security:** AI kabhi koi sensitive command nahi chala sakta.
-3. **Automated Audit Logs:** Har edit ka record file me save hota rehta hai.
-
----
-
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
-
-- ❌ **Galti:** Pre-hook me bahut heavy aur slow script laga dena jisse har turn par 10 second ka delay aaye.
-- ✅ **Pro Tip:** Hooks ko fast aur lightweight rakhein taaki coding speed slow na ho.
+1. सोचें अगर गिट में कमिट होने से पहले ऑटो-लिंटर हुक लग जाए, तो क्या कोड हमेशा साफ रहेगा?
+2. पोस्ट-हुक में टेस्ट्स चलवाना क्यों फायदेमंद है?
 
 ---
 
-## 📝 **Practice Challenge (Khud Sochien)**
+## 📌 **Quick Revision Summary (मुख्य बातें)**
 
-1. Sochien agar aapke project me Git branch me commit hone se pehle auto-lint check hook lag jaye, toh kya code review fast ho jayega?
-2. Post-hook me tests run karwana kyu faydemand hai?
-
----
-
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
-
-- Pre-hooks actions se pehle chalte hain (Safety & Guardrails ke liye).
-- Post-hooks actions ke baad chalte hain (Formatting, Prettier & Linting ke liye).
-- Isse code quality aur security automate ho jati hai.
+- Pre-hooks काम करने से पहले चलते हैं (सुरक्षा के लिए)।
+- Post-hooks काम खत्म होने के बाद चलते हैं (फॉर्मेटिंग और लिंटिंग के लिए)।
+- इससे कोड की क्वालिटी अपने-आप बेहतर बनी रहती है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [6.1 Claude Code with MCP](/courses/claude-code/module-06-mcp-and-integrations/01-claude-code-with-mcp/)
-- ➡️ **Agla Lesson:** [6.3 Plugins & Ecosystem](/courses/claude-code/module-06-mcp-and-integrations/03-plugins-and-ecosystem/)
+- ⬅️ **पिछला Lesson:** [6.1 Claude Code with MCP](/courses/claude-code/module-06-mcp-and-integrations/01-claude-code-with-mcp/)
+- ➡️ **अगला Lesson:** [6.3 Plugins & Ecosystem](/courses/claude-code/module-06-mcp-and-integrations/03-plugins-and-ecosystem/)

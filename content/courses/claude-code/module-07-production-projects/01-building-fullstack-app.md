@@ -2,7 +2,7 @@
 title: "7.1 Building a Fullstack SaaS App"
 categories: [ AI, Course ]
 tags: [ClaudeCode, Capstone, Fullstack, Nextjs, SaaS, PostgreSQL]
-description: "Claude Code CLI se poora Fullstack SaaS App (URL Shortener & Analytics) scratch se end tak build karna seekhein."
+description: "Claude Code CLI से पूरा Fullstack SaaS App (URL Shortener & Analytics) शुरुआत से अंत तक बनाना सीखें।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,24 +13,24 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Project Ka Maqsad)**
-Is project ko poora karne ke baad aap:
-- Claude Code CLI ka use karke **Scratch se lekar End tak** ek complete Fullstack SaaS application build kar sakenge.
-- Next.js 14 App Router, Tailwind CSS, Prisma ORM aur PostgreSQL ko connect karwayenge.
-- Spec-Driven workflow aur Terminal Agent ke zariye production-grade code banwana seekhenge.
+## 🎯 **Objective (इस प्रोजेक्ट का मक़सद)**
+इस प्रोजेक्ट को पूरा करने के बाद आप:
+- Claude Code CLI का इस्तेमाल करके **शुरुआत से लेकर अंत तक** एक पूरा Fullstack SaaS ऐप बना सकेंगे।
+- Next.js 14 App Router, Tailwind CSS, Prisma ORM और PostgreSQL को कनेक्ट कर सकेंगे।
+- Spec-Driven तरीके से प्रोडक्शन-क्वालिटी कोड तैयार करवा सकेंगे।
 
 ---
 
-## 💡 **Project Overview: "ShortLink SaaS"**
+## 💡 **प्रोजेक्ट का ओवरव्यू: "ShortLink SaaS"**
 
-Hum ek **URL Shortener & Click Analytics SaaS** banayenge jisme:
-1. User lambe URL ko short link me convert kar sake (`short.ly/xyz123`).
-2. Har link ke total clicks aur analytics (country, device) track hon.
-3. Clean modern UI (Dark mode support ke sath).
+हम एक **URL Shortener & Analytics SaaS** बनाएंगे जिसमें:
+1. यूज़र लंबे लिंक को छोटा कर सके (`short.ly/xyz123`)।
+2. हर लिंक के कुल क्लिक्स और डिवाइस के आंकड़े ट्रैक हों।
+3. साफ-सुथरा मॉडर्न UI (डार्क मोड सपोर्ट के साथ)।
 
 ---
 
-## 🏗️ **Architecture & Tech Stack**
+## 🏗️ **आर्किटेक्चर और टेक स्टैक**
 
 ```text
 +-------------------------------------------------------------+
@@ -50,75 +50,71 @@ Hum ek **URL Shortener & Click Analytics SaaS** banayenge jisme:
 
 ---
 
-## 🚀 **Step 1: Spec File Tayyar Karna (`specs/app.md`)**
+## 🚀 **Step 1: स्पेक फाइल तैयार करना (`specs/app.md`)**
 
-Project root me `specs/app.md` banayein:
+प्रोजेक्ट में `specs/app.md` फाइल बनाएं:
 
 ```markdown
 # ShortLink SaaS Specification
 
 ## 1. Database Models (Prisma)
 - `Link`: id, originalUrl, shortCode (unique), createdAt, totalClicks
-- `ClickLog`: id, linkId, ipAddress, userAgent, country, createdAt
+- `ClickLog`: id, linkId, ipAddress, country, createdAt
 
 ## 2. API Endpoints
-- `POST /api/shorten` -> Takes `originalUrl`, generates 6-char random code, returns short URL.
-- `GET /[shortCode]` -> Redirects user to `originalUrl` and logs click asynchronously.
-- `GET /api/analytics/[shortCode]` -> Returns total clicks & breakdown.
+- `POST /api/shorten` -> लंबा URL लेकर 6-अक्षर का छोटा कोड बनाता है।
+- `GET /[shortCode]` -> ओरिजिनल लिंक पर रीडायरेक्ट करता है और क्लिक लॉग करता है।
+- `GET /api/analytics/[shortCode]` -> कुल क्लिक्स की डिटेल देता है।
 
 ## 3. UI Requirements
-- Clean modern hero input with "Shorten URL" button.
-- Copy-to-clipboard toast notification.
-- Analytics dashboard chart showing daily clicks.
+- मॉडर्न हीरो इनपुट कार्ड और "Shorten URL" बटन।
+- कॉपी-टू-क्लिपबोर्ड का नोटिफिकेशन।
+- रोज़ाना क्लिक्स दिखाने वाला छोटा चार्ट।
 ```
 
 ---
 
-## 💻 **Step 2: Claude Code Me Plan & Execution**
+## 💻 **Step 2: Claude Code में प्लान और कोडिंग**
 
-Terminal me `claude` launch karein aur ye prompt dein:
+टर्मिनल में `claude` शुरू करें और यह प्रॉम्प्ट दें:
 
 ```text
-> "specs/app.md ko read karo. Pehle Prisma schema setup karo, fir API endpoints aur redirection logic implement karo. Har step par test verify karna."
+> "specs/app.md को पढ़ो। पहले Prisma schema बनाओ, फिर API endpoints और redirection logic लिखो। हर स्टेप पर टेस्ट चेक करना।"
 ```
 
-### Claude Code Ka Action:
-1. `prisma/schema.prisma` file create karega.
-2. `src/app/api/shorten/route.js` aur redirect handler `src/app/[shortCode]/route.js` likhega.
-3. Edge cases handle karega (jaise invalid URL validation).
+Claude Code:
+1. `prisma/schema.prisma` फाइल तैयार करेगा।
+2. API रूट्स `src/app/api/shorten/route.js` और रीडायरेक्शन लॉजिक लिखेगा।
+3. गलत URL का वैलिडेशन खुद हैंडल करेगा।
 
 ---
 
-## 🎨 **Step 3: Frontend UI Banwana**
-
-Ab UI ke liye prompt dein:
+## 🎨 **Step 3: फ्रंटएंड UI बनवाना**
 
 ```text
-> "Ab modern Tailwind CSS UI banao: src/app/page.jsx me URL input card, recent shortened links table, aur copy link button add karo. Lucide icons use karna."
+> "अब मॉडर्न Tailwind CSS UI बनाओ: src/app/page.jsx में URL इनपुट कार्ड, हाल ही में बनाए लिंक्स की टेबल और कॉपी बटन जोड़ो।"
 ```
-
-Claude Code clean, responsive component create karke ready kar dega!
 
 ---
 
-## 🧪 **Step 4: Automated Testing & Verification**
+## 🧪 **Step 4: ऑटोमैटिक टेस्टिंग और चेकिंग**
 
 ```text
-> "Is poore app ke liye Jest unit tests likho (Valid URL shortening, invalid URL error, redirect logic) aur test suite run karke report do."
+> "इस पूरे ऐप के लिए Jest यूनिट टेस्ट्स लिखो (Valid URL, Invalid URL error, Redirection) और टेस्ट्स चलाकर रिपोर्ट दो।"
 ```
 
-Claude Code `tests/shortener.test.js` likhega aur `npm test` chala kar sabhi green checks pass kar dega!
+Claude Code `tests/shortener.test.js` लिखेगा और `npm test` चलाकर सभी टेस्ट्स पास करके दिखा देगा!
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📌 **Quick Revision Summary (मुख्य बातें)**
 
-- Spec file se huru karne par poora fullstack app bina kisi confusion ke ban jata hai.
-- Claude Code backend, database models, frontend aur tests sabhi ko coordinate karke build karta hai.
-- Har milestone ke baad verification se bug-free application tayyar hota hai.
+- स्पेक फाइल से शुरुआत करने पर पूरा फुलस्टैक ऐप बिना किसी कन्फ्यूजन के बन जाता है।
+- Claude Code डेटाबेस, बैकएंड, फ्रंटएंड और टेस्ट्स सभी को जोड़कर तैयार करता है।
+- हर स्टेप पर टेस्टिंग से 100% काम करने वाला ऐप तैयार होता है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Module:** [Module 6: MCP & Plugins](/courses/claude-code/module-06-mcp-and-integrations/)
-- ➡️ **Agla Lesson:** [7.2 Automated Debugging, Testing & PRs](/courses/claude-code/module-07-production-projects/02-automated-debugging-and-testing/)
+- ⬅️ **पिछला Module:** [Module 6: MCP & Plugins](/courses/claude-code/module-06-mcp-and-integrations/)
+- ➡️ **अगला Lesson:** [7.2 Automated Debugging, Testing & PRs](/courses/claude-code/module-07-production-projects/02-automated-debugging-and-testing/)

@@ -2,7 +2,7 @@
 title: "4.2 Plan Mode & Ultraplan"
 categories: [ AI, Course ]
 tags: [ClaudeCode, PlanMode, Ultraplan, Reasoning, Architecture]
-description: "Plan Mode aur Ultraplan kya hai? Seekhein bade aur complex tasks ke liye multi-step planning loops chalana."
+description: "Plan Mode और Ultraplan क्या है? सीखें बड़े और जटिल कामों के लिए स्टेप-बाय-स्टेप प्लानिंग लूप्स चलाना।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,116 +13,105 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Plan Mode** kya hai aur bade projects me iski zarurat kyu padti hai.
-- **Ultraplan** reasoning loops ka use karke multi-step dependency graphs banana seekhenge.
-- Execution se pehle plan ko review aur refine karna seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Plan Mode** क्या है और बड़े प्रोजेक्ट्स में इसकी ज़रूरत क्यों पड़ती है।
+- **Ultraplan** का इस्तेमाल करके फाइल्स की आपसी डिपेंडेंसी को पहले से समझना सीखेंगे।
+- कोड बदलने से पहले पूरे प्लान को चेक करना और सुधारना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Chess Ka Khel):**  
-> Ek anari shatranj khiladi bina aage soche pehli chaal chal deta hai aur aage jakar phas jata hai.  
-> Jabki ek Grandmaster agle 5 moves ka pehle se **Plan** banata hai: *"Agar wo ye karega, toh main ye karunga"*.  
-> **Plan Mode** Claude Code ko Grandmaster ki tarah pehle poori chaal sochne ka mauka deta hai, taaki beech me koi file ya module na toote.
+> **मिसाल (शतरंज का खेल):**  
+> एक नया खिलाड़ी बिना आगे सोचे पहली चाल चल देता है और आगे जाकर फंस जाता है।  
+> जबकि एक ग्रैंडमास्टर अगली 5 चालों का पहले से **प्लान** बनाता है: *"अगर वह यह करेगा, तो मैं यह करूंगा"*.  
+> **Plan Mode** Claude Code को ग्रैंडमास्टर की तरह पहले पूरी चाल सोचने का मौका देता है, ताकि बीच में कोई कोड न टूटे।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Plan Mode** | Code likhne se pehle detailed steps ki list banana aur aapse poochna | "Pehle step 1, fir step 2" |
-| **Ultraplan** | Deep reasoning loop jisme file dependencies aur risk analysis shamil hon | Complex refactoring |
-| **Dependency Graph** | Kaun si file kis doosri file par depend karti hai | Schema ➔ Model ➔ API ➔ UI |
-| **Dry Run** | Bina file modify kiye sirf plan ka preview dekhna | Safe execution |
+| **Plan Mode** | कोड लिखने से पहले स्टेप्स की लिस्ट बनाकर आपसे मंजूरी लेना | "पहले स्टेप 1, फिर स्टेप 2" |
+| **Ultraplan** | गहराई से सोचना जिसमें फाइल्स का आपस का कनेक्शन शामिल हो | बड़ा कोड सुधारना |
+| **Dependency Graph**| कौन सी फाइल किस दूसरी फाइल पर टिकी है | Schema ➔ Model ➔ API ➔ UI |
+| **Dry Run** | बिना कोई फाइल बदले सिर्फ प्लान का प्रीव्यू देखना | सेफ कोडिंग |
 
 ---
 
-## ⚙️ **Plan Mode Ka Architecture Flow**
+## ⚙️ **Plan Mode का फ्लो**
 
 ```text
-[ User: "Migrate database from SQLite to PostgreSQL with Prisma" ]
+[ यूज़र: "डेटाबेस को SQLite से PostgreSQL में माइग्रेट करो" ]
                                │
                                ▼
-[ Phase 1: Dependency Analysis ] ➔ Saari database calls scan karta hai
+[ Phase 1: Dependency Analysis ] ➔ सारे डेटाबेस कॉल्स स्कैन करता है
                                │
                                ▼
-[ Phase 2: Plan Generation ]     ➔ 5-Step Execution Plan banata hai
+[ Phase 2: Plan Generation ]     ➔ 5-स्टेप का प्लान बनाता है
                                │
                                ▼
-[ Phase 3: User Review ]         ➔ Terminal par aapse 'Proceed' poochta hai
-                               │ (Aap modifications suggest kar sakte hain)
+[ Phase 3: User Review ]         ➔ स्क्रीन पर आपसे मंजूरी पूछता है
+                               │ (आप बदलाव भी बता सकते हैं)
                                ▼
-[ Phase 4: Step-by-Step Action ] ➔ Step 1 ➔ Step 2 ➔ Step 3 sequentially
+[ Phase 4: Step-by-Step Action ] ➔ एक-एक करके स्टेप्स पूरा करता है
                                │
                                ▼
-[ Phase 5: Verification ]        ➔ Tests run karke verify karta hai
+[ Phase 5: Verification ]        ➔ टेस्ट्स चलाकर पक्का करता है
 ```
 
 ---
 
-## 💻 **Terminal Prompt Me Plan Mode Kaise Trigger Karein?**
+## 💻 **टर्मिनल में Plan Mode कैसे चलाएं?**
 
-Bade tasks ke liye prompt ke shuruat me **Plan** keyword use karein:
+बड़े काम के लिए प्रॉम्प्ट में **Plan** शब्द का इस्तेमाल करें:
 
 ```text
-> "Plan: Humare backend me existing session-based auth ko JWT me convert karna hai. Pehle bina koi file change kiye ek detailed step-by-step plan banao aur dependencies dikhao."
+> "Plan: हमारे बैकएंड में JWT ऑथेंटिकेशन लगाना है। पहले बिना कोई फाइल बदले एक स्टेप-बाय-स्टेप प्लान बनाओ।"
 ```
 
-### Claude Code Ka Output:
+### Claude Code का जवाब:
 
 ```markdown
 ### 📋 Proposed Execution Plan:
-1. **Dependency Audit:** Check existing `express-session` usage in `src/app.js`.
-2. **Package Update:** Install `jsonwebtoken` & `bcryptjs`, remove session packages.
-3. **Token Utility:** Create `src/utils/jwt.js` for token signing & verification.
-4. **Middleware Update:** Replace `sessionAuth` with `jwtAuth` in `src/middleware/auth.js`.
-5. **Route Updates:** Update login & profile routes.
-6. **Testing:** Run existing integration tests and add JWT expiration test cases.
+1. `jsonwebtoken` और `bcryptjs` पैकेज इंस्टॉल करना।
+2. `src/utils/jwt.js` फाइल बनाकर टोकन जनरेट करने का फंक्शन लिखना।
+3. `src/middleware/auth.js` में टोकन वेरिफिकेशन मिडलवेयर बनाना।
+4. लॉगिन और प्रोफाइल रूट्स को अपडेट करना।
+5. यूनिट टेस्ट्स चलाकर चेक करना।
 
 Do you want to proceed with this plan? (y/n/edit):
 ```
 
-Aap `y` dabakar approval de sakte hain ya bol sakte hain: *"Step 3 me refresh token ka logic bhi add karo"*.
+आप `y` दबाकर मंजूरी दे सकते हैं या कह सकते हैं: *"स्टेप 3 में रिफ्रेश टोकन भी जोड़ो"*.
 
 ---
 
-## ⚡ **Ultraplan: Complex Refactoring Ke Liye**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-Jab aapko kisi bade codebase me risky changes karne hon (jaise state management library badalna ya microservices split karna), tab **Ultraplan** deep reasoning loops ka use karta hai:
-- Wo har step ke possible failure points pehle hi note kar leta hai.
-- Rollback strategy tayyar rakhta hai.
-- Har step ke baad interim tests chala kar safety verify karta hai.
+- ❌ **गलती:** 5-6 फाइल्स वाले बड़े काम को बिना प्लान मोड के डायरेक्ट चलाने देना।
+- ✅ **Pro Tip:** जब भी किसी काम में 3 से ज्यादा फाइल्स बदलनी हों, हमेशा पहले **Plan Mode** में स्टेप्स चेक करें।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- ❌ **Galti:** 500+ lines ke complex task ko direct run karne dena bina plan mode ke.
-- ✅ **Pro Tip:** Jab bhi task me 3 se zyada files affect ho rahi hon, hamesha pehle **Plan Mode** me steps review karein.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Apne kisi project me prompt dein: `"Plan: Is project me Dark Mode toggle add karne ka step-by-step plan banao"`.
-2. Claude Code ka plan review karein.
-3. Plan me ek extra step add karwayen (jaise local storage me user preference save karna).
-4. Fir approval dekar execution start karein!
+1. प्रॉम्प्ट दें: `"Plan: इस प्रोजेक्ट में Dark Mode लगाने का स्टेप-बाय-स्टेप प्लान बनाओ"`।
+2. Claude Code का प्लान देखें और उसमें एक नया स्टेप जोड़ें।
+3. फिर मंजूरी देकर काम शुरू करवाएं!
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📌 **Quick Revision Summary (मुख्य बातें)**
 
-- Plan Mode execution se pehle multi-step roadmap banata hai.
-- Isse beech me code tootne ka risk khatam ho jata hai.
-- Aap plan ko manually modify ya approve kar sakte hain.
+- Plan Mode कोड लिखने से पहले पूरा रोडमैप तैयार करता है।
+- इससे बीच में कोड टूटने का खतरा खत्म हो जाता है।
+- आप प्लान को अपनी पसंद के हिसाब से बदल भी सकते हैं।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [4.1 Spec-Driven Development (SDD)](/courses/claude-code/module-04-development-workflows/01-spec-driven-development/)
-- ➡️ **Agla Lesson:** [4.3 Custom Slash Commands](/courses/claude-code/module-04-development-workflows/03-custom-slash-commands/)
+- ⬅️ **पिछला Lesson:** [4.1 Spec-Driven Development (SDD)](/courses/claude-code/module-04-development-workflows/01-spec-driven-development/)
+- ➡️ **अगला Lesson:** [4.3 Custom Slash Commands](/courses/claude-code/module-04-development-workflows/03-custom-slash-commands/)

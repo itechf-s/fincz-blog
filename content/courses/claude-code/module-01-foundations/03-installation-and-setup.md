@@ -2,7 +2,7 @@
 title: "1.3 Installation & Setup"
 categories: [ AI, Course ]
 tags: [ClaudeCode, Installation, Setup, CLI, Anthropic]
-description: "Claude Code ko step-by-step install karna seekhein: Node.js, npm package, Anthropic API Key setup aur first test run."
+description: "Claude Code को आसानी से इंस्टॉल करना सीखें: Node.js, npm पैकेज, Anthropic API Key सेटअप और पहला टेस्ट रन।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,87 +13,87 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Apne system (Mac, Linux, ya Windows WSL) par **Claude Code CLI** install kar sakenge.
-- **Anthropic Console** se API Key generate karke configure kar sakenge.
-- Claude Code ka first run karke `/doctor` se setup verify kar sakenge.
-- Cost limit set karke unexpected bills se bachna seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- अपने कंप्यूटर (Mac, Linux, या Windows WSL) पर **Claude Code CLI** इंस्टॉल कर सकेंगे।
+- **Anthropic Console** से API Key बनाकर अपने टर्मिनल में जोड़ सकेंगे।
+- Claude Code को पहली बार चलाकर `/doctor` कमांड से सेटअप चेक कर सकेंगे।
+- बजट और खर्च की लिमिट सेट करके बिना वजह के बिल से बचना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (SIM Card & Mobile Phone):**  
-> - Claude Code CLI ek **Smart Mobile Phone** ki tarah hai jisko aapne install kar liya hai.  
-> - Lekin phone tabhi chalega jab usme **SIM Card (Anthropic API Key)** lagegi aur thoda balance (API credits) hoga. API Key lagte hi aapka CLI agent duniya ke sabse powerful AI brains se connect ho jata hai.
+> **मिसाल (मोबाइल फोन और सिम कार्ड):**  
+> - Claude Code CLI एक **स्मार्टफोन** की तरह है जिसे आपने इंस्टॉल कर लिया है।  
+> - लेकिन यह तब तक काम नहीं करेगा जब तक इसमें **सिम कार्ड (Anthropic API Key)** न लगाई जाए और थोड़ा रिचार्ज (क्रेडिट्स) न हो। API Key जुड़ते ही आपका टर्मिनल दुनिया के सबसे ताकतवर AI दिमाग से कनेक्ट हो जाता है।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Node.js** | JavaScript ko terminal me chalane wala runtime | Node.js v18 ya v20 |
-| **npm (Node Package Manager)** | Tools aur libraries install karne ka tool | `npm install -g ...` |
-| **Anthropic API Key** | Claude ke AI brain ko use karne ka secret password | `sk-ant-api03-...` |
-| **WSL (Windows Subsystem for Linux)** | Windows ke andar Linux terminal chalane ka tareeqa | Ubuntu on Windows |
+| **Node.js** | जावास्क्रिप्ट को टर्मिनल में चलाने वाला सॉफ्टवेयर | Node.js v18 या v20 |
+| **npm (Node Package Manager)** | टूल्स और लाइब्रेरी इंस्टॉल करने का प्रोग्राम | `npm install -g ...` |
+| **Anthropic API Key** | Claude AI को इस्तेमाल करने का सीक्रेट पासवर्ड | `sk-ant-api03-...` |
+| **WSL (Windows Subsystem for Linux)** | विंडोज के अंदर लिनक्स टर्मिनल चलाने की सुविधा | Ubuntu on Windows |
 
 ---
 
-## 📋 **Pre-requisites (Zaruri Cheezein)**
+## 📋 **ज़रूरी तैयारी (Pre-requisites)**
 
-Claude Code install karne se pehle ye check karein:
-1. **Node.js 18+ ya upar ka version** install hona chahiye.
-2. Terminal (macOS Terminal, Linux Bash, ya Windows me WSL2).
+Claude Code इंस्टॉल करने से पहले ये चेक कर लें:
+1. आपके सिस्टम में **Node.js 18 या उससे ऊपर का वर्जन** होना चाहिए।
+2. टर्मिनल (Mac Terminal, Linux Bash, या Windows में WSL2)।
 
-Apne terminal me Node.js ka version check karein:
+टर्मिनल में Node.js का वर्जन चेक करें:
 ```bash
 node -v
-# Output aana chahiye: v18.x.x ya v20.x.x ya v22.x.x
+# ऐसा दिखना चाहिए: v18.x.x या v20.x.x या v22.x.x
 ```
 
-Agar Node.js install nahi hai, toh [nodejs.org](https://nodejs.org) se LTS version download karke install kar lein.
+अगर Node.js नहीं है, तो [nodejs.org](https://nodejs.org) से LTS वर्जन डाउनलोड करके इंस्टॉल कर लें।
 
 ---
 
-## 🚀 **Step 1: Claude Code CLI Install Karna**
+## 🚀 **Step 1: Claude Code CLI इंस्टॉल करना**
 
-Terminal me niche di gayi command chalayein:
+टर्मिनल में नीचे दी गई कमांड चलाएं:
 
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
-> **Note (Mac/Linux Users):** Agar permission error aaye toh `sudo npm install -g @anthropic-ai/claude-code` chalayein ya apne npm permissions fix karein.
+> **नोट (Mac/Linux यूज़र्स):** अगर परमिशन एरर आए तो `sudo npm install -g @anthropic-ai/claude-code` चलाएं।
 
 ---
 
-## 🔑 **Step 2: Anthropic API Key Setup Karna**
+## 🔑 **Step 2: Anthropic API Key सेटअप करना**
 
-1. [console.anthropic.com](https://console.anthropic.com) par jayein aur account banayein ya login karein.
-2. **API Keys** section me jakar **Create Key** par click karein aur key copy kar lein (`sk-ant-...`).
-3. Apne terminal me is key ko environment variable ki tarah save karein:
+1. [console.anthropic.com](https://console.anthropic.com) पर जाएं और लॉगिन करें।
+2. **API Keys** सेक्शन में जाकर **Create Key** पर क्लिक करें और की को कॉपी कर लें (`sk-ant-...`)।
+3. अपने टर्मिनल में इस की को सेट करें:
 
 ```bash
-# Mac / Linux (~/.bashrc ya ~/.zshrc me add karein)
-export ANTHROPIC_API_KEY="sk-ant-api03-aapki-secret-key-yaha"
+# Mac / Linux (~/.bashrc या ~/.zshrc में जोड़ें)
+export ANTHROPIC_API_KEY="sk-ant-api03-आपकी-की-यहाँ"
 ```
 
-Ya fir jab aap pehli baar `claude` command chalayenge, toh terminal aapse browser login ya API key paste karne ko kahega.
+या फिर जब आप पहली बार `claude` कमांड चलाएंगे, तो टर्मिनल खुद आपसे ब्राउज़र में लॉगिन करने या API Key पेस्ट करने को कहेगा।
 
 ---
 
-## 🏃‍♂️ **Step 3: First Run & Verification**
+## 🏃‍♂️ **Step 3: पहला रन और वेरिफिकेशन**
 
-Apne kisi bhi project folder ke andar jayein aur terminal me type karein:
+अपने किसी भी प्रोजेक्ट फोल्डर के अंदर जाएं और टर्मिनल में लिखें:
 
 ```bash
 cd my-project
 claude
 ```
 
-Aapke samne Claude Code ka interactive terminal interface khul jayega:
+आपके सामने Claude Code का टर्मिनल इंटरफ़ेस खुल जाएगा:
 
 ```text
   ╭────────────────────────────────────────────────────────╮
@@ -110,56 +110,56 @@ Aapke samne Claude Code ka interactive terminal interface khul jayega:
 
 ---
 
-## 🩺 **Step 4: `/doctor` Command Se Health Check**
+## 🩺 **Step 4: `/doctor` कमांड से हेल्थ चेक करना**
 
-Claude Code ke prompt me `/doctor` type karke Enter karein:
+प्रॉम्प्ट में `/doctor` लिखकर Enter दबाएं:
 
 ```text
 > /doctor
 ```
 
-Ye command check karegi ki:
-- ✅ Node.js version compatible hai.
-- ✅ API Key valid aur connected hai.
-- ✅ Git repo properly configured hai.
-- ✅ Local tools (grep, bash) theek se kaam kar rahe hain.
+यह कमांड चेक करेगी कि:
+- ✅ Node.js वर्जन सही है।
+- ✅ API Key कनेक्टेड और चालू है।
+- ✅ Git repo सही से कॉन्फ़िगर है।
+- ✅ फाइल टूल्स और टर्मिनल सही से काम कर रहे हैं।
 
 ---
 
-## 💰 **Step 5: Budget & Cost Limit Set Karna (Zaruri Step)**
+## 💰 **Step 5: बजट लिमिट सेट करना (ज़रूरी कदम)**
 
-Paise bachane aur bina wajah billing se bachne ke liye Anthropic Console par:
-1. **Billing & Plans ➔ Spend Limits** me jayein.
-2. Monthly Budget limit set karein (jaise $5 ya $10 per month).
-3. Isse aapka budget cross nahi hoga aur aap safe rahenge.
-
----
-
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
-
-- ❌ **Galti:** Windows par normal Command Prompt (cmd) me chalana jisme bash tools nahi hote.
-- ✅ **Pro Tip:** Windows users hamesha **WSL2 (Ubuntu)** use karein taaki Claude Code saare Linux tools aur scripts bina kisi issue ke run kar sake.
+अनावश्यक खर्च से बचने के लिए Anthropic Console पर:
+1. **Billing & Plans ➔ Spend Limits** में जाएं।
+2. महीने की लिमिट सेट करें (जैसे $5 या $10 प्रति माह)।
+3. इससे आपका बजट कभी भी सीमा पार नहीं करेगा।
 
 ---
 
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-1. Apne terminal me `claude` launch karein.
-2. Prompt me likhein: `"Is folder me kaun kaun si files hain mujhe list karke batao"`
-3. Dekhein kaise Claude Code khud files scan karke aapko summary deta hai.
-4. Exit karne ke liye `/exit` ya `Ctrl+C` dabayein.
+- ❌ **गलती:** विंडोज में सादे Command Prompt (cmd) में चलाना जिसमें लिनक्स टूल्स नहीं होते।
+- ✅ **Pro Tip:** विंडोज यूज़र्स हमेशा **WSL2 (Ubuntu)** का इस्तेमाल करें ताकि सारे टूल्स बिना किसी रुकावट के चलें।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- Claude Code install karne ke liye command hai: `npm install -g @anthropic-ai/claude-code`.
-- Isko chalane ke liye **Anthropic API Key** ki zarurat hoti hai.
-- `/doctor` command se aap check kar sakte hain ki setup me koi problem toh nahi hai.
-- Console par **Spend Limit** set karke aap unexpected cost se safe reh sakte hain.
+1. टर्मिनल में `claude` शुरू करें।
+2. प्रॉम्प्ट में लिखें: `"इस फोल्डर में कौन-कौन सी फाइल्स हैं मुझे लिस्ट करके बताओ"`।
+3. देखें कैसे Claude Code खुद फाइल्स को स्कैन करके समरी दिखाता है।
+4. बाहर आने के लिए `/exit` या `Ctrl+C` दबाएं।
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- Claude Code इंस्टॉल करने की कमांड है: `npm install -g @anthropic-ai/claude-code`।
+- इसे चलाने के लिए **Anthropic API Key** की ज़रूरत होती है।
+- `/doctor` कमांड से आप चेक कर सकते हैं कि सेटअप में कोई दिक्कत तो नहीं है।
+- कंसोल पर **Spend Limit** सेट करके आप बजट को कंट्रोल में रख सकते हैं।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [1.2 What is Claude Code & Architecture](/courses/claude-code/module-01-foundations/02-what-is-claude-code/)
-- ➡️ **Agla Module:** [Module 2: Everyday CLI & Core Workflow](/courses/claude-code/module-02-core-workflow/)
+- ⬅️ **पिछला Lesson:** [1.2 What is Claude Code & Architecture](/courses/claude-code/module-01-foundations/02-what-is-claude-code/)
+- ➡️ **अगला Module:** [Module 2: Everyday CLI & Core Workflow](/courses/claude-code/module-02-core-workflow/)

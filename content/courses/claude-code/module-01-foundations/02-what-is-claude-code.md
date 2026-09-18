@@ -2,7 +2,7 @@
 title: "1.2 What is Claude Code & Architecture"
 categories: [ AI, Course ]
 tags: [ClaudeCode, Architecture, Terminal, Anthropic]
-description: "Claude Code kya hai aur iska terminal architecture kaise kaam karta hai? Samjhein background tools aur security model."
+description: "Claude Code क्या है और इसका टर्मिनल आर्किटेक्चर कैसे काम करता है? समझें इसके टूल्स और सेफ्टी नियम।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,129 +13,127 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Claude Code** asliyat me kya hai aur Anthropic ne ise terminal-first kyu banaya.
-- Claude Code ke **Internal Architecture** aur uske core tools (File Reader, Editor, Ripgrep, Bash Runner) ko jaan payenge.
-- Iske **Permission Model** aur safety rules ko samjh sakeinge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Claude Code** क्या है और Anthropic ने इसे टर्मिनल टूल क्यों बनाया।
+- Claude Code के **इंटरनल आर्किटेक्चर** और इसके 4 मुख्य टूल्स (File Viewer, Editor, Ripgrep, Bash Runner) को जान पाएंगे।
+- इसके **Permission Model** और सेफ्टी नियमों को समझ सकेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Cookbook vs Smart Kitchen Chef):**  
-> - **ChatGPT / Web Chat:** Ye ek aisi recipe book ki tarah hai jo aapko khana banane ka tareeqa batati hai, lekin masale aur bartan aapko khud dhoondh kar gas par rakhne padte hain.  
-> - **Claude Code:** Ye ek aisa master chef hai jo seedhe aapke kitchen (Terminal) me khada hai. Wo khud fridge khol kar dekhta hai kya samaan hai (Project Files), khud sabzi kaatta hai (Code Edit karta hai), gas par pakata hai (Commands run karta hai), aur taste karke batata hai ki namak kaisa hai (Tests verify karta hai).
+> **मिसाल (रेसिपी बुक vs स्मार्ट बावर्ची):**  
+> - **ChatGPT / Web Chat:** यह एक ऐसी रेसिपी बुक की तरह है जो आपको खाना पकाने का तरीका बताती है, लेकिन मसाले और बर्तन आपको खुद ढूंढकर गैस पर रखने पड़ते हैं।  
+> - **Claude Code:** यह एक ऐसा मास्टर शेफ (बावर्ची) है जो सीधे आपके किचन (Terminal) में मौजूद है। वह खुद फ्रिज खोलकर देखता है क्या सामान है (Project Files), खुद सब्जी काटता है (Code Edit), गैस पर पकाता है (Commands Run), और चखकर बताता है कि नमक कैसा है (Tests Verify)।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Terminal CLI** | Command Prompt ya Terminal me chalne wala tool | `claude` command |
-| **Built-in Tools** | AI ke paas available powers (file dekhna, edit karna, bash run karna) | File Read, Grep, Edit, Bash |
-| **Permission Guard** | Danger commands chalane se pehle user se confirmation maangna | "Allow running `rm -rf`? (y/n)" |
-| **Context Compaction** | Lambi chat aur extra logs ko chhota karke memory bachana | `/compact` command |
+| **Terminal CLI** | कमांड प्रॉम्प्ट या टर्मिनल में चलने वाला टूल | `claude` कमांड |
+| **Built-in Tools** | AI के पास मौजूद टूल्स (फाइल देखना, एडिट करना, कमांड्स चलाना) | File Read, Grep, Edit, Bash |
+| **Permission Guard** | कोई बड़ा कमांड चलाने से पहले यूज़र से मंजूरी मांगना | "Allow running command? (y/n)" |
+| **Context Compaction**| पुरानी बातचीत को छोटा करके मेमोरी बचाना | `/compact` कमांड |
 
 ---
 
-## ⚙️ **Claude Code Ka Internal Architecture**
+## ⚙️ **Claude Code का इंटरनल आर्किटेक्चर**
 
-Claude Code sirf ek LLM model nahi hai, balki model ke upar bana hua ek poora **Agentic System** hai:
+Claude Code सिर्फ एक भाषा मॉडल नहीं है, बल्कि इसके ऊपर बना हुआ एक पूरा **Agentic System** है:
 
 ```text
 +-------------------------------------------------------------------------------+
 |                             Developer Terminal                                |
-|                        (User types prompt in CLI)                             |
+|                        (यूज़र टर्मिनल में प्रॉम्प्ट टाइप करता है)              |
 +---------------------------------------┬---------------------------------------+
                                         │
                                         ▼
 +-------------------------------------------------------------------------------+
 |                           Claude Code Core Engine                             |
-|       (Prompt Analysis, Context Management & Tool Orchestrator)              |
+|              (प्रॉम्प्ट समझना, मेमोरी संभालना और टूल्स चलाना)                  |
 +---------------------------------------┬---------------------------------------+
                                         │
              ┌──────────────────────────┼──────────────────────────┐
              ▼                          ▼                          ▼
    ┌───────────────────┐      ┌───────────────────┐      ┌───────────────────┐
    │  File System Tool │      │   Search Tools    │      │  Terminal Runner  │
-   │  (Read & Edit)    │      │  (Glob & Ripgrep) │      │  (Bash Execution) │
+   │  (फाइल पढ़ना/एडिट)│      │  (Ripgrep/खोजना)  │      │  (Bash कमांड्स)   │
    └─────────┬─────────┘      └─────────┬─────────┘      └─────────┬─────────┘
              │                          │                          │
              └──────────────────────────┼──────────────────────────┘
                                         ▼
 +-------------------------------------------------------------------------------+
 |                         Your Local Project Codebase                           |
-|             (Git repo, package.json, source files, unit tests)                |
+|             (Git repo, package.json, सोर्स फाइल्स, यूनिट टेस्ट्स)             |
 +-------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 🛠️ **Claude Code Ke 4 Core Powers (Tools)**
+## 🛠️ **Claude Code के 4 मुख्य टूल्स**
 
-Parde ke peeche Claude Code in 4 tools ka use karke kaam karta hai:
+बैकग्राउंड में Claude Code इन 4 टूल्स का इस्तेमाल करता है:
 
-1. **File Viewer (Read Tool):**  
-   Aapke project ki kisi bhi file ka content padhta hai. Token bachane ke liye ye sirf relevant lines ko slice karke padhta hai.
+1. **File Viewer (फाइल पढ़ने का टूल):**  
+   आपके प्रोजेक्ट की किसी भी फाइल को देखता है। टोकन बचाने के लिए यह सिर्फ काम की लाइनों को ही पढ़ता है।
 
-2. **Grep & File Search (Ripgrep / Glob):**  
-   Agar aap bolenge "Check karo `handleLogin` function kahan defined hai", toh ye poore project me `grep` chala kar exact file aur line dhoondh leta hai.
+2. **Grep & File Search (खोजने का टूल):**  
+   अगर आप बोलेंगे "चेक करो `handleLogin` फंक्शन कहाँ बना है", तो यह पूरे प्रोजेक्ट में तेजी से सर्च करके सही फाइल और लाइन ढूंढ लेता है।
 
-3. **Smart Code Editor (Replace Tool):**  
-   Ye poori file ko dobara nahi likhta (jisse syntax tootne ka darr ho), balki sirf badalne wali lines ko target karke clean diff banata hai.
+3. **Smart Code Editor (कोड बदलने का टूल):**  
+   यह पूरी फाइल को दोबारा नहीं लिखता (ताकि सिंटैक्स न बिगड़े), बल्कि सिर्फ बदलने वाली 2-4 लाइनों को ही बदलता है।
 
-4. **Bash Command Runner (Execution Tool):**  
-   Ye terminal me commands chala sakta hai jaise:
-   - Dependencies install karna: `npm install lodash`
-   - Tests run karna: `npm test` ya `pytest`
-   - Git operations: `git status`, `git diff`, `git add`
+4. **Bash Command Runner (टर्मिनल चलाने का टूल):**  
+   यह टर्मिनल में सीधे कमांड्स चला सकता है जैसे:
+   - पैकेज इंस्टॉल करना: `npm install lodash`
+   - टेस्ट्स चलाना: `npm test` या `pytest`
+   - गिट कमांड्स: `git status`, `git diff`, `git add`
 
 ---
 
-## 🛡️ **Safety & Permission Model (Aapka Control)**
+## 🛡️ **Safety & Permission Model (आपका कंट्रोल)**
 
-Kahi AI galti se galat file delete na kar de ya galat command na chala de, iske liye Claude Code me **Safety Guardrails** hote hain:
+कही AI गलती से कोई गलत फाइल डिलीट न कर दे, इसके लिए Claude Code में **Safety Guardrails** होते हैं:
 
 ```text
-[Safe Actions - Automatic]
-  ├── Files read karna
-  ├── Codebase search karna
-  └── Git status check karna
+[सेफ काम - ऑटोमैटिक]
+  ├── फाइल्स पढ़ना
+  ├── कोडबेस में सर्च करना
+  └── गिट स्टेटस देखना
 
-[Sensitive Actions - Asks Permission]
-  ├── File me naya code save karna (Diff dikha kar confirmation)
-  ├── External commands chalana (jaise `npm run build`)
-  └── Git commit / push karna
+[महत्वपूर्ण काम - आपसे परमिशन मांगता है]
+  ├── फाइल में नया कोड सेव करना (Diff दिखाकर 'Yes/No' पूछेगा)
+  ├── भारी टर्मिनल कमांड्स चलाना (जैसे `npm run build`)
+  └── गिट कमिट / पुश करना
 ```
 
-Aap hamesha har change ko review kar sakte hain aur decide kar sakte hain ki allow karna hai ya reject.
+---
+
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
+
+- ❌ **गलती:** हर कमांड के लिए बिना देखे 'Yes' दबाना।
+- ✅ **Pro Tip:** जब भी Claude Code किसी कोड बदलाव की परमिशन मांगे, तो स्क्रीन पर दिख रहे **Diff (+ और - लाइनों)** को ध्यान से चेक करें।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## 📝 **Practice Challenge (खुद सोचें)**
 
-- ❌ **Galti:** Har command ke liye bina soche 'Yes' press karna.
-- ✅ **Pro Tip:** Jab bhi Claude Code kisi command ya file change ki permission maange, toh pehle terminal par dikh rahe **Diff** ko dhyaan se dekhein taaki koi galat file overwrite na ho.
-
----
-
-## 📝 **Practice Challenge (Khud Sochien)**
-
-1. Agar aapko 50 files wale project me ek API URL badalna ho, toh manually badalne me kitna time lagega?
-2. Claude Code ke search aur edit tools milkar is kaam ko kitni der me kar sakte hain?
+1. अगर आपको 50 फाइल्स वाले प्रोजेक्ट में एक API URL बदलना हो, तो हाथ से बदलने में कितना समय लगेगा?
+2. Claude Code के सर्च और एडिट टूल्स मिलकर इसे 10 सेकंड में कैसे कर सकते हैं?
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📌 **Quick Revision Summary (मुख्य बातें)**
 
-- Claude Code ek **Terminal-First AI Agent** hai jo local project environment me run hota hai.
-- Iske paas 4 mukhya tools hote hain: **Read, Search (Grep), Edit, aur Bash Execution**.
-- Iska **Permission System** aapko poora control deta hai taaki koi unsafe command bina aapki permission ke na chale.
+- Claude Code एक **Terminal-First AI Agent** है जो सीधे आपके कंप्यूटर के प्रोजेक्ट फोल्डर में काम करता है।
+- इसके पास 4 मुख्य टूल्स होते हैं: **Read, Search (Grep), Edit, और Bash Execution**।
+- इसका **Permission System** आपको पूरा कंट्रोल देता है ताकि कोई गलत कमांड बिना आपकी मंजूरी के न चले।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [1.1 Agentic Coding vs Vibe Coding](/courses/claude-code/module-01-foundations/01-agentic-coding-vs-vibe-coding/)
-- ➡️ **Agla Lesson:** [1.3 Installation & Setup](/courses/claude-code/module-01-foundations/03-installation-and-setup/)
+- ⬅️ **पिछला Lesson:** [1.1 Agentic Coding vs Vibe Coding](/courses/claude-code/module-01-foundations/01-agentic-coding-vs-vibe-coding/)
+- ➡️ **अगला Lesson:** [1.3 Installation & Setup](/courses/claude-code/module-01-foundations/03-installation-and-setup/)

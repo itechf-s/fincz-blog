@@ -2,7 +2,7 @@
 title: "2.3 Multimodal Image Context"
 categories: [ AI, Course ]
 tags: [ClaudeCode, Multimodal, Vision, UI, Figma]
-description: "Claude Code terminal me screenshots, Figma designs aur UI images pass karke exact code banwana seekhein."
+description: "Claude Code टर्मिनल में स्क्रीनशॉट, Figma डिज़ाइन और इमेजेस जोड़कर सटीक कोड बनवाना सीखें।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,127 +13,100 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Claude Code terminal me **Screenshots aur UI Mockups** ko as context pass kar sakenge.
-- Figma design ya screenshot dekh kar pixel-perfect **React/Tailwind/HTML components** banwa sakenge.
-- Frontend ke visual bugs (jaise alignment kharab hona) image dikha kar jaldi fix karwa sakenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- Claude Code टर्मिनल में **स्क्रीनशॉट और UI डिज़ाइन** को प्रॉम्प्ट के साथ जोड़ सकेंगे।
+- Figma डिज़ाइन या स्क्रीनशॉट देखकर **React/Tailwind/HTML कंपोनेंट्स** बनवा सकेंगे।
+- स्क्रीन पर दिखने वाले विजुअल बग्स (जैसे लेआउट कटना) को इमेज दिखाकर तुरंत ठीक करवा सकेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Ghar Ka Naksha vs Phone Par Samjhana):**  
-> Agar aap kisi mistri ko phone par samjhayein ki *"sofa yahan rakho aur TV wahan"*, toh wo galti kar sakta hai. Lekin agar aap use design ki photo (screenshot) dikha dein, toh wo bina kisi confusion ke exact waisa hi set kar dega.  
-> Claude Code me **Image Context** bilkul yahi kaam karta hai!
+> **मिसाल (घर का नक्शा vs फोन पर समझाना):**  
+> अगर आप किसी मिस्त्री को फोन पर समझाएं कि *"सोफा यहाँ रखो और टीवी वहाँ"*, तो वह गलती कर सकता है। लेकिन अगर आप उसे कमरे के डिज़ाइन की फोटो (स्क्रीनशॉट) दिखा दें, तो वह बिना किसी कन्फ्यूजन के बिल्कुल वैसा ही सेट कर देगा।  
+> Claude Code में **Image Context** बिल्कुल यही काम करता है!
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Multimodal AI** | Text ke sath images/photos ko samajhne wala AI | Claude 3.5 Sonnet Vision |
-| **Image Drag & Drop** | Image file ko mouse se terminal me khench kar chhodna | Dragging `screenshot.png` |
-| **UI Mockup** | Website ya app ke page ka visual design | Figma export image |
-| **Visual Bug** | Screen par UI ka tedha-medha ya cut hona | Mobile screen overflow |
+| **Multimodal AI** | टेक्स्ट के साथ फोटो/इमेज को समझने वाला AI मॉडल | Claude 3.5 Sonnet Vision |
+| **Image Drag & Drop** | इमेज फाइल को माउस से खींचकर टर्मिनल में छोड़ना | Dragging `screenshot.png` |
+| **UI Mockup** | वेबसाइट या ऐप के पेज का डिज़ाइन | Figma एक्सपोर्ट इमेज |
+| **Visual Bug** | स्क्रीन पर डिज़ाइन का टेढ़ा-मेढ़ा या कट जाना | मोबाइल स्क्रीन पर मेन्यू कटना |
 
 ---
 
-## 🖼️ **Terminal Me Images Kaise Pass Karein?**
+## 🖼️ **टर्मिनल में इमेज कैसे जोड़ें?**
 
-Claude Code CLI me images attach karne ke 2 aasan tareeqe hain:
+Claude Code में इमेज अटैच करने के 2 आसान तरीके हैं:
 
 ```text
-Tareeqa 1: Drag & Drop
-[ Image File (.png/.jpg) ] ───(Mouse se drag karein)───> [ Claude Code Terminal ]
+तरीका 1: Drag & Drop
+[ इमेज फाइल (.png/.jpg) ] ───(माउस से ड्रैग करें)───> [ Claude Code Terminal ]
 
-Tareeqa 2: File Path Type Karna
-> "Ye design dekho: ./mockups/dashboard.png aur iska React Tailwind component banao"
+तरीका 2: फाइल पाथ लिखना
+> "यह डिज़ाइन देखो: ./mockups/dashboard.png और इसका React Tailwind कंपोनेंट बनाओ"
 ```
 
-1. **Tareeqa 1 (Drag & Drop):**  
-   Apne desktop ya file explorer se image file ko terminal prompt ke andar drag & drop kar dein. Terminal khud uska path paste kar dega.
+1. **तरीका 1 (Drag & Drop):**  
+   अपने डेस्कटॉप से इमेज फाइल को टर्मिनल के अंदर खींचकर छोड़ दें। टर्मिनल खुद उसका पाथ लिख देगा।
 
-2. **Tareeqa 2 (Direct Path):**  
-   Image ko project folder me rakhein aur prompt me path likh dein (jaise `assets/login-ui.png`).
+2. **तरीका 2 (सीधा पाथ):**  
+   इमेज को प्रोजेक्ट फोल्डर में रखें और प्रॉम्प्ट में उसका पाथ लिख दें (जैसे `assets/login-ui.png`)।
 
 ---
 
-## 💻 **Real-World Prompts & Use Cases**
+## 💻 **काम के प्रॉम्प्ट्स (Real Use Cases)**
 
-### 1. Figma Design Se React Component Banana
+### 1. Figma डिज़ाइन से React कंपोनेंट बनवाना
 ```text
-> "Main ek image attach kar raha hoon (./designs/pricing-card.png). 
-Is design ko analyze karo aur ek responsive React component banao with Tailwind CSS. 
-Pricing toggle (Monthly/Yearly) ka interactive state bhi add karna."
+> "मैं एक इमेज अटैच कर रहा हूँ (./designs/pricing-card.png)। 
+इस डिज़ाइन को देखो और Tailwind CSS के साथ एक responsive React component बनाओ। 
+मंथली और इयरली टॉगल बटन भी बनाना।"
 ```
 
-Claude Code image ko scan karke:
-- Exact colors, padding aur typography detect karega.
-- Responsive layout (Flexbox/Grid) banayega.
-- Component code `src/components/PricingCard.jsx` me save kar dega.
+Claude Code इमेज देखकर:
+- सही कलर्स, पैडिंग और फॉन्ट साइज पहचान लेगा।
+- मोबाइल और डेस्कटॉप दोनों के लिए रिस्पॉन्सिव लेआउट बनाएगा।
+- कोड `src/components/PricingCard.jsx` में सेव कर देगा।
 
 ---
 
-### 2. Frontend Visual Bug Fix Karna
+### 2. फ्रंटएंड का विजुअल बग ठीक करना
 ```text
-> "Mobile screen par navbar cut ho raha hai jaisa is screenshot me dikh raha hai (./screenshots/bug-mobile.png). 
-Navbar.tsx file inspect karo aur flex-wrap aur z-index theek karo."
-```
-
-Claude Code visual bug dekh kar samajh jayega ki kahan overflow ho raha hai aur exact CSS fix kar dega.
-
----
-
-## ⚙️ **Vision Processing Ka Flowchart**
-
-```text
-+------------------------+
-|  Screenshot / Wireframe|
-+-----------┬------------+
-            │ (Pass to CLI)
-            ▼
-+-------------------------------------------------------------+
-| Claude Vision Engine                                        |
-| 1. Detect layout structure (Navbar, Hero, Cards, Footer)    |
-| 2. Extract text, buttons, icons placement                   |
-| 3. Identify color palette & spacing (Margins/Padding)       |
-+---------------------------┬---------------------------------+
-                            │
-                            ▼
-+-------------------------------------------------------------+
-| Generated Code (HTML/Tailwind/React/Vue)                    |
-| Component saved directly to your local project directory!   |
-+-------------------------------------------------------------+
+> "मोबाइल स्क्रीन पर नेवबार कट रहा है जैसा इस स्क्रीनशॉट में दिख रहा है (./screenshots/bug.png)। 
+Navbar.jsx फाइल चेक करो और flex-wrap सही करो।"
 ```
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** Bahut zyada heavy 4K images attach karna jisse unnecessary latency badhe.
-- ✅ **Pro Tip:** Clear aur cropped screenshot dein jisme sirf wahi hissa ho jisko build ya fix karwana hai. Isse tokens kam lagte hain aur accuracy 100% hoti hai.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Kisi website ke achhe UI card ka screenshot lein.
-2. Us screenshot ko apne project folder me save karein.
-3. Claude Code me command dein: `"Is screenshot ka ek clean Tailwind card banao"`.
-4. Browser me render karke dekhein kitna accurate banta hai!
+- ❌ **गलती:** बहुत भारी 4K इमेज अटैच करना जिससे रिस्पॉन्स स्लो हो जाए।
+- ✅ **Pro Tip:** सिर्फ उसी हिस्से का स्क्रीनशॉट क्रॉप करके दें जिसे बनवाना या ठीक करवाना है। इससे टोकन कम लगते हैं और काम 100% सही होता है।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- Claude Code terminal me seedhe **Images/Screenshots** as input accept karta hai.
-- Drag & drop ya file path dekar aap UI design pass kar sakte hain.
-- Design se code banana aur visual bugs theek karna image context se super fast ho jata hai.
+1. किसी अच्छी वेबसाइट के कार्ड का स्क्रीनशॉट लें।
+2. Claude Code में कमांड दें: `"इस स्क्रीनशॉट का एक साफ Tailwind कार्ड बनाओ"`।
+3. ब्राउज़र में चलाकर देखें कि कितना सटीक बना है!
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- Claude Code टर्मिनल में सीधे **Images/Screenshots** सपोर्ट करता है।
+- ड्रैग एंड ड्रॉप या फाइल पाथ देकर आप डिज़ाइन पास कर सकते हैं।
+- डिज़ाइन से कोड बनाना और विजुअल बग्स ठीक करना बहुत आसान हो जाता है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [2.2 Making Code Changes & Diffs](/courses/claude-code/module-02-core-workflow/02-making-code-changes/)
-- ➡️ **Agla Module:** [Module 3: Context Window & CLAUDE.md Memory](/courses/claude-code/module-03-context-and-memory/)
+- ⬅️ **पिछला Lesson:** [2.2 Making Code Changes & Diffs](/courses/claude-code/module-02-core-workflow/02-making-code-changes/)
+- ➡️ **अगला Module:** [Module 3: Context Window & CLAUDE.md Memory](/courses/claude-code/module-03-context-and-memory/)

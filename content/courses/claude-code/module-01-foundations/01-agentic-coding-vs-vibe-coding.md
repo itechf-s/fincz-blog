@@ -2,7 +2,7 @@
 title: "1.1 Agentic Coding vs Vibe Coding"
 categories: [ AI, Course ]
 tags: [ClaudeCode, AgenticCoding, VibeCoding, AI]
-description: "Agentic Coding aur Vibe Coding me kya farq hai? Janein kaise AI chat assistant se aage badhkar autonomous agent banta hai."
+description: "Agentic Coding और Vibe Coding में क्या फर्क है? जानें कैसे AI चैट असिस्टेंट से आगे बढ़कर खुद काम करने वाला एजेंट बनता है।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,130 +13,127 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Normal AI Coding (ChatGPT/Copilot) aur **Agentic Coding** ka asli farq samajh payenge.
-- **Vibe Coding** ke nuksan aur disciplined engineering ke fayde janenge.
-- Autonomous Agentic Loop (**Observe ➔ Think ➔ Act ➔ Verify**) kaise kaam karta hai, ye seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- नॉर्मल AI कोडिंग (ChatGPT/Copilot) और **Agentic Coding** का असली फर्क समझ पाएंगे।
+- **Vibe Coding** के नुकसान और सही प्लानिंग के साथ कोडिंग करने के फायदे जान सकेंगे।
+- Autonomous Agentic Loop (**देखना ➔ सोचना ➔ एक्शन लेना ➔ चेक करना**) कैसे काम करता है, यह सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Car Driving vs Auto-Mechanic):**  
-> - **Vibe Coding / Normal Chatbot:** Maan lijiye aap car chala rahe hain aur Google Maps se rasta pooch rahe hain. Maps aapko sirf batayega ki kahan mudna hai, lekin steering aur brake aapko hi sambhalna padega. Agar car kharab ho gayi, toh Maps kuch theek nahi kar sakta.  
-> - **Agentic Coding (Claude Code):** Ye ek smart auto-pilot mechanic ki tarah hai. Wo khud car chalata hai, dashboard ke alerts check karta hai, agar puncture ho jaye toh side me laga kar pahiya badalta hai, test drive karta hai aur jab sab theek ho jata hai tab aapko batata hai.
+> **मिसाल (कार चलाना vs स्मार्ट मैकेनिक):**  
+> - **Vibe Coding / नॉर्मल चैटबॉट:** मान लीजिए आप कार में बैठे हैं और गूगल मैप्स से रास्ता पूछ रहे हैं। मैप्स सिर्फ बताएगा कि कहाँ मुड़ना है, लेकिन स्टीयरिंग और ब्रेक आपको ही संभालने हैं। अगर कार खराब हो जाए, तो मैप्स कुछ ठीक नहीं कर सकता।  
+> - **Agentic Coding (Claude Code):** यह एक स्मार्ट ऑटो-पायलट मैकेनिक की तरह है। यह खुद कार चलाता है, डैशबोर्ड की बत्ती चेक करता है, अगर पंक्चर हो जाए तो साइड में रोककर पहिया बदलता है, टेस्ट ड्राइव लेता है और जब सब ठीक हो जाता है तब आपको बताता है।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Vibe Coding** | Bina code samjhe AI se andazan code likhwana aur copy-paste karna | "Bas chala do, kaise chal raha pata nahi" |
-| **Agentic Coding** | AI ko tools aur rights dena taaki wo code likhe, test run kare aur error khud theek kare | Claude Code terminal agent |
-| **Agentic Loop** | Dekhna, sochna, step lena aur check karne ka continuous cycle | Observe ➔ Think ➔ Act ➔ Check |
-| **Context Window** | AI ki ek baar me yaad rakhne ki total capacity | AI ki Working Memory / RAM |
+| **Vibe Coding** | बिना गहराई समझे AI से अंदाज़न कोड लिखवाना और कॉपी-पेस्ट करना | "बस चला दो, कैसे चला पता नहीं" |
+| **Agentic Coding** | AI को टूल्स देना ताकि वह खुद कोड लिखे, टेस्ट रन करे और एरर ठीक करे | Claude Code terminal agent |
+| **Agentic Loop** | देखना, सोचना, कदम उठाना और चेक करने का लगातार चलने वाला चक्र | Observe ➔ Think ➔ Act ➔ Verify |
+| **Context Window** | AI की एक बार में याद रखने की कुल क्षमता | AI की Working Memory / RAM |
 
 ---
 
-## ⚙️ **AI Coding Ke 3 Levels (Evolution)**
+## ⚙️ **AI Coding के 3 लेवल्स (Evolution)**
 
-Software development me AI ke use ko 3 stages me samjha ja sakta hai:
+सॉफ्टवेयर डेवलपमेंट में AI के इस्तेमाल को 3 स्टेजेस में समझा जा सकता है:
 
 ```text
 +---------------------------------------------------------------------------------+
 | Level 1: Chat Assistants (ChatGPT, Claude Web Chat)                             |
-| -> User prompt deta hai, AI code snippet deta hai. User manually copy-paste     |
-|    karta hai aur run karta hai.                                                 |
+| -> यूज़र प्रॉम्प्ट देता है, AI कोड स्निपेट देता है। यूज़र खुद कॉपी-पेस्ट करता है।|
 +---------------------------------------------------------------------------------+
                                       ↓
 +---------------------------------------------------------------------------------+
 | Level 2: In-line Autocomplete (GitHub Copilot, Cursor Tab)                      |
-| -> IDE me code likhte waqt agli 2-3 lines predict karta hai. Chhoti help        |
-|    karta hai lekin poora project nahi handle kar sakta.                         |
+| -> IDE में कोड लिखते वक्त अगली 2-3 लाइन प्रेडिक्ट करता है। छोटी मदद करता है।   |
 +---------------------------------------------------------------------------------+
                                       ↓
 +---------------------------------------------------------------------------------+
 | Level 3: Autonomous Agentic Loop (Claude Code, Antigravity)                     |
-| -> Project ki files read karta hai, changes karta hai, terminal commands chalata|
-|    hai, test fail hone par khud theek karta hai aur PR banata hai.             |
+| -> फाइल्स पढ़ता है, कोड एडिट करता है, टर्मिनल कमांड्स चलाता है और टेस्ट चेक करता है।|
 +---------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 🔄 **The Autonomous Agentic Loop Kaise Kaam Karta Hai?**
+## 🔄 **The Autonomous Agentic Loop कैसे काम करता है?**
 
-Normal AI sirf ek baar answer dekar chup ho jata hai. Lekin Claude Code ek **Feedback Loop** par kaam karta hai:
+नॉर्मल AI सिर्फ एक बार जवाब देकर रुक जाता है। लेकिन Claude Code एक **फीडबैक लूप** पर काम करता है:
 
 ```text
        ┌───────────────────────────────┐
-       │   1. Observe (Dekhna)         │
-       │   Files aur folder read karna │
+       │   1. Observe (देखना)          │
+       │   फाइल्स और फोल्डर पढ़ना     │
        └──────────────┬────────────────┘
                       │
                       ▼
        ┌───────────────────────────────┐
-       │   2. Think (Plan Banana)      │
-       │   Kaun si file me kya badalna │
+       │   2. Think (प्लान बनाना)      │
+       │   कौन सी फाइल में क्या बदलना │
        └──────────────┬────────────────┘
                       │
                       ▼
        ┌───────────────────────────────┐
-       │   3. Act (Kadam Uthana)       │
-       │   Code edit & command run     │
+       │   3. Act (कदम उठाना)          │
+       │   कोड एडिट & कमांड रन करना   │
        └──────────────┬────────────────┘
                       │
                       ▼
        ┌───────────────────────────────┐
-       │   4. Verify (Check Karna)     │
-       │   Test run karke output dekhna│
+       │   4. Verify (चेक करना)        │
+       │   टेस्ट चलाकर आउटपुट देखना   │
        └──────────────┬────────────────┘
                       │
-        (Agar error aaye toh dobara Step 1 par)
+        (अगर एरर आए तो दोबारा Step 1 पर)
 ```
 
-1. **Observe (Dekhna):** Claude Code sabse pehle aapki project files, folders aur git status ko dekhta hai.
-2. **Think (Plan Banana):** Wo analyze karta hai ki user ke prompt ke hisaab se kya change karna hai.
-3. **Act (Kadam Uthana):** Wo seedhe file ke andar code modify karta hai aur terminal me required command chalata hai.
-4. **Verify (Check Karna):** Wo `npm test` ya build command run karke check karta hai ki code sahi kaam kar raha hai ya nahi. Agar koi error aata hai, toh bina aapse pooche use khud inspect karke theek karta hai.
+1. **Observe (देखना):** Claude Code सबसे पहले आपकी प्रोजेक्ट फाइल्स, फोल्डर्स और गिट स्टेटस को देखता है।
+2. **Think (प्लान बनाना):** वह सोचता है कि यूज़र के प्रॉम्प्ट के हिसाब से क्या बदलाव करना है।
+3. **Act (कदम उठाना):** वह सीधे फाइल के अंदर कोड एडिट करता है और टर्मिनल में जरूरी कमांड्स चलाता है।
+4. **Verify (चेक करना):** वह `npm test` या बिल्ड कमांड रन करके चेक करता है कि कोड काम कर रहा है या नहीं। अगर कोई एरर आता है, तो बिना रुके उसे खुद ठीक करता है।
 
 ---
 
 ## ⚖️ **Vibe Coding vs Agentic Engineering**
 
-| Feature | Vibe Coding ❌ | Agentic Engineering (Claude Code) ✅ |
+| फीचर | Vibe Coding ❌ | Agentic Engineering (Claude Code) ✅ |
 | :--- | :--- | :--- |
-| **Code ki samajh** | Developer ko pata nahi hota code me kya chal raha hai | Clear plan aur rules ke sath code banta hai |
-| **Error solve karna** | Error aane par bar-bar chat me paste karna padta hai | Agent terminal error dekh kar khud solve karta hai |
-| **Project ka size** | Sirf 1-2 chhoti files tak theek hai | Bade aur professional codebases par kaam karta hai |
-| **Token aur paise ki bachat** | Bar-bar poora code paste karne se paise waste hote hain | Sirf zaruri files read karke tokens bachata hai |
+| **कोड की समझ** | डेवलपर को पता नहीं होता कोड कैसे काम कर रहा है | पूरे प्लान और नियमों के साथ साफ कोड बनता है |
+| **एरर ठीक करना** | एरर आने पर बार-बार चैट में कॉपी-पेस्ट करना पड़ता है | एजेंट टर्मिनल आउटपुट देखकर खुद एरर ठीक करता है |
+| **प्रोजेक्ट का साइज**| सिर्फ 1-2 छोटी फाइल्स तक सीमित | बड़े और प्रोफेशनल प्रोजेक्ट्स पर काम करता है |
+| **टोकन और पैसों की बचत** | बार-बार पूरा कोड भेजने से पैसे बर्बाद होते हैं | सिर्फ जरूरी फाइल्स पढ़कर टोकन बचाता है |
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** AI ko bina plan bataye bolna "Mere liye ek poora e-commerce app bana do". Isse AI confuse ho kar adhura ya galat code likhega.
-- ✅ **Pro Tip:** Hamesha **Step-by-Step** task dein — pehle project structure banwayen, fir database setup, fir logic.
-
----
-
-## 📝 **Practice Challenge (Khud Sochien)**
-
-1. Apne kisi purane project ka koi aisa bug yaad karein jisko dhoondhne aur fix karne me aapko ghanto lage the.
-2. Sochien agar AI khud terminal output padh kar file ke exact line number par jakar fix kar deta, toh aapka kitna time bachta?
+- ❌ **गलती:** AI को बिना प्लान बताए बोलना "मेरे लिए पूरा ऐप बना दो"। इससे AI कन्फ्यूज़ होकर अधूरा कोड लिखता है।
+- ✅ **Pro Tip:** Agentic Coding में हमेशा **स्टेप-बाय-स्टेप** काम दें — पहले स्ट्रक्चर बनवाएं, फिर डेटाबेस, फिर मुख्य लॉजिक।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद सोचें)**
 
-- **Vibe Coding** me developer sirf andaze se code chalata hai, jabki **Agentic Coding** me agent khud code likhta, test karta aur verify karta hai.
-- Claude Code **Agentic Loop** (Observe ➔ Think ➔ Act ➔ Verify) follow karta hai.
-- Iska sabse bada fayda ye hai ki ye sirf code likhta nahi, balki terminal me chala kar confirm karta hai ki sab theek hai.
+1. अपने किसी पुराने प्रोजेक्ट का कोई ऐसा बग याद करें जिसे ढूँढने और ठीक करने में आपको घंटों लगे थे।
+2. सोचें अगर AI खुद टर्मिनल एरर पढ़कर फाइल के सही लाइन नंबर पर जाकर फिक्स कर देता, तो आपका कितना समय बचता?
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- **Vibe Coding** में डेवलपर सिर्फ अंदाज़े से कोड चलाता है, जबकि **Agentic Coding** में एजेंट खुद कोड लिखता, टेस्ट करता और वेरिफाई करता है।
+- Claude Code **Agentic Loop** (Observe ➔ Think ➔ Act ➔ Verify) फॉलो करता है।
+- यह सिर्फ कोड लिखता नहीं, बल्कि टर्मिनल में चलाकर साबित करता है कि कोड सही है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Course Overview:** [Claude Code Home](/courses/claude-code/)
-- ➡️ **Agla Lesson:** [1.2 What is Claude Code & Architecture](/courses/claude-code/module-01-foundations/02-what-is-claude-code/)
+- ⬅️ **कोर्स होम पेज:** [Claude Code Overview](/courses/claude-code/)
+- ➡️ **अगला Lesson:** [1.2 What is Claude Code & Architecture](/courses/claude-code/module-01-foundations/02-what-is-claude-code/)

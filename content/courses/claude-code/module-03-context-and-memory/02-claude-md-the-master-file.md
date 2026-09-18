@@ -2,7 +2,7 @@
 title: "3.2 CLAUDE.md — The Project Brain"
 categories: [ AI, Course ]
 tags: [ClaudeCode, CLAUDEMD, Rules, Memory, BestPractices]
-description: "CLAUDE.md kya hai aur kaise banayein? Seekhein project ke rules, memory aur coding standards ko define karna."
+description: "CLAUDE.md क्या है और कैसे बनाएं? सीखें प्रोजेक्ट के नियम, मेमोरी और कोडिंग के तरीके तय करना।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,115 +13,112 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki `CLAUDE.md` file kya hoti hai aur ye Claude Code ke liye kyu sabse important file hai.
-- Ek standard `CLAUDE.md` file likhna seekhenge jisme build commands, coding rules aur test workflows shamil hon.
-- Global `~/.claude/CLAUDE.md` aur Local Project `CLAUDE.md` ka farq samjhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि `CLAUDE.md` फाइल क्या है और यह Claude Code के लिए सबसे जरूरी फाइल क्यों है।
+- एक सही `CLAUDE.md` फाइल लिखना सीखेंगे जिसमें बिल्ड कमांड्स, कोडिंग के नियम और टेस्टिंग के तरीके शामिल हों।
+- Global `~/.claude/CLAUDE.md` और लोकल प्रोजेक्ट `CLAUDE.md` का फर्क समझेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Company Ka Employee Handbook):**  
-> Jab koi naya employee company join karta hai, toh use ek **Rulebook / Handbook** di jati hai jisme likha hota hai: Office aane ka time kya hai, code kaise commit karna hai aur kaun si galti nahi karni hai.  
-> **`CLAUDE.md`** aapke AI agent ke liye wahi rulebook hai. Jab bhi Claude Code start hota hai, wo sabse pehle is file ko padhta hai aur iske bataye rules kabhi nahi bhoolta!
+> **मिसाल (कंपनी की रूलबुक / हैंडबुक):**  
+> जब कोई नया कर्मचारी ऑफिस जॉइन करता है, तो उसे एक **नियम-पुस्तिका (रूलबुक)** दी जाती है जिसमें लिखा होता है: ऑफिस का समय क्या है, कोड कैसे लिखना है और कौन सी गलती नहीं करनी है।  
+> **`CLAUDE.md`** आपके AI एजेंट के लिए वही रूलबुक है। जब भी Claude Code चालू होता है, वह सबसे पहले इस फाइल को पढ़ता है और इसके नियम कभी नहीं भूलता!
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **`CLAUDE.md`** | Project ke root me rakhi rules aur instructions wali file | `./CLAUDE.md` |
-| **Persistent Memory** | Wo baatein jo session reset hone ke baad bhi AI ko yaad rehti hain | Coding standards & commands |
-| **Global Rules** | Wo rules jo aapke computer ke har project me apply hon | `~/.claude/CLAUDE.md` |
-| **Local Rules** | Wo rules jo sirf usi specific project ke liye hon | `my-app/CLAUDE.md` |
+| **`CLAUDE.md`** | प्रोजेक्ट के मुख्य फोल्डर में रखी नियमों वाली फाइल | `./CLAUDE.md` |
+| **Persistent Memory**| वह बातें जो चैट रीसेट होने के बाद भी AI को याद रहती हैं | कोडिंग रूल्स और कमांड्स |
+| **Global Rules** | वह नियम जो आपके कंप्यूटर के हर प्रोजेक्ट में लागू हों | `~/.claude/CLAUDE.md` |
+| **Local Rules** | वह नियम जो सिर्फ उसी खास प्रोजेक्ट के लिए हों | `my-app/CLAUDE.md` |
 
 ---
 
-## 🏗️ **`CLAUDE.md` Ka Standard Template**
+## 🏗️ **`CLAUDE.md` का सही फॉर्मेट**
 
-Ek achhi `CLAUDE.md` file me ye 5 sections hone chahiye:
+एक अच्छी `CLAUDE.md` फाइल में ये 4 मुख्य हिस्से होने चाहिए:
 
 ```markdown
 # CLAUDE.md - Project Guidelines & Rules
 
-## 1. Build & Test Commands (Kaam chalane ke commands)
+## 1. Build & Test Commands (चलाने के कमांड्स)
 - Build: `npm run build`
 - Test: `npm test`
 - Lint: `npm run lint`
-- **Rule:** Kabhi bhi `npm run dev` background me mat chalana.
+- **नियम:** कभी भी `npm run dev` बैकग्राउंड में मत चलाना।
 
-## 2. Tech Stack & Architecture (Project kya use karta hai)
+## 2. Tech Stack (प्रोजेक्ट क्या इस्तेमाल करता है)
 - Frontend: React (Next.js 14 App Router), Tailwind CSS
 - Backend: Node.js, Express, PostgreSQL (Prisma ORM)
-- State Management: Zustand
 
-## 3. Code Style & Rules (Likhne ka tareeqa)
-- Hamesha TypeScript use karein (Strict mode).
-- Functional components aur React Hooks use karein.
-- Har function ke liye try-catch aur proper error handling likhein.
+## 3. Code Style & Rules (लिखने का तरीका)
+- हमेशा TypeScript इस्तेमाल करें (Strict mode).
+- हर फंक्शन में try-catch और सही एरर हैंडलिंग लिखें।
 
-## 4. Tone & Language (Baat karne ka tareeqa)
-- User se simple conversational Hindi/Hinglish me baat karein.
-- Mushkil aur shuddh Hindi ke shabdon se bachein.
+## 4. Tone & Language (बात करने का तरीका)
+- यूज़र से आसान बोलचाल वाली हिंदी/हिंग्लिश में बात करें।
+- मुश्किल और शुद्ध हिंदी के शब्दों से बचें।
 ```
 
 ---
 
-## ⚙️ **Claude Code Isko Kaise Read Karta Hai?**
+## ⚙️ **Claude Code इसे कैसे पढ़ता है?**
 
-Jab bhi aap koi command ya prompt dete hain, Claude Code background me:
+जब भी आप कोई काम देते हैं:
 
 ```text
-[ User Prompt: "Fix cart bug" ]
+[ यूज़र प्रॉम्प्ट: "Fix cart bug" ]
               │
               ▼
-[ 1. Auto-Load CLAUDE.md ] ───> Checks commands, tech-stack & constraints
+[ 1. CLAUDE.md खुद लोड होती है ] ───> कमांड्स और प्रोजेक्ट नियम चेक करता है
               │
               ▼
-[ 2. Execute with Rules ]  ───> Uses Next.js 14 patterns, runs `npm test` (not dev server)
+[ 2. नियमों के हिसाब से काम ]    ───> Next.js 14 का सही तरीका यूज़ करता है
               │
               ▼
-[ 3. Verified Output ]     ───> Follows all project rules 100% accurately!
+[ 3. बिल्कुल सही कोड तैयार! ]     ───> 100% सही और टेस्टेड कोड मिलता है
 ```
 
 ---
 
 ## 🌐 **Global vs Local `CLAUDE.md`**
 
-| Type | Location | Kab Use Karein? |
+| प्रकार | लोकेशन | कब इस्तेमाल करें? |
 | :--- | :--- | :--- |
-| **Global `CLAUDE.md`** | `~/.claude/CLAUDE.md` (Home dir) | Apni personal pasand ke rules ke liye (jaise: *"Hamesha short output do"*, *"Hinglish me baat karo"*). Ye har project me chalega. |
-| **Local `CLAUDE.md`** | Project ke root folder me `./CLAUDE.md` | Project-specific commands ke liye (jaise: *"Is repo me `pnpm` use karo"*, *"PostgreSQL schema rules"*). |
+| **Global `CLAUDE.md`** | `~/.claude/CLAUDE.md` (Home dir) | अपनी निजी पसंद के नियमों के लिए (जैसे: *"हमेशा छोटा जवाब दो"*, *"हिंग्लिश में बात करो"*)। यह हर प्रोजेक्ट में चलेगा। |
+| **Local `CLAUDE.md`** | प्रोजेक्ट फोल्डर में `./CLAUDE.md` | प्रोजेक्ट के खास कमांड्स के लिए (जैसे: *"यहाँ `pnpm` इस्तेमाल करो"*, *"डेटाबेस रूल्स"*). |
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** `CLAUDE.md` me 2000 lines ka lamba essay likh dena jisse tokens waste hon.
-- ✅ **Pro Tip:** `CLAUDE.md` ko concise aur bullet points me rakhein (under 100-150 lines). Sirf wahi baatein likhein jo AI ko batana zaruri ho.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Apne kisi project ke root me `> /init` chala kar `CLAUDE.md` banayein.
-2. File ko open karke check karein ki build aur test commands sahi hain ya nahi.
-3. Usme ek custom rule add karein: *"Har response ke baad 1 line ka summary do"*.
-4. Ek prompt dekar test karein ki AI rule follow kar raha hai ya nahi.
+- ❌ **गलती:** `CLAUDE.md` में 2000 लाइनों का लंबा निबंध लिख देना जिससे टोकन बर्बाद हों।
+- ✅ **Pro Tip:** `CLAUDE.md` को छोटा और पॉइंट-वाइज रखें (100-150 लाइनों के अंदर)। सिर्फ काम की बातें ही लिखें।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- `CLAUDE.md` aapke project ka **Brain / Rulebook** hai jisko AI har turn par read karta hai.
-- Isme build commands, tech-stack details aur coding standards likhe jate hain.
-- `/init` command se ye file automatically generate ho sakti hai.
+1. अपने प्रोजेक्ट में `> /init` चलाकर `CLAUDE.md` बनाएं।
+2. उसमें एक नया नियम जोड़ें: *"हर बदलाव के बाद 1 लाइन की समरी दो"*।
+3. टेस्ट करें कि AI यह नियम फॉलो कर रहा है या नहीं।
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- `CLAUDE.md` आपके प्रोजेक्ट का **मास्टर दिमाग** है जिसे AI हर बार पढ़ता है।
+- इसमें बिल्ड कमांड्स, टेक्नोलॉजी और कोडिंग के तौर-तरीके लिखे जाते हैं।
+- `/init` कमांड से यह फाइल खुद-ब-खुद बन सकती है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [3.1 Context Window Management](/courses/claude-code/module-03-context-and-memory/01-context-window-management/)
-- ➡️ **Agla Module:** [Module 4: Development Workflows & Planning](/courses/claude-code/module-04-development-workflows/)
+- ⬅️ **पिछला Lesson:** [3.1 Context Window Management](/courses/claude-code/module-03-context-and-memory/01-context-window-management/)
+- ➡️ **अगला Module:** [Module 4: Development Workflows & Planning](/courses/claude-code/module-04-development-workflows/)

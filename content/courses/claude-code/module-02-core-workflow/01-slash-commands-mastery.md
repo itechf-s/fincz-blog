@@ -2,7 +2,7 @@
 title: "2.1 Slash Commands Mastery"
 categories: [ AI, Course ]
 tags: [ClaudeCode, SlashCommands, CLI, Tools]
-description: "Claude Code ke sabhi built-in slash commands (/init, /cost, /compact, /doctor, /clear, /review) ka complete practical guide."
+description: "Claude Code के सभी built-in slash commands (/init, /cost, /compact, /doctor, /clear, /review) का पूरा प्रैक्टिकल गाइड।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,63 +13,63 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Claude Code ke sabhi **Built-in Slash Commands** ko fluently use kar sakenge.
-- `/init` se kisi bhi naye project me instant AI rules bana sakenge.
-- `/cost` aur `/compact` ka use karke apne paise aur tokens bacha sakenge.
-- Session ko `/clear` aur `/doctor` se efficiently manage kar sakenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- Claude Code के सभी **Built-in Slash Commands** का आसानी से इस्तेमाल कर सकेंगे।
+- `/init` से किसी भी नए प्रोजेक्ट में AI के लिए जरूरी नियम खुद जनरेट कर सकेंगे।
+- `/cost` और `/compact` से अपने पैसे और टोकन बचा सकेंगे।
+- सेशन को `/clear` और `/doctor` से सही तरीके से मैनेज कर सकेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Car Ke Dashboard Buttons):**  
-> Claude Code me normal baatchit karna steering ghumane jaisa hai, lekin **Slash Commands (`/`)** dashboard ke special shortcut buttons hain — jaise AC on karna (`/init`), fuel/meter check karna (`/cost`), windscreen saaf karna (`/clear`), ya engine checkup karna (`/doctor`).
+> **मिसाल (कार के डैशबोर्ड बटन्स):**  
+> Claude Code में साधारण बातचीत करना स्टीयरिंग घुमाने जैसा है, लेकिन **Slash Commands (`/`)** डैशबोर्ड के खास शॉर्टकट बटन्स हैं — जैसे AC चालू करना (`/init`), फ्यूल मीटर देखना (`/cost`), शीशा साफ करना (`/clear`), या इंजन चेक करना (`/doctor`)।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Command (Lafz) | Simple Meaning (Aasan Matlab) | Use Case (Kab Chalayein) |
+| Command (कमांड) | Simple Meaning (आसान मतलब) | Use Case (कब चलाएं) |
 | :--- | :--- | :--- |
-| **`/help`** | Sabhi available commands ki list dekhna | Jab command bhool jayein |
-| **`/init`** | Project ko scan karke `CLAUDE.md` memory file banana | Naye project me shuruat karte waqt |
-| **`/cost`** | Current session me kitne tokens aur paise kharch hue dekhna | Budget monitor karne ke liye |
-| **`/compact`** | Lambi chat ko chhota karke memory free karna | Jab context bhari hone lage |
-| **`/clear`** | Poori purani chat history delete karke fresh start karna | Naya feature shuru karte waqt |
-| **`/doctor`** | Setup aur API connections check karna | Troubleshooting ke waqt |
+| **`/help`** | सभी उपलब्ध कमांड्स की लिस्ट देखना | जब कोई कमांड भूल जाएं |
+| **`/init`** | प्रोजेक्ट को स्कैन करके `CLAUDE.md` फाइल बनाना | नए प्रोजेक्ट की शुरुआत में |
+| **`/cost`** | इस सेशन में कितने टोकन और पैसे खर्च हुए देखना | बजट चेक करने के लिए |
+| **`/compact`** | लंबी चैट को छोटा करके मेमोरी खाली करना | जब सेशन भारी होने लगे |
+| **`/clear`** | पुरानी चैट डिलीट करके फ्रेश शुरुआत करना | नया फीचर शुरू करते वक्त |
+| **`/doctor`** | सेटअप और API कनेक्शन चेक करना | किसी परेशानी के वक्त |
 
 ---
 
-## 📑 **Top Slash Commands Ki Reference Table**
+## 📑 **Top Slash Commands की टेबल**
 
-| Command | Kya Karta Hai? | Example Output / Action |
+| कमांड | यह क्या करता है? | आउटपुट / एक्शन |
 | :--- | :--- | :--- |
-| `> /help` | Saari commands aur unka description dikhata hai | Command list screen par aati hai |
-| `> /init` | Project ke tech-stack ko detect karke `CLAUDE.md` create karta hai | Creates `CLAUDE.md` with build & test commands |
-| `> /cost` | Current session ka total token count aur USD cost batata hai | `Total cost: $0.04 (Tokens: 15,200)` |
-| `> /compact` | Context ko summarize karke RAM/Tokens free karta hai | `Context compacted from 80k to 12k tokens` |
-| `> /clear` | Memory bilkul clean karta hai (Fresh Session) | Screen clear ho jati hai aur token count 0 ho jata hai |
-| `> /doctor` | CLI health, Git, Node.js aur API key verify karta hai | All green ticks (Healthy) |
+| `> /help` | सभी कमांड्स और उनका काम दिखाता है | कमांड्स की लिस्ट स्क्रीन पर आती है |
+| `> /init` | प्रोजेक्ट की तकनीक पहचानकर `CLAUDE.md` बनाता है | बिल्ड और टेस्ट कमांड्स सेव हो जाते हैं |
+| `> /cost` | कुल टोकन और डॉलर खर्च बताता है | `Total cost: $0.04 (Tokens: 15,200)` |
+| `> /compact`| पुरानी बातों को समेटकर टोकन फ्री करता है | `Context compacted from 80k to 12k tokens` |
+| `> /clear` | मेमोरी को साफ करता है (नया सेशन) | स्क्रीन साफ और टोकन काउंट 0 हो जाता है |
+| `> /doctor` | Node, Git और API key की सेहत चेक करता है | All green ticks (Healthy) |
 
 ---
 
-## 🔍 **In-Depth: Sabse Zaruri Commands Ka Sahi Use**
+## 🔍 **सबसे जरूरी कमांड्स का सही इस्तेमाल**
 
-### 1. `> /init` — Naye Project Ki Pehli Command
-Jab aap kisi naye project me Claude Code pehli baar chalate hain, toh sabse pehle `/init` chalayein:
+### 1. `> /init` — नए प्रोजेक्ट की पहली कमांड
+जब आप किसी नए प्रोजेक्ट में Claude Code पहली बार चलाते हैं, तो सबसे पहले `/init` चलाएं:
 
 ```text
 > /init
 ```
-**Ye kya karega?**  
-Ye aapke `package.json`, build files, linters aur directory structure ko scan karega aur ek `CLAUDE.md` file bana dega jisme likha hoga ki project ko build kaise karna hai, test kaise run karna hai aur kaun se rules follow karne hain.
+**यह क्या करेगा?**  
+यह आपके `package.json`, बिल्ड फाइल्स और फोल्डर्स को स्कैन करेगा और एक `CLAUDE.md` फाइल बना देगा जिसमें लिखा होगा कि प्रोजेक्ट को बिल्ड कैसे करना है, टेस्ट कैसे चलाना है और कौन से नियम मानने हैं।
 
 ---
 
-### 2. `> /cost` — Budget Par Nazar Rakhna
-Kaam karte waqt aap kisi bhi time `/cost` chala kar dekh sakte hain:
+### 2. `> /cost` — बजट पर नज़र रखना
+काम करते वक्त आप कभी भी `/cost` चलाकर देख सकते हैं:
 
 ```text
 > /cost
@@ -79,50 +79,50 @@ Session Cost Breakdown:
 - Output Tokens: 3,200 ($0.048)
 - Total Session Cost: $0.121
 ```
-Isse aapko pata rehta hai ki aapka kitna budget consume hua hai.
+इससे आपको पता रहता है कि आपका कितना खर्च हुआ है।
 
 ---
 
-### 3. `> /compact` — Tokens Aur Speed Bachana
-Agar aap kaafi der se ek hi session me kaam kar rahe hain aur 5-6 files edit kar chuke hain, toh context window bhari hone lagti hai. Aise me type karein:
+### 3. `> /compact` — टोकन और स्पीड बचाना
+अगर आप काफी देर से एक ही सेशन में काम कर रहे हैं और 4-5 फाइल्स एडिट कर चुके हैं, तो चैट भारी होने लगती है। ऐसे में टाइप करें:
 
 ```text
 > /compact
 ```
-Claude Code purani baaton ka ek crisp summary bana lega aur extra terminal logs hata dega. Isse agla prompt fast chalega aur tokens kam lagenge.
+Claude Code पुरानी बातों का एक छोटा सारांश बना लेगा और गैर-जरूरी टर्मिनल लॉग्स हटा देगा। इससे अगला प्रॉम्प्ट तेज़ चलेगा और पैसे बचेंगे।
 
 ---
 
-### 4. `> /clear` — Fresh Task Shuru Karna
-Jab ek feature ka kaam poora ho jaye aur aapko bilkul naya kaam shuru karna ho, toh purane logs ko `/clear` se saaf kar dein taaki AI purani baaton se confuse na ho.
+### 4. `> /clear` — नया काम शुरू करना
+जब एक काम पूरा हो जाए और आपको बिल्कुल नया काम शुरू करना हो, तो पुरानी बातों को `/clear` से साफ कर दें ताकि AI पुरानी बातों में कन्फ्यूज़ न हो।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** Ek hi lambi chat me poore din ka kaam karte rehna bina `/compact` ya `/clear` kiye. Isse response slow ho jata hai aur tokens tezi se kharch hote hain.
-- ✅ **Pro Tip:** Har naye unrelated task se pehle `/clear` karein, aur agar lamba task chal raha ho toh har 30-40 minutes me `/compact` karein.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Apne terminal me `claude` start karein.
-2. `> /help` chala kar sabhi options dekhein.
-3. `> /cost` check karein aur note karein ki current spend kya hai.
-4. `> /compact` chala kar dekhein ki context kaise condense hota hai.
+- ❌ **गलती:** पूरे दिन एक ही चैट में काम करते रहना बिना `/compact` या `/clear` किए। इससे AI स्लो हो जाता है और पैसे ज्यादा लगते हैं।
+- ✅ **Pro Tip:** हर नए काम से पहले `/clear` करें, और लंबे काम के दौरान हर 30-40 मिनट में `/compact` करें।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- `/init` se project ki memory file `CLAUDE.md` automatically ban jati hai.
-- `/cost` se aap live token spend aur dollar cost track kar sakte hain.
-- `/compact` lambi chat ko summarize karke tokens aur paise bachata hai.
-- `/clear` naya kaam shuru karte waqt session reset karta hai.
+1. टर्मिनल में `claude` शुरू करें।
+2. `> /help` चलाकर सभी ऑप्शन्स देखें।
+3. `> /cost` चेक करके नोट करें कि अभी कितना खर्च हुआ है।
+4. `> /compact` चलाकर देखें कि मेमोरी कैसे हल्की होती है।
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- `/init` से प्रोजेक्ट की मेमोरी फाइल `CLAUDE.md` खुद बन जाती है।
+- `/cost` से आप लाइव टोकन और खर्च ट्रैक कर सकते हैं।
+- `/compact` लंबी चैट को छोटा करके पैसे बचाता है।
+- `/clear` नया काम शुरू करते वक्त सेशन रीसेट करता है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Module:** [Module 1: Foundations](/courses/claude-code/module-01-foundations/)
-- ➡️ **Agla Lesson:** [2.2 Making Code Changes & Diffs](/courses/claude-code/module-02-core-workflow/02-making-code-changes/)
+- ⬅️ **पिछला Module:** [Module 1: Foundations](/courses/claude-code/module-01-foundations/)
+- ➡️ **अगला Lesson:** [2.2 Making Code Changes & Diffs](/courses/claude-code/module-02-core-workflow/02-making-code-changes/)

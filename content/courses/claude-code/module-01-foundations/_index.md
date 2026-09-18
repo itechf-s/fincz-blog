@@ -1,24 +1,24 @@
 ---
 title: "Module 1: Foundations & Architecture"
-description: "Claude Code ki buniyad: Agentic coding ka concept, architecture, aur complete installation setup."
+description: "Claude Code की शुरुआत: Agentic coding का कॉन्सेप्ट, आर्किटेक्चर, और कम्पलीट इंस्टॉलेशन सेटअप।"
 date: 2026-09-18T08:00:00+05:30
 author: ahmad
 type: docs
 ---
 
-# 🏗️ **Module 1: Foundations & Architecture**
+# 🏗️ **Module 1: Foundations & Architecture (शुरुआत और बनावट)**
 
-Is module me hum **Claude Code** ki basics aur uske architecture ko samjhenge. Hum dekhenge ki normal AI chatbot aur ek Autonomous Coding Agent me kya farq hota hai, aur apne system me Claude Code ko step-by-step kaise install karein.
+इस मॉड्यूल में हम **Claude Code** की बेसिक बातों और इसके आर्किटेक्चर को समझेंगे। हम जानेंगे कि नॉर्मल AI चैटबॉट और एक Autonomous Coding Agent में क्या फर्क होता है, और अपने कंप्यूटर पर Claude Code को कैसे सही तरीके से सेट अप करें।
 
 ---
 
-## 📑 **Is Module Ke Lessons:**
+## 📑 **इस मॉड्यूल के चैप्टर्स:**
 
 1. **[1.1 Agentic Coding vs Vibe Coding](/courses/claude-code/module-01-foundations/01-agentic-coding-vs-vibe-coding/)**  
-   *AI Chatbots, Copilot autocomplete aur Agentic Loop (Dekhna ➔ Sochna ➔ Action lena ➔ Check karna) ka farq.*
+   *AI Chatbots, Copilot ऑटो-कम्प्लीट और Agentic Loop (देखना ➔ सोचना ➔ एक्शन लेना ➔ चेक करना) का असली फर्क।*
 
 2. **[1.2 What is Claude Code & Architecture](/courses/claude-code/module-01-foundations/02-what-is-claude-code/)**  
-   *Anthropic ka Terminal Agent kaise kaam karta hai, iske tools aur security safety rules.*
+   *Anthropic का Terminal Agent कैसे काम करता है, इसके टूल्स और सेफ्टी नियम क्या हैं।*
 
 3. **[1.3 Installation & Setup](/courses/claude-code/module-01-foundations/03-installation-and-setup/)**  
-   *Node.js, Claude Code CLI install karna, API Key setup aur pehla test run.*
+   *Node.js, Claude Code CLI इंस्टॉल करना, API Key सेटअप और पहला टेस्ट रन।*

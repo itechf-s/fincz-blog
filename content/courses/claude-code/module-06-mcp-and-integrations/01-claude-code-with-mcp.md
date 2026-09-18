@@ -2,7 +2,7 @@
 title: "6.1 Claude Code with MCP"
 categories: [ AI, Course ]
 tags: [ClaudeCode, MCP, ModelContextProtocol, Integrations, PostgreSQL]
-description: "Model Context Protocol (MCP) kya hai? Janein Claude Code ko Database, GitHub aur Browser tools se kaise connect karein."
+description: "Model Context Protocol (MCP) क्या है? जानें Claude Code को डेटाबेस, GitHub और ब्राउज़र से कैसे जोड़ें।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,34 +13,34 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Model Context Protocol (MCP)** kya hai aur Anthropic ne ise kyu banaya.
-- Claude Code CLI ko **PostgreSQL Database** aur **GitHub MCP servers** se connect kar sakenge.
-- AI ko seedhe database queries chalane aur live browser automation ke powers de sakenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Model Context Protocol (MCP)** क्या है और Anthropic ने इसे क्यों बनाया।
+- Claude Code CLI को **PostgreSQL डेटाबेस** और **GitHub MCP सर्वर्स** से जोड़ सकेंगे।
+- AI को सीधे डेटाबेस क्वेरी चलाने और ब्राउज़र ऑटोमेशन के अधिकार देना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (USB Type-C Cable):**  
-> Pehle har device (phone, laptop, camera) ke liye alag charger cable lagti thi. Fir aaya **USB Type-C**, jisne ek standard banakar sabhi devices ko aapas me connect kar diya.  
-> **Model Context Protocol (MCP)** AI ki duniya ka Type-C port hai! Chahe Database ho, Slack ho, GitHub ho ya Figma — MCP ke zariye koi bhi tool Claude Code se ek click me jud jata hai.
+> **मिसाल (USB Type-C केबल):**  
+> पहले हर डिवाइस (फोन, लैपटॉप, कैमरा) के लिए अलग चार्जर केबल लगती थी। फिर आया **USB Type-C**, जिसने एक कॉमन स्टैंडर्ड बनाकर सभी डिवाइसेज को आपस में जोड़ दिया।  
+> **Model Context Protocol (MCP)** AI की दुनिया का Type-C पोर्ट है! चाहे डेटाबेस हो, GitHub हो या क्रोम ब्राउज़र — MCP के ज़रिए कोई भी टूल Claude Code से एक क्लिक में जुड़ जाता है।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **MCP (Model Context Protocol)**| AI models ko external tools aur data se jodne ka open standard | Anthropic MCP Standard |
-| **MCP Server** | Ek chhota program jo database ya API ke tools provide karta hai | `@modelcontextprotocol/server-postgres` |
-| **MCP Client** | Claude Code CLI jo un tools ko use karta hai | Claude Code agent |
-| **Tool Calling** | AI ka khud database me query chalana ya web page open karna | `read_query("SELECT * FROM users")` |
+| **MCP** | AI मॉडल्स को बाहरी टूल्स और डेटा से जोड़ने का ओपन स्टैंडर्ड | Anthropic MCP Standard |
+| **MCP Server** | एक छोटा प्रोग्राम जो डेटाबेस या API के टूल्स उपलब्ध कराता है | `@modelcontextprotocol/server-postgres` |
+| **MCP Client** | Claude Code CLI जो उन टूल्स का इस्तेमाल करता है | Claude Code agent |
+| **Tool Calling** | AI का खुद डेटाबेस में क्वेरी चलाना या वेब पेज खोलना | `read_query("SELECT * FROM users")` |
 
 ---
 
-## 🌐 **MCP Architecture Diagram**
+## 🌐 **MCP का आर्किटेक्चर**
 
 ```text
                            +------------------------+
@@ -49,12 +49,12 @@ Is lesson ko complete karne ke baad aap:
                            +-----------┬------------+
                                        │
                 ┌──────────────────────┼──────────────────────┐
-                │ MCP Protocol (JSON-RPC Communication)       │
+                │ MCP Protocol (JSON-RPC कम्युनिकेशन)         │
                 ▼                      ▼                      ▼
     +──────────────────────+ +──────────────────────+ +──────────────────────+
     |    Postgres MCP      | |     GitHub MCP       | |    Puppeteer MCP     |
-    |  - Inspect schema    | |  - Fetch Issue list  | |  - Open Web Browser  |
-    |  - Run test queries  | |  - Create Pull Req   | |  - Take UI screenshot|
+    |  - टेबल स्कीमा देखना | |  - इश्यूज फेच करना   | |  - वेब ब्राउज़र खोलना |
+    |  - टेस्ट क्वेरी चलाना| |  - Pull Request बनाना| |  - स्क्रीनशॉट लेना    |
     +──────────┬───────────+ +──────────┬───────────+ +──────────┬───────────+
                │                        │                        │
                ▼                        ▼                        ▼
@@ -63,76 +63,51 @@ Is lesson ko complete karne ke baad aap:
 
 ---
 
-## 🛠️ **Claude Code Me MCP Server Kaise Setup Karein?**
-
-Claude Code me MCP server configure karna bahut simple hai:
+## 🛠️ **Claude Code में MCP सर्वर कैसे जोड़ें?**
 
 ```bash
-# PostgreSQL MCP server connect karna
-claude mcp add postgresql npx -y @modelcontextprotocol/server-postgres postgresql://user:password@localhost:5432/mydb
-```
-
-Ya fir configuration file me add karein:
-
-```json
-{
-  "mcpServers": {
-    "postgres": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost:5432/mydb"]
-    },
-    "github": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_your_token"
-      }
-    }
-  }
-}
+# PostgreSQL MCP सर्वर जोड़ना
+claude mcp add postgresql npx -y @modelcontextprotocol/server-postgres postgresql://user:pass@localhost:5432/mydb
 ```
 
 ---
 
-## 💻 **MCP Ke Sath Real Prompts**
+## 💻 **MCP के साथ काम के प्रॉम्प्ट्स**
 
-### 1. Database Schema Inspect Karna & Query Fix Karna
+### 1. डेटाबेस स्कीमा देखकर क्वेरी फिक्स करना
 ```text
-> "Postgres database me 'orders' table ka schema check karo aur dekho pichhle 30 din me highest selling products kaun se hain. Query ko optimize karke backend controller me add karo."
+> "Postgres डेटाबेस में 'orders' टेबल का स्कीमा चेक करो और देखो पिछले 30 दिन में सबसे ज्यादा बिकने वाले प्रोडक्ट्स कौन से हैं। इस क्वेरी को बैकएंड में जोड़ो।"
 ```
-Claude Code khud database se schema read karega, query verify karega aur code likh dega!
 
----
-
-### 2. GitHub Issues Auto-Solve Karna
+### 2. GitHub Issue को ऑटो-सॉल्व करना
 ```text
-> "GitHub repo me Issue #42 ko fetch karo. Usme bataye gaye bug ko reproduce karo, fix karo aur Pull Request create kar do."
+> "GitHub रिपो में Issue #42 को देखो। उसमें बताए गए बग को समझो, कोड ठीक करो और Pull Request बना दो।"
 ```
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** Production database ka direct write access MCP server ko de dena.
-- ✅ **Pro Tip:** Local development ya Staging database use karein, aur production ke liye hamesha **Read-Only** credentials dein.
-
----
-
-## 📝 **Practice Challenge (Khud Sochien)**
-
-1. Sochien agar Claude Code ke paas Database aur Browser dono ka MCP access ho, toh kya wo ek click me bug find karke browser me UI test bhi kar sakta hai?
-2. MCP standard Copilot plugins se kyu better hai?
+- ❌ **गलती:** प्रोडक्शन डेटाबेस का डायरेक्ट राइट एक्सेस MCP सर्वर को दे देना।
+- ✅ **Pro Tip:** लोकल या स्टेजिंग डेटाबेस इस्तेमाल करें, और प्रोडक्शन के लिए हमेशा **Read-Only** परमिशन दें।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद सोचें)**
 
-- MCP Anthropic ka banaya open-source standard hai jo AI ko external software se jodta hai.
-- Isse Claude Code seedhe Database queries aur GitHub APIs chala sakta hai.
-- Security ke liye hamesha restricted permissions wale database credentials use karein.
+1. सोचें अगर Claude Code के पास डेटाबेस और ब्राउज़र दोनों का एक्सेस हो, तो वह बग ढूंढकर ब्राउज़र में टेस्ट भी कैसे कर सकता है?
+2. MCP सामान्य प्लगइन्स से बेहतर क्यों है?
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- MCP Anthropic का ओपन-सोर्स स्टैंडर्ड है जो AI को बाहरी सॉफ्टवेयर से जोड़ता है।
+- इससे Claude Code सीधे डेटाबेस और GitHub से बात कर सकता है।
+- सुरक्षा के लिए हमेशा सीमित परमिशन वाले डेटाबेस क्रेडेंशियल्स इस्तेमाल करें।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Module:** [Module 5: Skills & SubAgents](/courses/claude-code/module-05-skills-and-subagents/)
-- ➡️ **Agla Lesson:** [6.2 Lifecycle Hooks](/courses/claude-code/module-06-mcp-and-integrations/02-lifecycle-hooks/)
+- ⬅️ **पिछला Module:** [Module 5: Skills & SubAgents](/courses/claude-code/module-05-skills-and-subagents/)
+- ➡️ **अगला Lesson:** [6.2 Lifecycle Hooks](/courses/claude-code/module-06-mcp-and-integrations/02-lifecycle-hooks/)

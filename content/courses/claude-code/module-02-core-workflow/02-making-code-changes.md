@@ -2,7 +2,7 @@
 title: "2.2 Making Code Changes & Diffs"
 categories: [ AI, Course ]
 tags: [ClaudeCode, Diffs, CodeEditing, Terminal]
-description: "Claude Code ke sath code changes kaise karein? Target edits, git diff inspection aur safe command execution seekhein."
+description: "Claude Code के साथ कोड एडिट करना सीखें: Targeted edits, Diffs रिव्यू और सेफ टर्मिनल कमांड्स चलाना।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,62 +13,62 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki Claude Code poori file rewrite karne ke bajaye **Targeted Diffs** kaise banata hai.
-- Terminal me **Diffs Review** karke safe code changes approve ya reject kar sakenge.
-- Multi-file refactoring ko smoothly handle karna seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि Claude Code पूरी फाइल बदलने के बजाय सिर्फ **Targeted Diffs** कैसे बनाता है।
+- टर्मिनल में **Diffs Review** करके सेफ तरीके से बदलावों को मंजूर (approve) या रिजेक्ट कर सकेंगे।
+- एक साथ कई फाइल्स में कोड सुधारना (Refactoring) सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Ghar Ka Renovation):**  
-> Maan lijiye aapke bedroom ki ek light kharab hai.  
-> - **Kharab AI:** Poore kamre ki deewar tod kar dobara banata hai (poori file rewrite), jisse baaki cheezein bhi toot jati hain.  
-> - **Claude Code (Diff approach):** Ye ek smart electrician ki tarah sirf us kharab bulb ko nikalta hai aur naya bulb laga deta hai (sirf exact 2-3 lines badalta hai). Baaki poora kamra safe rehta hai.
+> **मिसाल (कमरे का बल्ब बदलना):**  
+> मान लीजिए आपके बेडरूम का एक बल्ब खराब हो गया है।  
+> - **खराब AI:** पूरे कमरे की दीवार तोड़कर दोबारा बनाता है (पूरी फाइल rewrite), जिससे बाकी चीजें भी टूट जाती हैं।  
+> - **Claude Code (Diff तरीका):** यह एक समझदार इलेक्ट्रिशियन की तरह सिर्फ खराब बल्ब को निकालता है और नया लगा देता है (सिर्फ 2-3 लाइनें बदलता है)। बाकी पूरा कमरा सेफ रहता है।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Code Diff** | Purane code aur naye code ke beech ka farq | Green (`+`) naya code, Red (`-`) purana code |
-| **Surgical Edit** | Poori file ke bajaye sirf zaruri lines ko badalna | 500 lines me se sirf 4 lines replace karna |
-| **Permission Prompt** | Change apply karne se pehle aapse poochna | `Apply these changes? [y/n/e]` |
-| **Refactoring** | Code ke logic ko clean aur behtar banana | Functions ko modular karna |
+| **Code Diff** | पुराने कोड और नए कोड के बीच का फर्क | Green (`+`) नया कोड, Red (`-`) पुराना कोड |
+| **Surgical Edit** | पूरी फाइल के बजाय सिर्फ जरूरी लाइनों को बदलना | 500 लाइनों में से सिर्फ 3 लाइनें बदलना |
+| **Permission Prompt**| बदलाव लागू करने से पहले आपसे पूछना | `Apply these changes? [y/n/e]` |
+| **Refactoring** | कोड के लॉजिक को साफ और बेहतर बनाना | बड़े कोड को छोटा और मॉडर्न करना |
 
 ---
 
-## 🔍 **Claude Code Ka Editing Flow (Step-by-Step)**
+## 🔍 **Claude Code का एडिटिंग फ्लो (Step-by-Step)**
 
-Jab aap Claude Code ko koi code change karne ko bolte hain, toh wo ye steps follow karta hai:
+जब आप Claude Code को कोई बदलाव करने को कहते हैं:
 
 ```text
-[ User Prompt: "Fix discount calculation in cart.js" ]
+[ यूज़र प्रॉम्प्ट: "cart.js में डिस्काउंट का फॉर्मूला सही करो" ]
                         │
                         ▼
-[ Step 1: Ripgrep Search ] ➔ dhoondhta hai 'discount' kahan calculate ho raha hai
+[ Step 1: Ripgrep Search ] ➔ ढूंढता है 'discount' कहाँ लिखा है
                         │
                         ▼
-[ Step 2: Read Lines ] ➔ cart.js ki specific lines (e.g. Lines 40-65) padhta hai
+[ Step 2: Read Lines ]     ➔ cart.js की खास लाइनें (Lines 40-65) पढ़ता है
                         │
                         ▼
-[ Step 3: Generate Diff ] ➔ sirf galat formula ko theek karke preview dikhata hai
+[ Step 3: Generate Diff ]  ➔ सिर्फ गलत लाइन को ठीक करके प्रीव्यू दिखाता है
                         │
                         ▼
-[ Step 4: User Approval ] ➔ Terminal par Diffs dikhakar aapse 'Yes/No' poochta hai
+[ Step 4: User Approval ]  ➔ स्क्रीन पर Diff दिखाकर आपसे 'Yes/No' पूछता है
                         │
                         ▼
-[ Step 5: Test Execution ] ➔ File save hone ke baad tests run karke verify karta hai
+[ Step 5: Test Execution ] ➔ फाइल सेव करके टेस्ट चलाकर वेरिफाई करता है
 ```
 
 ---
 
-## 💻 **Terminal Me Diffs Ko Padhna**
+## 💻 **टर्मिनल में Diffs को पढ़ना**
 
-Jab Claude Code code edit karta hai, toh terminal par is tarah ka clean diff dikhta hai:
+जब Claude Code फाइल एडिट करता है, तो स्क्रीन पर ऐसा साफ Diff दिखता है:
 
 ```diff
 --- a/src/services/cart.js
@@ -76,73 +76,57 @@ Jab Claude Code code edit karta hai, toh terminal par is tarah ka clean diff dik
 @@ -42,7 +42,7 @@ function calculateTotal(items, coupon) {
    let subtotal = items.reduce((sum, item) => sum + item.price, 0);
    
--  // Galti: Discount fixed amount subtract kar raha tha
+-  // गलती: फिक्स्ड डिस्काउंट घटा रहा था
 -  let discount = coupon ? subtotal - 50 : 0;
-+  // Theek: Ab percentage ke hisaab se calculate hoga
++  // सही: अब प्रतिशत के हिसाब से कैलकुलेट होगा
 +  let discount = coupon ? (subtotal * coupon.percentage) / 100 : 0;
    
    return subtotal - discount;
  }
 ```
 
-- **Red Line (`-`):** Purana code jo hataya ja raha hai.
-- **Green Line (`+`):** Naya code jo add kiya ja raha hai.
+- **लाल लाइन (`-`):** पुराना कोड जो हटाया जा रहा है।
+- **हरी लाइन (`+`):** नया कोड जो जोड़ा जा रहा है।
 
 ---
 
-## 🎮 **User Interaction Options**
+## 🎮 **यूज़र के ऑप्शन्स**
 
-Terminal par jab diff aayega, toh aapse pucha jayega:
+टर्मिनल पर जब Diff आएगा, तो आपसे पूछा जाएगा:
 
 ```text
 Do you want to apply these changes? (y/n/e):
 ```
 
-- **`y` (Yes):** Change ko turant apply kar do aur file save kar do.
-- **`n` (No / Cancel):** Is change ko cancel kar do, koi file modify nahi hogi.
-- **Feedback dena:** Aap mana karke naya prompt bhi de sakte hain: *"Nahi, percentage ke sath max discount ₹200 ka cap bhi lagao."*
+- **`y` (Yes):** बदलाव तुरंत सेव कर दो।
+- **`n` (No):** बदलाव रद्द कर दो, कोई फाइल चेंज नहीं होगी।
+- **फीडबैक देना:** आप नया निर्देश भी दे सकते हैं: *"नहीं, डिस्काउंट में अधिकतम ₹200 की लिमिट भी लगाओ।"*
 
 ---
 
-## ⚡ **Multi-File Refactoring Ka Example**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-Agar aapko ek sath 3-4 files me changes karne hain, toh aap seedha prompt de sakte hain:
-
-```text
-> "User table me 'phone_number' column add kiya hai. Ab auth controller, registration form aur test cases sabhi jagah is field ko handle karo aur check karo test pass ho rahe hain ya nahi."
-```
-
-Claude Code sequence me:
-1. `src/models/user.js` ko edit karega.
-2. `src/controllers/auth.js` ko edit karega.
-3. `tests/auth.test.js` me naya test add karega.
-4. Terminal me `npm test` chalayega aur output report karega.
+- ❌ **गलती:** Diff देखे बिना जल्दबाजी में `y` दबा देना।
+- ✅ **Pro Tip:** हमेशा चेक करें कि नए कोड में कोई जरूरी कमेंट या पुराना एरर हैंडलिंग तो नहीं हट गया।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- ❌ **Galti:** Terminal par diffs dekhe bina aankh band karke `y` dabana.
-- ✅ **Pro Tip:** Hamesha check karein ki naye code me koi zaruri comment ya existing error handling toh delete nahi ho gayi.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Apne project me kisi ek function me jaan-bujhkar ek chhota typo kar dein.
-2. Claude Code ko prompt dein: `"Project me test run karo aur jo error aaye use fix karo"`.
-3. Dekhein kaise Claude Code error read karke exact line ka diff banata hai.
+1. अपने प्रोजेक्ट के किसी फंक्शन में जान-बूझकर एक छोटी गलती करें।
+2. Claude Code से कहें: `"प्रोजेक्ट में टेस्ट चलाओ और एरर ठीक करो"`।
+3. देखें कैसे Claude Code एरर पढ़कर सही लाइन का Diff दिखाता है।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📌 **Quick Revision Summary (मुख्य बातें)**
 
-- Claude Code **Targeted Edits** karta hai jisse poori file kharab hone ka risk zero hota hai.
-- Diffs me **Red (`-`)** ka matlab purani line hatna aur **Green (`+`)** ka matlab nayi line judna hai.
-- Changes save hone ke baad Claude Code khud tests chala kar confirm karta hai.
+- Claude Code **Targeted Edits** करता है जिससे पूरी फाइल खराब होने का खतरा नहीं रहता।
+- Diffs में **Red (`-`)** का मतलब लाइन हटना और **Green (`+`)** का मतलब नई लाइन जुड़ना है।
+- बदलाव सेव होने के बाद Claude Code खुद टेस्ट चलाकर कन्फर्म करता है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [2.1 Slash Commands Mastery](/courses/claude-code/module-02-core-workflow/01-slash-commands-mastery/)
-- ➡️ **Agla Lesson:** [2.3 Multimodal Image Context](/courses/claude-code/module-02-core-workflow/03-multimodal-image-context/)
+- ⬅️ **पिछला Lesson:** [2.1 Slash Commands Mastery](/courses/claude-code/module-02-core-workflow/01-slash-commands-mastery/)
+- ➡️ **अगला Lesson:** [2.3 Multimodal Image Context](/courses/claude-code/module-02-core-workflow/03-multimodal-image-context/)

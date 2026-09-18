@@ -2,7 +2,7 @@
 title: "3.1 Context Window Management"
 categories: [ AI, Course ]
 tags: [ClaudeCode, ContextWindow, Tokens, CostOptimization]
-description: "Context Window aur Tokens ko manage karna seekhein. Janein kaise /compact aur token optimization se paise bacha sakte hain."
+description: "Context Window और टोकन्स को संभालना सीखें। जानें कैसे /compact से टोकन और पैसे बचा सकते हैं।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,111 +13,100 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Context Window** kya hoti hai aur ye kaise kaam karti hai.
-- Seekhenge ki context bhar jane se AI kyu confuse (hallucinate) hone lagta hai.
-- `/compact` aur `/clear` ka sahi time par use karke **70-80% Token Cost** bachana seekhenge.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Context Window** क्या होती है और यह कैसे काम करती है।
+- जानेंगे कि चैट बहुत लंबी होने पर AI क्यों कन्फ्यूज़ होने लगता है।
+- `/compact` और `/clear` का सही समय पर इस्तेमाल करके **70-80% टोकन और पैसे** बचाना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Chhota Writing Pad / Whiteboard):**  
-> Maan lijiye aapke paas ek whiteboard hai jispar 20 baatein likhi ja sakti hain.  
-> Agar aap har chhoti baat likhte jayenge aur purani baaton ko nahi mitayenge, toh whiteboard bhar jayega aur nayi baatein likhne ki jagah nahi bachegi.  
-> **`/compact`** ka matlab hai: Purani 15 baaton ka 2 lines me saaf summary likh dena, taaki whiteboard par aage ke kaam ke liye nayi jagah ban jaye.
+> **मिसाल (छोटा राइटिंग पैड / व्हाइटबोर्ड):**  
+> मान लीजिए आपके पास एक छोटा व्हाइटबोर्ड है जिसपर सिर्फ 20 लाइनें लिखी जा सकती हैं।  
+> अगर आप हर छोटी बात लिखते जाएंगे और पुरानी बातें नहीं मिटाएंगे, तो बोर्ड भर जाएगा और नई बात लिखने की जगह नहीं बचेगी।  
+> **`/compact`** का मतलब है: पुरानी 15 बातों का सिर्फ 2 लाइनों में साफ सारांश लिख देना, ताकि आगे के काम के लिए जगह खाली हो जाए।
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Token** | AI ke padhne ki unit (~4 characters ya 1 shabd = 1.3 token) | 1,000 words ≈ 1,300 tokens |
-| **Context Bloat** | Chat me zarurat se zyada purana kachra ya logs jama hona | 150k tokens ka bhari session |
-| **Hallucination** | Context bharne par AI ka galat ya andaze se jawab dena | Galat file paths assume karna |
-| **Input vs Output Cost** | AI ko context bhejne ka charge vs AI ke likhne ka charge | Input sasta hota hai, Output mehenga |
+| **Token** | AI के पढ़ने की इकाई (~4 अक्षर या 1 शब्द ≈ 1.3 टोकन) | 1,000 शब्द ≈ 1,300 टोकन |
+| **Context Bloat** | चैट में जरूरत से ज्यादा पुराने लॉग्स और कचरा जमा होना | 150k टोकन का भारी सेशन |
+| **Hallucination** | मेमोरी भरने पर AI का गलत या अंदाज़े से जवाब देना | गलत फाइल पाथ्स मान लेना |
+| **Input vs Output Cost** | AI को सवाल भेजने का खर्च vs AI के जवाब लिखने का खर्च | इनपुट सस्ता होता है, आउटपुट महंगा |
 
 ---
 
-## 📊 **Context Bloating Ka Asar (Problem vs Solution)**
-
-Jab aap bina context manage kiye kaam karte hain:
+## 📊 **चैट भारी होने का असर (Problem vs Solution)**
 
 ```text
-[ Shuruat: Fresh Session ] ───> 5,000 Tokens  ───> Fast Response & Very Low Cost ($0.01)
+[ शुरुआत: फ्रेश सेशन ]    ───> 5,000 Tokens   ───> तेज़ रिस्पॉन्स और बहुत कम खर्च ($0.01)
                                       │
-                                (Kayi files padhne ke baad)
+                                (कई फाइल्स पढ़ने के बाद)
                                       ▼
-[ Bloated Session ]       ───> 120,000 Tokens ───> Slow Response, Hallucinations ($0.40/prompt!)
+[ भारी सेशन (Bloated) ]   ───> 120,000 Tokens ───> धीमा रिस्पॉन्स, भारी खर्च ($0.40 प्रति सवाल!)
                                       │
                                 (Ran /compact)
                                       ▼
-[ Compacted Session ]     ───> 15,000 Tokens  ───> Fast Again & Cheap Cost ($0.04/prompt!)
+[ हल्का सेशन (Compacted)] ───> 15,000 Tokens  ───> फिर से तेज़ और कम खर्च ($0.04!)
 ```
 
 ---
 
-## 🔄 **`/compact` Kaise Kaam Karta Hai?**
+## 🔄 **`/compact` कैसे काम करता है?**
 
-Jab aap `/compact` command chalate hain:
-
-1. **Purani History Summarize:** Pichhli 30 baatchit ko 4-5 bullet points me condense karta hai.
-2. **Heavy Logs Clean:** `npm install` ya test ke 500 lines ke verbose logs ko hata deta hai.
-3. **Active State Save:** Ye yaad rakhta hai ki kaun si file par kaam chal raha tha aur current goal kya hai.
+जब आप `/compact` कमांड चलाते हैं:
+1. **पुरानी हिस्ट्री समेटना:** पिछली 25-30 बातचीत को 4-5 मुख्य पॉइंट्स में छोटा कर देता है।
+2. **भारी लॉग्स हटाना:** टेस्ट और टर्मिनल के 500 लाइनों के लंबे आउटपुट को साफ कर देता है।
+3. **ज़रूरी बात याद रखना:** यह याद रखता है कि किस फाइल पर काम चल रहा था और अगला कदम क्या है।
 
 ---
 
-## ⚖️ **`/compact` vs `/clear` — Kab Kaun Sa Use Karein?**
+## ⚖️ **`/compact` vs `/clear` — कब कौन सा इस्तेमाल करें?**
 
-| Scenario | Kaun Si Command Chalayein? | Kyu? |
+| स्थिति | कौन सा कमांड चलाएं? | क्यों? |
 | :--- | :--- | :--- |
-| **Same Feature par kaam chal raha hai** (e.g. Auth module) lekin session lamba ho gaya | `> /compact` | Taaki pichhla context aur decisions yaad rahein lekin token size chhota ho jaye. |
-| **Feature complete ho gaya**, ab bilkul alag feature shuru karna hai (e.g. Payment Gateway) | `> /clear` | Taaki purane Auth module ka context naye payment task me confuse na kare. |
+| **उसी काम पर आगे बढ़ना है** लेकिन सेशन लंबा हो गया है | `> /compact` | ताकि पिछला जरूरी कॉन्टेक्स्ट याद रहे लेकिन टोकन साइज छोटा हो जाए। |
+| **पिछला काम पूरा हो गया**, अब बिल्कुल नया काम शुरू करना है | `> /clear` | ताकि पुराने काम की बातें नए काम में रुकावट न बनें। |
 
 ---
 
-## 💡 **Token Aur Paise Bachane Ke 4 Golden Rules**
+## 💡 **पैसे और टोकन बचाने के 4 नियम**
 
-1. **Targeted Prompts Dein:**  
-   AI ko poori repository scan karne ke bajaye specific folder ya file ka path batayein (jaise `src/utils/math.js`).
-
-2. **Large Logs Ko Prompt Me Na Dalein:**  
-   Bade crash dumps ko terminal prompt me paste karne ke bajaye bolen: *"Check error in `error.log` line 50 to 80"*.
-
-3. **Har 30-45 Minute Me Compact Karein:**  
-   Lambi coding marathon me `/compact` ko regular aadat banayein.
-
-4. **Specific Tool Rules Set Karein:**  
-   `CLAUDE.md` me likhein ki heavy builds ya unnecessary log generation na kare.
+1. **सटीक प्रॉम्प्ट दें:** पूरे प्रोजेक्ट को स्कैन करवाने के बजाय खास फाइल का नाम बताएं (जैसे `src/utils/math.js`)।
+2. **लंबे एरर लॉग्स चैट में न डालें:** इसके बजाय कहें: *"error.log फाइल में लाइन 50 से 80 तक चेक करो"*.
+3. **हर 30-40 मिनट में कॉम्पैक्ट करें:** लंबी कोडिंग के दौरान `/compact` चलाने की आदत बनाएं।
+4. **हर 4-5 सवाल के बाद खर्च देखें:** `> /cost` से खर्च ट्रैक करते रहें।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-- ❌ **Galti:** Session me tokens ko monitor na karna aur mahine ke end me bada bill dekhna.
-- ✅ **Pro Tip:** Har 4-5 prompts ke baad `> /cost` chalakar dekhein ki kitne tokens consume ho rahe hain.
-
----
-
-## 📝 **Practice Challenge (Khud Karke Dekhein)**
-
-1. Claude Code me `> /cost` chalayein aur current input/output tokens check karein.
-2. Ek prompt dein jisme 2-3 files read karwayen.
-3. Dobara `> /cost` check karein aur dekhein tokens kaise badhe.
-4. `> /compact` chalayein aur dekhein context kaise shrink hota hai!
+- ❌ **गलती:** बिना `/compact` किए घंटों तक एक ही सेशन चलाते रहना।
+- ✅ **Pro Tip:** नए काम पर जाने से पहले हमेशा `> /clear` करें।
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📝 **Practice Challenge (खुद करके देखें)**
 
-- Context window AI ki memory limit hoti hai; iske bharne par speed slow aur cost high ho jati hai.
-- `/compact` zaruri baaton ko rakhkar extra logs ko compress karta hai.
-- Naye unrelated task par jane se pehle `/clear` karna sabse best practice hai.
+1. टर्मिनल में `> /cost` चलाकर अभी के टोकन देखें।
+2. 2-3 फाइल्स पढ़वाएं और फिर से `> /cost` देखें।
+3. `> /compact` चलाएं और देखें कि टोकन काउंट कैसे कम होता है!
+
+---
+
+## 📌 **Quick Revision Summary (मुख्य बातें)**
+
+- Context Window AI की मेमोरी लिमिट होती है; इसके भरने पर स्पीड स्लो और खर्च बढ़ जाता है।
+- `/compact` जरूरी बातों को रखकर एक्स्ट्रा लॉग्स हटा देता है।
+- नया काम शुरू करने से पहले `/clear` करना सबसे बेस्ट तरीका है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Module:** [Module 2: Everyday CLI](/courses/claude-code/module-02-core-workflow/)
-- ➡️ **Agla Lesson:** [3.2 CLAUDE.md — The Project Brain](/courses/claude-code/module-03-context-and-memory/02-claude-md-the-master-file/)
+- ⬅️ **पिछला Module:** [Module 2: Everyday CLI](/courses/claude-code/module-02-core-workflow/)
+- ➡️ **अगला Lesson:** [3.2 CLAUDE.md — The Project Brain](/courses/claude-code/module-03-context-and-memory/02-claude-md-the-master-file/)

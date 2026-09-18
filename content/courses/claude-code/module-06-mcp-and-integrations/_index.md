@@ -1,24 +1,24 @@
 ---
 title: "Module 6: Model Context Protocol (MCP) & Plugins"
-description: "Claude Code me Model Context Protocol (MCP) servers connect karna, lifecycle hooks setup karna aur plugins use karna."
+description: "Claude Code में Model Context Protocol (MCP) सर्वर्स जोड़ना, lifecycle hooks लगाना और प्लगइन्स इस्तेमाल करना।"
 date: 2026-09-18T08:00:00+05:30
 author: ahmad
 type: docs
 ---
 
-# 🔌 **Module 6: Model Context Protocol (MCP) & Plugins**
+# 🔌 **Module 6: Model Context Protocol (MCP) & Plugins (बाहरी टूल्स से जोड़ना)**
 
-Is module me hum **Claude Code** ko external duniya (Databases, GitHub APIs, Browser automation) se jodna seekhenge. Hum Model Context Protocol (MCP), Pre/Post Lifecycle Hooks aur Community Plugins ke practical workflows ko master karenge.
+इस मॉड्यूल में हम **Claude Code** को बाहरी टूल्स (डेटाबेस, GitHub APIs, ब्राउज़र ऑटोमेशन) से जोड़ना सीखेंगे। हम Model Context Protocol (MCP), Lifecycle Hooks और कम्युनिटी प्लगइन्स को चलाना सीखेंगे।
 
 ---
 
-## 📑 **Is Module Ke Lessons:**
+## 📑 **इस मॉड्यूल के चैप्टर्स:**
 
 1. **[6.1 Claude Code with MCP](/courses/claude-code/module-06-mcp-and-integrations/01-claude-code-with-mcp/)**  
-   *Model Context Protocol kya hai, PostgreSQL aur GitHub MCP servers ko Claude Code se jodna.*
+   *Model Context Protocol क्या है, PostgreSQL और GitHub MCP सर्वर्स को Claude Code से जोड़ना।*
 
 2. **[6.2 Lifecycle Hooks](/courses/claude-code/module-06-mcp-and-integrations/02-lifecycle-hooks/)**  
-   *Pre-tool aur Post-tool lifecycle hooks se automatic security aur linting checks lagana.*
+   *Pre-tool और Post-tool hooks से ऑटोमैटिक सिक्योरिटी और कोड फॉर्मेटिंग चेक लगाना।*
 
 3. **[6.3 Plugins & Ecosystem](/courses/claude-code/module-06-mcp-and-integrations/03-plugins-and-ecosystem/)**  
-   *Community plugins install karna, global settings aur ultimate Claude Code cheatsheet.*
+   *कम्युनिटी प्लगइन्स और सबसे जरूरी कमांड्स की मास्टर चीटशीट।*

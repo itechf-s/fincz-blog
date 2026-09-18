@@ -2,7 +2,7 @@
 title: "5.2 Built-in SubAgents"
 categories: [ AI, Course ]
 tags: [ClaudeCode, SubAgents, MultiAgent, ContextIsolation]
-description: "Subagents kya hote hain? Janein kaise background worker agents ko task dekar 90% tokens aur main context bachaya jata hai."
+description: "Subagents क्या होते हैं? जानें कैसे बैकग्राउंड वर्कर एजेंट्स को काम देकर 90% टोकन और मुख्य मेमोरी बचाई जाती है।"
 date: 2026-09-18T08:00:00+05:30
 lastmod: 2026-09-18T08:00:00+05:30
 author: ahmad
@@ -13,35 +13,35 @@ type: docs
 
 ---
 
-## 🎯 **Objective (Is Lesson Ka Maqsad)**
-Is lesson ko complete karne ke baad aap:
-- Samajh payenge ki **Subagents (Worker Agents)** kya hote hain aur ye kaise kaam karte hain.
-- **Context Isolation** ki power seekhenge jisse main agent ka dimaag (context window) hamesha fresh rehta hai.
-- Seekhenge ki Research aur Codebase Search jaise heavy tasks ko Subagents kaise delegate karte hain.
+## 🎯 **Objective (इस लेसन का मक़सद)**
+इस लेसन को पूरा करने के बाद आप:
+- समझ पाएंगे कि **Subagents (वर्कर एजेंट्स)** क्या होते हैं और ये कैसे काम करते हैं।
+- **Context Isolation** की ताकत समझेंगे जिससे मुख्य एजेंट का दिमाग (मेमोरी) हमेशा हल्का रहता है।
+- रिसर्च और कोडबेस सर्च जैसे भारी काम सब-एजेंट्स को सौंपना सीखेंगे।
 
 ---
 
-## 💡 **Real-Life Analogy (Aasan Misaal)**
+## 💡 **Real-Life Analogy (आसान मिसाल)**
 
-> **Misaal (Company Ka CEO vs Research Intern):**  
-> Agar ek CEO khud library jakar 50 kitabein padhne lage, toh uska poora din aur energy waste ho jayegi.  
-> Samajhdar CEO kya karta hai? Wo apne **Research Intern (Subagent)** ko bhejta hai: *"Jaao in 50 kitabon ko padho aur mujhe sirf 1 page ka summary do"*.  
-> Intern saari mehnat karta hai aur CEO ko clean summary laakar deta hai. CEO ka time aur dimaag dono bachte hain!
+> **मिसाल (कंपनी का CEO vs रिसर्च इंटर्न):**  
+> अगर एक कंपनी का CEO खुद लाइब्रेरी जाकर 50 किताबें पढ़ने लगे, तो उसका पूरा दिन और दिमाग थक जाएगा।  
+> समझदार CEO क्या करता है? वह अपने **रिसर्च इंटर्न (Subagent)** को भेजता है: *"जाओ इन 50 किताबों को पढ़ो और मुझे सिर्फ 1 पेज का सारांश (समरी) दो"*.  
+> इंटर्न सारी मेहनत करता है और CEO को साफ समरी लाकर देता है। CEO का समय और एनर्जी दोनों बचते हैं!
 
 ---
 
-## 📖 **Key Terms & Glossary (Zaruri Alfaaz)**
+## 📖 **Key Terms & Glossary (ज़रूरी शब्द)**
 
-| Term (Lafz) | Simple Meaning (Aasan Matlab) | Example (Misaal) |
+| Term (शब्द) | Simple Meaning (आसान मतलब) | Example (मिसाल) |
 | :--- | :--- | :--- |
-| **Main Agent** | Jo aapse directly baat karta hai aur main decisions leta hai | Claude Code Primary CLI |
-| **Subagent** | Background me specific kaam karne wala temporary helper agent | `research` subagent |
-| **Context Isolation** | Subagent ki lambi chat ko alag rakhna taaki main chat clean rahe | Memory bachana |
-| **Delegation** | Bada ya lamba task chhote worker agent ko saupna | "Research agent, check this repo" |
+| **Main Agent** | जो आपसे सीधे बात करता है और मुख्य फैसले लेता है | Claude Code Primary CLI |
+| **Subagent** | बैकग्राउंड में खास काम करने वाला हेल्पर एजेंट | `research` subagent |
+| **Context Isolation**| सब-एजेंट की लंबी चैट को अलग रखना ताकि मुख्य चैट साफ रहे | मेमोरी बचाना |
+| **Delegation** | भारी काम छोटे वर्कर एजेंट को सौंपना | "रिसर्च एजेंट, यह चेक करो" |
 
 ---
 
-## 🏗️ **Subagents Ka Architecture Diagram**
+## 🏗️ **Subagents का आर्किटेक्चर**
 
 ```text
                            +------------------------+
@@ -51,73 +51,58 @@ Is lesson ko complete karne ke baad aap:
                                        ▼
                            +------------------------+
                            |       MAIN AGENT       |
-                           | (Controls Master Plan) |
+                           |   (मास्टर प्लानर)     |
                            +-----------┬------------+
                                        │
                 ┌──────────────────────┴──────────────────────┐
-                │ Delegates heavy search task                 │
+                │ भारी रिसर्च का काम सौंपता है                 │
                 ▼                                             ▼
     +─────────────────────────+                   +─────────────────────────+
     |   Research Subagent 1   |                   |    Codebase Subagent 2  |
-    | (Reads 40 files & logs) |                   |  (Runs heavy grep tests)|
+    |  (40 फाइल्स पढ़ता है)   |                   |  (भारी grep टेस्ट्स)    |
     +───────────┬─────────────+                   +───────────┬─────────────+
                 │                                             │
                 └──────────────────────┬──────────────────────┘
-                                       │ Returns ONLY Crisp 3-Line Summary!
+                                       │ सिर्फ 3-लाइन की समरी वापस करता है!
                                        ▼
                            +------------------------+
                            |       MAIN AGENT       |
-                           | (Clean context & fast) |
+                           | (बिल्कुल फ्रेश मेमोरी) |
                            +------------------------+
 ```
 
 ---
 
-## 💰 **Token Savings Ka Asli Jadugar**
+## 💰 **टोकन बचत का असली जादू**
 
-Bina Subagent ke:
-- Main agent 30 files padhta hai ➔ **120,000 Tokens** consume ho gaye!
-- Agla prompt slow aur mehenga ho gaya.
-
-Subagent ke sath:
-- Subagent alag memory me 30 files padhta hai.
-- Main agent ko sirf **500 Tokens** ka summary return karta hai.
-- **Nateeja:** 95% Tokens aur paise bach gaye, aur main session bilkul fresh raha!
+- **बिना सब-एजेंट के:** मुख्य एजेंट 30 फाइल्स पढ़ता है ➔ **120,000 Tokens** खर्च हो गए! अगला प्रॉम्प्ट स्लो और महंगा हो गया।
+- **सब-एजेंट के साथ:** सब-एजेंट अलग मेमोरी में 30 फाइल्स पढ़ता है, और मुख्य एजेंट को सिर्फ **500 Tokens** की समरी देता है।
+- **नतीजा:** 95% टोकन और पैसे बच गए!
 
 ---
 
-## 🛠️ **Built-in Research Subagent Ka Workflow**
+## ⚠️ **Common Mistakes & Pro Tips (बचने वाली गलतियाँ)**
 
-Jab aap Claude Code ko kisi badi library ya documentation ko research karne ko bolte hain:
-1. Main agent background me ek **Research Subagent** launch karta hai.
-2. Subagent web search karta hai, online docs padhta hai aur GitHub code inspect karta hai.
-3. Jab research poori ho jati hai, toh wo seedhe main agent ko answer handover kar deta hai.
-4. User ko bina context bhare direct solution mil jata hai.
+- ❌ **गलती:** 1 लाइन के छोटे से काम के लिए सब-एजेंट चलाना जिससे शुरुआत में ही समय लगे।
+- ✅ **Pro Tip:** सब-एजेंट्स सिर्फ भारी कामों के लिए इस्तेमाल करें (जैसे: पूरा कोडबेस खंगालना या ऑनलाइन डॉक्यूमेंटेशन रिसर्च करना)।
 
 ---
 
-## ⚠️ **Common Mistakes & Pro Tips (Bachne Wali Galtiyan)**
+## 📝 **Practice Challenge (खुद सोचें)**
 
-- ❌ **Galti:** Chhote 1-line ke task ke liye subagent spawn karna jisse setup overhead badhe.
-- ✅ **Pro Tip:** Subagents sirf heavy tasks ke liye use karein (jaise: poora codebase scan karna, online docs research karna ya multi-file audit karna).
-
----
-
-## 📝 **Practice Challenge (Khud Sochien)**
-
-1. Sochien agar aapko kisi 10,000 lines wale open-source repo ka architecture samajhna ho, toh bina context bhare subagent kaise madad karega?
-2. Kyu subagents ko alag context me run karna token optimization ke liye best practice maana jata hai?
+1. सोचें अगर आपको किसी 10,000 लाइनों वाले बड़े प्रोजेक्ट का आर्किटेक्चर समझना हो, तो सब-एजेंट मुख्य चैट को हल्का कैसे रखेगा?
+2. सब-एजेंट्स को अलग मेमोरी में रन करना टोकन बचत के लिए सबसे अच्छा तरीका क्यों है?
 
 ---
 
-## 📌 **Quick Revision Summary (Mukhya Baatein)**
+## 📌 **Quick Revision Summary (मुख्य बातें)**
 
-- Subagents background worker agents hote hain jo main agent ki taraf se specific tasks karte hain.
-- **Context Isolation** ki wajah se main chat ka token limit waste nahi hota.
-- Heavy reading aur research subagents ko delegate karna pro-level engineering hai.
+- सब-एजेंट्स बैकग्राउंड में काम करने वाले हेल्पर एजेंट्स होते हैं।
+- **Context Isolation** की वजह से मुख्य चैट की मेमोरी नहीं भरती।
+- भारी काम सब-एजेंट्स को देना प्रो-लेवल इंजीनियरिंग का तरीका है।
 
 ---
 
 ## 🧭 **Next Steps & Navigation**
-- ⬅️ **Pichhla Lesson:** [5.1 Claude Code Skills](/courses/claude-code/module-05-skills-and-subagents/01-claude-code-skills/)
-- ➡️ **Agla Lesson:** [5.3 Custom SubAgents](/courses/claude-code/module-05-skills-and-subagents/03-custom-subagents/)
+- ⬅️ **पिछला Lesson:** [5.1 Claude Code Skills](/courses/claude-code/module-05-skills-and-subagents/01-claude-code-skills/)
+- ➡️ **अगला Lesson:** [5.3 Custom SubAgents](/courses/claude-code/module-05-skills-and-subagents/03-custom-subagents/)
