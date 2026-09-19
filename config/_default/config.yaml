@@ -48,7 +48,12 @@ params:
   
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/fincz-logo.svg
+      dark: images/fincz-logo.svg
+      width: 32
+      height: 32
     width: wide
 
   theme:
