@@ -1,32 +1,9 @@
-{{- $url := .Get "url" | default (.Get 0) -}}
-{{- $height := .Get "height" | default (.Get 1) -}}
-{{- $width := .Get "width" | default (.Get 2) -}}
-
-<style>
-.cnt {
-margin-bottom: 25px;
-width: 100%;
-border: none;
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) { .gc_sip_frame{height:875px; width: 280px;}}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) { .gc_sip_frame{height:1100px; width: 310px;}}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) { .gc_sip_frame{height:782px; width: 745px;}}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) { .gc_sip_frame{height:782px; width: 745px;}}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { .gc_sip_frame{height:540px; width: 745px;}}
-</style>
-
-<iframe src="{{$url}}"
-{{with $height}} height="{{.}}" {{end}}
-{{with $width}} width="{{.}}" {{end}}
-loading="lazy"
-scrolling="yes" class="cnt gc_sip_frame" ></iframe>
-
+{{- $src := "" }}
+{{- if .IsNamedParams }}
+  {{- $src = .Get "src" }}
+{{- else }}
+  {{- $src = .Get 0 }}
+{{- end }}
+<div class="hx:my-4 hx:overflow-hidden hx:rounded-xl hx:border hx:border-neutral-200 hx:dark:border-neutral-800">
+  <iframe src="{{ $src }}" class="hx:w-full hx:h-[600px] hx:border-0" loading="lazy" allowfullscreen></iframe>
+</div>
