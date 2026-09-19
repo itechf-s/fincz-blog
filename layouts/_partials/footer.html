@@ -1,0 +1,22 @@
+{{- $enableFooterSwitches := .Store.Get "enableFooterSwitches" | default false -}}
+{{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
+{{- $footerSwitchesVisible := and $enableFooterSwitches (or hugo.IsMultilingual $displayThemeToggle) -}}
+
+<footer class="hextra-footer hx:bg-gray-50 hx:dark:bg-neutral-900/80 hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:pb-[env(safe-area-inset-bottom)] hx:print:bg-transparent">
+  <div class="hextra-custom-footer hextra-max-footer-width hx:mx-auto hx:px-6 hx:py-12">
+    {{- partial "custom/footer.html" . -}}
+    
+    <div class="hx:mt-12 hx:pt-6 hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:flex hx:flex-col hx:sm:flex-row hx:items-center hx:justify-between hx:gap-4 hx:text-xs hx:text-gray-500 hx:dark:text-gray-400">
+      <div>
+        © {{ now.Format "2006" }} Fincz Learn. All rights reserved.
+      </div>
+      <div class="hx:flex hx:items-center hx:gap-3">
+        <a href="/privacy-policy/" class="hx:hover:underline">Privacy</a>
+        <span>•</span>
+        <a href="/terms-and-conditions/" class="hx:hover:underline">Terms</a>
+        <span>•</span>
+        <a href="/contact/" class="hx:hover:underline">Support</a>
+      </div>
+    </div>
+  </div>
+</footer>

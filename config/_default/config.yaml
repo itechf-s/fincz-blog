@@ -50,9 +50,9 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/fincz-icon.svg
-      dark: images/fincz-icon.svg
-      width: 28
+      path: images/fincz-logo-black.png
+      dark: images/fincz-logo-black.png
+      width: 76
       height: 28
     width: wide
 
