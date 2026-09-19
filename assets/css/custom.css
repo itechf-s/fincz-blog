@@ -1,0 +1,267 @@
+/* Fincz Learn Premium UI Styles */
+:root {
+  --fl-primary-gradient: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  --fl-accent-gradient: linear-gradient(135deg, #6610f2 0%, #6f42c1 100%);
+  --fl-card-hover-transform: translateY(-4px);
+  --fl-transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hero Section */
+.fl-hero {
+  background: radial-gradient(circle at top left, rgba(13, 110, 253, 0.08) 0%, transparent 60%),
+              radial-gradient(circle at bottom right, rgba(111, 66, 193, 0.08) 0%, transparent 60%);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 1.25rem;
+  padding: 3.5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+[data-bs-theme="dark"] .fl-hero {
+  background: radial-gradient(circle at top left, rgba(13, 110, 253, 0.15) 0%, transparent 60%),
+              radial-gradient(circle at bottom right, rgba(111, 66, 193, 0.15) 0%, transparent 60%);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.fl-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.35rem 0.9rem;
+  border-radius: 2rem;
+  background-color: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  border: 1px solid rgba(13, 110, 253, 0.2);
+  margin-bottom: 1.25rem;
+}
+
+[data-bs-theme="dark"] .fl-hero-badge {
+  background-color: rgba(13, 110, 253, 0.2);
+  color: #6ea8fe;
+}
+
+.fl-hero-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .fl-hero {
+    padding: 2.25rem 1.25rem;
+  }
+  .fl-hero-title {
+    font-size: 2rem;
+  }
+}
+
+.fl-hero-desc {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  max-width: 680px;
+  margin-bottom: 1.75rem;
+}
+
+/* Feature Badges */
+.fl-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+[data-bs-theme="dark"] .fl-pill-badge {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Section Titles */
+.fl-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+[data-bs-theme="dark"] .fl-section-header {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.fl-section-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+/* Cards */
+.fl-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 1rem;
+  transition: var(--fl-transition);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bs-card-bg, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+[data-bs-theme="dark"] .fl-card {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.fl-card:hover {
+  transform: var(--fl-card-hover-transform);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  border-color: rgba(13, 110, 253, 0.3);
+}
+
+[data-bs-theme="dark"] .fl-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  border-color: rgba(110, 168, 254, 0.35);
+}
+
+.fl-card-course {
+  border-left: 4px solid #0d6efd;
+}
+
+.fl-card-guide {
+  border-left: 4px solid #198754;
+}
+
+.fl-card-practice {
+  border-left: 4px solid #fd7e14;
+}
+
+.fl-card-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fl-card-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.35rem;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  width: fit-content;
+}
+
+.fl-card-tag-course {
+  background-color: rgba(13, 110, 253, 0.12);
+  color: #0d6efd;
+}
+
+.fl-card-tag-guide {
+  background-color: rgba(25, 135, 84, 0.12);
+  color: #198754;
+}
+
+.fl-card-tag-practice {
+  background-color: rgba(253, 126, 20, 0.12);
+  color: #fd7e14;
+}
+
+.fl-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+}
+
+.fl-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.fl-card-title a:hover {
+  color: #0d6efd;
+}
+
+.fl-card-desc {
+  font-size: 0.925rem;
+  line-height: 1.55;
+  opacity: 0.8;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.fl-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  opacity: 0.75;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+[data-bs-theme="dark"] .fl-card-footer {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Pillar Highlights / Quick Banner */
+.fl-pillar-banner {
+  background: var(--bs-card-bg, #fff);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: var(--fl-transition);
+}
+
+[data-bs-theme="dark"] .fl-pillar-banner {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.fl-pillar-banner:hover {
+  transform: translateY(-2px);
+  border-color: rgba(13, 110, 253, 0.3);
+}
+
+.fl-pillar-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+}
+
+.fl-icon-courses {
+  background-color: rgba(13, 110, 253, 0.12);
+  color: #0d6efd;
+}
+
+.fl-icon-guides {
+  background-color: rgba(25, 135, 84, 0.12);
+  color: #198754;
+}
+
+.fl-icon-practice {
+  background-color: rgba(253, 126, 20, 0.12);
+  color: #fd7e14;
+}

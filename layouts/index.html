@@ -1,0 +1,214 @@
+{{ define "content" }}
+<div class="col-12">
+  <div class="container px-0">
+
+    <!-- 1. Hero Section -->
+    <section class="fl-hero mb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="fl-hero-badge">
+            <i class="fas fa-sparkles"></i> Modern Learning Platform
+          </div>
+          <h1 class="fl-hero-title">
+            Master AI Engineering, Agentic Coding & Systems
+          </h1>
+          <p class="fl-hero-desc">
+            Production-ready, practical courses, step-by-step architectural guides, and scenario-based interview challenges designed to level up your engineering skills.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="/courses/" class="btn btn-primary btn-lg px-4 py-2 fw-semibold">
+              <i class="fas fa-graduation-cap me-2"></i> Explore Courses
+            </a>
+            <a href="/guides/" class="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold">
+              <i class="fas fa-book-open me-2"></i> Read Guides
+            </a>
+            <a href="/practice/" class="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold">
+              <i class="fas fa-code me-2"></i> Practice Q&A
+            </a>
+          </div>
+          <div class="d-flex flex-wrap gap-2 pt-2">
+            <span class="fl-pill-badge"><i class="fas fa-robot text-primary"></i> Claude Code & Agentic Dev</span>
+            <span class="fl-pill-badge"><i class="fas fa-network-wired text-success"></i> Model Context Protocol (MCP)</span>
+            <span class="fl-pill-badge"><i class="fas fa-cubes text-info"></i> Vector DBs & LangChain</span>
+            <span class="fl-pill-badge"><i class="fab fa-java text-danger"></i> Java & Backend Architecture</span>
+          </div>
+        </div>
+        <div class="col-lg-4 d-none d-lg-block text-center">
+          <div class="p-4 rounded-4 bg-body-tertiary border shadow-sm">
+            <i class="fas fa-laptop-code fa-4x text-primary mb-3"></i>
+            <h5 class="fw-bold mb-2">Hands-On & Practical</h5>
+            <p class="small text-muted mb-0">100% focused on real terminal commands, clean code, real architecture, and actionable workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Pillars Quick Overview -->
+    <section class="mb-5">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="fl-pillar-banner h-100">
+            <div class="fl-pillar-icon fl-icon-courses">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4 class="fw-bold mb-2">Structured Courses</h4>
+            <p class="text-muted small mb-3">Multi-module curriculum with hands-on projects, exercises, and architectural walk-throughs.</p>
+            <a href="/courses/" class="text-decoration-none fw-semibold small text-primary">Browse All Courses <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="fl-pillar-banner h-100">
+            <div class="fl-pillar-icon fl-icon-guides">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h4 class="fw-bold mb-2">Evergreen Guides</h4>
+            <p class="text-muted small mb-3">Deep-dive technical guides on AI, MCP Servers, Google Antigravity, Prompt Engineering, and Cloud.</p>
+            <a href="/guides/" class="text-decoration-none fw-semibold small text-success">Read Guides <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="fl-pillar-banner h-100">
+            <div class="fl-pillar-icon fl-icon-practice">
+              <i class="fas fa-code"></i>
+            </div>
+            <h4 class="fw-bold mb-2">Practice & Challenges</h4>
+            <p class="text-muted small mb-3">Real-world interview questions, scenario questions, system design problems, and coding exercises.</p>
+            <a href="/practice/" class="text-decoration-none fw-semibold small text-warning">Start Practice <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Featured Courses Section -->
+    <section class="mb-5">
+      <div class="fl-section-header">
+        <h2 class="fl-section-title">
+          <i class="fas fa-graduation-cap text-primary"></i> Featured Courses
+        </h2>
+        <a href="/courses/" class="text-decoration-none fw-semibold small">View All Courses <i class="fas fa-arrow-right ms-1"></i></a>
+      </div>
+      <div class="row g-4">
+        <!-- Claude Code Course Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="fl-card fl-card-course">
+            <div class="fl-card-body">
+              <span class="fl-card-tag fl-card-tag-course">7 Modules • Comprehensive</span>
+              <h3 class="fl-card-title">
+                <a href="/courses/claude-code/">Claude Code: Master Course (Zero to Pro)</a>
+              </h3>
+              <p class="fl-card-desc">
+                Terminal-based AI agentic coding, context management, memory (CLAUDE.md), custom skills, MCP integration aur live SaaS projects.
+              </p>
+              <div class="fl-card-footer">
+                <span><i class="fas fa-layer-group me-1"></i> 7 Modules</span>
+                <a href="/courses/claude-code/" class="btn btn-sm btn-primary">Start Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Java Beginner Course Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="fl-card fl-card-course">
+            <div class="fl-card-body">
+              <span class="fl-card-tag fl-card-tag-course">Foundational • Backend</span>
+              <h3 class="fl-card-title">
+                <a href="/courses/java-beginner/">Java Beginner to Pro Masterclass</a>
+              </h3>
+              <p class="fl-card-desc">
+                Core Java fundamentals, OOPs principles, collections framework, exception handling, and enterprise backend best practices.
+              </p>
+              <div class="fl-card-footer">
+                <span><i class="fas fa-layer-group me-1"></i> Full Track</span>
+                <a href="/courses/java-beginner/" class="btn btn-sm btn-primary">Start Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Financial Literacy Course Card -->
+        <div class="col-lg-4 col-md-6">
+          <div class="fl-card fl-card-course">
+            <div class="fl-card-body">
+              <span class="fl-card-tag fl-card-tag-course">Practical Guide • Finance</span>
+              <h3 class="fl-card-title">
+                <a href="/courses/financial-literacy/">Financial Literacy & Wealth Building</a>
+              </h3>
+              <p class="fl-card-desc">
+                Smart investing, compounding, tax-saving strategies, mutual funds, and long-term financial security principles.
+              </p>
+              <div class="fl-card-footer">
+                <span><i class="fas fa-layer-group me-1"></i> Full Track</span>
+                <a href="/courses/financial-literacy/" class="btn btn-sm btn-primary">Start Course</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Guides Section -->
+    <section class="mb-5">
+      <div class="fl-section-header">
+        <h2 class="fl-section-title">
+          <i class="fas fa-book-open text-success"></i> Popular Technical Guides
+        </h2>
+        <a href="/guides/" class="text-decoration-none fw-semibold small">All Guides <i class="fas fa-arrow-right ms-1"></i></a>
+      </div>
+      <div class="row g-4">
+        {{- $guides := where (where .Site.RegularPages "Section" "guides") "Params.metaRobots" "ne" "noindex, nofollow" }}
+        {{- range first 6 $guides }}
+        <div class="col-lg-4 col-md-6">
+          <div class="fl-card fl-card-guide">
+            <div class="fl-card-body">
+              <span class="fl-card-tag fl-card-tag-guide">{{ default "Guide" (index .Params.categories 0) }}</span>
+              <h3 class="fl-card-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h3>
+              <p class="fl-card-desc">
+                {{ default (.Summary | plainify | truncate 120) .Params.description }}
+              </p>
+              <div class="fl-card-footer">
+                <span><i class="far fa-clock me-1"></i> {{ .ReadingTime }} min read</span>
+                <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold text-success small">Read Guide <i class="fas fa-chevron-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </section>
+
+    <!-- 5. Practice & Interview Questions -->
+    <section class="mb-5">
+      <div class="fl-section-header">
+        <h2 class="fl-section-title">
+          <i class="fas fa-code text-warning"></i> Practice & Interview Challenges
+        </h2>
+        <a href="/practice/" class="text-decoration-none fw-semibold small">Explore All Practice <i class="fas fa-arrow-right ms-1"></i></a>
+      </div>
+      <div class="row g-4">
+        {{- $practice := where (where .Site.RegularPages "Section" "practice") "Params.metaRobots" "ne" "noindex, nofollow" }}
+        {{- range first 6 $practice }}
+        <div class="col-lg-4 col-md-6">
+          <div class="fl-card fl-card-practice">
+            <div class="fl-card-body">
+              <span class="fl-card-tag fl-card-tag-practice">Q&A Challenge</span>
+              <h3 class="fl-card-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h3>
+              <p class="fl-card-desc">
+                {{ default (.Summary | plainify | truncate 120) .Params.description }}
+              </p>
+              <div class="fl-card-footer">
+                <span><i class="fas fa-terminal me-1"></i> Hands-on</span>
+                <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold text-warning small">Solve & Learn <i class="fas fa-chevron-right ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </section>
+
+  </div>
+</div>
+{{ end }}

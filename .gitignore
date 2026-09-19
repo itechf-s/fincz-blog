@@ -26,7 +26,6 @@ resources/sunset.jpg
 vendor
 node_modules/
 public/
-*.html
 .hugo_build.lock
 package-lock.json
 */_gen/

@@ -66,6 +66,7 @@ pinnedPostCount: 3 # The number of pinned posts.
 
 # Custom CSS and JS
 customCSS:
+  - css/custom.css
 customJS:
 
 tocWordCount: 1 # TOC is displayed only if the post's word count exceeds this value.
