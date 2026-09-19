@@ -1,6 +1,2 @@
-baseURL: ""
+baseURL: "https://learn.fincz.com/"
 googleAnalytics: G-PQYJ3GVSRZ
-
-# services:
-#   googleAnalytics:
-#     ID: G-123456

@@ -7,6 +7,11 @@ date: 2026-08-27T18:30:00+05:30
 lastmod: 2026-09-13T16:30:00+05:30
 images: ["images/2026/08/house-construction-guide.webp"]
 author: ahmad
+metaRobots: "noindex, nofollow"
+sitemap:
+  disable: true
+aliases:
+  - "/house-construction-guide-and-staircase-plan/"
 ---
 
 यह नोट इसलिए तैयार किया है ताकि ठेकेदार या मिस्त्री कोई भी जरूरी काम जल्दबाजी में न छोड़ें और घर मजबूत व सुरक्षित बने।

@@ -1,28 +1,20 @@
-baseURL: https://Fincz.com
-title: Fincz Finance Blog
+baseURL: "https://learn.fincz.com/"
+title: "Fincz Learn"
 theme: hugo-theme-bootstrap
-copyright: Copyright © 2020-{year} Fincz. All Rights Reserved.
+copyright: Copyright © 2020-{year} Fincz Learn. All Rights Reserved.
 
 # Multilingual mode
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-#disableLanguages:
-#  - fr
-#  - zh-cn
-#  - zh-tw
 
 pagination:
   pagerSize: 10
-
-# Disqus
-# disqusShortname: yourdiscussshortname
 
 # Google Analytics
 googleAnalytics: G-PQYJ3GVSRZ
 
 enableRobotsTXT: true
 enableEmoji: true
-# hasCJKLanguage: true
 
 pygmentsUseClasses: true
 
@@ -52,13 +44,11 @@ taxonomies:
   series: series
   tag: tags
 
-# sitemap:
-#   changefreq: monthly
-#   filename: sitemap.xml
-#   priority: 0.5
-
 permalinks:
-  posts: /:contentbasename/
+  guides: /guides/:slug/
+  practice: /practice/:slug/
+  notes: /notes/:slug/
+  posts: /:slug/
 
 markup:
   goldmark:

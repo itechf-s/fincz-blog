@@ -1,23 +1,14 @@
 mainSections:
-  - blog
-  - posts
-  - news
+  - courses
+  - guides
+  - practice
 
-description: Fincz Finance Blog
-keywords: Share Market, Financial Calculator
+description: "Fincz Learn — Free & Structured Developer Courses, AI Engineering Guides, and Practice Tracks"
+keywords: "Programming Courses, AI Engineering, MCP, Claude Code, Java Tutorials, Coding Practice, Technical Interview QnA"
 
 logo: images/fincz-logo-black.png
 
-# images:
-#   - site-feature-image.jpg
-
-# metaRobots: noindex, nofollow # Default value for Meta Tag robots
-# metaRobots:  # disable Meta Tag robots
-
-# logo: images/logo.png # Logo image. Default to images/logo.webp.
-# logo: false # Disable Logo
-
-brand: Fincz
+brand: "Fincz Learn"
 palette: blue # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:

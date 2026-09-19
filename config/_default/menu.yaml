@@ -1,13 +1,54 @@
 main:
+  - name: "Courses"
+    identifier: "courses"
+    weight: 1
+    pre: '<i class="fas fa-fw fa-graduation-cap"></i>'
+    url: "/courses/"
+
+  - name: "Guides"
+    identifier: "guides"
+    weight: 2
+    pre: '<i class="fas fa-fw fa-book-open"></i>'
+    url: "/guides/"
+
+  - name: "Practice"
+    identifier: "practice"
+    weight: 3
+    pre: '<i class="fas fa-fw fa-code"></i>'
+    url: "/practice/"
+
   - name: "Tools"
-    identifier: "Tools"
-    pre: '<i class="fas fa-fw fa-chevron-circle-up"></i>'
-    url: "/categories/tools/"
+    identifier: "tools"
+    weight: 4
+    pre: '<i class="fas fa-fw fa-calculator"></i>'
+    url: "/tools/"
 
 footer:
+  - identifier: "learning-tracks"
+    name: "Learning Tracks"
+    weight: 1
+
+  - identifier: "footer-courses"
+    name: "Courses"
+    url: "/courses/"
+    parent: "learning-tracks"
+    weight: 1
+
+  - identifier: "footer-guides"
+    name: "Technical Guides"
+    url: "/guides/"
+    parent: "learning-tracks"
+    weight: 2
+
+  - identifier: "footer-practice"
+    name: "Practice & Q&A"
+    url: "/practice/"
+    parent: "learning-tracks"
+    weight: 3
+
   - identifier: "quick-links"
     name: "Quick Links"
-    weight: 1
+    weight: 2
 
   - identifier: "home"
     name: "Home"
@@ -28,8 +69,8 @@ footer:
     weight: 3
 
   - identifier: "others-links"
-    name: "Others Links"
-    weight: 2
+    name: "Legal & Privacy"
+    weight: 3
 
   - identifier: "privacy-policy"
     name: "Privacy Policy"
@@ -38,7 +79,7 @@ footer:
     weight: 1
 
   - identifier: "copy-right"
-    name: "Copy Right"
+    name: "Copyright"
     url: "/copy-right/"
     parent: "others-links"
     weight: 2
@@ -48,25 +89,3 @@ footer:
     url: "/terms-and-conditions/"
     parent: "others-links"
     weight: 3
-
-  - identifier: "amazon affiliate disclosure"
-    name: "Amazon Affiliate Disclosure"
-    url: "/amazon-affiliate-disclosure/"
-    parent: "others-links"
-    weight: 4
-
-  - identifier: "favorite-sites"
-    name: "Favorite Sites"
-    weight: 3
-
-  - identifier: "theislah"
-    name: "Theislah"
-    url: "https://theislah.com"
-    parent: "favorite-sites"
-    weight: 1
-
-  - identifier: "bestrani"
-    name: "Bestrani"
-    url: "https://bestrani.com"
-    parent: "favorite-sites"
-    weight: 2
