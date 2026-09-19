@@ -1,21 +1,92 @@
-{{- $enableFooterSwitches := .Store.Get "enableFooterSwitches" | default false -}}
-{{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
-{{- $footerSwitchesVisible := and $enableFooterSwitches (or hugo.IsMultilingual $displayThemeToggle) -}}
-
-<footer class="hextra-footer hx:bg-gray-50 hx:dark:bg-neutral-900/80 hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:pb-[env(safe-area-inset-bottom)] hx:print:bg-transparent">
-  <div class="hextra-custom-footer hextra-max-footer-width hx:mx-auto hx:px-6 hx:py-12">
-    {{- partial "custom/footer.html" . -}}
-    
-    <div class="hx:mt-12 hx:pt-6 hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:flex hx:flex-col hx:sm:flex-row hx:items-center hx:justify-between hx:gap-4 hx:text-xs hx:text-gray-500 hx:dark:text-gray-400">
-      <div>
-        © {{ now.Format "2006" }} Fincz Learn. All rights reserved.
+<footer class="relative border-t border-gray-200 dark:border-neutral-800 bg-gray-50/50 dark:bg-neutral-900/50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12">
+      
+      <!-- Brand column -->
+      <div class="md:col-span-4 lg:col-span-4">
+        <a class="inline-flex items-center gap-2 mb-4" href="/">
+          <img src="/images/fincz-logo-black.png" alt="Fincz logo" width="110" height="39" class="dark:hidden" />
+          <img src="/images/fincz-logo-white.png" alt="Fincz logo" width="110" height="39" class="hidden dark:block" />
+        </a>
+        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
+          Fincz Learn — Free & structured developer courses, modern AI engineering guides, and scenario-based coding challenges.
+        </p>
+        <div class="text-xs text-gray-500 dark:text-gray-400 flex flex-wrap gap-x-2 gap-y-1">
+          <a href="https://theislah.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Theislah.com</a>
+          <span>·</span>
+          <a href="https://theislah.com/tools/zakat-calculator/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Zakat Calculator</a>
+          <span>·</span>
+          <a href="https://fincz.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Fincz.com</a>
+        </div>
       </div>
-      <div class="hx:flex hx:items-center hx:gap-3">
-        <a href="/privacy-policy/" class="hx:hover:underline">Privacy</a>
-        <span>•</span>
-        <a href="/terms-and-conditions/" class="hx:hover:underline">Terms</a>
-        <span>•</span>
-        <a href="/contact/" class="hx:hover:underline">Support</a>
+
+      <!-- Links column 1: Learning Tracks -->
+      <div class="col-span-1 md:col-span-2 lg:col-span-2">
+        <div class="text-sm font-semibold text-gray-900 dark:text-gray-100 tracking-wider uppercase mb-3">Courses</div>
+        <ul class="space-y-2.5 text-sm">
+          <li>
+            <a href="/courses/claude-code/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Claude Code</a>
+          </li>
+          <li>
+            <a href="/courses/java-beginner/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Java Masterclass</a>
+          </li>
+          <li>
+            <a href="/courses/financial-literacy/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Financial Literacy</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Links column 2: Guides -->
+      <div class="col-span-1 md:col-span-3 lg:col-span-3">
+        <div class="text-sm font-semibold text-gray-900 dark:text-gray-100 tracking-wider uppercase mb-3">Technical Guides</div>
+        <ul class="space-y-2.5 text-sm">
+          <li>
+            <a href="/guides/mcp-server-complete-guide/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">MCP Server Architecture</a>
+          </li>
+          <li>
+            <a href="/guides/google-antigravity-complete-guide/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Google Antigravity CLI</a>
+          </li>
+          <li>
+            <a href="/guides/semantic-search-and-vector-db-guide/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Vector Databases & Search</a>
+          </li>
+          <li>
+            <a href="/guides/prompt-engineering-and-responsible-ai/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Prompt Engineering</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Links column 3: Quick Links & Legal -->
+      <div class="col-span-1 md:col-span-3 lg:col-span-3">
+        <div class="text-sm font-semibold text-gray-900 dark:text-gray-100 tracking-wider uppercase mb-3">Quick Links</div>
+        <ul class="space-y-2.5 text-sm">
+          <li>
+            <a href="/about/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
+          </li>
+          <li>
+            <a href="/contact/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+          </li>
+          <li>
+            <a href="/privacy-policy/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/terms-and-conditions/" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="mt-12 pt-6 border-t border-gray-200 dark:border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500 dark:text-gray-400">
+      <div>
+        Copyright © {{ now.Format "2006" }} fincz · All rights reserved.
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="/rss.xml" class="hover:text-blue-600 dark:hover:text-blue-400">RSS</a>
+        <span>·</span>
+        <a href="https://twitter.com/fincz1" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400">Twitter</a>
+        <span>·</span>
+        <a href="https://facebook.com/Share-Market-123554999895949" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 dark:hover:text-blue-400">Facebook</a>
       </div>
     </div>
   </div>
