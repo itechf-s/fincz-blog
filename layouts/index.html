@@ -1,175 +1,143 @@
 {{ define "content" }}
-<div class="col-12">
-  <div class="container px-0">
+<div class="col-12 px-0">
 
-    <!-- 1. Hero Section -->
-    <section class="fl-hero mb-5">
-      <div class="row align-items-center">
-        <div class="col-lg-8">
-          <div class="fl-hero-badge">
-            <i class="fas fa-sparkles"></i> Modern Learning Platform
-          </div>
-          <h1 class="fl-hero-title">
-            Master AI Engineering, Agentic Coding & Systems
-          </h1>
-          <p class="fl-hero-desc">
-            Production-ready, practical courses, step-by-step architectural guides, and scenario-based interview challenges designed to level up your engineering skills.
-          </p>
-          <div class="d-flex flex-wrap gap-3 mb-4">
-            <a href="/courses/" class="btn btn-primary btn-lg px-4 py-2 fw-semibold">
-              <i class="fas fa-graduation-cap me-2"></i> Explore Courses
-            </a>
-            <a href="/guides/" class="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold">
-              <i class="fas fa-book-open me-2"></i> Read Guides
-            </a>
-            <a href="/practice/" class="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold">
-              <i class="fas fa-code me-2"></i> Practice Q&A
-            </a>
-          </div>
-          <div class="d-flex flex-wrap gap-2 pt-2">
-            <span class="fl-pill-badge"><i class="fas fa-robot text-primary"></i> Claude Code & Agentic Dev</span>
-            <span class="fl-pill-badge"><i class="fas fa-network-wired text-success"></i> Model Context Protocol (MCP)</span>
-            <span class="fl-pill-badge"><i class="fas fa-cubes text-info"></i> Vector DBs & LangChain</span>
-            <span class="fl-pill-badge"><i class="fab fa-java text-danger"></i> Java & Backend Architecture</span>
-          </div>
+  <!-- 1. Hero Section -->
+  <section class="fl-hero-clean">
+    <div class="fl-badge-pill">
+      <i class="fa-solid fa-sparkles text-primary me-1"></i> Developer & AI Learning Platform
+    </div>
+    <h1 class="fl-hero-heading">
+      Master <span class="fl-hero-gradient-text">Modern AI Engineering</span> & Backend Systems
+    </h1>
+    <p class="fl-hero-subtitle">
+      Zero fluff, structured hands-on courses, architectural deep-dives, and production scenario challenges built for engineers.
+    </p>
+    <div class="fl-cta-group">
+      <a href="/courses/" class="fl-btn-primary">
+        <i class="fa-solid fa-graduation-cap"></i> Browse Courses
+      </a>
+      <a href="/guides/" class="fl-btn-outline">
+        <i class="fa-solid fa-book-open"></i> Technical Guides
+      </a>
+      <a href="/practice/" class="fl-btn-outline">
+        <i class="fa-solid fa-code"></i> Practice Q&A
+      </a>
+    </div>
+  </section>
+
+  <div class="container" style="max-width: 1200px;">
+
+    <!-- 2. Featured Courses -->
+    <section class="fl-section-wrap">
+      <div class="fl-head-row">
+        <div>
+          <div class="fl-title-tag">Structured Curriculums</div>
+          <h2 class="fl-main-title">Featured Courses</h2>
         </div>
-        <div class="col-lg-4 d-none d-lg-block text-center">
-          <div class="p-4 rounded-4 bg-body-tertiary border shadow-sm">
-            <i class="fas fa-laptop-code fa-4x text-primary mb-3"></i>
-            <h5 class="fw-bold mb-2">Hands-On & Practical</h5>
-            <p class="small text-muted mb-0">100% focused on real terminal commands, clean code, real architecture, and actionable workflows.</p>
-          </div>
-        </div>
+        <a href="/courses/" class="fl-view-all">
+          View All Courses <i class="fa-solid fa-arrow-right"></i>
+        </a>
       </div>
-    </section>
 
-    <!-- 2. Pillars Quick Overview -->
-    <section class="mb-5">
       <div class="row g-4">
-        <div class="col-md-4">
-          <div class="fl-pillar-banner h-100">
-            <div class="fl-pillar-icon fl-icon-courses">
-              <i class="fas fa-graduation-cap"></i>
+        <!-- Claude Code Course -->
+        <div class="col-lg-4 col-md-6">
+          <div class="fl-course-card">
+            <div class="fl-course-icon-wrap">
+              <i class="fa-solid fa-robot"></i>
             </div>
-            <h4 class="fw-bold mb-2">Structured Courses</h4>
-            <p class="text-muted small mb-3">Multi-module curriculum with hands-on projects, exercises, and architectural walk-throughs.</p>
-            <a href="/courses/" class="text-decoration-none fw-semibold small text-primary">Browse All Courses <i class="fas fa-arrow-right ms-1"></i></a>
+            <div class="fl-course-meta-top">
+              <span class="fl-course-badge">7 Modules</span>
+              <span><i class="fa-regular fa-clock me-1"></i> Comprehensive</span>
+            </div>
+            <h3 class="fl-course-title">
+              <a href="/courses/claude-code/">Claude Code: Master Course (Zero to Pro)</a>
+            </h3>
+            <p class="fl-course-desc">
+              Master terminal-based AI agentic coding, context window optimization, CLAUDE.md memory, custom skills, and production SaaS projects.
+            </p>
+            <div class="fl-course-footer">
+              <span class="fw-semibold text-primary small">Free & Open Access</span>
+              <a href="/courses/claude-code/" class="btn btn-sm btn-primary px-3 rounded-pill">Start Learning</a>
+            </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="fl-pillar-banner h-100">
-            <div class="fl-pillar-icon fl-icon-guides">
-              <i class="fas fa-book-open"></i>
-            </div>
-            <h4 class="fw-bold mb-2">Evergreen Guides</h4>
-            <p class="text-muted small mb-3">Deep-dive technical guides on AI, MCP Servers, Google Antigravity, Prompt Engineering, and Cloud.</p>
-            <a href="/guides/" class="text-decoration-none fw-semibold small text-success">Read Guides <i class="fas fa-arrow-right ms-1"></i></a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="fl-pillar-banner h-100">
-            <div class="fl-pillar-icon fl-icon-practice">
-              <i class="fas fa-code"></i>
-            </div>
-            <h4 class="fw-bold mb-2">Practice & Challenges</h4>
-            <p class="text-muted small mb-3">Real-world interview questions, scenario questions, system design problems, and coding exercises.</p>
-            <a href="/practice/" class="text-decoration-none fw-semibold small text-warning">Start Practice <i class="fas fa-arrow-right ms-1"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- 3. Featured Courses Section -->
-    <section class="mb-5">
-      <div class="fl-section-header">
-        <h2 class="fl-section-title">
-          <i class="fas fa-graduation-cap text-primary"></i> Featured Courses
-        </h2>
-        <a href="/courses/" class="text-decoration-none fw-semibold small">View All Courses <i class="fas fa-arrow-right ms-1"></i></a>
-      </div>
-      <div class="row g-4">
-        <!-- Claude Code Course Card -->
+        <!-- Java Backend Course -->
         <div class="col-lg-4 col-md-6">
-          <div class="fl-card fl-card-course">
-            <div class="fl-card-body">
-              <span class="fl-card-tag fl-card-tag-course">7 Modules • Comprehensive</span>
-              <h3 class="fl-card-title">
-                <a href="/courses/claude-code/">Claude Code: Master Course (Zero to Pro)</a>
-              </h3>
-              <p class="fl-card-desc">
-                Terminal-based AI agentic coding, context management, memory (CLAUDE.md), custom skills, MCP integration aur live SaaS projects.
-              </p>
-              <div class="fl-card-footer">
-                <span><i class="fas fa-layer-group me-1"></i> 7 Modules</span>
-                <a href="/courses/claude-code/" class="btn btn-sm btn-primary">Start Course</a>
-              </div>
+          <div class="fl-course-card">
+            <div class="fl-course-icon-wrap" style="color: #ea580c; background: rgba(234, 88, 12, 0.1); border-color: rgba(234, 88, 12, 0.2);">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <div class="fl-course-meta-top">
+              <span class="fl-course-badge" style="background: rgba(234, 88, 12, 0.1); color: #ea580c;">Core & OOPs</span>
+              <span><i class="fa-regular fa-clock me-1"></i> Foundation</span>
+            </div>
+            <h3 class="fl-course-title">
+              <a href="/courses/java-beginner/">Java Beginner to Pro Masterclass</a>
+            </h3>
+            <p class="fl-course-desc">
+              In-depth core Java, OOPs design principles, collections framework, exception handling, and enterprise backend engineering.
+            </p>
+            <div class="fl-course-footer">
+              <span class="fw-semibold text-primary small">Free & Open Access</span>
+              <a href="/courses/java-beginner/" class="btn btn-sm btn-primary px-3 rounded-pill">Start Learning</a>
             </div>
           </div>
         </div>
-        <!-- Java Beginner Course Card -->
+
+        <!-- Financial Literacy Course -->
         <div class="col-lg-4 col-md-6">
-          <div class="fl-card fl-card-course">
-            <div class="fl-card-body">
-              <span class="fl-card-tag fl-card-tag-course">Foundational • Backend</span>
-              <h3 class="fl-card-title">
-                <a href="/courses/java-beginner/">Java Beginner to Pro Masterclass</a>
-              </h3>
-              <p class="fl-card-desc">
-                Core Java fundamentals, OOPs principles, collections framework, exception handling, and enterprise backend best practices.
-              </p>
-              <div class="fl-card-footer">
-                <span><i class="fas fa-layer-group me-1"></i> Full Track</span>
-                <a href="/courses/java-beginner/" class="btn btn-sm btn-primary">Start Course</a>
-              </div>
+          <div class="fl-course-card">
+            <div class="fl-course-icon-wrap" style="color: #059669; background: rgba(5, 150, 105, 0.1); border-color: rgba(5, 150, 105, 0.2);">
+              <i class="fa-solid fa-chart-line"></i>
             </div>
-          </div>
-        </div>
-        <!-- Financial Literacy Course Card -->
-        <div class="col-lg-4 col-md-6">
-          <div class="fl-card fl-card-course">
-            <div class="fl-card-body">
-              <span class="fl-card-tag fl-card-tag-course">Practical Guide • Finance</span>
-              <h3 class="fl-card-title">
-                <a href="/courses/financial-literacy/">Financial Literacy & Wealth Building</a>
-              </h3>
-              <p class="fl-card-desc">
-                Smart investing, compounding, tax-saving strategies, mutual funds, and long-term financial security principles.
-              </p>
-              <div class="fl-card-footer">
-                <span><i class="fas fa-layer-group me-1"></i> Full Track</span>
-                <a href="/courses/financial-literacy/" class="btn btn-sm btn-primary">Start Course</a>
-              </div>
+            <div class="fl-course-meta-top">
+              <span class="fl-course-badge" style="background: rgba(5, 150, 105, 0.1); color: #059669;">Finance & Wealth</span>
+              <span><i class="fa-regular fa-clock me-1"></i> Practical</span>
+            </div>
+            <h3 class="fl-course-title">
+              <a href="/courses/financial-literacy/">Financial Literacy & Wealth Building</a>
+            </h3>
+            <p class="fl-course-desc">
+              Smart investing, compounding mechanics, mutual funds, tax-saving blueprints, and long-term financial security planning.
+            </p>
+            <div class="fl-course-footer">
+              <span class="fw-semibold text-primary small">Free & Open Access</span>
+              <a href="/courses/financial-literacy/" class="btn btn-sm btn-primary px-3 rounded-pill">Start Learning</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. Featured Guides Section -->
-    <section class="mb-5">
-      <div class="fl-section-header">
-        <h2 class="fl-section-title">
-          <i class="fas fa-book-open text-success"></i> Popular Technical Guides
-        </h2>
-        <a href="/guides/" class="text-decoration-none fw-semibold small">All Guides <i class="fas fa-arrow-right ms-1"></i></a>
+    <!-- 3. Popular Guides -->
+    <section class="fl-section-wrap">
+      <div class="fl-head-row">
+        <div>
+          <div class="fl-title-tag">Evergreen Knowledge</div>
+          <h2 class="fl-main-title">Popular Technical Guides</h2>
+        </div>
+        <a href="/guides/" class="fl-view-all">
+          All Guides <i class="fa-solid fa-arrow-right"></i>
+        </a>
       </div>
+
       <div class="row g-4">
         {{- $guides := where (where .Site.RegularPages "Section" "guides") "Params.metaRobots" "ne" "noindex, nofollow" }}
         {{- range first 6 $guides }}
         <div class="col-lg-4 col-md-6">
-          <div class="fl-card fl-card-guide">
-            <div class="fl-card-body">
-              <span class="fl-card-tag fl-card-tag-guide">{{ default "Guide" (index .Params.categories 0) }}</span>
-              <h3 class="fl-card-title">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </h3>
-              <p class="fl-card-desc">
-                {{ default (.Summary | plainify | truncate 120) .Params.description }}
-              </p>
-              <div class="fl-card-footer">
-                <span><i class="far fa-clock me-1"></i> {{ .ReadingTime }} min read</span>
-                <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold text-success small">Read Guide <i class="fas fa-chevron-right ms-1"></i></a>
-              </div>
+          <div class="fl-item-card">
+            <span class="fl-item-tag fl-item-tag-guide">{{ default "Guide" (index .Params.categories 0) }}</span>
+            <h3 class="fl-item-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <p class="fl-item-desc">
+              {{ default (.Summary | plainify | truncate 110) .Params.description }}
+            </p>
+            <div class="fl-item-footer">
+              <span><i class="fa-regular fa-clock me-1"></i> {{ .ReadingTime }} min read</span>
+              <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold text-success small">Read Guide <i class="fa-solid fa-chevron-right ms-1"></i></a>
             </div>
           </div>
         </div>
@@ -177,31 +145,33 @@
       </div>
     </section>
 
-    <!-- 5. Practice & Interview Questions -->
-    <section class="mb-5">
-      <div class="fl-section-header">
-        <h2 class="fl-section-title">
-          <i class="fas fa-code text-warning"></i> Practice & Interview Challenges
-        </h2>
-        <a href="/practice/" class="text-decoration-none fw-semibold small">Explore All Practice <i class="fas fa-arrow-right ms-1"></i></a>
+    <!-- 4. Practice Challenges & Q&A -->
+    <section class="fl-section-wrap mb-5">
+      <div class="fl-head-row">
+        <div>
+          <div class="fl-title-tag">Hands-on Problem Solving</div>
+          <h2 class="fl-main-title">Practice & Interview Challenges</h2>
+        </div>
+        <a href="/practice/" class="fl-view-all">
+          Explore Practice <i class="fa-solid fa-arrow-right"></i>
+        </a>
       </div>
+
       <div class="row g-4">
         {{- $practice := where (where .Site.RegularPages "Section" "practice") "Params.metaRobots" "ne" "noindex, nofollow" }}
         {{- range first 6 $practice }}
         <div class="col-lg-4 col-md-6">
-          <div class="fl-card fl-card-practice">
-            <div class="fl-card-body">
-              <span class="fl-card-tag fl-card-tag-practice">Q&A Challenge</span>
-              <h3 class="fl-card-title">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-              </h3>
-              <p class="fl-card-desc">
-                {{ default (.Summary | plainify | truncate 120) .Params.description }}
-              </p>
-              <div class="fl-card-footer">
-                <span><i class="fas fa-terminal me-1"></i> Hands-on</span>
-                <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold text-warning small">Solve & Learn <i class="fas fa-chevron-right ms-1"></i></a>
-              </div>
+          <div class="fl-item-card">
+            <span class="fl-item-tag fl-item-tag-practice">Q&A Challenge</span>
+            <h3 class="fl-item-title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            <p class="fl-item-desc">
+              {{ default (.Summary | plainify | truncate 110) .Params.description }}
+            </p>
+            <div class="fl-item-footer">
+              <span><i class="fa-solid fa-terminal me-1"></i> Hands-on</span>
+              <a href="{{ .RelPermalink }}" class="text-decoration-none fw-semibold text-warning small">Solve & Review <i class="fa-solid fa-chevron-right ms-1"></i></a>
             </div>
           </div>
         </div>
