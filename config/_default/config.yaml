@@ -38,6 +38,10 @@ menu:
       weight: 4
       params:
         type: search
+    - name: Theme
+      weight: 5
+      params:
+        type: theme-toggle
 
 params:
   description: "Fincz Learn — Free & Structured Developer Courses, AI Engineering Guides, and Practice Tracks"
@@ -54,7 +58,7 @@ params:
 
   theme:
     default: system
-    displayToggle: true
+    displayToggle: false
 
   footer:
     enable: true
