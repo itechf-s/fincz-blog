@@ -18,16 +18,13 @@ layout: hextra-home
     Production-grade hands-on courses, architectural deep-dives, and scenario-based interview challenges designed for software engineers.
   </p>
 
-  <div class="hx:flex hx:flex-wrap hx:justify-center hx:gap-3.5 hx:mb-10">
-    <a href="/courses/" class="fl-btn-primary">
+  <div class="hx:flex hx:flex-wrap hx:justify-center hx:gap-3.5 hx:mb-8">
+    <a href="/courses/" style="background-color: #2563eb; color: #ffffff; margin-right: 0.75rem;" class="fl-btn-primary hx:inline-flex hx:items-center hx:justify-center hx:gap-2 hx:rounded-lg hx:px-5 hx:py-3 hx:font-bold hx:shadow-md hx:transition-colors hx:hover:bg-blue-700 hx:dark:bg-blue-500 hx:dark:hover:bg-blue-400">
       <span>Explore Courses</span>
       <svg class="hx:w-4 hx:h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path></svg>
     </a>
-    <a href="/guides/" class="fl-btn-secondary">
+    <a href="/guides/" class="fl-btn-secondary hx:inline-flex hx:items-center hx:justify-center hx:rounded-lg hx:border hx:border-gray-300 hx:px-5 hx:py-3 hx:font-semibold hx:text-gray-800 hx:transition-colors hx:hover:bg-gray-100 hx:dark:border-neutral-700 hx:dark:text-gray-100 hx:dark:hover:bg-neutral-800">
       <span>Technical Guides</span>
-    </a>
-    <a href="/practice/" class="fl-btn-secondary">
-      <span>Practice Challenges</span>
     </a>
   </div>
 
@@ -38,7 +35,7 @@ layout: hextra-home
     <span class="hx:text-xs hx:font-bold hx:uppercase hx:tracking-wider hx:text-blue-600 hx:dark:text-blue-400">Featured Tracks</span>
     <h2 class="hx:text-xl hx:md:text-2xl hx:font-extrabold hx:tracking-tight hx:mt-0.5">Start Learning</h2>
   </div>
-  <a href="/courses/" class="hx:text-sm hx:font-bold hx:text-blue-600 hx:dark:text-blue-400 hx:hover:underline">View all tracks →</a>
+  <a href="/courses/" class="hx:text-sm hx:font-bold hx:text-blue-600 hx:dark:text-blue-400 hx:hover:underline">View all courses →</a>
 </div>
 
 {{< hextra/feature-grid >}}

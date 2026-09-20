@@ -34,6 +34,22 @@
     margin-bottom: 1.25rem !important;
   }
 
+  main#content > h1 {
+    max-width: 52rem;
+    margin: 0.5rem auto 1.5rem !important;
+    font-size: clamp(1.8rem, 4vw, 2.75rem) !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.025em !important;
+    line-height: 1.2 !important;
+    text-wrap: balance;
+  }
+
+  main#content > .content {
+    max-width: 48rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .content h2 {
     font-size: clamp(1.35rem, 2.5vw, 1.7rem) !important;
     font-weight: 750 !important;
@@ -175,6 +191,12 @@
   }
   .dark .fl-btn-secondary:hover {
     background: rgba(255, 255, 255, 0.08);
+  }
+
+  .fl-btn-primary:focus-visible,
+  .fl-btn-secondary:focus-visible {
+    outline: 3px solid rgba(1, 97, 239, 0.35) !important;
+    outline-offset: 3px !important;
   }
 
   /* Custom Responsive Footer Grid */
