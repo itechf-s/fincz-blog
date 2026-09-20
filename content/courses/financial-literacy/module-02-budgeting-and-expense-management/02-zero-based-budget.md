@@ -1,8 +1,8 @@
 ---
-title: "2.2 Zero-Based Budget (ZBB)"
+title: "2.2 Zero-Based Budget"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Zero-Based Budgeting का फॉर्मूला और हर रुपये का सही आवंटन।"
+tags: [Budgeting, MoneyManagement, PersonalFinance]
+description: "ज़ीरो-बेस्ड बजटिंग (Zero-Based Budget) क्या है और हर एक रुपये को काम पर कैसे लगाएं।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,19 +10,61 @@ type: docs
 weight: 2
 ---
 
-## 🎯 **Objective**
-- **Zero-Based Budget (ZBB)** क्या है: हर एक रुपये को महीने के शुरू में ही काम सौंपना।
-- $\text{Income} - \text{Assigned Expenses} = ₹0$ का संतुलन।
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
+- **Zero-Based Budgeting (ZBB)** का मतलब और काम करने का तरीका समझना।
+- "Income minus Expenses = Zero" का सही गणित जानना।
+- अपनी कमाई के हर एक रुपये को एक तय काम (Job) सौंपना।
+
+---
+
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+अगर आप किसी दफ्तर के मैनेजर हैं और आपके पास 50 कर्मचारी हैं, लेकिन आपने 10 लोगों को कोई काम नहीं सौंपा, तो वो दिन भर खाली बैठकर गपशप करेंगे और दफ्तर का माहौल खराब करेंगे। 
+ज़ीरो-बेस्ड बजट में आपकी सैलरी का हर एक रुपया आपका कर्मचारी है। 
+आपको महीने की शुरुआत में ही हर रुपये को काम सौंपना है—चाहे वो राशन का काम हो, बिल भरने का काम हो या SIP में दौलत बनाने का काम हो।
+
+---
+
+## 📖 **ज़रूरी अल्फ़ाज़ और मतलब (Glossary)**
+
+| लफ़्ज़ (Term) | आसान मतलब (Simple Meaning) |
+| :--- | :--- |
+| **Zero-Based Budget** | ऐसा बजट जहाँ (कुल आमदनी - कुल खर्चे व बचत) = ₹0 हो। इसका मतलब खाता खाली करना नहीं, बल्कि हर रुपये का हिसाब तय करना है। |
+| **Sinking Fund** | भविष्य के किसी तय बड़े खर्च के लिए हर महीने थोड़ा-थोड़ा पैसा अलग जमा करना (जैसे: कार इंश्योरेंस का सालाना प्रीमियम)। |
+| **Category Envelopes** | अलग-अलग खर्चों के लिए डिजिटल या फिजिकल लिफाफे बनाना। |
+
+---
+
+## 📊 **Zero-Based Budget का प्रैक्टिकल उदाहरण (₹50,000 सैलरी)**
 
 ```text
-  Total Monthly Income: ₹60,000
-  ├── Needs (Rent, Grocery, Bills): ₹30,000 (50%)
-  ├── Investments (SIP, PPF, Gold): ₹18,000 (30%)
-  └── Guilt-Free Spending (Wants): ₹12,000 (20%)
-  Total Left Unassigned: ₹0
+  कुल इन-हैंड सैलरी: ₹50,000
+  ──────────────────────────────────────────
+  1. घर का किराया व मेंटेनेंस    :  ₹12,000
+  2. राशन व ग्रोसरी             :   ₹8,000
+  3. यूटिलिटी बिल्स (बिजली, WiFi):   ₹3,000
+  4. इमरजेंसी फंड (Sinking Fund):   ₹5,000
+  5. म्यूचुअल फंड SIP (इन्वेस्टमेंट) :  ₹10,000
+  6. बच्चों की फीस / पढ़ाई       :   ₹5,000
+  7. घूमना-फिरना व बाहर खाना    :   ₹4,500
+  8. मिसलेनियस / बफ़र कैश        :   ₹2,500
+  ──────────────────────────────────────────
+  बचा हुआ बैलेंस                :      ₹0  (हर रुपये को काम मिल गया!)
 ```
+
+---
+
+## ⚠️ **आम गलतियाँ और काम के टिप्स**
+- ❌ **"ज़ीरो बैलेंस" का गलत मतलब निकालना**: इसका मतलब यह कतई नहीं है कि बैंक खाते में ₹0 छोड़ें, बल्कि इसका मतलब है कि कोई भी रुपया बिना मकसद के लावारिस न पड़ा रहे।
+- ❌ **मिसलेनियस बफ़र न रखना**: अप्रत्याशित छोटे खर्चों के लिए ₹2,000-₹3,000 का बफ़र न रखने पर पूरा बजट गड़बड़ा जाता है।
+- 💡 **Pro Tip**: एक्सेल शीट या Notion में एक बार यह टेम्पलेट बना लें और महीने की 1 तारीख को सिर्फ नंबर्स अपडेट करें।
+
+---
+
+## 📝 **आज का आसान एक्शन प्लान**
+1. [ ] अपनी मासिक सैलरी को लेकर ऊपर दिए गए 8 हिस्सों में बांटें और देखें कि क्या जोड़ ₹0 आ रहा है।
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [2.1 Budgeting Fundamentals](/courses/financial-literacy/module-02-budgeting-and-expense-management/01-budgeting-fundamentals/)
-- **अगला Lesson ➡️**: [2.3 The 50-30-20 Budgeting Rule](/courses/financial-literacy/module-02-budgeting-and-expense-management/03-50-30-20-rule/)
+- **⬅️ पिछला Lesson**: [2.1 Why Budgeting Matters](/courses/financial-literacy/module-02-budgeting-and-expense-management/01-why-budgeting/)
+- **अगला Lesson ➡️**: [2.3 50/30/20 Rule](/courses/financial-literacy/module-02-budgeting-and-expense-management/03-50-30-20-rule/)

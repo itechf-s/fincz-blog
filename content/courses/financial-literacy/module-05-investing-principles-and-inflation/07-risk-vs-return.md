@@ -10,7 +10,7 @@ type: docs
 weight: 7
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - High Risk = High Return का सच।
 - रिस्क प्रोफाइलिंग (Conservative, Moderate, Aggressive) के अनुसार पोर्टफोलियो बनाना।
 ---

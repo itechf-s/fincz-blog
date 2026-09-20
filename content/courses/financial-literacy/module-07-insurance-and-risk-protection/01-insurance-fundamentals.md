@@ -10,7 +10,7 @@ type: docs
 weight: 1
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - बीमा क्या है और इसे कभी निवेश (Investment) क्यों नहीं समझना चाहिए।
 
 ---

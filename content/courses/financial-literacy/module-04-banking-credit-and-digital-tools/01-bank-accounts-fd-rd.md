@@ -1,8 +1,8 @@
 ---
-title: "4.1 Bank Accounts (Savings, Current, FD, RD)"
+title: "4.1 Bank Accounts, FD and RD"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "बैंक खातों के प्रकार और ऑटो-स्वीप फैसिलिटी का लाभ।"
+tags: [Banking, FixedDeposit, PersonalFinance]
+description: "सेविंग्स अकाउंट, करंट अकाउंट, FD और RD में क्या फ़र्क है? सही खाते का चुनाव कैसे करें।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,10 +10,56 @@ type: docs
 weight: 1
 ---
 
-## 🎯 **Objective**
-- Savings vs Current Account, Sweep-in FD और Recurring Deposit (RD) का उपयोग।
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
+- सेविंग्स अकाउंट, करंट अकाउंट, फिक्स्ड डिपॉजिट (FD) और रेकरिंग डिपॉजिट (RD) का फ़र्क समझना।
+- ऑटो-स्वीप (Auto-Sweep) फैसिलिटी का सही इस्तेमाल करके सेविंग्स पर ज़्यादा ब्याज पाना।
+- DICGC के ₹5 लाख इंश्योरेंस कवर की हकीकत जानना।
+
+---
+
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+सेविंग्स अकाउंट आपके घर में रखी पानी की सुराही की तरह है—जब प्यास लगे तुरंत पानी निकाल लें (लिक्विडिटी)। 
+FD उस बड़े पानी के ड्रम की तरह है जिसे सील कर दिया गया है ताकि 1-2 साल बाद ज़रूरत पड़ने पर ही खोला जाए। 
+और RD हर महीने एक-एक बाल्टी पानी भरकर ड्रम भरने जैसा है।
+
+---
+
+## 📖 **ज़रूरी अल्फ़ाज़ और मतलब (Glossary)**
+
+| लफ़्ज़ (Term) | आसान मतलब (Simple Meaning) |
+| :--- | :--- |
+| **Savings Account** | आम जनता के लिए बैंक खाता जहाँ रोज़मर्रा के लेन-देन और बचत रखी जाती है (2.7% - 3.5% ब्याज)। |
+| **Current Account** | व्यापारियों और बिजनेसमैन के लिए खाता जहाँ रोज़ाना असीमित लेन-देन होते हैं (कोई ब्याज नहीं मिलता)। |
+| **Fixed Deposit (FD)** | एकमुश्त रकम को तय समय (जैसे 1 या 3 साल) के लिए फिक्स ब्याज पर जमा करना। |
+| **Recurring Deposit (RD)** | हर महीने एक तय रकम (जैसे ₹2,000/माह) 1 से 5 साल तक नियमित जमा करना। |
+| **DICGC Insurance** | RBI की गारंटी—अगर बैंक दिवालिया हो जाए, तो आपके ₹5 लाख तक (मूलधन + ब्याज) 100% सुरक्षित हैं। |
+
+---
+
+## 📊 **चारों खातों की तुलना (Quick Comparison)**
+
+| खाता प्रकार | कौन सा व्यक्ति खोले? | ब्याज दर | लिक्विडिटी (पैसे की उपलब्धता) |
+| :--- | :--- | :--- | :--- |
+| **सेविंग्स बैंक** | हर आम इंसान | 2.5% - 3.5% | तुरंत (ATM, UPI) |
+| **करंट अकाउंट** | बिज़नेस / व्यापारी | 0% (शून्य) | तुरंत (चेक, NEFT) |
+| **Fixed Deposit (FD)** | जिसे सेफ गारंटीड रिटर्न चाहिए | 6.5% - 7.5% | समय पूरा होने पर (तोड़ने पर 1% पेनाल्टी) |
+| **Recurring Deposit (RD)** | जिसे हर महीने छोटी बचत जोड़नी हो | 6.5% - 7.2% | तय समय पर |
+
+---
+
+## ⚠️ **आम गलतियाँ और काम के टिप्स**
+- ❌ **लाखों रुपये सेविंग्स अकाउंट में छोड़ना**: बचत खाते में ₹5 लाख रखने पर महंगाई आपके पैसे को खा रही है।
+- ❌ **एक ही बैंक में ₹5 लाख से ज़्यादा रखना**: अगर बड़ा कैश है, तो उसे 2-3 अलग-अलग बड़े बैंकों (जैसे SBI, HDFC, ICICI) में बांटें।
+- 💡 **Pro Tip**: बैंक में 'Auto-Sweep' ऑन करवाएं। इससे ₹25,000 से ऊपर की रकम खुद FD में बदल जाती है और 7% ब्याज मिलता है, और ज़रूरत पड़ने पर खुद टूट जाती है।
+
+---
+
+## 📝 **आज का आसान एक्शन प्लान**
+1. [ ] चेक करें कि आपके सेविंग्स अकाउंट में कितना एक्स्ट्रा कैश बेकार पड़ा है।
+2. [ ] अपने बैंक ऐप में ऑटो-स्वीप फैसिलिटी चेक और एक्टिवेट करें।
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [3.4 Emergency Fund Withdrawal Rules](/courses/financial-literacy/module-03-emergency-fund-mastery/04-emergency-fund-withdrawal-rules/)
-- **अगला Lesson ➡️**: [4.2 Payment Options (UPI, Debit, Credit)](/courses/financial-literacy/module-04-banking-credit-and-digital-tools/02-payment-options-upi-cards/)
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **अगला Lesson ➡️**: [4.2 Payment Options: UPI & Cards](/courses/financial-literacy/module-04-banking-credit-and-digital-tools/02-payment-options-upi-cards/)

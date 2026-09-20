@@ -10,7 +10,7 @@ type: docs
 weight: 8
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - आज ही पहला ₹1,000 इन्वेस्ट करने के 4 प्रैक्टिकल स्टेप्स (KYC, Direct Mutual Fund Platform, Auto-Pay SIP)।
 ---
 

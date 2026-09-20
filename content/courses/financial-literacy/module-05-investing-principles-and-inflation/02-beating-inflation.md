@@ -10,7 +10,7 @@ type: docs
 weight: 2
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - **Inflation (महंगाई दर ~6-7%)** आपकी मेहनत की बचत को चुपचाप कैसे खा जाती है।
 - Real Return का फॉर्मूला: $\text{Real Return} = \text{Nominal Return} - \text{Inflation} - \text{Taxes}$.
 ---

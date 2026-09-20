@@ -2,7 +2,7 @@
 title: "1.6 Short-Term vs Long-Term Goals"
 categories: [ Finance, Course ]
 tags: [Finance, WealthBuilding, MoneyManagement]
-description: "गोल्स का वर्गीकरण और टाइम होराइजन के अनुसार सही फंड्स का चयन।"
+description: "शॉर्ट-टर्म, मीडियम-टर्म और लॉन्ग-टर्म मक़सद तय करने का SMART फॉर्मूला।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,17 +10,30 @@ type: docs
 weight: 6
 ---
 
-## 🎯 **Objective**
-- Short-Term (1-3 साल), Medium-Term (3-7 साल), और Long-Term (7+ साल) गोल्स को अलग करना।
-- हर गोल के लिए सही इन्वेस्टमेंट इंस्ट्रूमेंट चुनना।
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
+- अपने पैसों के मक़सदों (Financial Goals) को समय के अनुसार बांटना।
+- शॉर्ट-टर्म (1-3 साल) और लॉन्ग-टर्म (7+ साल) मक़सदों के लिए सही रास्ते चुनना।
+- बिना प्लान किए बचत करने के नुकसान से बचना।
 
-| गोल का प्रकार | समय सीमा | लक्ष्य (उदाहरण) | सही निवेश विकल्प |
+---
+
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+अगर आपको बाज़ार से शाम की सब्ज़ी लानी है (शॉर्ट-टर्म), तो आप साइकिल या पैदल जा सकते हैं। 
+लेकिन अगर आपको दिल्ली से मुंबई जाना है (लॉन्ग-टर्म), तो आपको ट्रेन या हवाई जहाज़ लेना पड़ेगा। 
+पैसों के मक़सदों में भी यही नियम है—1 साल बाद की ज़रूरत के लिए बैंक RD/Liquid Fund ठीक है, लेकिन 15 साल बाद के बड़े मक़सद (जैसे बच्चों की हायर एजुकेशन) के लिए शेयर मार्केट/इक्विटी म्यूचुअल फंड की सुपरफास्ट ट्रेन ज़रूरी है।
+
+---
+
+## 📊 **मक़सदों के 3 दर्जे और सही इन्वेस्टमेंट ऑप्शन्स**
+
+| मक़सद का प्रकार | समय सीमा | क्या काम हो सकता है? | सबसे सही इन्वेस्टमेंट विकल्प |
 | :--- | :--- | :--- | :--- |
-| **Short-Term** | 0 से 3 वर्ष | इमरजेंसी फंड, वेकेशन, कार डाउनपेमेंट | Liquid Fund, Short-term FD, Arbitrage Fund |
-| **Medium-Term** | 3 से 7 वर्ष | घर का डाउनपेमेंट, बिजनेस फंड | Hybrid Mutual Funds, Multi-Asset Funds |
-| **Long-Term** | 7+ वर्ष | बच्चों की उच्च शिक्षा, शादी, रिटायरमेंट | Flexi-Cap & Nifty 50 Index Mutual Funds |
+| **Short-Term** | 1 से 3 साल | इमरजेंसी फंड, वेकेशन, गैजेट्स | लिक्विड फंड, बैंक FD, RD (कोई रिस्क नहीं) |
+| **Medium-Term** | 3 से 7 साल | कार की डाउन पेमेंट, घर का रिनोवेशन | हाइब्रिड / बैलेंस्ड एडवांटेज फंड्स, गोल्ड |
+| **Long-Term** | 7 से 15+ साल | रिटायरमेंट फंड, बच्चों की कॉलेज फीस | इक्विटी म्यूचुअल फंड्स (SIP), इंडेक्स फंड्स |
+
 ---
 
 ## 🧭 **Navigation**
 - **⬅️ पिछला Lesson**: [1.5 Power of Compounding](/courses/financial-literacy/module-01-money-mindset-and-foundations/05-power-of-compounding/)
-- **अगला Lesson ➡️**: [1.7 Wants vs Needs को कैसे पहचानें](/courses/financial-literacy/module-01-money-mindset-and-foundations/07-wants-vs-needs/)
+- **अगला Lesson ➡️**: [1.7 Wants vs Needs](/courses/financial-literacy/module-01-money-mindset-and-foundations/07-wants-vs-needs/)

@@ -10,7 +10,7 @@ type: docs
 weight: 4
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - ULIP के भारी छिपे हुए चार्जेस और टर्म प्लान + SIP कॉम्बो की जीत।
 
 ---

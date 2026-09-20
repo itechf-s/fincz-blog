@@ -1,8 +1,8 @@
 ---
 title: "2.1 Budgeting Fundamentals"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "बजेटिंग के नियम और Pay Yourself First सिद्धांत।"
+tags: [Budgeting, MoneyManagement, PersonalFinance]
+description: "बजट क्यों ज़रूरी है? अपनी कमाई और खर्चों का सही हिसाब रखने के आसान कायदे।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,21 +10,31 @@ type: docs
 weight: 1
 ---
 
-## 🎯 **Objective**
-- बजटिंग क्या है और यह आपकी आज़ादी छीनती नहीं, बल्कि आपको वित्तीय आज़ादी देती है।
-- सैलरी आते ही "Pay Yourself First" का नियम लागू करना।
-
-```text
-  Traditional Flow (गलत): Salary - Expenses = Savings (अक्सर 0 बचता है)
-  Smart Investor Flow (सही): Salary - Investments = Expenses (अनुशासित खर्च)
-```
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
+- यह समझना कि बजट बनाना पैसे पर पाबंदी नहीं, बल्कि आज़ादी है।
+- "महीने के आखिर में पैसा कहाँ चला गया?" वाली उलझन को हमेशा के लिए खत्म करना।
+- बजटिंग के बुनियादी उसूलों को अपनी रोज़मर्रा की ज़िंदगी में लागू करना।
 
 ---
 
-## 📌 **Quick Revision Summary**
-- बजट बनाना कंजूसी नहीं है, बल्कि अपने पैसे को काम पर लगाने का नक्शा है।
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+जैसे पानी की टंकी में अगर नीचे एक छोटा सा सुराख (Leakage) हो, तो आप ऊपर से कितना भी पानी भर लें, टंकी हमेशा खाली ही रहेगी। 
+बिना बजट के कमाई करना भी ठीक इसी तरह है—आप ₹30,000 कमाएं या ₹3 लाख, अगर छोटे-मोटे फ़िज़ूल खर्चों का लीकेज बंद नहीं हुआ, तो महीने के आखिर में जेब खाली ही मिलेगी। 
+बजट उस लीकेज को ढूंढकर बंद करने का काम करता है।
+
+---
+
+## 📖 **ज़रूरी अल्फ़ाज़ और मतलब (Glossary)**
+
+| लफ़्ज़ (Term) | आसान मतलब (Simple Meaning) |
+| :--- | :--- |
+| **Budgeting** | अपनी आने वाली कमाई को पहले से तय करना कि किस काम में कितना खर्च होगा। |
+| **Cash Flow** | आपके खाते में कितना पैसा आ रहा है (Inflow) और कितना बाहर जा रहा है (Outflow)। |
+| **Fixed Expenses** | वो खर्चे जो हर महीने तय हैं (जैसे: मकान का किराया, बच्चों की स्कूल फीस)। |
+| **Variable Expenses** | वो खर्चे जो हर महीने घटते-बढ़ते रहते हैं (जैसे: बिजली का बिल, बाहर खाना, पेट्रोल)। |
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [1.7 Wants vs Needs](/courses/financial-literacy/module-01-money-mindset-and-foundations/07-wants-vs-needs/)
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
 - **अगला Lesson ➡️**: [2.2 Zero-Based Budget](/courses/financial-literacy/module-02-budgeting-and-expense-management/02-zero-based-budget/)

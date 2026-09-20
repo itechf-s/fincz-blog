@@ -10,7 +10,7 @@ type: docs
 weight: 4
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - Saving (पैसा बचाना) और Investing (पैसा बढ़ाना) का गहरा अंतर।
 ---
 

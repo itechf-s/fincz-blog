@@ -2,7 +2,7 @@
 title: "5.5 Core Investment Principles"
 categories: [ Finance, Course ]
 tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "सफल निवेश के 5 सुनहरे नियम और एसेट एलोकेशन रणनीति।"
+description: "सफल निवेश के 5 सुनहरे नियम और एसेट एलोकेशन प्लानिंग और रणनीति।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,7 +10,7 @@ type: docs
 weight: 5
 ---
 
-## 🎯 **Objective**
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
 - सफल निवेशकों के 5 गोल्डन रूल्स:
   1. कभी ऐसा उत्पाद न खरीदें जिसे आप समझ नहीं सकते।
   2. एसेट एलोकेशन (Asset Allocation) ही आपकी 90% सफलता तय करता है।

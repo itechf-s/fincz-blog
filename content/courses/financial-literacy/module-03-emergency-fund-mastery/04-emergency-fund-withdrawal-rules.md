@@ -1,8 +1,8 @@
 ---
 title: "3.4 Emergency Fund Withdrawal Rules"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "इमरजेंसी फंड की निकासी के सख्त नियम और दोबारा भरने का तरीका।"
+tags: [EmergencyFund, RiskManagement, PersonalFinance]
+description: "इमरजेंसी फंड कब निकालना चाहिए और इस्तेमाल के बाद उसे दोबारा कैसे भरें?"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,12 +10,33 @@ type: docs
 weight: 4
 ---
 
-## 🎯 **Objective**
-- क्या इमरजेंसी है और क्या नहीं:
-  - ✅ **इमरजेंसी:** अचानक नौकरी छूटना, मेडिकल इमरजेंसी, घर की आवश्यक रिपेयर।
-  - ❌ **इमरजेंसी नहीं:** फेस्टिव सेल, नया फोन, शादी का गिफ्ट, वेकेशन।
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
+- यह तय करना कि कौन सा वाकया असली इमरजेंसी है और कौन सा नहीं।
+- फंड से पैसा निकालने के बाद उसे दोबारा रिफिल (Refill) करने की प्लानिंग और रणनीति।
+- इमरजेंसी फंड को गैर-ज़रूरी खर्चों से बचाने के मानसिक नियम।
+
+---
+
+## 🚦 **3-सवाल टेस्ट: क्या यह सचमुच इमरजेंसी है?**
+
+पैसे निकालने से पहले खुद से 3 सवाल पूछें:
+1. **क्या यह अनपेक्षित (Unexpected) था?** (जैसे अचानक नौकरी छूटना या एक्सीडेंट, न कि दिवाली का तय त्यौहार)।
+2. **क्या यह अनिवार्य (Necessary) है?** (जैसे अस्पताल का बिल, न कि नया आईफोन)।
+3. **क्या यह अर्जेंट (Urgent) है?** (क्या इसे 1-2 महीने टाला जा सकता है? अगर टाला जा सकता है, तो यह इमरजेंसी नहीं है)।
+
+---
+
+## 🔄 **इस्तेमाल के बाद फंड को दोबारा कैसे भरें (Refill Strategy)**
+
+```text
+  फंड से पैसा निकाला -> नई गैर-ज़रूरी खरीदारी पर रोक -> कुछ महीनों के लिए SIP की जगह फंड में पैसा डालें -> फंड पूरा होते ही नॉर्मल इन्वेस्टिंग शुरू
+```
+
+1. **अस्थायी रूप से अतिरिक्त इन्वेस्टमेंट्स रोकें**: जब तक इमरजेंसी फंड दोबारा 6 महीने के स्तर पर न आ जाए, तब तक सिर्फ मिनिमम जरूरी SIP चलाएं और बाकी बचत से फंड भरें।
+2. **अचानक आए पैसों का इस्तेमाल**: किसी भी टैक्स रिफंड, बोनस या साइड इनकम को सबसे पहले इमरजेंसी फंड में डालें।
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [3.3 Best Places to Park](/courses/financial-literacy/module-03-emergency-fund-mastery/03-best-places-to-park-emergency-fund/)
-- **अगला Lesson ➡️**: [4.1 Bank Accounts](/courses/financial-literacy/module-04-banking-credit-and-digital-tools/01-bank-accounts-fd-rd/)
+- **⬅️ पिछला Lesson**: [3.3 Best Places to Park Emergency Fund](/courses/financial-literacy/module-03-emergency-fund-mastery/03-best-places-to-park-emergency-fund/)
+- **अगला Module ➡️**: [Module 4: Banking, Credit & Digital Tools](/courses/financial-literacy/module-04-banking-credit-and-digital-tools/)

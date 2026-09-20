@@ -2,7 +2,7 @@
 title: "Financial Literacy & Wealth Building: Complete Masterclass"
 categories: [ Finance, Course ]
 tags: [Finance, Investing, WealthBuilding, Budgeting, MutualFunds, TaxSaving, Retirement]
-description: "30+ उम्र और कामकाजी लोगों के लिए सम्पूर्ण वित्तीय साक्षरता गाइड। बजटिंग, इमरजेंसी फंड, म्यूचुअल फंड्स, बीमा, टैक्स सेविंग और रिटायरमेंट प्लानिंग।"
+description: "30+ उम्र और कामकाजी लोगों के लिए सम्पूर्ण पैसे की समझ (Financial Literacy) गाइड। बजटिंग, इमरजेंसी फंड, म्यूचुअल फंड्स, बीमा, टैक्स सेविंग और रिटायरमेंट प्लानिंग।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad

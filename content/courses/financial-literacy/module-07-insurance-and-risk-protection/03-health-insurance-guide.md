@@ -2,7 +2,7 @@
 title: "7.3 Health Insurance: Why it is Mandatory"
 categories: [ Finance, Course ]
 tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "हेल्थ इंश्योरेंस, सुपर टॉप-अप, नो-क्लेम बोनस और 1 करोड़ कवर की रणनीति।"
+description: "हेल्थ इंश्योरेंस, सुपर टॉप-अप, नो-क्लेम बोनस और 1 करोड़ कवर की प्लानिंग और रणनीति।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,8 +10,8 @@ type: docs
 weight: 3
 ---
 
-## 🎯 **Objective**
-- हेल्थ इंश्योरेंस, सुपर टॉप-अप, नो-क्लेम बोनस और 1 करोड़ कवर की रणनीति।
+## 🎯 **इस सबक का मक़सद (Learning Objectives)**
+- हेल्थ इंश्योरेंस, सुपर टॉप-अप, नो-क्लेम बोनस और 1 करोड़ कवर की प्लानिंग और रणनीति।
 
 ---
 
