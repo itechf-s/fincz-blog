@@ -8,6 +8,7 @@ lastmod: 2026-09-20T08:00:00+05:30
 images: ["images/2025/06/class-and-object.webp"]
 author: ahmad
 type: docs
+weight: 2
 ---
 
 ## 🎯 **Lesson Objectives**

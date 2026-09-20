@@ -8,6 +8,7 @@ lastmod: 2026-09-20T08:00:00+05:30
 images: ["images/2025/06/java-beginner-course-syllabus.webp"]
 author: ahmad
 type: docs
+weight: 1
 ---
 
 ## 📜 **Java Beginner to Pro: सम्पूर्ण पाठ्यक्रम (Curriculum)**

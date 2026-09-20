@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, ControlFlow, Loops, IfElse, Switch]
 author: ahmad
 type: docs
+weight: 30
 ---
 
 इस मॉड्यूल में हम सीखेंगे कि प्रोग्राम में निर्णय (Decision Making) कैसे लिए जाते हैं और बार-बार होने वाले कामों को लूप्स (Loops) की मदद से कैसे ऑटोमेट किया जाता है।

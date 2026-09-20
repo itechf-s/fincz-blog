@@ -8,6 +8,7 @@ lastmod: 2026-09-20T08:00:00+05:30
 images: ["images/2025/06/collections-framework.webp"]
 author: ahmad
 type: docs
+weight: 4
 ---
 
 ```java

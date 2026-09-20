@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, Arrays, Strings, StringPool, StringBuilder]
 author: ahmad
 type: docs
+weight: 50
 ---
 
 इस मॉड्यूल में हम Java के दो सबसे महत्वपूर्ण डेटा स्ट्रक्चर्स—**Arrays** और **Strings** की आंतरिक कार्यप्रणाली को समझेंगे। हम हीप मेमोरी में String Constant Pool (SCP), स्ट्रिंग की इम्यूटेबिलिटी और प्रैक्टिकल कोडिंग असाइनमेंट्स पर महारत हासिल करेंगे।

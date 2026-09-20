@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, Generics, WrapperClasses, Autoboxing, TypeSafety]
 author: ahmad
 type: docs
+weight: 110
 ---
 
 इस मॉड्यूल में हम Java में **Type Safety** सुनिश्चित करने वाले **Generics** और प्रिमिटिव टाइप्स को ऑब्जेक्ट्स में बदलने वाली **Wrapper Classes** को समझेंगे।

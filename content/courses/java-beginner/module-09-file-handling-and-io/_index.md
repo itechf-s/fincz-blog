@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, FileHandling, IOStreams, BufferedReader, FileWriter]
 author: ahmad
 type: docs
+weight: 90
 ---
 
 इस मॉड्यूल में हम डिस्क पर फ़ाइलें बनाना, उन्हें पढ़ना, लिखना और डायरेक्टरी ऑपरेशन्स करना सीखेंगे।

@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, Packages, AccessModifiers, Encapsulation, Architecture]
 author: ahmad
 type: docs
+weight: 70
 ---
 
 इस मॉड्यूल में हम Java प्रोजेक्ट्स को सही आर्किटेक्चर में व्यवस्थित करने के लिए **Packages** और डेटा सिक्योरिटी के लिए **Access Modifiers** की शक्ति को समझेंगे।

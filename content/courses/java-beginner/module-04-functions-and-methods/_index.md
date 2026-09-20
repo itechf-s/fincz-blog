@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, Methods, Functions, Overloading, Overriding, Static]
 author: ahmad
 type: docs
+weight: 40
 ---
 
 इस मॉड्यूल में हम Java में कोड को पुनः प्रयोज्य (Reusable) और मॉड्यूलर बनाने के लिए **Methods (Functions)** की अवधारणा को गहराई से समझेंगे।

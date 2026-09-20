@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, JDBC, Database, SQL, HikariCP, Transactions]
 author: ahmad
 type: docs
+weight: 130
 ---
 
 इस मॉड्यूल में हम Java एप्लिकेशन को रिलेशनल डेटाबेस (MySQL / PostgreSQL) से जोड़ना, सुरक्षित SQL क्वेरीज़ चलाना और एंटरप्राइज कनेक्शन पूलिंग लागू करना सीखेंगे।

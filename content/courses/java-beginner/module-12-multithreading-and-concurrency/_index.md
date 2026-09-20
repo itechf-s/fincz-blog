@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, Multithreading, Concurrency, ThreadPool, Synchronization]
 author: ahmad
 type: docs
+weight: 120
 ---
 
 इस मॉड्यूल में हम सीखेंगे कि कैसे आधुनिक मल्टी-कोर प्रोसेसर्स की पूरी शक्ति का इस्तेमाल करके एक साथ कई टास्क (Parallel Tasks) चलाए जाते हैं।

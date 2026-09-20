@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, Collections, ArrayList, HashSet, HashMap, JCF]
 author: ahmad
 type: docs
+weight: 100
 ---
 
 इस मॉड्यूल में हम Java के सबसे लोकप्रिय डेटा स्ट्रक्चर टूलकिट **Java Collections Framework (JCF)** की पूरी हायरार्की (List, Set, Queue, Map) को गहराई से समझेंगे।

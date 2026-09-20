@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, ExceptionHandling, TryCatch, CustomExceptions, ErrorHandling]
 author: ahmad
 type: docs
+weight: 80
 ---
 
 इस मॉड्यूल में हम सीखेंगे कि जावा एप्लिकेशन्स को अचानक क्रैश होने से कैसे बचाया जाए और असामान्य स्थितियों (Runtime Errors) को शालीनता (Gracefully) से कैसे संभाला जाए।

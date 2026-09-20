@@ -6,6 +6,7 @@ categories: [ Java, Course ]
 tags: [Java, OOPs, Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction]
 author: ahmad
 type: docs
+weight: 60
 ---
 
 इस मॉड्यूल में हम Java के दिल यानी **Object-Oriented Programming (OOPs)** के चारों मुख्य स्तंभों को वास्तविक दुनिया के उदाहरणों (Real-world Domain Modeling) के साथ गहराई से समझेंगे।
