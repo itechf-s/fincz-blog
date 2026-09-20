@@ -1,25 +1,81 @@
 ---
-title: "Module 8: Retirement Planning (रिटायरमेंट की तैयारी)"
-description: "30s में रिटायरमेंट प्लानिंग, कॉर्पस कैलकुलेशन, इन्फ्लेशन इम्पैक्ट और टैक्स सेविंग।"
+title: "Module 8: Retirement Planning (रिटायरमेंट की मुकम्मल तैयारी)"
+description: "बिना पेंशन वाले युग में रिटायरमेंट प्लानिंग, 30x कॉर्पस फॉर्मूला, 3-बकेट स्ट्रैटेजी और SWP से टैक्स-फ्री पेंशन।"
 date: 2026-09-20T08:00:00+05:30
+lastmod: 2026-09-20T08:00:00+05:30
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding]
+tags: [Retirement, FIRE, RetirementCorpus, SWP, Pension, WealthBuilding]
 author: ahmad
 type: docs
 weight: 80
 ---
 
-30s में रिटायरमेंट प्लानिंग, कॉर्पस कैलकुलेशन, इन्फ्लेशन इम्पैक्ट और टैक्स सेविंग।
+## 🌟 **मॉड्यूल का परिचय: जब काम बंद होगा, तब घर कैसे चलेगा?**
+
+ज़िंदगी में जब आप कार खरीदना चाहते हैं, तो बैंक कार लोन दे देता है; घर के लिए होम लोन मिल जाता है; और बच्चों की कॉलेज फीस के लिए एजुकेशन लोन मिल जाता है। 
+
+लेकिन दुनिया का कोई भी बैंक **रिटायरमेंट के लिए ₹1 का भी लोन नहीं देता!**
+
+आज के दौर में सरकारी पेंशन लगभग खत्म हो चुकी है और प्राइवेट नौकरियों में 50-55 की उम्र के बाद नौकरी की कोई गारंटी नहीं होती। 60 साल की उम्र के बाद अगले 25-30 साल बिना किसी के आगे हाथ फैलाए सम्मान और आज़ादी से जीने के लिए एक मजबूत रिटायरमेंट फंड ही आपका इकलौता सहारा है।
 
 ---
 
-## 📑 **इस मॉड्यूल के लेसन्स (Lessons):**
+## 🎯 **इस मॉड्यूल में आप क्या सीखेंगे? (Key Outcomes)**
 
-1. **[8.1 Retirement Planning Overview](./01-retirement-planning-overview/)**
-2. **[8.2 Why Plan Early in Your 30s](./02-why-plan-early-in-your-30s/)**
-3. **[8.3 Calculating Your Retirement Corpus](./03-calculating-retirement-corpus/)**
-4. **[8.4 Inflation Impact on Retirement](./04-inflation-impact-on-retirement/)**
-5. **[8.5 Stages of Retirement Planning](./05-retirement-planning-stages/)**
-6. **[8.6 Best Investment Options for Retirement](./06-retirement-investment-options/)**
-7. **[8.7 Tax Planning for Retirement](./07-tax-planning-for-retirement/)**
-8. **[8.8 Common Retirement Planning Mistakes](./08-common-retirement-mistakes/)**
+- **रिटायरमेंट की हकीकत**: 60 की उम्र के बाद 25-30 साल के जीवन का वित्तीय रोडमैप और FIRE (Financial Independence, Retire Early) के नियम।
+- **वक्त की ताकत (Cost of Delay)**: 25 की उम्र में ₹7,700 की SIP बनाम 45 की उम्र में ₹1,00,000 की भारी SIP का अंतर।
+- **30x कॉर्पस कैलकुलेटर**: भारत में महंगाई और लाइफ एक्सपेक्टेंसी के हिसाब से अपना सही रिटायरमेंट कॉर्पस निकालना।
+- **पोस्ट-रिटायरमेंट महंगाई और 3-बकेट स्ट्रैटेजी**: रिटायरमेंट के बाद भी पैसे को 3 बकेट्स (कैश, डेट, ग्रोथ) में बांटकर सुरक्षित रखना।
+- **रिटायरमेंट के 3 चरण**: Accumulation (दौलत बनाना), Transition (जोखिम घटाना), और Distribution (पेंशन पाना)।
+- **बेस्ट रिटायरमेंट विकल्प**: EPF, PPF, NPS, SCSS और म्यूचुअल फंड **SWP (Systematic Withdrawal Plan)** की तुलना।
+- **टैक्स-कुशल पेंशन**: बैंक FD के 30% टैक्स के मुकाबले SWP से केवल 12.5% LTCG पर टैक्स बचाना।
+
+---
+
+## 🏛️ **रिटायरमेंट का 3-बकेट आर्किटेक्चर (The 3-Bucket Strategy)**
+
+```text
+  ┌────────────────────────────────────────────────────────┐
+  │         आपका कुल रिटायरमेंट फंड (मान लीजिए ₹4.50 करोड़)   │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+         ┌────────────────────┼────────────────────┐
+         ▼                    ▼                    ▼
+   [ बकेट 1: तुरंत कैश ]     [ बकेट 2: मध्यम डेट ]  [ बकेट 3: लॉन्ग ग्रोथ ]
+   ┌────────────────────┐   ┌────────────────────┐ ┌────────────────────┐
+   │ • पहले 3 साल का खर्च│   │ • 4 से 8 साल का खर्च│ │ • 9 से 25+ साल खर्च │
+   │ • Auto-Sweep FD /  │   │ • SCSS / कॉरपोरेट  │ │ • फ्लेक्सी कैप &    │
+   │   लिक्विड फंड      │   │   बॉन्ड्स / डेट MF │ │   इंडेक्स फंड्स    │
+   │ • 100% सुरक्षित    │   │ • 7.5-8% स्थिर आय  │ │ • 12-14% वेल्थ ग्रोथ│
+   └────────────────────┘   └────────────────────┘ └────────────────────┘
+```
+
+---
+
+## 📑 **इस मॉड्यूल के सबक़ (Lessons in this Module):**
+
+| सबक़ (Lesson) | आप क्या सीखेंगे? | डायरेक्ट लिंक |
+| :--- | :--- | :--- |
+| **8.1 Retirement Planning Overview** | रिटायरमेंट क्यों अनिवार्य है? बिना पेंशन का युग और FIRE मूवमेंट। | [शुरू करें ➡️](./01-retirement-planning-overview/) |
+| **8.2 Why Plan Early in Your 20s & 30s** | 10 साल की देरी से ₹5 करोड़ के लक्ष्य पर 3.5x भारी SIP का गणित। | [शुरू करें ➡️](./02-why-plan-early-in-your-30s/) |
+| **8.3 Calculating Retirement Corpus (30x Rule)** | 25x और 30x फॉर्मूले से अपने रिटायरमेंट का सटीक टार्गेट निकालना। | [शुरू करें ➡️](./03-calculating-retirement-corpus/) |
+| **8.4 Inflation Impact & 3-Bucket Strategy** | 60 के बाद 25 साल तक महंगाई का मुकाबला करने वाली बकेट स्ट्रैटेजी। | [शुरू करें ➡️](./04-inflation-impact-on-retirement/) |
+| **8.5 Stages of Retirement Planning** | Accumulation, Transition, और Distribution फेज का सही एसेट मिक्स। | [शुरू करें ➡️](./05-retirement-planning-stages/) |
+| **8.6 Retirement Investment Options** | EPF vs PPF vs NPS vs SCSS vs SWP का संपूर्ण तुलना चार्ट। | [शुरू करें ➡️](./06-retirement-investment-options/) |
+| **8.7 Tax Planning for Retirement** | FD ब्याज टैक्स बनाम म्यूचुअल फंड SWP का 12.5% टैक्स-सेविंग जादू। | [शुरू करें ➡️](./07-tax-planning-for-retirement/) |
+| **8.8 Common Retirement Mistakes** | 5 घातक गलतियाँ: बच्चों की शादी में फंड खाली करना और कोई हेल्थ कवर न होना। | [शुरू करें ➡️](./08-common-retirement-mistakes/) |
+
+---
+
+## 💡 **मॉड्यूल शुरू करने से पहले 3 ज़रूरी बातें**
+
+1. **पहले अपना रिटायरमेंट, फिर बच्चों की मदद**: बच्चों की पढ़ाई के लिए एजुकेशन लोन मिल सकता है, आपके बुढ़ापे के लिए कोई लोन नहीं देगा।
+2. **रिटायरमेंट फंड को कभी बीच में न तोड़ें**: घर बनाने या कार खरीदने के लिए PF/EPF का पैसा निकालना अपने बुढ़ापे पर कुल्हाड़ी मारना है।
+3. **कम रकम से ही सही, आज ही एक अलग रिटायरमेंट SIP शुरू करें**।
+
+---
+
+## 🧭 **नेविगेशन (Navigation)**
+
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **पहला सबक शुरू करें 🚀**: [8.1 Retirement Planning Overview](./01-retirement-planning-overview/)
