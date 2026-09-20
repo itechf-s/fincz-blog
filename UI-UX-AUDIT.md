@@ -269,6 +269,6 @@ The homepage is currently almost entirely typography, icons, borders, and gradie
 ## Evidence Notes
 
 - Hugo production build passed during the review and generated 834 pages.
-- Local browser routes rendered for `/`, `/courses/`, `/guides/`, `/practice/`, `/tools/`, direct Note URLs, a Claude Code course page, and the MCP guide.
+- Local browser routes rendered for `/`, `/courses/`, `/guides/`, `/practice/`, direct Note URLs, a Claude Code course page, and the MCP guide.
 - Desktop screenshots were captured from the local server.
 - Mobile emulation could not be completed because the browser automation target closed during the emulation command. Mobile items above are therefore required follow-up tests, not confirmed failures.

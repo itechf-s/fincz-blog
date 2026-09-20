@@ -59,7 +59,6 @@ Guidelines for Claude and other AI assistants working in this repository (`https
 - `content/courses/`: Comprehensive multi-module courses (`type: docs`)
 - `content/guides/`: Technical guides and architecture deep-dives
 - `content/practice/`: Practice Q&A and coding challenges
-- `content/tools/`: Interactive calculators and utilities
 - `content/pages/`: Static pages (about, contact, privacy, terms)
 - `config/_default/config.yaml`: Central Hugo & Hextra site configuration
 - `layouts/partials/custom/`: Custom header tokens (`head-end.html`) and footer grid (`footer.html`)
