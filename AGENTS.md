@@ -7,9 +7,18 @@ This repository contains the source code, courses, technical guides, and practic
 ## 1. Project Rules & Constraints
 
 1. **Do NOT run `npm run dev` or Hugo local dev servers**: The user runs local dev servers on their own. Never start background dev servers or continuous watch commands.
-2. **Simple Language (Conversational Hindi/Urdu/Hinglish)**:
-   - Always keep the language natural, engaging, and simple (daily spoken Hindi/Hinglish/Urdu).
-   - Avoid overly difficult pure Hindi words (*shuddh Hindi*) and unnecessarily complex English jargon without immediate explanation.
+2. **Simple Language (Conversational Hindi/Urdu/Hinglish in Devanagari Script)**:
+   - Always keep the language natural, engaging, and simple (daily spoken Urdu/Hindi/Hinglish in Devanagari font).
+   - **Strictly avoid pure/Sanskritized Hindi (*shuddh Hindi*)**:
+     - Replace `वित्तीय साक्षरता` with `पैसे की समझ / Financial Literacy`
+     - Replace `लक्ष्य / उद्देश्य` with `मक़सद / Goals`
+     - Replace `दैनिक जीवन` with `रोज़मर्रा की ज़िंदगी`
+     - Replace `स्तंभ` with `बुनियादी उसूल / Pillars`
+     - Replace `संपत्ति / देनदारी` with `असेट्स (Assets) / लायबिलिटीज (Liabilities)`
+     - Replace `आर्थिक तनाव` with `पैसों की तंगी और टेंशन`
+     - Replace `शब्दकोश` with `ज़रूरी अल्फ़ाज़ और मतलब (Glossary)`
+     - Replace `तुलना / मापदंड` with `फर्क (Comparison) / पहलू`
+     - Replace `मुख्य बातें / निष्कर्ष` with `अहम बातें / नतीजा (Summary & Takeaways)`
 3. **No Unrequested Deletions**: Do not remove images, internal links, or key metadata unless explicitly instructed.
 4. **Hextra Class Prefixing Rule**:
    - In custom layouts/partials, all Tailwind utility classes must use the `hx:` prefix (e.g. `hx:grid`, `hx:gap-8`, `hx:text-sm`, `hx:text-gray-600`, `hx:dark:text-gray-400`).

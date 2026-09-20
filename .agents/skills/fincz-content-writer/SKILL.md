@@ -21,9 +21,18 @@ Whenever asked to create or update an article on Fincz Blog:
 3. **Handle Images**:
    - Optimize images under **300 KB** (convert to `.webp` using Python PIL/Pillow).
    - Place in `static/images/YYYY/MM/` and copy to `public/images/YYYY/MM/`.
-4. **Tone & Style**:
-   - Use simple, conversational Hindi/Urdu/Hinglish (daily spoken language).
-   - Avoid pure Sanskritized Hindi (*shuddh Hindi*) and unexplained complex jargon.
+4. **Tone & Style (आसान बोलचाल की भाषा / Conversational Hindi/Urdu in Devanagari)**:
+   - **STRICT RULE**: Always use natural, daily spoken Urdu/Hindi/Hinglish vocabulary written in Devanagari script.
+   - **DO NOT USE Pure/Sanskritized Hindi (*shuddh Hindi*)**:
+     - ❌ `वित्तीय साक्षरता` $\rightarrow$ ✅ `पैसे की समझ / Financial Literacy`
+     - ❌ `लक्ष्य / उद्देश्य` $\rightarrow$ ✅ `मक़सद / Goals`
+     - ❌ `दैनिक जीवन` $\rightarrow$ ✅ `रोज़मर्रा की ज़िंदगी`
+     - ❌ `स्तंभ` $\rightarrow$ ✅ `बुनियादी उसूल / Pillars`
+     - ❌ `संपत्ति / देनदारी` $\rightarrow$ ✅ `असेट्स (Assets) / लायबिलिटीज (Liabilities)`
+     - ❌ `आर्थिक तनाव` $\rightarrow$ ✅ `पैसों की तंगी और टेंशन`
+     - ❌ `शब्दकोश` $\rightarrow$ ✅ `ज़रूरी अल्फ़ाज़ और मतलब (Glossary)`
+     - ❌ `तुलना / मापदंड` $\rightarrow$ ✅ `फर्क (Comparison) / पहलू`
+   - Keep technical terms in English or well-known Hinglish with immediate simple explanations.
 5. **No Dev Servers**:
    - Never run `npm run dev` or `hugo server`.
 

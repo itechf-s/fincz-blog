@@ -87,7 +87,7 @@ Explanation of command flags and expected output.
 
 ---
 
-## 📌 **Quick Revision Summary (मुख्य बातें)**
+## 📌 **Quick Revision Summary (अहम बातें / नतीजा)**
 
 - **Key Point 1:** Summary takeaway.
 - **Key Point 2:** Summary takeaway.

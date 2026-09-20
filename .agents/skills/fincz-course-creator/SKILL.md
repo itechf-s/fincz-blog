@@ -105,11 +105,20 @@ type: docs
 
 ---
 
-## 4. Language & Tone Guidelines
+## 4. Language & Tone Guidelines (आसान बोलचाल की भाषा)
 
-- **Language**: Simple conversational Hindi/Urdu/Hinglish (रोज़मर्रा की बोलचाल वाली ज़बान).
-- **No Dense Jargon**: Do not use heavy Sanskritized Hindi (*shuddh Hindi*) or unexplained English buzzwords.
-- **Tone**: Encouraging, structured, mentor-like, practical.
+- **Language & Script**: Simple conversational Urdu/Hindi/Hinglish written in Devanagari script (रोज़मर्रा की बोलचाल वाली ज़बान).
+- **STRICT PROHIBITION on Sanskritized / Pure Hindi**: Never use bookish or archaic Sanskrit words. Replace them with everyday spoken Urdu/Hinglish words:
+  - ❌ `वित्तीय साक्षरता` $\rightarrow$ ✅ `पैसे की समझ / Financial Literacy`
+  - ❌ `सीखने के लक्ष्य / उद्देश्य` $\rightarrow$ ✅ `इस सबक का मक़सद (Learning Objectives)`
+  - ❌ `दैनिक जीवन का उदाहरण` $\rightarrow$ ✅ `रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)`
+  - ❌ `वित्तीय 5 स्तंभ` $\rightarrow$ ✅ `पर्सनल फाइनेंस के 5 बुनियादी उसूल (5 Pillars)`
+  - ❌ `शब्दकोश` $\rightarrow$ ✅ `ज़रूरी अल्फ़ाज़ और मतलब (Glossary)`
+  - ❌ `संपत्ति / देनदारी` $\rightarrow$ ✅ `असेट्स (Assets) / लायबिलिटीज (Liabilities)`
+  - ❌ `आर्थिक तनाव` $\rightarrow$ ✅ `पैसों की तंगी और टेंशन`
+  - ❌ `तुलना / मापदंड` $\rightarrow$ ✅ `फर्क (Comparison) / पहलू`
+  - ❌ `मुख्य बातें / निष्कर्ष` $\rightarrow$ ✅ `अहम बातें / नतीजा (Summary & Takeaways)`
+- **Tone**: Encouraging, structured, friendly, practical, and mentor-like.
 
 ---
 
