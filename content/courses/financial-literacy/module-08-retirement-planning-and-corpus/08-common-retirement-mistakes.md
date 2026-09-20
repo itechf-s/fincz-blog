@@ -1,8 +1,8 @@
 ---
-title: "8.8 Common Retirement Planning Mistakes"
+title: "8.8 Common Retirement Mistakes"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "बच्चों की शादी के लिए रिटायरमेंट फंड तोड़ना और देरी से शुरुआत की गलतियां।"
+tags: [Retirement, Mistakes, WealthProtection]
+description: "रिटायरमेंट की 5 घातक गलतियाँ: बच्चों की शादी में पूरा फंड खर्च करना और देर से शुरू करना।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,13 @@ weight: 8
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- बच्चों की शादी के लिए रिटायरमेंट फंड तोड़ना और देरी से शुरुआत की गलतियां।
+- ❌ **सबसे बड़ी गलती**: अपने पूरे जीवन की जमा-पूंजी बच्चों की भव्य शादी या नया मकान बनाने में खाली कर देना।
+- ❌ **हेल्थ इंश्योरेंस न रखना**: रिटायरमेंट के बाद मेडिकल बिलों से पूरा कॉर्पस खत्म हो जाना।
+- ❌ **पूरा पैसा FD में रखना**: 20 साल बाद महंगाई के कारण पैसे की वैल्यू खत्म हो जाना।
+- 💡 **स्वर्ण नियम**: पहले अपना रिटायरमेंट सुरक्षित करें, फिर बच्चों की आर्थिक मदद करें।
 
----
-
-## 📊 **अहम बातें और प्रैक्टिकल गाइड (Core Insights)**
-इस सबक में हम आसान मिसालों, प्रैक्टिकल फॉर्मूलों और रियल-लाइफ चेकलिस्ट के ज़रिए इस टॉपिक को गहराई से समझेंगे ताकि आप सही फैसले ले सकें।
 ---
 
 ## 🧭 **Navigation**
 - **⬅️ पिछला Lesson**: [8.7 Tax Planning for Retirement](/courses/financial-literacy/module-08-retirement-planning-and-corpus/07-tax-planning-for-retirement/)
-- **अगला Lesson ➡️**: [9.1 Tax Planning Basics](/courses/financial-literacy/module-09-tax-planning-and-itr-filing/01-tax-planning-basics/)
+- **अगला Module ➡️**: [Module 9: Tax Planning & ITR Filing](/courses/financial-literacy/module-09-tax-planning-and-itr-filing/)

@@ -1,8 +1,8 @@
 ---
 title: "12.3 REITs & Digital Income Assets"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "REITs डिविडेंड्स और कंटेंट/सॉफ्टवेयर डिजिटल एसेट्स।"
+tags: [REITs, DigitalAssets, PassiveIncome]
+description: "डिजिटल एसेट्स और REITs से हर महीने बैंक खाते में बिना काम किए कैश फ्लो लाना।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,12 @@ weight: 3
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- REITs डिविडेंड्स और कंटेंट/सॉफ्टवेयर डिजिटल एसेट्स।
+- REITs के तिमाही डिविडेंड पेआउट और कैपिटल ग्रोथ का फायदा उठाना।
+- सॉफ्टवेयर, ऑनलाइन कोर्सेस और डिजिटल टूल्स बनाकर पैसिव इनकम तैयार करना।
+- एक बार कोड/कंटेंट लिखकर बार-बार स्केलेबल कमाई करने की आधुनिक तकनीक।
 
----
-
-## 📊 **अहम बातें और प्रैक्टिकल गाइड (Core Insights)**
-इस सबक में हम आसान मिसालों, प्रैक्टिकल फॉर्मूलों और रियल-लाइफ चेकलिस्ट के ज़रिए इस टॉपिक को गहराई से समझेंगे ताकि आप सही फैसले ले सकें।
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [12.2 Proven Passive Income Sources](/courses/financial-literacy/module-12-wealth-creation-and-passive-income/02-passive-income-sources/)
-- **अगला Lesson ➡️**: [13.1 Financial Tools Overview](/courses/financial-literacy/module-13-financial-tools-and-apps/01-financial-tools-overview/)
+- **⬅️ पिछला Lesson**: [12.2 Multiple Streams of Income](/courses/financial-literacy/module-12-wealth-creation-and-passive-income/02-passive-income-sources/)
+- **अगला Module ➡️**: [Module 13: Financial Tools & Apps](/courses/financial-literacy/module-13-financial-tools-and-apps/)

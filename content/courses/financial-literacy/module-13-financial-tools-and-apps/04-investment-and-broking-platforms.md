@@ -1,8 +1,8 @@
 ---
-title: "13.4 Top Investment Platforms"
+title: "13.4 Investment & Broking Platforms"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "Zerodha, Groww, Kuvera (Direct Mutual Funds) और RBI Retail Direct।"
+tags: [Brokers, Zerodha, Groww, Demat]
+description: "Zerodha vs Groww vs IndMoney: ब्रोकरेज, अकाउंट मेंटेनेंस चार्ज (AMC) और यूजर इंटरफेस की तुलना।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,11 @@ weight: 4
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- Zerodha, Groww, Kuvera (Direct Mutual Funds) और RBI Retail Direct।
+- डिस्काउंट ब्रोकर्स (Zerodha, Groww, Angel One) की फीस संरचना और सुरक्षा समझना।
+- जीरो डिलीवरी ब्रोकरेज और 0% कमीशन डायरेक्ट म्यूचुअल फंड का फायदा।
 
----
-
-## 📊 **अहम बातें और प्रैक्टिकल गाइड (Core Insights)**
-इस सबक में हम आसान मिसालों, प्रैक्टिकल फॉर्मूलों और रियल-लाइफ चेकलिस्ट के ज़रिए इस टॉपिक को गहराई से समझेंगे ताकि आप सही फैसले ले सकें।
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [13.3 Mobile Expense Tracker Apps](/courses/financial-literacy/module-13-financial-tools-and-apps/03-expense-tracker-apps/)
+- **⬅️ पिछला Lesson**: [13.3 Expense Tracker Apps](/courses/financial-literacy/module-13-financial-tools-and-apps/03-expense-tracker-apps/)
 - **अगला Lesson ➡️**: [13.5 Shariah-Compliant Finance Apps](/courses/financial-literacy/module-13-financial-tools-and-apps/05-shariah-compliant-finance-apps/)

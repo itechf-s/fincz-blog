@@ -1,8 +1,8 @@
 ---
-title: "13.5 Shariah-Compliant Finance Apps"
+title: "13.5 Shariah-Compliant Finance Apps & Ethical Investing"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "शरिया-कम्प्लायंट स्टॉक्स और एथिकल फाइनेंस ऐप्स (Islamicly, Musaffa)।"
+tags: [ShariahInvesting, EthicalFinance, HalalInvesting]
+description: "शरीया-अनुपालक और नैतिक निवेश: Islamicly, Musaffa, Tata Ethical Fund और Nifty Shariah Index।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,12 @@ weight: 5
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- शरिया-कम्प्लायंट स्टॉक्स और एथिकल फाइनेंस ऐप्स (Islamicly, Musaffa)।
+- ब्याज-मुक्त और नैतिक शेयरों की स्क्रीनिंग करने वाले टूल्स (Islamicly, Musaffa) की समझ।
+- Tata Ethical Fund और Nifty50 Shariah Index के ज़रिए नैतिक वेल्थ क्रिएशन।
+- गैर-नैतिक सेक्टर्स (तम्बाकू, शराब, जुआ, पारंपरिक ब्याज वाले बैंक) से अपने पोर्टफोलियो को पाक रखना।
 
----
-
-## 📊 **अहम बातें और प्रैक्टिकल गाइड (Core Insights)**
-इस सबक में हम आसान मिसालों, प्रैक्टिकल फॉर्मूलों और रियल-लाइफ चेकलिस्ट के ज़रिए इस टॉपिक को गहराई से समझेंगे ताकि आप सही फैसले ले सकें।
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [13.4 Top Investment Platforms](/courses/financial-literacy/module-13-financial-tools-and-apps/04-investment-and-broking-platforms/)
-- **अगला Lesson ➡️**: [14.1 Financial Framework A to Z](/courses/financial-literacy/module-14-financial-planning-framework/01-financial-framework-a-to-z/)
+- **⬅️ पिछला Lesson**: [13.4 Investment & Broking Platforms](/courses/financial-literacy/module-13-financial-tools-and-apps/04-investment-and-broking-platforms/)
+- **अगला Module ➡️**: [Module 14: Financial Planning Framework](/courses/financial-literacy/module-14-financial-planning-framework/)

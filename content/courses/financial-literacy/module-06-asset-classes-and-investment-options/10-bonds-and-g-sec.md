@@ -1,8 +1,8 @@
 ---
-title: "6.10 Bonds & Government Securities (G-Sec)"
+title: "6.10 Bonds and Government Securities (G-Sec)"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "सरकारी बॉन्ड्स (RBI Retail Direct) और कॉरपोरेट बॉन्ड्स।"
+tags: [Bonds, GSec, RBI, SafeInvesting]
+description: "सरकारी बॉन्ड्स और कॉरपोरेट बॉन्ड्स: RBI Retail Direct के ज़रिए बिना रिस्क 7-8% फिक्स ब्याज।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,41 @@ weight: 10
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- सरकारी बॉन्ड्स (RBI Retail Direct) और कॉरपोरेट बॉन्ड्स।
+- बॉन्ड्स (Bonds) और सरकारी सिक्योरिटीज (G-Sec) के काम करने के तरीके को समझना।
+- भारत सरकार की सॉवरेन गारंटी वाले सुरक्षित बॉन्ड्स में 7-8% फिक्स ब्याज पाना।
+- **RBI Retail Direct** पोर्टल के ज़रिए सीधे बिना किसी ब्रोकरेज के बॉन्ड्स खरीदना।
 
 ---
 
-## 📊 **मुख्य कॉन्सेप्ट और व्यावहारिक नियम (Core Principles)**
-इस अध्याय में हम इस एसेट क्लास की रिटर्न क्षमता, जोखिम (Risk Level), टैक्स नियम और 30+ उम्र के पोर्टफोलियो में इसके सही प्रतिशत की विस्तार से समीक्षा करेंगे।
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+जब सरकार को नए हाईवे, एम्स अस्पताल या रेलवे ट्रैक बनाने होते हैं, तो सरकार आम जनता से क़र्ज़ मांगती है। 
+सरकार कहती है: *"आप मुझे ₹10,000 उधार दें, मैं आपको हर 6 महीने में 7.5% ब्याज दूँगा और 10 साल बाद आपके ₹10,000 वापस कर दूँगा।"* 
+इस सरकारी वादे और कागज़ को **G-Sec (सरकारी बॉन्ड)** कहते हैं। सरकार के डिफ़ॉल्ट होने का चांस 0% होता है।
+
+---
+
+## 📖 **ज़रूरी अल्फ़ाज़ और मतलब (Glossary)**
+
+| लफ़्ज़ (Term) | आसान मतलब (Simple Meaning) |
+| :--- | :--- |
+| **Coupon Rate** | बॉन्ड पर मिलने वाला सालाना तय ब्याज (जैसे 7.35% प्रति वर्ष)। |
+| **Maturity Date** | वह तय तारीख जिस दिन आपका पूरा मूलधन वापस लौटा दिया जाता है। |
+| **Treasury Bills (T-Bills)**| 91 दिन, 182 दिन और 364 दिन के अल्पकालिक सरकारी बॉन्ड्स। |
+| **RBI Retail Direct** | RBI का आधिकारिक पोर्टल जहाँ आम नागरिक सीधे सरकारी बॉन्ड खरीद सकते हैं। |
+
+---
+
+## 📊 **G-Sec बॉन्ड्स बनाम बैंक FD**
+
+| पैमाना | सरकारी बॉन्ड (G-Sec) | बैंक फिक्स्ड डिपॉजिट (FD) |
+| :--- | :--- | :--- |
+| **सुरक्षा** | 100% सॉवरेन गारंटी (असीमित रकम) | DICGC इंश्योरेंस केवल ₹5 लाख तक |
+| **अवधि (Tenure)** | 1 साल से लेकर 40 साल तक | अधिकतम 10 साल |
+| **ब्याज भुगतान** | हर 6 महीने में सीधे बैंक खाते में | मासिक, तिमाही या मैच्योरिटी पर |
+| **ब्रोकरेज / फीस** | RBI पोर्टल पर 0% (एकदम मुफ्त) | बैंक के नियम अनुसार |
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [6.9 Fixed Deposits (FD) & RD](/courses/financial-literacy/module-06-asset-classes-and-investment-options/09-fixed-deposits-and-rd/)
-- **अगला Lesson ➡️**: [6.11 Real Estate Investment Trusts (REITs)](/courses/financial-literacy/module-06-asset-classes-and-investment-options/11-real-estate-investment-trusts-reits/)
+- **⬅️ पिछला Lesson**: [6.9 Fixed Deposits & RD](/courses/financial-literacy/module-06-asset-classes-and-investment-options/09-fixed-deposits-and-rd/)
+- **अगला Lesson ➡️**: [6.11 REITs](/courses/financial-literacy/module-06-asset-classes-and-investment-options/11-real-estate-investment-trusts-reits/)

@@ -1,8 +1,8 @@
 ---
 title: "6.1 Asset Classes Overview"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "सभी एसेट क्लासेस (Equity, Debt, Gold, Real Estate) का संपूर्ण ओवरव्यू।"
+tags: [AssetClasses, Investing, Portfolio]
+description: "मुख्य एसेट क्लासेस (Equity, Debt, Real Estate, Gold) की तुलना और सही पोर्टफोलियो स्ट्रक्चर।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,32 @@ weight: 1
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- सभी एसेट क्लासेस (Equity, Debt, Gold, Real Estate) का संपूर्ण ओवरव्यू।
+- दुनिया के 4 मुख्य एसेट क्लासेस (इक्विटी, डेट, रियल एस्टेट, सोना) को समझना।
+- हर एसेट क्लास के रिस्क, रिटर्न और लिक्विडिटी का फ़र्क जानना।
+- अपनी उम्र और मक़सद के हिसाब से सही एसेट एलोकेशन बनाना।
 
 ---
 
-## 📊 **मुख्य कॉन्सेप्ट और व्यावहारिक नियम (Core Principles)**
-इस अध्याय में हम इस एसेट क्लास की रिटर्न क्षमता, जोखिम (Risk Level), टैक्स नियम और 30+ उम्र के पोर्टफोलियो में इसके सही प्रतिशत की विस्तार से समीक्षा करेंगे।
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+एक क्रिकेट टीम में सिर्फ ओपनिंग बल्लेबाज नहीं होते, उसमें तेज़ गेंदबाज, स्पिनर और विकेटकीपर भी होते हैं। 
+इक्विटी आपके आक्रामक बल्लेबाज (रोहित शर्मा / विराट कोहली) हैं जो तेज़ी से रन बनाते हैं। 
+डेट और FD आपके शांत गेंदबाज (बुमराह) हैं जो संकट में मैच बचाते हैं। 
+गोल्ड आपका विकेटकीपर है जो अप्रत्याशित झटकों से सुरक्षा देता है। 
+एक संतुलित टीम ही वर्ल्ड कप जीतती है।
+
+---
+
+## 📊 **4 मुख्य एसेट क्लासेस की तुलना**
+
+| एसेट क्लास | अपेक्षित सालाना रिटर्न | जोखिम (Risk) | लिक्विडिटी (पैसे की उपलब्धता) | प्राथमिक भूमिका |
+| :--- | :--- | :--- | :--- | :--- |
+| **Equity (शेयर / MF)** | **12% - 15%** | मध्यम से उच्च | उच्च (2 दिन में कैश) | महंगाई को हराकर संपत्ति बनाना |
+| **Debt / FD / PPF** | **6.5% - 7.5%** | बहुत कम | मध्यम | मूलधन की सुरक्षा और स्थिरता |
+| **Gold (सोना / SGB)** | **8% - 10%** | कम से मध्यम | उच्च | युद्ध/मंदी में सुरक्षा (Hedge) |
+| **Real Estate (प्रॉपर्टी)**| **8% - 11% (रेंटल+ग्रोथ)** | मध्यम | बहुत कम (बिकने में महीनों) | रेंटल इनकम और फिजिकल एसेट |
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [5.8 Practical Steps to Start](/courses/financial-literacy/module-05-investing-principles-and-inflation/08-practical-steps-to-start-investing/)
-- **अगला Lesson ➡️**: [6.2 Stock Market Basics for Beginners](/courses/financial-literacy/module-06-asset-classes-and-investment-options/02-stock-market-basics/)
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **अगला Lesson ➡️**: [6.2 Stock Market Basics](/courses/financial-literacy/module-06-asset-classes-and-investment-options/02-stock-market-basics/)

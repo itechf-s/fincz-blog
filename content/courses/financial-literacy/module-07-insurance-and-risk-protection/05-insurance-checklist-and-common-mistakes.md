@@ -1,8 +1,8 @@
 ---
-title: "7.5 Insurance Checklist & Mistakes"
+title: "7.5 Insurance Checklist & Common Mistakes"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "पॉलिसी लेते समय 100% सही मेडिकल हिस्ट्री बताना और क्लेम सेटलमेंट रेशियो।"
+tags: [Insurance, Checklist, RiskManagement]
+description: "इंश्योरेंस खरीदते समय की जाने वाली 5 सबसे बड़ी गलतियाँ और अंतिम चेकलिस्ट।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,15 +11,21 @@ weight: 5
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- पॉलिसी लेते समय 100% सही मेडिकल हिस्ट्री बताना और क्लेम सेटलमेंट रेशियो।
+- प्रपोजल फॉर्म में मेडिकल हिस्ट्री छुपाने से क्लेम रिजेक्ट होने के खतरे को जानना।
+- **MWP Act (Married Women's Property Act)** के तहत टर्म पॉलिसी लेने का सबसे बड़ा कानूनी फायदा समझना।
+- पॉलिसी लेते समय 100% सही जानकारी भरकर क्लेम सेटलमेंट को आसान बनाना।
 
 ---
 
-## 🛡️ **वित्तीय सुरक्षा का नियम (Risk Protection Rules)**
-- **Term Insurance Cover**: आपकी सालाना कमाई का कम से कम **15 से 20 गुना** होना चाहिए।
-- **Health Insurance**: पूरे परिवार के लिए कम से कम ₹10 से ₹25 लाख का बेस + सुपर टॉप-अप प्लान होना अनिवार्य है ताकि मेडिकल बिल आपकी जिंदगी भर की बचत को न खत्म कर दे।
+## ⚠️ **इंश्योरेंस की 5 सबसे बड़ी गलतियाँ**
+1. **स्मोकिंग या ड्रिंकिंग की जानकारी छुपाना**: 20% प्रीमियम बचाने के चक्कर में झूठ बोलने पर क्लेम 100% रिजेक्ट हो जाता है।
+2. **सिर्फ कंपनी के हेल्थ इंश्योरेंस पर निर्भर रहना**: नौकरी बदलने या ले-ऑफ होने पर आप बिना किसी बीमा के सड़क पर आ जाते हैं।
+3. **कम उम्र में टर्म प्लान न लेना**: 25 की उम्र में ₹1 करोड़ का कवर ₹8,000/साल में मिलता है, वही 40 की उम्र में ₹25,000/साल का हो जाता है।
+4. **एजेंट के कहने पर गलत फॉर्म साइन करना**: प्रपोजल फॉर्म हमेशा खुद अपने सामने भरें।
+5. **MWP Act को नज़रअंदाज़ करना**: MWP एक्ट के तहत ली गई पॉलिसी का पैसा सिर्फ आपकी पत्नी और बच्चों को मिलता है, कोई बैंक या लेनदार उसे कुर्क नहीं कर सकता।
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [7.4 ULIP vs Pure Term Insurance](/courses/financial-literacy/module-07-insurance-and-risk-protection/04-ulip-vs-pure-insurance/)
-- **अगला Lesson ➡️**: [8.1 Retirement Planning Overview](/courses/financial-literacy/module-08-retirement-planning-and-corpus/01-retirement-planning-overview/)
+- **⬅️ पिछला Lesson**: [7.4 ULIP vs Pure Insurance](/courses/financial-literacy/module-07-insurance-and-risk-protection/04-ulip-vs-pure-insurance/)
+- **अगला Module ➡️**: [Module 8: Retirement Planning & Corpus](/courses/financial-literacy/module-08-retirement-planning-and-corpus/)

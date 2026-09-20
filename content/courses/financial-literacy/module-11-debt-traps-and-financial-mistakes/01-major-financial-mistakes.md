@@ -1,8 +1,8 @@
 ---
-title: "11.1 Major Financial Mistakes to Avoid"
+title: "11.1 Major Financial Mistakes in 20s and 30s"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "मिडिल क्लास की 7 सबसे बड़ी वित्तीय गलतियां जो कभी अमीर नहीं बनने देतीं।"
+tags: [DebtTraps, FinancialMistakes, WealthDestruction]
+description: "20 और 30 की उम्र में होने वाली 7 सबसे बड़ी वित्तीय गलतियाँ जो इंसान को जीवन भर गरीब रखती हैं।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,22 @@ weight: 1
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- मिडिल क्लास की 7 सबसे बड़ी वित्तीय गलतियां जो कभी अमीर नहीं बनने देतीं।
+- दिखावे और स्टेटस सिंबल के चक्कर में होने वाले नुकसान को पहचानना।
+- 20-30 की उम्र में की जाने वाली 7 प्रमुख गलतियों से खुद को बचाना।
 
 ---
 
-## 📊 **अहम बातें और प्रैक्टिकल गाइड (Core Insights)**
-इस सबक में हम आसान मिसालों, प्रैक्टिकल फॉर्मूलों और रियल-लाइफ चेकलिस्ट के ज़रिए इस टॉपिक को गहराई से समझेंगे ताकि आप सही फैसले ले सकें।
+## ❌ **7 सबसे बड़ी गलतियाँ**
+1. पहली नौकरी लगते ही महंगी कार/बाइक EMI पर खरीदना।
+2. क्रेडिट कार्ड का मिनिमम ड्यू भरकर 42% ब्याज के जाल में फंसना।
+3. हेल्थ और टर्म इंश्योरेंस न लेना।
+4. इमरजेंसी फंड बनाए बिना सारा पैसा रिस्की स्कीमों में लगाना।
+5. 30 साल की उम्र तक कोई निवेश शुरू न करना।
+6. दोस्तों को देखकर महंगे रेस्टोरेंट और क्लब्स में कमाई उड़ाना।
+7. शादी के 1 दिन के जलसे के लिए ₹10-15 लाख का पर्सनल लोन लेना।
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [10.3 Family Marriage Strategy](/courses/financial-literacy/module-10-goal-based-investing-and-family/03-marriage-and-family-wealth-strategy/)
-- **अगला Lesson ➡️**: [11.2 The Loan & High-Interest EMI Trap](/courses/financial-literacy/module-11-debt-traps-and-financial-mistakes/02-loan-and-emi-trap/)
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **अगला Lesson ➡️**: [11.2 The Loan & EMI Trap](/courses/financial-literacy/module-11-debt-traps-and-financial-mistakes/02-loan-and-emi-trap/)

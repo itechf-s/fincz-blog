@@ -1,8 +1,8 @@
 ---
 title: "6.8 National Pension System (NPS)"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "NPS टियर 1 व टियर 2, अतिरिक्त ₹50,000 टैक्स छूट (80CCD 1B) और पेंशन।"
+tags: [NPS, Retirement, TaxSaving, Investing]
+description: "NPS से रिटायरमेंट प्लानिंग: 80CCD(1B) के तहत ₹50,000 की अतिरिक्त टैक्स छूट और पेंशन कॉर्पस।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,14 +11,21 @@ weight: 8
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- NPS टियर 1 व टियर 2, अतिरिक्त ₹50,000 टैक्स छूट (80CCD 1B) और पेंशन।
+- NPS के टियर-1 और टियर-2 अकाउंट का अंतर समझना।
+- सेक्शन 80CCD(1B) के तहत ₹50,000 की एक्सट्रा टैक्स बचत का फायदा उठाना।
+- रिटायरमेंट पर 60% टैक्स-फ्री लम्पसम और 40% एन्युइटी (पेंशन) का नियम जानना।
 
 ---
 
-## 📊 **मुख्य कॉन्सेप्ट और व्यावहारिक नियम (Core Principles)**
-इस अध्याय में हम इस एसेट क्लास की रिटर्न क्षमता, जोखिम (Risk Level), टैक्स नियम और 30+ उम्र के पोर्टफोलियो में इसके सही प्रतिशत की विस्तार से समीक्षा करेंगे।
+## 📊 **NPS एसेट एलोकेशन (Active Choice vs Auto Choice)**
+
+- **E (Equity)**: 75% तक शेयर बाज़ार में निवेश (हाई ग्रोथ)।
+- **C (Corporate Bonds)**: अच्छी कंपनियों के बॉन्ड्स में सुरक्षित ब्याज।
+- **G (Government Securities)**: 100% सुरक्षित सरकारी सिक्योरिटीज।
+- **Auto Choice (Lifecycle Fund)**: उम्र बढ़ने के साथ इक्विटी खुद कम होती जाती है और सेफ डेट बढ़ता जाता है।
+
 ---
 
 ## 🧭 **Navigation**
 - **⬅️ पिछला Lesson**: [6.7 Public Provident Fund (PPF)](/courses/financial-literacy/module-06-asset-classes-and-investment-options/07-public-provident-fund-ppf/)
-- **अगला Lesson ➡️**: [6.9 Fixed Deposits (FD) & RD](/courses/financial-literacy/module-06-asset-classes-and-investment-options/09-fixed-deposits-and-rd/)
+- **अगला Lesson ➡️**: [6.9 Fixed Deposits & RD](/courses/financial-literacy/module-06-asset-classes-and-investment-options/09-fixed-deposits-and-rd/)

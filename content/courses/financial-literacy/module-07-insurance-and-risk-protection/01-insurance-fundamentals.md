@@ -1,8 +1,8 @@
 ---
-title: "7.1 Insurance Fundamentals"
+title: "7.1 Insurance Fundamentals: Why Insurance is Not Investment"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement, Investing]
-description: "बीमा क्या है और इसे कभी निवेश (Investment) क्यों नहीं समझना चाहिए।"
+tags: [Insurance, RiskManagement, TermInsurance, HealthInsurance]
+description: "इंश्योरेंस के बुनियादी उसूल: इंश्योरेंस सुरक्षा कवच है, मुनाफा कमाने की स्कीम नहीं।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,15 +11,43 @@ weight: 1
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- बीमा क्या है और इसे कभी निवेश (Investment) क्यों नहीं समझना चाहिए।
+- इंश्योरेंस (बीमा) के वास्तविक मक़सद—आर्थिक सुरक्षा—को समझना।
+- "इन्वेस्टमेंट और इंश्योरेंस को कभी एक साथ न मिलाएं" का सबसे बड़ा नियम सीखना।
+- टर्म लाइफ इंश्योरेंस और हेल्थ इंश्योरेंस की अनिवार्य ज़रूरत को पहचानना।
 
 ---
 
-## 🛡️ **वित्तीय सुरक्षा का नियम (Risk Protection Rules)**
-- **Term Insurance Cover**: आपकी सालाना कमाई का कम से कम **15 से 20 गुना** होना चाहिए।
-- **Health Insurance**: पूरे परिवार के लिए कम से कम ₹10 से ₹25 लाख का बेस + सुपर टॉप-अप प्लान होना अनिवार्य है ताकि मेडिकल बिल आपकी जिंदगी भर की बचत को न खत्म कर दे।
+## 💡 **रोज़मर्रा की ज़िंदगी की मिसाल (Real-Life Analogy)**
+जब आप हवाई जहाज़ में बैठते हैं, तो सीट के नीचे एक 'लाइफ जैकेट' (Life Jacket) होती है। 
+आप यह दुआ करते हैं कि कभी लाइफ जैकेट पहनने की नौबत न आए, और उतरते वक्त आप एयरलाइंस से यह नहीं कहते: *"मैंने लाइफ जैकेट इस्तेमाल नहीं की, मुझे मेरे पैसे वापस दो!"* 
+इंश्योरेंस वही लाइफ जैकेट है—यह आपके परिवार को डूबने से बचाती है, यह कोई मुनाफे का बिजनेस नहीं है।
+
+---
+
+## 📖 **ज़रूरी अल्फ़ाज़ और मतलब (Glossary)**
+
+| लफ़्ज़ (Term) | आसान मतलब (Simple Meaning) |
+| :--- | :--- |
+| **Sum Assured** | दुर्भाग्यवश अनहोनी होने पर नॉमिनी/परिवार को मिलने वाली पूरी बीमित रकम (जैसे ₹1 करोड़)। |
+| **Premium** | पॉलिसी चालू रखने के लिए हर साल कंपनी को दी जाने वाली छोटी सी फीस (जैसे ₹12,000/साल)। |
+| **Pure Risk Cover** | ऐसी पॉलिसी जहाँ सिर्फ सुरक्षा मिलती है, मैच्योरिटी पर कोई पैसा वापस नहीं मिलता (टर्म इंश्योरेंस)। |
+| **Endowment / ULIP** | वो प्लान जहाँ बीमा और निवेश को मिलाया जाता है (घटिया रिटर्न और कम कवर)। |
+
+---
+
+## 📊 **प्योर टर्म प्लान बनाम पारंपरिक एंडोमेंट प्लान (LIC)**
+
+मान लीजिए 30 साल का व्यक्ति सालाना ₹30,000 का बजट रखता है:
+
+| पहलू | LIC / पारंपरिक एंडोमेंट प्लान | प्योर टर्म प्लान + म्यूचुअल फंड SIP |
+| :--- | :--- | :--- |
+| **लाइफ कवर (Sum Assured)**| सिर्फ ₹5 लाख से ₹8 लाख (नाकाफी) | **₹1 करोड़ से ₹1.5 करोड़ (विशाल सुरक्षा)** |
+| **सालाना प्रीमियम** | ₹30,000 | ₹10,000 (टर्म इंश्योरेंस) |
+| **बचे ₹20,000 का निवेश** | LIC में (सिर्फ 4-5% रिटर्न) | इंडेक्स फंड SIP में (@ 12%) |
+| **25 साल बाद कुल दौलत** | ~₹15 लाख | **~₹30 लाख (डबल दौलत!)** |
+
 ---
 
 ## 🧭 **Navigation**
-- **⬅️ पिछला Lesson**: [6.12 Cryptocurrency & Digital Assets](/courses/financial-literacy/module-06-asset-classes-and-investment-options/12-cryptocurrency-and-digital-assets/)
-- **अगला Lesson ➡️**: [7.2 Traditional Endowment vs Term Insurance](/courses/financial-literacy/module-07-insurance-and-risk-protection/02-lic-endowment-vs-term-insurance/)
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **अगला Lesson ➡️**: [7.2 Term Insurance vs LIC Endowment](/courses/financial-literacy/module-07-insurance-and-risk-protection/02-lic-endowment-vs-term-insurance/)
