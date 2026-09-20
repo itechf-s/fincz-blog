@@ -1,0 +1,30 @@
+{{ $featuredImage := "" }}
+{{ if .Params.images }}
+  {{ if reflect.IsSlice .Params.images }}
+    {{ if gt (len .Params.images) 0 }}
+      {{ $featuredImage = index .Params.images 0 }}
+    {{ end }}
+  {{ else }}
+    {{ $featuredImage = .Params.images }}
+  {{ end }}
+{{ else if .Params.image }}
+  {{ $featuredImage = .Params.image }}
+{{ else if .Params.featured_image }}
+  {{ $featuredImage = .Params.featured_image }}
+{{ end }}
+
+{{ if and $featuredImage (not .Params.hide_featured_image) (not .Params.hide_image) (not .IsHome) }}
+  {{ $imgSrc := $featuredImage }}
+  {{ if not (or (hasPrefix $imgSrc "http://") (hasPrefix $imgSrc "https://")) }}
+    {{ $imgSrc = (relURL (strings.TrimPrefix "/" $imgSrc)) }}
+  {{ end }}
+  <div class="featured-image-wrapper hx:my-6 hx:overflow-hidden hx:rounded-2xl hx:border hx:border-neutral-200/80 hx:dark:border-neutral-800/80 hx:shadow-sm">
+    <img
+      src="{{ $imgSrc | safeURL }}"
+      alt="{{ .Title }}"
+      class="hx:w-full hx:max-h-[460px] hx:object-cover hx:object-center"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+{{ end }}
