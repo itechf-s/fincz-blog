@@ -1,8 +1,8 @@
 ---
 title: "5.5 Core Investment Principles"
 categories: [ Finance, Course ]
-tags: [Investing, AssetAllocation, PersonalFinance]
-description: "सफल इन्वेस्टिंग के 4 बुनियादी उसूल: Asset Allocation, Diversification और Patience।"
+tags: [Investing, AssetAllocation, Diversification, WarrenBuffett]
+description: "सफल इन्वेस्टिंग के 4 बुनियादी उसूल: Asset Allocation, Diversification और सब्र।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -11,8 +11,8 @@ weight: 5
 ---
 
 ## 🎯 **इस सबक का मक़सद (Learning Objectives)**
-- दुनिया के सबसे कामयाब निवेशकों (Warren Buffett, Peter Lynch) के बुनियादी उसूल सीखना।
-- **Asset Allocation** (संपत्ति आवंटन) और **Diversification** (विविधीकरण) का गणित समझना।
+- दुनिया के सबसे कामयाब निवेशकों (Warren Buffett, Charlie Munger) के बुनियादी उसूल सीखना।
+- **Asset Allocation** (संपत्ति का सही बंटवारा) और **Diversification** (जोखिम फैलाना) का गणित समझना।
 - बाज़ार के उतार-चढ़ाव में घबराए बिना शांत रहने की मानसिकता विकसित करना।
 
 ---
@@ -27,8 +27,8 @@ weight: 5
 
 ## ⚙️ **इन्वेस्टमेंट के 4 स्वर्णिम उसूल (Golden Pillars)**
 
-1. **Asset Allocation (सबसे महत्वपूर्ण)**: आपके पोर्टफोलियो का रिटर्न इस बात से तय होता है कि आपका कितना % पैसा इक्विटी में है और कितना % सेफ डेट में है।
-2. **Diversification (जोखिम कम करना)**: कम से कम 3-4 अलग-अलग एसेट्स और 40-50 अच्छी कंपनियों में फैलाकर निवेश करें (इंडेक्स फंड इसके लिए बेस्ट है)।
+1. **Asset Allocation (90% रिटर्न यही तय करता है)**: आपके पोर्टफोलियो का रिटर्न इस बात से तय होता है कि आपका कितना % पैसा इक्विटी में है और कितना % सेफ डेट में है।
+2. **Diversification (जोखिम कम करना)**: कम से कम 40-50 अच्छी कंपनियों में फैलाकर निवेश करें (इंडेक्स फंड इसके लिए बेस्ट है)।
 3. **Time in the Market > Timing the Market**: बाज़ार के बॉटम का इंतज़ार करने के बजाय नियमित रूप से SIP करना हमेशा ज़्यादा रिटर्न देता है।
 4. **Emotional Discipline (सब्र)**: जब बाज़ार गिरे तो घबराकर बेचना नहीं, बल्कि और ज़्यादा यूनिट्स सस्ते दाम में खरीदना।
 
