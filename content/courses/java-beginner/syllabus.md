@@ -19,7 +19,7 @@ type: docs
 
 ### 📘 [Module 1: Introduction, Architecture & Setup](/courses/java-beginner/module-01-introduction-and-setup/)
 1. **[1.1 Java का परिचय और आर्किटेक्चर](/courses/java-beginner/module-01-introduction-and-setup/01-introduction-to-java/)** — Java का इतिहास, WORA सिद्धांत, JDK vs JRE vs JVM, और पहला 'Hello World' प्रोग्राम।
-2. **[1.2 Java Installation & Environment Setup](/courses/java-beginner/module-01-introduction-and-setup/02-java-installation/)** — Windows, Linux, macOS पर JDK 21 इंस्टॉलेशन, `JAVA_HOME` और IDE कॉन्फ़िगरेशन।
+2. **[1.2 Java Installation & Environment Setup (Latest LTS)](/courses/java-beginner/module-01-introduction-and-setup/02-java-installation/)** — Windows, Linux, macOS पर Latest Java LTS (Java 25 / 21) इंस्टॉलेशन, `JAVA_HOME` और IDE कॉन्फ़िगरेशन।
 3. **[1.3 Java Keywords & Compilation Lifecycle](/courses/java-beginner/module-01-introduction-and-setup/03-keywords-and-architecture/)** — Java के 50+ कीवर्ड्स चार्ट और बाइटकोड एक्ज़ीक्यूशन फ़्लो।
 
 ---

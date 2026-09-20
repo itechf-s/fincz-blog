@@ -15,7 +15,7 @@ type: docs
 ## 🎯 **इस मॉड्यूल के मुख्य उद्देश्य (Goals)**
 1. **Java का इतिहास और विशेषताएं**: WORA (Write Once, Run Anywhere) और ऑब्जेक्ट-ओरिएंटेड सोच को समझना।
 2. **Java Architecture**: JDK, JRE और JVM के बीच का अंतर और बाइटकोड की भूमिका।
-3. **Environment Setup**: JDK 21 इंस्टॉल करना, `JAVA_HOME` सेट करना और VS Code / IntelliJ IDEA तैयार करना।
+3. **Environment Setup**: Latest Java LTS (Java 25 / 21 LTS) इंस्टॉल करना, `JAVA_HOME` सेट करना और VS Code / IntelliJ IDEA तैयार करना।
 4. **पहला प्रोग्राम**: अपना पहला 'Hello World' प्रोग्राम लिखना, कंपाइल करना और रन करना।
 
 ---

@@ -35,7 +35,7 @@ public class Box<T> {
     public static void main(String[] args) {
         // 1. String Box
         Box<String> stringBox = new Box<>();
-        stringBox.setItem("Java 21");
+        stringBox.setItem("Java 25 LTS");
         System.out.println("String Item: " + stringBox.getItem());
 
         // 2. Integer Box (Autoboxing: primitive 100 -> Integer object)
