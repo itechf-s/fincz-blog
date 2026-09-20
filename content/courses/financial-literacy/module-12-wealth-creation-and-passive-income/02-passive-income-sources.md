@@ -1,8 +1,8 @@
 ---
 title: "12.2 Proven Passive Income Sources"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Freelancing, Consulting, Blogging, Rent, आदि से Passive Income"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "डिविडेंड स्टॉक्स, रेंटल प्रॉपर्टी, डिजिटल प्रोडक्ट्स और एफिलिएट इनकम।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,72 +10,15 @@ type: docs
 weight: 2
 ---
 
-**Module 12: Wealth Creation & Passive Income Sources**
-
-**Freelancing, Consulting, Blogging, Rent** आदि से Passive Income के बारे में detail में बता देता हूँ।
-हालांकि इनमें से कुछ 100% passive नहीं होते, लेकिन सही तरीके से setup करने पर ये semi-passive या passive बन सकते हैं।
+## 🎯 **Objective**
+- डिविडेंड स्टॉक्स, रेंटल प्रॉपर्टी, डिजिटल प्रोडक्ट्स और एफिलिएट इनकम।
 
 ---
 
-## **Freelancing → Semi-Passive बनाना**
-
-* **क्या है?**
-  Clients के लिए project-based काम करना (writing, graphic design, coding, video editing etc.)
-* **Passive कैसे बनेगा?**
-
-  * Freelance skills को **digital products** में बदलो (templates, ebooks, courses)
-  * पुराने clients के साथ **retainer contracts** बनाओ
-  * Agency model अपनाओ → खुद न करके team से काम करवाओ
-* **Example:**
-  अगर तुम graphic designer हो, तो ready-made design packs बेच सकते हो।
-
+## 📊 **मुख्य अवधारणा और रणनीतिक गाइड (Core Insights)**
+इस अध्याय में हम वित्तीय अनुशासन, प्रैक्टिकल फॉर्मूले, केस स्टडीज और 30+ आयु वर्ग के लिए चरणबद्ध चेकलिस्ट को विस्तार से समझेंगे।
 ---
 
-## **Consulting → Passive बनाना**
-
-* **क्या है?**
-  किसी specific industry या topic में expert advice देना।
-* **Passive कैसे बनेगा?**
-
-  * Recorded video courses बनाना
-  * Paid webinars host करना (recording फिर से बेचना)
-  * Subscription-based consulting group बनाना
-* **Example:**
-  Finance consultant अपने knowledge को online course के रूप में बेच सकता है।
-
----
-
-## **Blogging → Long-term Passive Income**
-
-* **क्या है?**
-  Online articles लिखकर audience बनाना और traffic से पैसा कमाना।
-* **Passive कैसे बनेगा?**
-
-  * Google AdSense या अन्य ad networks
-  * Affiliate marketing links
-  * Sponsored posts
-  * Digital products sell करना
-* **Example:**
-  Travel blogger hotel bookings के affiliate links से commission कमा सकता है।
-
----
-
-## **Rent → Pure Passive**
-
-* **क्या है?**
-  Property, vehicles, equipment किराए पर देना।
-* **Passive कैसे बनेगा?**
-
-  * Property management company hire कर लो
-  * Long-term lease agreements
-* **Example:**
-  2BHK flat खरीदकर monthly rent लेना या car lease पर देना।
-
----
-
-## **और Sources**
-
-* **YouTube Channel** → एक बार videos upload करके views से लगातार income।
-* **Ebooks & Courses** → Amazon Kindle या Udemy जैसे platforms पर बेच सकते हो।
-* **Stock Photography** → Click किए हुए photos को Shutterstock, Adobe Stock पर बेचना।
-* **Music Licensing** → Original music को commercial use के लिए license देना।
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [12.1 Wealth Creation Principles](/courses/financial-literacy/module-12-wealth-creation-and-passive-income/01-wealth-creation-principles/)
+- **अगला Lesson ➡️**: [12.3 REITs & Digital Income Assets](/courses/financial-literacy/module-12-wealth-creation-and-passive-income/03-reits-and-digital-income-assets/)

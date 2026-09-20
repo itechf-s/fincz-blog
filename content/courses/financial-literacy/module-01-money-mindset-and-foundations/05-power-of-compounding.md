@@ -2,7 +2,7 @@
 title: "1.5 Power of Compounding"
 categories: [ Finance, Course ]
 tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Power of Compounding कैसे काम करता है"
+description: "कम्पाउंडिंग की शक्ति, Rule of 72 और समय के साथ करोड़ों की वेल्थ क्रिएशन।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,93 +10,36 @@ type: docs
 weight: 5
 ---
 
-## 💥 **Power of Compounding**
-
-*(Compound Interest को समझना = Financial Freedom की कुंजी)*
-
----
-
-### 🧠 **Compounding क्या है?**
-
-**Compounding** का मतलब है — **"पैसा पैसा बनाता है, और वो नया पैसा भी आगे और पैसा बनाता है।"**
-यानि आपके पैसे पर मिलने वाला return, आगे और return पैदा करता है।
-
-> 📈 **Interest on Interest = Compounding**
+## 🎯 **Objective**
+- **Power of Compounding** (चक्रवृद्धि ब्याज) दुनिया का 8वां अजूबा क्यों है।
+- **Rule of 72** की मदद से पैसा कितने साल में डबल होगा, यह निकालना।
+- 10 साल जल्दी शुरू करने वाले और 10 साल लेट शुरू करने वाले का करोड़ों का अंतर।
 
 ---
 
-### 🔁 **Simple Interest vs Compound Interest**
+## 📊 **Compounding का जादू (Live Numbers Example)**
 
-| Feature     | Simple Interest    | Compound Interest                |
-| ----------- | ------------------ | -------------------------------- |
-| Calculation | सिर्फ principal पर | principal + previous interest पर |
-| Growth      | Slow               | Faster & exponential             |
-| Example     | हर साल ₹100        | ₹100, ₹110, ₹121...              |
+यदि 3 व्यक्ति ₹10,000 प्रति माह 12% वार्षिक रिटर्न वाले म्यूचुअल फंड में SIP करते हैं:
 
----
+| व्यक्ति | शुरू करने की उम्र | कुल जमा राशि (Invested) | 60 वर्ष की उम्र पर कुल वैल्यू (Corpus) |
+| :--- | :---: | :---: | :---: |
+| **राहुल (Early)** | 25 वर्ष (35 साल तक) | ₹42 लाख | **₹6.50 करोड़** 🚀 |
+| **समीर (Medium)** | 35 वर्ष (25 साल तक) | ₹30 लाख | **₹1.90 करोड़** |
+| **अजय (Late)** | 45 वर्ष (15 साल तक) | ₹18 लाख | **₹50 लाख** |
 
-### 📊 **Example: ₹10,000 invested at 10% per year for 10 years**
-
-#### 🔹 **Simple Interest**
-
-→ हर साल ₹1000 × 10 = ₹10,000 interest
-→ Total = ₹20,000
-
-#### 🔸 **Compound Interest**
-
-→ हर साल पहले से ज़्यादा return
-→ Total = ₹25,937 (extra ₹5,937!)
+> 💡 **निष्कर्ष:** राहुल ने समीर से सिर्फ ₹12 लाख ज़्यादा लगाए, लेकिन समय के कारण उसका पैसा **₹4.6 करोड़ ज़्यादा** बना!
 
 ---
 
-### 🚀 **Magic of Compounding: Time is King!**
+## 📐 **The Rule of 72 (पैसा डबल करने का फॉर्मूला)**
 
-| Time     | Investment ₹5,000 per month @12% return | Final Value   |
-| -------- | --------------------------------------- | ------------- |
-| 10 years | ₹6 lakh invested                        | ₹11.6 lakh    |
-| 20 years | ₹12 lakh invested                       | ₹49 lakh      |
-| 30 years | ₹18 lakh invested                       | ₹1.75 crore ✅ |
+$$\text{Years to Double} = \frac{72}{\text{Interest Rate (\%)}}$$
 
-> 💡 **जितना जल्दी शुरू करोगे, उतना ज़्यादा फायदा!**
-
+- **FD (6.5% रिटर्न)**: $72 / 6.5 \approx 11$ साल में पैसा 2 गुना होगा।
+- **Mutual Fund (12% रिटर्न)**: $72 / 12 = 6$ साल में पैसा 2 गुना होगा!
+- **Stock Index (14% रिटर्न)**: $72 / 14 \approx 5.1$ साल में पैसा 2 गुना होगा!
 ---
 
-### 🧮 **Rule of 72: Investment कब डबल होगी?**
-
-**Formula**: `72 ÷ interest rate = years to double`
-
-* @12% return → 72 ÷ 12 = **6 साल में पैसा डबल**
-* @9% return → 72 ÷ 9 = **8 साल में डबल**
-
----
-
-### 💭 **Common Mistakes जो लोग करते हैं:**
-
-1. **बचत को delay करना** — “बाद में करेंगे” बोलकर सालों गँवा देना
-2. **Compound break करना** — बीच में पैसा निकाल लेना
-3. **Return कमाने की जगह खर्च करना** — खर्च से कभी compounding नहीं बनती
-
----
-
-### 🛠️ **Action Plan for 30+ Adults:**
-
-* 📅 **अभी से ₹5000/month भी शुरू करो**, तो भी ये compounding का बीज बोना है
-* 📈 SIP (Systematic Investment Plan) एक बेहतरीन तरीका है compounding करने का
-* 💸 पैसा निकालने की आदत छोड़ो — **compound होने दो**
-
----
-
-### 📌 **Bottom Line**
-
-> "Compounding is the 8th wonder of the world. He who understands it, earns it. He who doesn’t, pays it."
-> — **Albert Einstein**
-
----
-
-### ✅ Quick Summary
-
-* Compounding = पैसा + उस पर भी Interest
-* समय सबसे बड़ा हथियार है
-* जितना जल्दी शुरू करोगे, उतना बड़ा फायदा
-* हर छोटा amount भी compounding से बड़ा बन सकता है
-* खर्च करने से पहले सोचो — क्या ये पैसा बना सकता है?
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [1.4 Assets vs Liabilities](/courses/financial-literacy/module-01-money-mindset-and-foundations/04-assets-vs-liabilities/)
+- **अगला Lesson ➡️**: [1.6 Short-Term vs Long-Term Goals](/courses/financial-literacy/module-01-money-mindset-and-foundations/06-financial-goals/)

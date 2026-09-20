@@ -1,8 +1,8 @@
 ---
 title: "8.5 Stages of Retirement Planning"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Retirement Planning के Stages"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "Accumulation Phase (30-55 वर्ष) vs Distribution Phase (60+ वर्ष)।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,80 +10,15 @@ type: docs
 weight: 5
 ---
 
-## **Retirement Planning के Stages**
-
-Retirement planning कोई एक-दिन का काम नहीं है — ये एक **लंबी journey** है जो अलग-अलग stages से गुजरती है।
-हर stage में आपकी income, expenses, risk capacity और investment strategy अलग होती है।
+## 🎯 **Objective**
+- Accumulation Phase (30-55 वर्ष) vs Distribution Phase (60+ वर्ष)।
 
 ---
 
-## **Early Career Stage (Age: 20–30 years)**
-
-🔹 **Focus:** Wealth Building & Habit Formation
-
-* Active income में से कम से कम 20-30% बचत करें
-* Emergency fund बनाएं
-* High-return investments जैसे Equity Mutual Funds में SIP शुरू करें
-* Insurance (Term + Health) ले लें
-* Debt avoid करें
-
-💡 **Why important?**
-Early start से compounding का maximum फायदा मिलता है।
-
+## 📊 **मुख्य अवधारणा और रणनीतिक गाइड (Core Insights)**
+इस अध्याय में हम वित्तीय अनुशासन, प्रैक्टिकल फॉर्मूले, केस स्टडीज और 30+ आयु वर्ग के लिए चरणबद्ध चेकलिस्ट को विस्तार से समझेंगे।
 ---
 
-## **Mid Career Stage (Age: 30–45 years)**
-
-🔹 **Focus:** Wealth Growth & Asset Creation
-
-* Income ज़्यादा, लेकिन expenses (EMI, kids’ education) भी ज़्यादा
-* Investment % बढ़ाएं (कम से कम 30-40% income)
-* Retirement corpus का calculation शुरू करें
-* Long-term goals (घर, बच्चों की पढ़ाई) के लिए diversified portfolio
-* Tax-saving investments optimize करें
-
-💡 **Why important?**
-ये वह time है जब आपका earning potential peak पर होता है, और आप major corpus build कर सकते हैं।
-
----
-
-## **Late Career Stage (Age: 45–55 years)**
-
-🔹 **Focus:** Wealth Protection & Risk Reduction
-
-* Portfolio में equity exposure कम करें, debt exposure बढ़ाएं
-* High-risk investments से बाहर निकलें
-* Retirement corpus का 80% target तक पहुँचने की कोशिश करें
-* Loans खत्म करें
-* Health insurance cover बढ़ाएं
-
-💡 **Why important?**
-इस age में loss recover करने का समय कम होता है, इसलिए focus wealth preserve करने पर होना चाहिए।
-
----
-
-## **Pre-Retirement Stage (Age: 55–60 years)**
-
-🔹 **Focus:** Retirement Ready Portfolio
-
-* Corpus को safe assets (Debt funds, Fixed deposits, Annuities) में shift करें
-* Monthly pension-like income plan बनाएं
-* Retirement के बाद के खर्चों का realistic budget तैयार करें
-* Medical corpus अलग रखें
-
-💡 **Why important?**
-अब primary aim है — retirement के बाद steady cash flow ensure करना।
-
----
-
-## **Post-Retirement Stage (Age: 60+ years)**
-
-🔹 **Focus:** Wealth Utilization & Legacy Planning
-
-* SIP नहीं, बल्कि SWP (Systematic Withdrawal Plan) से खर्च निकालें
-* Inflation को ध्यान में रखते हुए withdrawal करें
-* Estate planning (Will, nomination) complete करें
-* Risk-free investments और emergency fund maintain करें
-
-💡 **Why important?**
-अब wealth को grow नहीं, बल्कि maintain करना priority है ताकि पूरी life financial stress ना हो।
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [8.4 Inflation Impact on Retirement](/courses/financial-literacy/module-08-retirement-planning-and-corpus/04-inflation-impact-on-retirement/)
+- **अगला Lesson ➡️**: [8.6 Best Investment Options for Retirement](/courses/financial-literacy/module-08-retirement-planning-and-corpus/06-retirement-investment-options/)

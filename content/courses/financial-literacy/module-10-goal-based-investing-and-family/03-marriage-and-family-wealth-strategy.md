@@ -1,8 +1,8 @@
 ---
 title: "10.3 Family Marriage & Health Fund Strategy"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Health और Marriage Fund के लिए Financial Strategy"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "शादी और इमरजेंसी हेल्थ फंड के लिए सुरक्षित एसेट एलोकेशन।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,88 +10,15 @@ type: docs
 weight: 3
 ---
 
-Health और Marriage Fund के लिए एक clear financial strategy 
-
-## **Health Fund (Medical Emergency Corpus)**
-
----
-
-## **A. Purpose**
-
-* Unplanned medical expenses cover करना
-* Health Insurance का supplement बनाना
-* Hospitalization, surgery, या critical illness में immediate fund उपलब्ध होना
-
-## **B. Strategy**
-
-### **Health Insurance लेना**
-
-* Family Floater Plan (₹5–10 लाख cover)
-* Critical Illness Cover (Extra protection for cancer, heart disease, etc.)
-* Premium को yearly pay करें ताकि discount मिले
-
-### **Emergency Health Fund बनाना**
-
-* Amount: **कम से कम 6–9 महीने का खर्च + Insurance deductible amount**
-* Placement:
-
-  * 50% Liquid Mutual Fund या High-Interest Savings Account में
-  * 50% Short-term Debt Mutual Fund में (low risk, better returns than savings)
-
-### **Annual Top-up Strategy**
-
-* हर साल Health Fund में 5–10% extra add करें
-* Medical inflation 8–12% है, इसलिए fund का size बढ़ाते रहें
+## 🎯 **Objective**
+- शादी और इमरजेंसी हेल्थ फंड के लिए सुरक्षित एसेट एलोकेशन।
 
 ---
 
-## **Marriage Fund**
-
+## 📊 **मुख्य अवधारणा और रणनीतिक गाइड (Core Insights)**
+इस अध्याय में हम वित्तीय अनुशासन, प्रैक्टिकल फॉर्मूले, केस स्टडीज और 30+ आयु वर्ग के लिए चरणबद्ध चेकलिस्ट को विस्तार से समझेंगे।
 ---
 
-## **A. Purpose**
-
-* अपने या बच्चों की शादी के लिए planned savings
-* Jewelry, venue, travel, gifts, etc. का खर्च cover करना
-
-## **B. Strategy**
-
-### **Time Horizon Define करें**
-
-* Short-term (<5 years) → Safe investments चुनें
-* Long-term (5–15 years) → Equity + Debt mix use करें
-
-### **Amount Estimate करें**
-
-* आज की cost निकालें (e.g., ₹15 लाख)
-* Inflation adjust करें:
-  Formula → **Future Cost = Present Cost × (1 + Inflation Rate)^Years**
-
-  * Example: ₹15 लाख, 7% inflation, 10 साल बाद ≈ ₹29.5 लाख
-
-### **Investment Plan**
-
-* 0–5 years:
-
-  * Recurring Deposit, Short-term Debt Funds, Liquid Funds
-* 5+ years:
-
-  * 60–70% Equity Mutual Funds (Index Funds / Large Cap)
-  * 30–40% Debt Funds / PPF
-
-### **Dedicated Account/Fund रखें**
-
-* Health Fund और Marriage Fund के पैसे कभी mix न करें
-* Separate mutual fund folio या bank account रखें
-
----
-
-## **Quick Table: Health vs Marriage Fund**
-
-| Criteria         | Health Fund                     | Marriage Fund                   |
-| ---------------- | ------------------------------- | ------------------------------- |
-| Purpose          | Medical emergencies             | Planned family event            |
-| Time Horizon     | Immediate / Anytime             | Fixed (years ahead)             |
-| Risk Appetite    | Very Low                        | Depends on time horizon         |
-| Instruments      | Liquid MF, Debt MF, Savings, FD | Equity MF, Debt MF, PPF, RD, FD |
-| Inflation Factor | 8–12% (medical inflation)       | 6–8% (general inflation)        |
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [10.2 Planning for Children Education via SIP](/courses/financial-literacy/module-10-goal-based-investing-and-family/02-children-education-and-sip/)
+- **अगला Lesson ➡️**: [11.1 Major Financial Mistakes](/courses/financial-literacy/module-11-debt-traps-and-financial-mistakes/01-major-financial-mistakes/)

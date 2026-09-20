@@ -1,8 +1,8 @@
 ---
 title: "5.5 Core Investment Principles"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Investment के मुख्य Principles (Golden Rules)"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "सफल निवेश के 5 सुनहरे नियम और एसेट एलोकेशन रणनीति।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,118 +10,15 @@ type: docs
 weight: 5
 ---
 
-## 📈 **Investment के मुख्य Principles (Golden Rules)**
-
-अगर कोई व्यक्ति **सही principles** follow करके investment करता है,
-तो वह **risk control + long-term wealth creation** आसानी से कर सकता है।
-मैं आपके **Financial Literacy Course (Module: Investment Basics)** के लिए
-**Investment के मुख्य principles** detail में समझा देता हूँ।
-
+## 🎯 **Objective**
+- सफल निवेशकों के 5 गोल्डन रूल्स:
+  1. कभी ऐसा उत्पाद न खरीदें जिसे आप समझ नहीं सकते।
+  2. एसेट एलोकेशन (Asset Allocation) ही आपकी 90% सफलता तय करता है।
+  3. मार्केट टाइम करने के बजाय 'Time in the Market' पर ध्यान दें।
+  4. अपने सभी अंडे एक ही टोकरी में न रखें (Diversification)।
+  5. सालाना रीबैलेंसिंग (Yearly Rebalancing) करें।
 ---
 
-## **Invest Early (जल्दी निवेश शुरू करें)**
-
-* जितना जल्दी आप investment शुरू करेंगे, उतना **compounding का फायदा** मिलेगा।
-* **Time = सबसे बड़ा wealth creator**
-
-**Example:**
-
-* A ने 25 साल की age में ₹5,000/month invest किया (12% return) → 20 साल में \~₹50 लाख
-* B ने 35 साल की age में same invest किया → 10 साल में \~₹11 लाख
-* **Difference = Time Advantage**
-
----
-
-## **Invest Regularly (नियमित निवेश करें)**
-
-* **Consistency** investment में सबसे important है।
-* **SIP (Systematic Investment Plan)** best तरीका है discipline maintain करने का।
-
-**Benefit:**
-
-* Market high-low की tension कम
-* Average cost reduce होती है (Rupee Cost Averaging)
-
----
-
-## **Diversification (निवेश को बाँटना)**
-
-* **Never put all eggs in one basket**
-* अलग-अलग asset classes में invest करें:
-
-  1. **Equity** (Growth)
-  2. **Debt/FD** (Safety)
-  3. **Gold** (Hedge against inflation)
-  4. **Real Estate** (Long-term asset)
-
-**Benefit:**
-
-* अगर एक asset down है तो दूसरा portfolio balance करेगा
-
----
-
-## **Understand Risk & Return (Risk को जानें)**
-
-* **High Return = High Risk**, **Low Risk = Low Return**
-* Investment चुनने से पहले अपने **risk appetite** को समझें।
-
-**Example:**
-
-* FD → Safe but 5% return (Inflation barely beat)
-* Equity → Volatile but 12-15% long-term return
-
----
-
-## **Long-Term Vision रखें**
-
-* **Short-term market up-down** से डरकर investment बंद मत करें
-* **Long-term holding** में ही wealth create होती है
-
-**Example:**
-
-* Sensex 2008 crash में 8,000 पर गया → 2024 में 73,000+
-* जिन्होंने patience रखा → Crorepati बने
-
----
-
-## **Avoid Emotional Decisions**
-
-* **Fear और Greed** investment का सबसे बड़ा दुश्मन है
-* Market गिरा → घबराकर sell करना = Loss
-* Market चढ़ा → लालच में बिना सोच invest करना = Risk
-
-**Tip:**
-
-* Financial goal और plan के हिसाब से ही invest करें
-
----
-
-## **Review & Rebalance Portfolio**
-
-* हर 6-12 महीने में check करें:
-
-  * Return expectation ठीक है या नहीं
-  * Asset allocation सही है या नहीं
-* जरुरत पड़ने पर rebalance करें (Equity ज्यादा grow → कुछ profit debt में shift)
-
----
-
-## ✅ **Quick Summary of Principles**
-
-| Principle          | Key Idea                        |
-| ------------------ | ------------------------------- |
-| Invest Early       | Compounding का फायदा लें        |
-| Invest Regularly   | SIP और Discipline maintain करें |
-| Diversification    | Risk कम, Return stable रखें     |
-| Know Risk & Return | हर product को समझकर invest करें |
-| Long-Term Focus    | Patience = Wealth creation      |
-| Avoid Emotions     | Plan-based investing करें       |
-| Review & Rebalance | Portfolio healthy रखें          |
-
----
-
-## 🎯 **Bottom Line**
-
-> **Investment = Discipline + Patience + Planning**
-> अगर आप **early + regular + diversified + long-term** invest करेंगे,
-> तो **inflation beat + financial freedom** दोनों achieve होंगे।
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [5.4 Investing vs Saving](/courses/financial-literacy/module-05-investing-principles-and-inflation/04-investing-vs-saving/)
+- **अगला Lesson ➡️**: [5.6 Long-Term vs Short-Term](/courses/financial-literacy/module-05-investing-principles-and-inflation/06-long-term-vs-short-term/)

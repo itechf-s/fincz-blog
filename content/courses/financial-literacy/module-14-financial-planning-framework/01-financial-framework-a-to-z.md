@@ -1,8 +1,8 @@
 ---
 title: "14.1 Financial Planning Framework A to Z"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Module 14: Financial Planning Framework – A to Z"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "शून्य से वित्तीय स्वतंत्रता तक का सम्पूर्ण A to Z मास्टर फ्रेमवर्क।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,112 +10,15 @@ type: docs
 weight: 1
 ---
 
-## **Financial Assessment (Where You Are)**
-
-* **Net Worth Calculation** – Assets – Liabilities = Net Worth
-* **Cash Flow Statement** – Monthly income & expenses का breakdown
-* **Debt Analysis** – Loan types, interest rates, repayment timelines
-* Tool Suggestion: Google Sheet या Mint / Walnut ऐप
+## 🎯 **Objective**
+- शून्य से वित्तीय स्वतंत्रता तक का सम्पूर्ण A to Z मास्टर फ्रेमवर्क।
 
 ---
 
-## **Goal Setting (Where You Want to Be)**
-
-* **Short-term goals** – 1–3 साल (e.g., emergency fund, vacation)
-* **Medium-term goals** – 3–7 साल (e.g., house down payment)
-* **Long-term goals** – 10+ साल (e.g., retirement, बच्चों की पढ़ाई)
-* SMART Framework (Specific, Measurable, Achievable, Relevant, Time-bound)
-
+## 📊 **मुख्य अवधारणा और रणनीतिक गाइड (Core Insights)**
+इस अध्याय में हम वित्तीय अनुशासन, प्रैक्टिकल फॉर्मूले, केस स्टडीज और 30+ आयु वर्ग के लिए चरणबद्ध चेकलिस्ट को विस्तार से समझेंगे।
 ---
 
-## **Budgeting & Expense Management**
-
-* Zero-Based Budget vs 50-30-20 Rule
-* Expense Tracking Tools
-* Wants vs Needs filter
-* Cutting Unnecessary Costs (subscription audit, cash envelope method)
-
----
-
-## **Risk Management (Insurance Planning)**
-
-* Life Insurance (Term Plan)
-* Health Insurance (Individual & Family Floater)
-* Disability & Critical Illness Cover
-* Asset Insurance (home, vehicle)
-
----
-
-## **Emergency Fund**
-
-* 6–12 months of essential expenses
-* Parking options – High interest savings account, liquid funds
-* Access rules (only for real emergencies)
-
----
-
-## **Debt Management**
-
-* Debt Snowball vs Debt Avalanche method
-* Credit Card bill clearance strategy
-* High-Interest Loan repayment priority
-* Avoiding debt traps (EMI overload, payday loans)
-
----
-
-## **Investment Planning**
-
-* Asset Allocation (Equity, Debt, Gold, Real Estate, Alternatives)
-* Diversification strategy
-* SIP & Lump sum investing
-* Investment vehicles – Stocks, MFs, ETFs, Bonds, REITs, PPF, NPS
-* Risk vs Return balance
-
----
-
-## **Tax Planning**
-
-* New vs Old Regime comparison
-* Section 80C, 80D, 24(b), HRA benefits
-* ITR Filing basics
-* Avoiding common tax mistakes
-
----
-
-## **Retirement Planning**
-
-* Corpus calculation (Inflation-adjusted)
-* Best retirement investment options
-* Withdrawal strategy (SWP – Systematic Withdrawal Plan)
-* Avoiding early corpus depletion
-
----
-
-## **Estate & Legacy Planning**
-
-* Will Drafting basics
-* Nomination in bank accounts & investments
-* Trust creation (for large estates)
-* Power of Attorney (in case of incapacity)
-
----
-
-## **Passive Income & Wealth Creation**
-
-* Rental income, dividends, royalties
-* Digital assets (blogs, YouTube, courses)
-* Shariah-compliant investment options (if applicable)
-
----
-
-## **Financial Review & Rebalancing**
-
-* Annual financial check-up
-* Portfolio rebalancing (asset allocation correction)
-* Updating goals & insurance cover
-
----
-
-## **Flowchart Summary**
-
-1️⃣ **Assess** → 2️⃣ **Set Goals** → 3️⃣ **Budget** → 4️⃣ **Risk Cover** → 5️⃣ **Emergency Fund** → 6️⃣ **Debt Control** → 7️⃣ **Invest** → 8️⃣ **Tax Optimize** → 9️⃣ **Retirement Plan** → 🔟 **Legacy Plan** → 1️⃣1️⃣ **Passive Income** → 1️⃣2️⃣ **Review**
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [13.5 Shariah Finance Apps](/courses/financial-literacy/module-13-financial-tools-and-apps/05-shariah-compliant-finance-apps/)
+- **अगला Lesson ➡️**: [14.2 Step-by-Step Life Financial Roadmap](/courses/financial-literacy/module-14-financial-planning-framework/02-step-by-step-financial-roadmap/)

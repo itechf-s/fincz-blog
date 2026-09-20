@@ -1,8 +1,8 @@
 ---
 title: "11.1 Major Financial Mistakes to Avoid"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Module 11: Financial Mistakes से कैसे बचें"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "मिडिल क्लास की 7 सबसे बड़ी वित्तीय गलतियां जो कभी अमीर नहीं बनने देतीं।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,66 +10,15 @@ type: docs
 weight: 1
 ---
 
-**Module 11: "Financial Mistakes से कैसे बचें"** को हम ऐसे structure कर सकते हैं, ताकि 30+ उम्र के लोग अपने पैसे को गलत decisions से बचा सकें और better financial habits बना सकें।
-
-## **Common Financial Mistakes**
-
-* **Impulse Buying** – बिना जरूरत की चीज़ें खरीदना
-* **Overuse of Credit Cards** – सिर्फ minimum payment करना
-* **Emergency Fund न बनाना**
-* **Insurance की कमी या गलत insurance लेना**
-* **Investments में diversification न करना**
-* **Retirement Planning delay करना**
-* **High-interest loans लेना (जैसे personal loan, credit card loan)**
+## 🎯 **Objective**
+- मिडिल क्लास की 7 सबसे बड़ी वित्तीय गलतियां जो कभी अमीर नहीं बनने देतीं।
 
 ---
 
-## **Overspending के कारण**
-
-* Lifestyle inflation (income बढ़ने पर unnecessary खर्च बढ़ाना)
-* Social media influence और comparison
-* Discounts और EMI offers के trap में आना
-
+## 📊 **मुख्य अवधारणा और रणनीतिक गाइड (Core Insights)**
+इस अध्याय में हम वित्तीय अनुशासन, प्रैक्टिकल फॉर्मूले, केस स्टडीज और 30+ आयु वर्ग के लिए चरणबद्ध चेकलिस्ट को विस्तार से समझेंगे।
 ---
 
-## **Debt Management Mistakes**
-
-* High-interest debt पहले clear न करना
-* Debt consolidation options को ignore करना
-* Loan लेने से पहले repayment capacity calculate न करना
-
----
-
-## **Investment Mistakes**
-
-* सिर्फ एक asset class में invest करना
-* बिना research के "hot tips" पर invest करना
-* Risk tolerance के हिसाब से plan न बनाना
-* Short-term जरूरत के पैसे risky assets में लगाना
-
----
-
-## **Tax Mistakes**
-
-* Tax saving को साल के end में करना (last-minute decisions)
-* गलत tax regime चुनना (Old vs New regime confusion)
-* Eligible deductions और exemptions को miss करना
-
----
-
-## **Financial Planning Mistakes**
-
-* Clear goals न बनाना
-* Regular review और portfolio rebalancing न करना
-* Inflation को ignore करना
-* Family को financial plans और documents के बारे में न बताना
-
----
-
-## **बचाव के Practical Steps**
-
-* Monthly budget बनाना और review करना
-* 6-12 months का Emergency Fund रखना
-* High-interest loans avoid करना
-* Insurance और investment portfolio diversify करना
-* Annual financial health check-up करना
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [10.3 Family Marriage Strategy](/courses/financial-literacy/module-10-goal-based-investing-and-family/03-marriage-and-family-wealth-strategy/)
+- **अगला Lesson ➡️**: [11.2 The Loan & High-Interest EMI Trap](/courses/financial-literacy/module-11-debt-traps-and-financial-mistakes/02-loan-and-emi-trap/)

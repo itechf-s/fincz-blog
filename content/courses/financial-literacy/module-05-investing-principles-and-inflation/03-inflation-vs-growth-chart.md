@@ -1,8 +1,8 @@
 ---
 title: "5.3 Inflation vs Investment Growth Chart"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Inflation vs Investment Growth Chart"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "महंगाई vs इन्वेस्टमेंट ग्रोथ का 20 वर्षीय तुलनात्मक विश्लेषण।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,65 +10,19 @@ type: docs
 weight: 3
 ---
 
-## 📊 **Inflation vs Investment Growth Chart**
+## 🎯 **Objective**
+- विभिन्न एसेट क्लासेस और महंगाई का 20 साल का तुलनात्मक चार्ट।
 
-यहाँ मैं आपके के लिए एक **Inflation vs Investment Growth Chart** दे रहा हूँ
-
-**Assumption:**
-
-* Initial Investment = ₹1,00,000
-* Inflation Rate = 6% p.a.
-* Investment Returns:
-
-  * **FD / RD:** 5% p.a.
-  * **Equity Mutual Fund:** 12% p.a.
-
----
-
-## **Value of ₹1,00,000 in 10 Years (Approx)**
-
-| Year | Inflation @6% (Purchasing Power) | FD @5%    | Equity MF @12% |
-| ---- | -------------------------------- | --------- | -------------- |
-| 0    | ₹1,00,000                        | ₹1,00,000 | ₹1,00,000      |
-| 1    | ₹94,340                          | ₹1,05,000 | ₹1,12,000      |
-| 3    | ₹83,960                          | ₹1,15,760 | ₹1,40,490      |
-| 5    | ₹74,730                          | ₹1,27,630 | ₹1,76,230      |
-| 7    | ₹66,490                          | ₹1,40,710 | ₹2,21,000      |
-| 10   | ₹55,840                          | ₹1,62,890 | ₹3,10,580      |
-
----
-
-## **Key Insights**
-
-* **Inflation** हर साल आपके पैसों की **value घटा देती है**
-* **FD/RD return** inflation से थोड़ा ही ऊपर है → **Real gain ≈ 0%**
-* **Equity (Long-term)** inflation को comfortably beat करता है
-
----
-
-## **Visual Representation (Text-based)**
-
+```text
+  Asset Class        Nominal Return    Inflation (6.5%)    Real Wealth Growth
+  ----------------------------------------------------------------------------
+  Bank Savings Account     3.0%              6.5%           -3.5% (घाटा/Loss)
+  Fixed Deposit (FD)       6.8%              6.5%           +0.3% (नाममात्र)
+  Gold                     10.5%             6.5%           +4.0% (सुरक्षित)
+  Equity Mutual Funds      13.5%             6.5%           +7.0% (सच्ची वेल्थ)
 ```
-₹3,50,000 |                    
-          |                    
-          |                    
-₹3,00,000 |                █ Equity MF (12%)
-          |                    
-₹2,50,000 |                    
-          |                    
-₹2,00,000 |          █      
-          |                    
-₹1,50,000 |    █  FD (5%)     
-          |                    
-₹1,00,000 | █ Inflation (6%)
-          |_____________________________
-               0Y    5Y    10Y
-```
-
 ---
 
-## ✅ **Conclusion**
-
-> * Inflation silently आपके पैसों को खा जाती है
-> * FD से barely बचाव होता है
-> * **Long-term equity investment** inflation को beat करके wealth create करता है
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [5.2 Beating Inflation](/courses/financial-literacy/module-05-investing-principles-and-inflation/02-beating-inflation/)
+- **अगला Lesson ➡️**: [5.4 Investing vs Saving](/courses/financial-literacy/module-05-investing-principles-and-inflation/04-investing-vs-saving/)

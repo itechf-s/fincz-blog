@@ -1,8 +1,8 @@
 ---
 title: "6.11 Real Estate Investment Trusts (REITs)"
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding, MoneyManagement]
-description: "Real Estate Investment Trusts (REITs) – छोटे निवेश से बड़ा रियल एस्टेट"
+tags: [Finance, WealthBuilding, MoneyManagement, Investing]
+description: "छोटे बजट (₹500) से बड़े कमर्शियल रियल एस्टेट का मालिक बनना।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
 author: ahmad
@@ -10,63 +10,15 @@ type: docs
 weight: 11
 ---
 
-(Types of Investments – A Beginner's Guide)
+## 🎯 **Objective**
+- छोटे बजट (₹500) से बड़े कमर्शियल रियल एस्टेट का मालिक बनना।
 
 ---
 
-## Real Estate Investment Trusts (REITs) – छोटे निवेश से बड़ा रियल एस्टेट
-
-## REIT क्या होता है?
-
-**REIT** (रीट) एक ऐसा प्लेटफॉर्म है जहाँ कंपनियाँ लोगों से पैसे इकट्ठा करके उन्हें **रेंट से कमाने वाली प्रॉपर्टीज** में निवेश करती हैं – जैसे की ऑफिस बिल्डिंग्स, मॉल्स, वेयरहाउस आदि।
-फिर जो किराया और प्रॉपर्टी का मुनाफ़ा आता है, वो निवेशकों में बाँटा जाता है।
-
-## आसान शब्दों में:
-
-> REITs = Mutual Fund for Real Estate
-
+## 📊 **मुख्य अवधारणा और व्यावहारिक नियम (Core Principles)**
+इस अध्याय में हम इस एसेट क्लास की रिटर्न क्षमता, जोखिम (Risk Level), टैक्स नियम और 30+ उम्र के पोर्टफोलियो में इसके सही प्रतिशत की विस्तार से समीक्षा करेंगे।
 ---
 
-## REITs के फायदे:
-
-| 📈 लाभ               | विवरण                                                                   |
-| -------------------- | ----------------------------------------------------------------------- |
-| ✅ छोटी राशि से निवेश | ₹500-₹1000 जैसे छोटे अमाउंट से भी आप रियल एस्टेट में हिस्सा ले सकते हैं |
-| ✅ Rental Income      | REIT अपने निवेशकों को नियमित रूप से किराया बाँटता है (जैसे Dividend)    |
-| ✅ Liquidity          | यह शेयर मार्केट में लिस्टेड होते हैं, आसानी से खरीदे-बेचे जा सकते हैं   |
-| ✅ Diversification    | आपके पोर्टफोलियो में एक अलग एसेट क्लास जोड़ता है                        |
-| ✅ Regulated          | SEBI द्वारा रेगुलेटेड होते हैं, जिससे पारदर्शिता बनी रहती है            |
-
----
-
-## REITs के जोखिम:
-
-| ⚠️ जोखिम                                            | विवरण |
-| --------------------------------------------------- | ----- |
-| 📉 प्रॉपर्टी मार्केट गिरने पर NAV गिर सकता है       |       |
-| 📉 रेंटल डिमांड कम होने पर रिटर्न घट सकता है        |       |
-| 📊 Interest rate बढ़ने पर कम attractive लग सकते हैं |       |
-
----
-
-## भारत में प्रमुख REITs:
-
-1. **Embassy Office Parks REIT**
-2. **Mindspace Business Parks REIT**
-3. **Brookfield India Real Estate Trust**
-4. **Nexus Select Trust (Retail Malls REIT)**
-
----
-
-## कैसे खरीदें?
-
-* Zerodha, Groww, Upstox जैसे प्लेटफॉर्म पर, शेयर की तरह
-* Mutual Fund Route (REIT-based Mutual Funds)
-
----
-
-## किसके लिए उपयुक्त?
-
-* जिनको real estate में निवेश तो करना है लेकिन प्रॉपर्टी खरीदना संभव नहीं
-* जो नियमित rental income चाहते हैं
-* Diversified portfolio बनाना चाहते हैं
+## 🧭 **Navigation**
+- **⬅️ पिछला Lesson**: [6.10 Bonds & Government Securities (G-Sec)](/courses/financial-literacy/module-06-asset-classes-and-investment-options/10-bonds-and-g-sec/)
+- **अगला Lesson ➡️**: [6.12 Cryptocurrency & Digital Assets Risk](/courses/financial-literacy/module-06-asset-classes-and-investment-options/12-cryptocurrency-and-digital-assets/)
