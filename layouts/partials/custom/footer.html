@@ -1,92 +1,225 @@
-<div class="hx:w-full hx:pt-10 hx:pb-12">
-  <div class="fl-footer-grid">
-    <!-- Brand Info Block -->
-    <div class="hx:space-y-4">
-      <a href="/" class="hx:inline-flex hx:items-center hx:gap-2.5 hx:font-extrabold hx:text-lg hx:text-gray-900 hx:dark:text-white">
-        <img src="/images/fincz-logo-black.png" alt="Fincz Learn" class="hx:h-7 hx:w-auto hx:dark:hidden" />
-        <img src="/images/fincz-logo-white.png" alt="Fincz Learn" class="hx:h-7 hx:w-auto hx:hidden hx:dark:block" />
-        <span>Learn</span>
+<style>
+  .fincz-footer-container {
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+  }
+  .fincz-footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  @media (min-width: 640px) {
+    .fincz-footer-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .fincz-footer-grid {
+      grid-template-columns: 2.2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+    }
+  }
+  .fincz-footer-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.85rem;
+    color: #111827;
+  }
+  .dark .fincz-footer-title {
+    color: #e5e7eb;
+  }
+  .fincz-footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .fincz-footer-list a {
+    font-size: 0.875rem;
+    color: #4b5563;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+  .dark .fincz-footer-list a {
+    color: #9ca3af;
+  }
+  .fincz-footer-list a:hover {
+    color: #111827;
+    text-decoration: underline;
+  }
+  .dark .fincz-footer-list a:hover {
+    color: #f3f4f6;
+  }
+  .fincz-footer-bottom {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  @media (min-width: 768px) {
+    .fincz-footer-bottom {
+      flex-direction: row;
+    }
+  }
+  .dark .fincz-footer-bottom {
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+  .fincz-social-list {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .fincz-social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    color: #6b7280;
+    transition: all 0.15s ease;
+  }
+  .dark .fincz-social-btn {
+    color: #9ca3af;
+  }
+  .fincz-social-btn:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    color: #111827;
+  }
+  .dark .fincz-social-btn:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+  }
+</style>
+
+<div class="fincz-footer-container">
+  <div class="fincz-footer-grid">
+    <!-- Brand / About Column -->
+    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+      <a style="display: inline-block; font-weight: 700; font-size: 1.25rem;" href="/">
+        <img src="/images/fincz-logo-black.png" alt="fincz logo" width="120" height="43" class="hx:block hx:dark:hidden" />
+        <img src="/images/fincz-logo-white.png" alt="fincz logo" width="120" height="43" class="hx:hidden hx:dark:block" />
       </a>
-      <p class="hx:text-sm hx:text-gray-600 hx:dark:text-gray-400 hx:leading-relaxed hx:max-w-xs">
-        Free, structured developer courses, AI engineering architectures, and scenario-based interview challenges.
-      </p>
-      <p class="hx:text-xs hx:text-gray-500 hx:dark:text-gray-500">
-        Empowering engineers to build with modern AI and scalable backend systems.
-      </p>
+      <div style="font-size: 0.875rem; line-height: 1.6; max-width: 22rem;" class="hx:text-gray-600 hx:dark:text-gray-400">
+        फाइनेंस, शेयर मार्केट इन्वेस्टमेंट, मनी मैनेजमेंट, रिटायरमेंट और सरकारी योजनाओं की जानकारी पाने के लिए हमारी वेबसाइट को विज़िट करिए।
+      </div>
+      <div style="font-size: 0.875rem; padding-top: 0.25rem;">
+        <a class="hx:text-gray-500 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200 hx:hover:underline" href="https://theislah.com/tools/zakat-calculator/" target="_blank" rel="noopener noreferrer">
+          Zakat Calculator ↗
+        </a>
+      </div>
     </div>
 
-    <!-- Courses Column -->
+    <!-- Categories Column -->
     <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-3.5">
-        Courses
-      </h3>
-      <ul class="hx:space-y-2 hx:text-sm">
-        <li>
-          <a href="/courses/claude-code/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Claude Code Masterclass</a>
-        </li>
-        <li>
-          <a href="/courses/java-beginner/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Java Backend Track</a>
-        </li>
-        <li>
-          <a href="/courses/financial-literacy/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Financial Literacy</a>
-        </li>
-        <li>
-          <a href="/courses/" class="hx:text-blue-600 hx:dark:text-blue-400 hx:font-medium hx:hover:underline">Browse All Courses →</a>
-        </li>
+      <div class="fincz-footer-title">Categories</div>
+      <ul class="fincz-footer-list">
+        <li><a href="https://fincz.com/category/personal-finance/" target="_blank" rel="noopener noreferrer">Personal Finance</a></li>
+        <li><a href="https://fincz.com/category/investments/" target="_blank" rel="noopener noreferrer">Investments</a></li>
+        <li><a href="https://fincz.com/category/retirement/" target="_blank" rel="noopener noreferrer">Retirement</a></li>
+        <li><a href="https://fincz.com/category/insurance/" target="_blank" rel="noopener noreferrer">Insurance</a></li>
+        <li><a href="https://fincz.com/category/tax/" target="_blank" rel="noopener noreferrer">Tax</a></li>
       </ul>
     </div>
 
-    <!-- Guides & Practice Column -->
+    <!-- Quick Links Column -->
     <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-3.5">
-        Guides & Practice
-      </h3>
-      <ul class="hx:space-y-2 hx:text-sm">
-        <li>
-          <a href="/guides/mcp-server-complete-guide/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">MCP Server Architecture</a>
-        </li>
-        <li>
-          <a href="/guides/google-antigravity-complete-guide/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Google Antigravity CLI</a>
-        </li>
-        <li>
-          <a href="/practice/java-coding-questions/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Java Coding & Streams</a>
-        </li>
-        <li>
-          <a href="/practice/system-design-scenario-questions/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">System Design Scenarios</a>
-        </li>
+      <div class="fincz-footer-title">Quick Links</div>
+      <ul class="fincz-footer-list">
+        <li><a href="https://fincz.com/about/" target="_blank" rel="noopener noreferrer">About</a></li>
+        <li><a href="https://fincz.com/contact/" target="_blank" rel="noopener noreferrer">Contact</a></li>
+        <li><a href="https://fincz.com/terms-and-conditions/" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></li>
+        <li><a href="https://fincz.com/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+        <li><a href="https://fincz.com/amazon-affiliate-disclosure/" target="_blank" rel="noopener noreferrer">Amazon Affiliate Disclosure</a></li>
       </ul>
     </div>
 
-    <!-- Company & Legal Column -->
+    <!-- Favorite Sites Column -->
     <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-3.5">
-        Platform
-      </h3>
-      <ul class="hx:space-y-2 hx:text-sm">
-        <li>
-          <a href="/about/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">About Fincz Learn</a>
-        </li>
-        <li>
-          <a href="/contact/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Contact & Support</a>
-        </li>
-        <li>
-          <a href="/privacy-policy/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="/terms-and-conditions/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Terms of Service</a>
-        </li>
+      <div class="fincz-footer-title">Favorite Sites</div>
+      <ul class="fincz-footer-list">
+        <li><a href="https://fincz.com/" target="_blank" rel="noopener noreferrer">Fincz.com</a></li>
+        <li><a href="https://theislah.com/" target="_blank" rel="noopener noreferrer">Theislah.com</a></li>
+        <li><a href="https://theislah.com/tools/" target="_blank" rel="noopener noreferrer">Islamic Tools</a></li>
+        <li><a href="/courses/">Fincz Learn Courses</a></li>
       </ul>
     </div>
   </div>
 
-  <!-- Bottom Copyright Bar -->
-  <div class="hx:mt-10 hx:pt-6 hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:flex hx:flex-col hx:sm:flex-row hx:items-center hx:justify-between hx:gap-3 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400">
-    <div>
-      © {{ now.Format "2006" }} <span class="hx:font-semibold hx:text-gray-800 hx:dark:text-gray-200">Fincz Learn</span>. All rights reserved.
+  <!-- Bottom Bar: Social Icons & Copyright -->
+  <div class="fincz-footer-bottom">
+    <!-- Copyright -->
+    <div style="font-size: 0.875rem;" class="hx:text-gray-600 hx:dark:text-gray-400">
+      Copyright © {{ now.Format "2006" }} <span class="hx:font-medium hx:text-gray-800 hx:dark:text-gray-200">fincz</span> · All rights reserved.
     </div>
-    <div class="hx:flex hx:items-center hx:gap-4">
-      <a href="https://github.com/itechf-s/fincz-blog" target="_blank" rel="noopener noreferrer" class="hx:hover:text-blue-600 hx:dark:hover:text-blue-400 hx:transition-colors">GitHub</a>
-      <a href="https://fincz.com" target="_blank" rel="noopener noreferrer" class="hx:hover:text-blue-600 hx:dark:hover:text-blue-400 hx:transition-colors">Fincz.com</a>
-    </div>
+
+    <!-- Social Links (Tabler SVG Icons matched with fincz.com) -->
+    <ul class="fincz-social-list">
+      <!-- RSS -->
+      <li>
+        <a class="fincz-social-btn" aria-label="RSS" href="/index.xml">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+            <path d="M4 4a16 16 0 0 1 16 16"></path>
+            <path d="M4 11a9 9 0 0 1 9 9"></path>
+          </svg>
+        </a>
+      </li>
+      <!-- Facebook -->
+      <li>
+        <a class="fincz-social-btn" aria-label="Facebook" href="https://www.facebook.com/theislahpage" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"></path>
+          </svg>
+        </a>
+      </li>
+      <!-- Pinterest -->
+      <li>
+        <a class="fincz-social-btn" aria-label="Pinterest" href="https://in.pinterest.com/theislah" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 20l4-9m-1.3 3c.437 1.263 1.43 2 2.55 2c2.071 0 3.75-1.554 3.75-4a5 5 0 1 0-9.7 1.7"></path>
+            <circle cx="12" cy="12" r="9"></circle>
+          </svg>
+        </a>
+      </li>
+      <!-- Instagram -->
+      <li>
+        <a class="fincz-social-btn" aria-label="Instagram" href="https://www.instagram.com/theislah4u" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+            <circle cx="12" cy="12" r="3"></circle>
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.51"></line>
+          </svg>
+        </a>
+      </li>
+      <!-- YouTube -->
+      <li>
+        <a class="fincz-social-btn" aria-label="YouTube" href="https://www.youtube.com/c/Theislah" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="4"></rect>
+            <polygon points="10 9 15 12 10 15 10 9"></polygon>
+          </svg>
+        </a>
+      </li>
+      <!-- GitHub -->
+      <li>
+        <a class="fincz-social-btn" aria-label="GitHub" href="https://github.com/itechf-s/fincz-blog" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
