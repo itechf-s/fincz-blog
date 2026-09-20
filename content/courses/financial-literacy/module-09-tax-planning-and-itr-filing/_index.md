@@ -1,22 +1,78 @@
 ---
-title: "Module 9: Tax Planning और ITR Filing"
-description: "टैक्स प्लानिंग, लीगल टैक्स सेविंग्स (Old vs New Regime), और ITR फाइलिंग।"
+title: "Module 9: Tax Planning और ITR Filing (टैक्स मास्टरी)"
+description: "कानूनी टैक्स प्लानिंग, Old vs New Tax Regime, 80C/80D/HRA डिडक्शंस, और खुद अपना ITR फाइल करने का गाइड।"
 date: 2026-09-20T08:00:00+05:30
+lastmod: 2026-09-20T08:00:00+05:30
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding]
+tags: [TaxPlanning, IncomeTax, ITR, NewTaxRegime, OldTaxRegime, 80C]
 author: ahmad
 type: docs
 weight: 90
 ---
 
-टैक्स प्लानिंग, लीगल टैक्स सेविंग्स (Old vs New Regime), और ITR फाइलिंग।
+## 🌟 **मॉड्यूल का परिचय: टैक्स बचाना आपका कानूनी हक है**
+
+ज्यादातर लोग टैक्स को एक सजा मानते हैं और मार्च का महीना आते ही हड़बड़ी में कोई भी घटिया बीमा पॉलिसी या टैक्स-सेविंग फंड खरीदकर अपना पैसा फंसा लेते हैं। 
+
+जबकि समझदार निवेशक पूरे साल योजना बनाकर कानूनी रूप से सरकार द्वारा दिए गए सभी प्रावधानों (Deductions & Exemptions) का फायदा उठाते हैं और हज़ारों-लाखों रुपये का वैध टैक्स बचाते हैं।
+
+**टैक्स चोरी (Tax Evasion) अपराध है, लेकिन सही नियमों के तहत टैक्स प्लानिंग (Tax Planning) समझदारी है।** इस मॉड्यूल में आप सीखेंगे कि New vs Old Regime में आपके लिए क्या बेस्ट है और खुद अपना ITR कैसे फाइल करें।
 
 ---
 
-## 📑 **इस मॉड्यूल के लेसन्स (Lessons):**
+## 🎯 **इस मॉड्यूल में आप क्या सीखेंगे? (Key Outcomes)**
 
-1. **[9.1 Tax Planning Basics](./01-tax-planning-basics/)**
-2. **[9.2 Legal Tax Saving Strategies](./02-tax-saving-strategies/)**
-3. **[9.3 Tax Regimes: Old vs New Regime](./03-tax-types-and-regimes/)**
-4. **[9.4 ITR Filing Step-by-Step Guide](./04-itr-filing-guide/)**
-5. **[9.5 Common Tax Filing Mistakes](./05-common-tax-mistakes/)**
+- **टैक्स प्लानिंग के मूल सिद्धांत**: Tax Planning, Tax Avoidance, और Tax Evasion के बीच का कानूनी फ़र्क।
+- **प्रमुख टैक्स डिडक्शंस**: Section 80C (₹1.5L), Section 80D (₹25k-₹75k), Section 80CCD(1B) (₹50k), और HRA का गणित।
+- **New vs Old Tax Regime का सटीक फैसला**: ₹3.75 लाख के ब्रेक-ईवन फॉर्मूले से अपनी सैलरी के लिए सही रिजीम चुनना।
+- **स्वयं ITR फाइलिंग गाइड**: Form 16, AIS (Annual Information Statement), और Form 26AS का मिलान करके 15 मिनट में ITR-1/ITR-2 फाइल करना।
+- **नोटिस और पेनाल्टी से बचाव**: बैंक ब्याज न छुपाना, 31 जुलाई की डेडलाइन, और ₹5,000 की लेट फीस से बचना।
+
+---
+
+## 🏛️ **टैक्स प्लानिंग और ITR का सही ढांचा (Tax Workflow)**
+
+```text
+  ┌────────────────────────────────────────────────────────┐
+  │                 आपकी कुल सालाना ग्रॉस आय (Gross Income) │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+               ┌──────────────┴──────────────┐
+               ▼                             ▼
+   [ विकल्प A: New Tax Regime ]   [ विकल्प B: Old Tax Regime ]
+   ┌──────────────────────────┐   ┌──────────────────────────┐
+   │ • ₹75,000 स्टैंडर्ड छूट  │   │ • 80C: ₹1.5L (ELSS/PPF)  │
+   │ • ₹7.75L तक ₹0 टैक्स     │   │ • 80D: ₹25k-₹75k (हेल्थ) │
+   │ • कम स्लैब रेट्स (10-20%) │   │ • HRA + होम लोन ब्याज    │
+   │ • कोई रसीद/कागज़ात नहीं   │   │ • ₹3.75L+ छूट पर फायदेमंद│
+   └──────────┬───────────────┘   └────────────┬─────────────┘
+              ▼                                ▼
+       [ AIS / 26AS मिलान ] ──────────▶ [ 100% सही ITR फाइलिंग ]
+```
+
+---
+
+## 📑 **इस मॉड्यूल के सबक़ (Lessons in this Module):**
+
+| सबक़ (Lesson) | आप क्या सीखेंगे? | डायरेक्ट लिंक |
+| :--- | :--- | :--- |
+| **9.1 Tax Planning Basics** | टैक्स चोरी बनाम कानूनी टैक्स बचत, और अप्रैल से प्लानिंग का महत्व। | [शुरू करें ➡️](./01-tax-planning-basics/) |
+| **9.2 Legal Tax Saving Strategies** | 80C, 80D, 80CCD(1B), 24(b) और HRA क्लेम करने का संपूर्ण फॉर्मूला। | [शुरू करें ➡️](./02-tax-saving-strategies/) |
+| **9.3 New vs Old Tax Regime** | ₹3.75 लाख का ब्रेक-ईवन फॉर्मूला और अपनी सैलरी स्लैब के लिए सही चुनाव। | [शुरू करें ➡️](./03-tax-types-and-regimes/) |
+| **9.4 ITR Filing Step-by-Step Guide** | Form 16, AIS, Form 26AS और ITR-1/ITR-2 फाइल करने का लाइव SOP। | [शुरू करें ➡️](./04-itr-filing-guide/) |
+| **9.5 Common Tax Filing Mistakes** | 5 घातक गलतियाँ: बैंक ब्याज छुपाना, फर्जी डिडक्शन और नोटिस से सुरक्षा। | [शुरू करें ➡️](./05-common-tax-mistakes/) |
+
+---
+
+## 💡 **मॉड्यूल शुरू करने से पहले 3 ज़रूरी बातें**
+
+1. **मार्च का इंतज़ार न करें**: अपनी टैक्स सेविंग ELSS SIP अप्रैल के महीने से ही शुरू करें।
+2. **इनकम टैक्स पोर्टल का लॉगिन पासवर्ड याद रखें**: [eportal.incometax.gov.in](https://eportal.incometax.gov.in/) पर अपना पैन लिंक चेक करें।
+3. **AIS (Annual Information Statement) को अपना सच्चा आईना समझें**।
+
+---
+
+## 🧭 **नेविगेशन (Navigation)**
+
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **पहला सबक शुरू करें 🚀**: [9.1 Tax Planning Basics](./01-tax-planning-basics/)
