@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 Module 6: Object Oriented Programming (OOP) Concepts in Java
-
 चलिए अब Object-Oriented Programming (OOP) का अगला और सबसे ज़्यादा interview में पूछा जाने वाला concept **Polymorphism** को detail में, आसान हिंदी में समझते हैं — examples, types, Java syntax और practical use के साथ।
 
 ---

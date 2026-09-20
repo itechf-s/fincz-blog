@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💳 **Module 4: बैंकों और Digital Tools की समझ**
-
----
-
 ## 🌐 **Net Banking और Security**
 
 आज के digital era में **Net Banking (Internet Banking)** का use almost हर bank customer करता है,

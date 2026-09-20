@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 6: MCP & Plugins — 6.2 Lifecycle Hooks**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Lifecycle Hooks** क्या होते हैं।

@@ -8,9 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 9: File Handling in Java**
-
-
 अब हम **Java में Directory (फ़ोल्डर)** से जुड़े operations सीखते हैं — यानी:
 
 > ✅ Directory बनाना,

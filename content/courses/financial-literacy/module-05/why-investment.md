@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
 अब आपके **Financial Literacy Course** का अगला हिस्सा होगा **Module 5: निवेश (Investment) की दुनिया में प्रवेश**,
 जहाँ learner को **wealth creation की शुरुआत** सिखाएँगे।
 

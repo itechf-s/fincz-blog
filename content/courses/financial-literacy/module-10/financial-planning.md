@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 10: बच्चों की पढ़ाई और परिवार के लक्ष्यों के लिए प्लानिंग
-
----
-
 ## **बच्चों की पढ़ाई के लिए Financial Planning क्यों ज़रूरी है?**
 
 * शिक्षा की लागत हर साल **Inflation** से बढ़ रही है (Engineering, Medical, Foreign Education, etc.)।

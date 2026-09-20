@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 11: Financial Mistakes से कैसे बचें
-
----
-
 **Ponzi Schemes और Scams को पहचानें**
 
 Ponzi Scheme एक ऐसा investment fraud है जिसमें पुराना investor को return नए investor के पैसे से दिया जाता है, न कि असली profit से।

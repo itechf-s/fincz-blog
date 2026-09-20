@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 13: Financial Tools & Apps**
-
 **Expense Tracker Tools** की पूरी लिस्ट, जिसमें mobile apps, ताकि 30+ उम्र वाले लोग आसानी से अपने खर्चों का हिसाब रख सकें।
 
 ---

@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 🏦 **Module 3: Saving Strategies & Emergency Fund**
-
----
-
 ## 🏦 **Emergency Fund इस्तेमाल करने के Rules**
 
 **Emergency Fund सिर्फ “असली इमरजेंसी” के लिए होता है** — अगर इसके इस्तेमाल के clear rules नहीं होंगे, तो ये पैसा जल्दी खत्म हो सकता है।

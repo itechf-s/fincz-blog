@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 4: Workflows — 4.2 Plan Mode & Ultraplan**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Plan Mode** क्या है और बड़े प्रोजेक्ट्स में इसकी ज़रूरत क्यों पड़ती है।

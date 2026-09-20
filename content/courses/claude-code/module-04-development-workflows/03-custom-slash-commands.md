@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 4: Workflows — 4.3 Custom Slash Commands**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Custom Slash Commands** क्या होते हैं।

@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 2: Everyday CLI — 2.3 Multimodal Image Context**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - Claude Code टर्मिनल में **स्क्रीनशॉट और UI डिज़ाइन** को प्रॉम्प्ट के साथ जोड़ सकेंगे।

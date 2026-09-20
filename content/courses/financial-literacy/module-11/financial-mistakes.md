@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 11: Financial Mistakes से कैसे बचें
-
 **Module 11: "Financial Mistakes से कैसे बचें"** को हम ऐसे structure कर सकते हैं, ताकि 30+ उम्र के लोग अपने पैसे को गलत decisions से बचा सकें और better financial habits बना सकें।
 
 ## **Common Financial Mistakes**

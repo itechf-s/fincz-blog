@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 2: Everyday CLI — 2.1 Slash Commands Mastery**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - Claude Code के सभी **Built-in Slash Commands** का आसानी से इस्तेमाल कर सकेंगे।

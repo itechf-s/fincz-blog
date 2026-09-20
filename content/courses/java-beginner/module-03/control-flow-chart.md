@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 3: Control Flow (if-else, loops)**
-
 ## Control Flow Chart
 
 ```

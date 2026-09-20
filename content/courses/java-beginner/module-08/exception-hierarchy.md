@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 8: Exception Handling in Java**
-
 अब हम Java में exceptions की **hierarchy (वंशवृक्ष)** को समझेंगे, जिससे आपको पता चलेगा कि कौन सी exception कहाँ फिट होती है — और कैसे Java में exception handling structured है।
 
 ---

@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 13: Financial Tools & Apps**
-
 **Islamic Finance** (Shariah-compliant investing) के लिए उपलब्ध tools और apps की जानकारी नीचे सरल और स्पष्ट रूप में दी गई है:
 
 ---

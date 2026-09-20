@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 3: Control Flow (if-else, loops)**
-
 ## 🔶 इस Module में आप सीखेंगे:
 
 * Control flow का मतलब क्या होता है

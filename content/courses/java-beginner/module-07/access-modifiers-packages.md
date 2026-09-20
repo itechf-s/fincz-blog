@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 7: Access Modifiers & Packages**
-
 Java में security, visibility और code organization के लिए दो बड़े टूल्स होते हैं:
 
 1. 🔐 **Access Modifiers** – कौन सा variable या method कहाँ से access किया जा सकता है

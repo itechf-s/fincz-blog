@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Foundations — 1.3 Installation & Setup**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - अपने कंप्यूटर (Mac, Linux, या Windows WSL) पर **Claude Code CLI** इंस्टॉल कर सकेंगे।

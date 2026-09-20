@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 🎓 **Module 1: Java का परिचय और सेटअप**
-
 ## 📘 **Java Keywords Chart (With Categories)**
 
 ### 🔹 Access Modifiers:

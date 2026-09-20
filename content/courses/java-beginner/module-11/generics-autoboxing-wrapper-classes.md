@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 11: Generics, Autoboxing & Wrapper Classes**
-
----
-
 ## 🔷 1. **Generics in Java**
 
 ### 📌 क्या है?

@@ -6,8 +6,6 @@ author: ahmad
 type: docs
 ---
 
-# 🏆 **Module 7: Real-World Capstone Projects (लाइव प्रैक्टिकल प्रोजेक्ट्स)**
-
 इस फाइनल मॉड्यूल में हमने अब तक जो कुछ सीखा है (Agentic loops, Spec-Driven Development, Custom Commands, Subagents और MCP), उन सभी को लाइव प्रैक्टिकल प्रोजेक्ट्स में लागू करेंगे।
 
 ---

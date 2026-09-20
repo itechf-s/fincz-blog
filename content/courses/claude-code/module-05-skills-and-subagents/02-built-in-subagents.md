@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 5: Skills & SubAgents — 5.2 Built-in SubAgents**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Subagents (वर्कर एजेंट्स)** क्या होते हैं और ये कैसे काम करते हैं।

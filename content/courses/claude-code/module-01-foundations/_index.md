@@ -6,8 +6,6 @@ author: ahmad
 type: docs
 ---
 
-# 🏗️ **Module 1: Foundations & Architecture (शुरुआत और बनावट)**
-
 इस मॉड्यूल में हम **Claude Code** की बेसिक बातों और इसके आर्किटेक्चर को समझेंगे। हम जानेंगे कि नॉर्मल AI चैटबॉट और एक Autonomous Coding Agent में क्या फर्क होता है, और अपने कंप्यूटर पर Claude Code को कैसे सही तरीके से सेट अप करें।
 
 ---

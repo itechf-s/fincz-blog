@@ -7,6 +7,8 @@ date: 2026-07-10T08:00:00+05:30
 lastmod: 2026-07-11T08:00:00+05:30
 images: ["images/2026/07/zia-fashion-point-discovery.jpg"]
 author: ahmad
+noindex: true
+excludeSearch: true
 metaRobots: "noindex, nofollow"
 sitemap:
   disable: true

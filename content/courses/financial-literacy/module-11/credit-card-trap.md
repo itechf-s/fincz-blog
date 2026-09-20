@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 11: Financial Mistakes से कैसे बचें
-
----
-
 **Credit Card Trap**
 यह एक बेहद ज़रूरी हिस्सा है, क्योंकि बहुत से लोग credit card को “free money” समझ लेते हैं और धीरे-धीरे debt trap में फँस जाते हैं।
 

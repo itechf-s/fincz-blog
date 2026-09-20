@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 7: Access Modifiers & Packages**
-
 अब मैं आपको **Access Modifiers** और **Packages** का एक **Real-World Java Project Example** देकर समझाता हूँ, जैसे कि किसी कंपनी का **"Online Shopping Application"** बन रहा हो।
 
 ---

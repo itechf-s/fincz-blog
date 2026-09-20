@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 6: MCP & Plugins — 6.3 Plugins & Ecosystem**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - Claude Code के **Plugins और कम्युनिटी इकोसिस्टम** को समझ पाएंगे।

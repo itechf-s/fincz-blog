@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 12: Multithreading & Concurrency in Java**
-
 ## 📘 **Thread Scheduling in Java (Thread Execution Order)**
 
 ---

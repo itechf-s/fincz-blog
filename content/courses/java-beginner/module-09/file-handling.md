@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 9: File Handling in Java**
-
 ## 🔷 1. File Handling क्या होता है?
 
 > **File Handling** का मतलब है – Java के ज़रिए किसी file को create, read, write या delete करना।

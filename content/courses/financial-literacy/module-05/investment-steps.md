@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
----
-
 ## **Investment शुरू करने के Practical Steps**
 
 **Financial Literacy Course** में learners को ये सिखाना कि **Investment की शुरुआत practically कैसे करें**

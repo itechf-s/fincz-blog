@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **📘 Module 7: बीमा (Insurance) की पूरी जानकारी**
-
 ## **Insurance लेते समय किन बातों का ध्यान रखें – Detailed Guide**
 
 Insurance सिर्फ एक **financial product** नहीं, बल्कि आपके और आपके परिवार के लिए **financial safety net** है। लेकिन बहुत लोग बिना सोचे-समझे या agent के कहने पर गलत policy ले लेते हैं, जिससे बाद में regret होता है।

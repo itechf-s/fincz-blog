@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💳 **Module 4: बैंकों और Digital Tools की समझ**
-
----
-
 ## 💳 **Credit Score क्या होता है और इसे कैसे बनाए रखें?**
 
 अगर आप loans, credit cards या financial planning कर रहे हैं,

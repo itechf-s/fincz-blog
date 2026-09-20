@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **📘 Module 7: बीमा (Insurance) की पूरी जानकारी**
-
----
-
 मैं आपको **Life Insurance vs Term Insurance** का पूरा Clear Comparison दे देता हूँ, ताकि Learners को आसानी से समझ आ जाए।
 
 ---

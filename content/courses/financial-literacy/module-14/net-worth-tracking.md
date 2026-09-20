@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 14: Financial Planning Framework – A to Z**
-
 ## **Net Worth क्या है?**
 
 Net Worth = **Total Assets** – **Total Liabilities**

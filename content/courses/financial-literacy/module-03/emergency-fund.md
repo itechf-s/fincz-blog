@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 🏦 **Module 3: Emergency Fund - ज़रूरत के वक़्त का सहारा**
-
 *("Paise ka suraksha kavach banaye")*
 
 ## 🏦 **Emergency Fund क्या है?**

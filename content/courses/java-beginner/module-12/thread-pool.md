@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 12: Multithreading & Concurrency in Java**
-
 अब हम Java Multithreading का एक और **production-level concept** सीखते हैं —
 
 ## 📘 **Thread Pool in Java**

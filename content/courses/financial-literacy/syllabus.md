@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 🎯 Financial Literacy
-
 **Financial Literacy कोर्स 30+ Age Group के लिए**
 *अपना पैसा समझिए, बचाइए, बढ़ाइए और सुरक्षित कीजिए*
 

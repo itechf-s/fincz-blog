@@ -7,6 +7,8 @@ date: 2026-08-27T18:30:00+05:30
 lastmod: 2026-09-13T16:30:00+05:30
 images: ["images/2026/08/house-construction-guide.webp"]
 author: ahmad
+noindex: true
+excludeSearch: true
 metaRobots: "noindex, nofollow"
 sitemap:
   disable: true

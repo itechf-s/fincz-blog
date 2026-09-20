@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 🏦 **Module 3: Saving Strategies & Emergency Fund**
-
----
-
 ## 🏦 **Emergency Fund कहाँ और कैसे रखें?**
 
 **Emergency Fund का मक़सद है: “Emergency में तुरंत पैसा ready रहे, और normal savings या investments disturb न हों।”**

@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# **📘 Module 7: बीमा (Insurance) की पूरी जानकारी**
-
----
-
 ## बीमा (Insurance) क्या है?
 
 **Insurance** एक **Financial Protection Tool** है जो आपके और Insurance Company के बीच एक **Contract (Policy)** होता है।

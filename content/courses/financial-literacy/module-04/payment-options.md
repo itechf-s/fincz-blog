@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💳 **Module 4: बैंकों और Digital Tools की समझ**
-
----
-
 ## 💳 **UPI, Credit Card vs Debit Card Explained**
 
 **Digital payments और cards** आज की financial literacy का बहुत बड़ा हिस्सा हैं।

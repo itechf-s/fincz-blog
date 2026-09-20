@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
----
-
 ## ⏳ **Long Term vs Short Term निवेश**
 
 **Financial Literacy Course** में **Long Term vs Short Term Investment** का फर्क clear करना बहुत ज़रूरी है,

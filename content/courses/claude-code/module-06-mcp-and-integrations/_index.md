@@ -6,8 +6,6 @@ author: ahmad
 type: docs
 ---
 
-# 🔌 **Module 6: Model Context Protocol (MCP) & Plugins (बाहरी टूल्स से जोड़ना)**
-
 इस मॉड्यूल में हम **Claude Code** को बाहरी टूल्स (डेटाबेस, GitHub APIs, ब्राउज़र ऑटोमेशन) से जोड़ना सीखेंगे। हम Model Context Protocol (MCP), Lifecycle Hooks और कम्युनिटी प्लगइन्स को चलाना सीखेंगे।
 
 ---

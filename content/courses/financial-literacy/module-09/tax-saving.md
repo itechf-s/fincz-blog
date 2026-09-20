@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 9: Tax Planning**
-
 चलिए हम **Legal तरीके से Tax बचाने के 10 Proven तरीक़े** डिटेल में समझते हैं।
 ये सभी **Income Tax Act, 1961** के अंदर आते हैं, और पूरी तरह **कानूनी** (legal) हैं — यानी कोई *black money tricks* या *tax evasion* नहीं, बल्कि **tax planning** है।
 

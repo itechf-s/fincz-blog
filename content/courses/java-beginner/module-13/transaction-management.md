@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 13: JDBC (Java Database Connectivity)**
-
 अब हम JDBC में एक और **real-world application** में काम आने वाला महत्वपूर्ण विषय सीखते हैं:
 
 ## 📘 **JDBC Transaction Management in Java**

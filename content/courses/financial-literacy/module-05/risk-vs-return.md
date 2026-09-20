@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
----
-
 ## ⚖ **Risk vs Return की Understanding**
 
 **Financial Literacy Course** में **Risk vs Return** समझना सबसे जरूरी concept है,

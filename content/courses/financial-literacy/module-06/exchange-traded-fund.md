@@ -8,7 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 6: निवेश के प्रकार – Beginners के लिए Guide
 (Types of Investments – A Beginner's Guide)
 
 ## टॉपिक: **ETF (Exchange Traded Fund) – शेयर बाजार जैसा Mutual Fund**

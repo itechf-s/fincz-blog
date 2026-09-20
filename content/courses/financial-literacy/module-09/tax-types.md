@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 9: Tax Planning**
-
----
-
 ## **Tax on Different Income Types (India)**
 
 यह **"Tax on Different Income Types"** का simplified और practical breakdown है, जो आपके **Module 9: Tax Planning** में perfectly फिट होगा — और इसमें **New Tax Regime vs Old Tax Regime** का angle भी रहेगा।

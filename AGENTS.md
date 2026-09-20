@@ -1,6 +1,6 @@
 # AGENTS.md - Fincz Learn Platform Agent Guidelines
 
-This repository contains the source code, courses, technical guides, practice tracks, and tools for the **Fincz Learn** platform (`https://learn.fincz.com/`) built with Hugo and the **Hextra** theme (Nextra/Vercel style).
+This repository contains the source code, courses, technical guides, and practice tracks for the **Fincz Learn** platform (`https://learn.fincz.com/`) built with Hugo and the **Hextra** theme (Nextra/Vercel style).
 
 ---
 
@@ -70,7 +70,6 @@ This repository contains the source code, courses, technical guides, practice tr
   - `content/courses/`: Multi-module educational courses (`type: docs`)
   - `content/guides/`: Standalone in-depth technical guides & architectures
   - `content/practice/`: Coding, system design, and interview scenario tracks
-  - `content/tools/`: Financial and developer tools/calculators
   - `content/pages/`: Static pages (about, contact, privacy-policy, terms)
 - **Configuration**:
   - Centralized single config file: `config/_default/config.yaml`

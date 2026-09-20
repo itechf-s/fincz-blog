@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Financial Literacy की बुनियादी समझ**
-
 **Money Mindset (पैसे को लेकर सोचने का नज़रिया)** को समझे बिना कोई भी इंसान Financially Strong नहीं बन सकता।
 
 ## 📘 **Module 2: Money Mindset — पैसे के बारे में आपकी सोच**

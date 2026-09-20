@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 13: Financial Tools & Apps**
-
 **Best Budgeting Apps** की लिस्ट दे रहा हूँ — खासतौर पर इंडिया के 30+ audience को ध्यान में रखकर, ताकि वो आसानी से expenses track कर सकें और savings बढ़ा सकें।
 
 ---

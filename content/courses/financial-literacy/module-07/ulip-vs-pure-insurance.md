@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **📘 Module 7: बीमा (Insurance) की पूरी जानकारी**
-
 ## **💡 ULIP, Endowment Plans vs Pure Insurance – Detail में समझिए**
 
 Insurance Market में कई Products हैं, लेकिन उनमें से तीन बहुत Confusing होते हैं 

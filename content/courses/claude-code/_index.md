@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 🤖 **Claude Code: Complete Master Course (Zero to Pro)**
-
 स्वागत है **Claude Code Master Course** में! यह कोर्स आपको सिखाएगा कि कैसे Anthropic के ऑफिशियल AI एजेंट **Claude Code** का इस्तेमाल करके आप एक साधारण डेवलपर से एक **10x Agentic Engineer** बन सकते हैं।
 
 ---

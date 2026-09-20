@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 4: Functions & Methods in Java**
-
 ## 📊 **Java Method Overriding – Flowchart (Text Form)**
 
 ```

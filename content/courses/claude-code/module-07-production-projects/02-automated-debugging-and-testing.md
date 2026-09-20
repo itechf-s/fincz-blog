@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 7: Capstone — 7.2 Automated Debugging, Testing & PRs**
-
----
-
 ## 🎯 **Objective (इस प्रोजेक्ट का मक़सद)**
 इस फाइनल लेसन को पूरा करने के बाद आप:
 - किसी भी पुराने प्रोजेक्ट के **फेल होते टेस्ट्स और छुपे हुए बग्स** को Claude Code से खुद ठीक करवा सकेंगे।

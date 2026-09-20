@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
----
-
 ## 📈 **Investment के मुख्य Principles (Golden Rules)**
 
 अगर कोई व्यक्ति **सही principles** follow करके investment करता है,

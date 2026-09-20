@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💼 **Module 2: Budgeting & Expense Tracking**
-
 ## 💸 **Saving Habits और खर्चों में कटौती के Practical तरीक़े**
 
 *("कम कमाई में भी बचत मुमकिन है, बस तरीका चाहिए")*

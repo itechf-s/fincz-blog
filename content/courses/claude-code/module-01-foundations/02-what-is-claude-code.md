@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Foundations — 1.2 What is Claude Code & Architecture**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Claude Code** क्या है और Anthropic ने इसे टर्मिनल टूल क्यों बनाया।

@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 8: Exception Handling in Java**
-
----
-
 ## 🔷 1. Exception Handling क्या होता है?
 
 ### 📌 Definition:

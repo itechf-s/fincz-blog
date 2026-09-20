@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 2: Everyday CLI — 2.2 Making Code Changes & Diffs**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि Claude Code पूरी फाइल बदलने के बजाय सिर्फ **Targeted Diffs** कैसे बनाता है।

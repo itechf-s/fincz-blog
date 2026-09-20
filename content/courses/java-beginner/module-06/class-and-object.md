@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 Module 6: Object Oriented Programming (OOP) Concepts in Java
-
 अब हम Java के दो सबसे *core concepts* को **detail में** समझते हैं —
 👉 **Class** और 👉 **Object**
 

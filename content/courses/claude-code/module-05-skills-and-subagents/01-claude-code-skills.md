@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 5: Skills & SubAgents — 5.1 Claude Code Skills**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Claude Code Skills** क्या होती हैं और ये `CLAUDE.md` से अलग कैसे हैं।

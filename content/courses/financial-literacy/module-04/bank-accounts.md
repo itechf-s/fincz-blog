@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 💳 **Module 4: बैंकों और Digital Tools की समझ**
-
 *("Karz ka control, financial freedom ka first step")*
 
 ---

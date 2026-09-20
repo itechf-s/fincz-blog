@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 13: Financial Tools & Apps**
-
 **Investment Platforms** की पूरी list — Beginners से लेकर advanced investors के लिए, ताकि आसानी से decide किया जा सके कि कौन सा platform किस type के investment के लिए सही है।
 
 ---

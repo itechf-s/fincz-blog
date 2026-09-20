@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 10: Java Collections Framework (JCF)**
-
 Java में Collection framework से जुड़ा यह एक **interview-favorite concept** है —
 आइए detail में समझते हैं:
 

@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 14: Financial Planning Framework – A to Z**
-
 ## **Financial Assessment (Where You Are)**
 
 * **Net Worth Calculation** – Assets – Liabilities = Net Worth

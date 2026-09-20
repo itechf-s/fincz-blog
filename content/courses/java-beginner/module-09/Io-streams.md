@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 9: File Handling in Java**
-
 ## I/O Streams in Java
 
 ---

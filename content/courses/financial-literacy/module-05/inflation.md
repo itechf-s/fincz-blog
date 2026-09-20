@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
 ## **Inflation से लड़ने के तरीके**
 
 **Inflation (महंगाई)** हर साल हमारे पैसों की **purchasing power** को कम करता है।

@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💳 **Module 4: बैंकों और Digital Tools की समझ**
-
----
-
 ## 💰 **Fund Transfer Methods in India**
 
 **Fund Transfer Methods** को समझना किसी भी **Financial Literacy Course** में ज़रूरी है,

@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💹 **Module 5: निवेश (Investment) की दुनिया में प्रवेश**
-
----
-
 ## 📊 **Inflation vs Investment Growth Chart**
 
 यहाँ मैं आपके के लिए एक **Inflation vs Investment Growth Chart** दे रहा हूँ

@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# **Module 13: Financial Tools & Apps**
-
 *अपने पैसों को control करने के लिए सही tools का इस्तेमाल करना उतना ही जरूरी है, जितना driving के लिए सही गाड़ी चुनना।*
 
 ---

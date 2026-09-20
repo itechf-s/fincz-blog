@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💼 **Module 2: Budgeting & Expense Tracking**
-
----
-
 ## 💸 **Zero-Based Budget (ZBB) क्या है?**
 
 **Zero-Based Budget** एक बहुत ही practical और powerful budgeting technique है — जो आपके हर **रुपए को एक काम** सौंपता है।

@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 Module 6: Object Oriented Programming (OOP) Concepts in Java
-
 चलिए अब OOP का अगला important concept — **Abstraction** — detail में आसान हिंदी में समझते हैं, ताकि आपको इसके **what, why, how** और real-life examples, Java syntax और interview questions पूरी तरह समझ में आ जाएँ।
 
 ---

@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 8: Exception Handling in Java**
-
 अब हम Java में एक practical और interview-relevant concept सीखते हैं:
 🔶 **Custom Exception (User-Defined Exception)**
 

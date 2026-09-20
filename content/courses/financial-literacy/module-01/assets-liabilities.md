@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Financial Literacy की बुनियादी समझ**
-
----
-
 ## 🧱 **Assets vs Liabilities**
 
 ---

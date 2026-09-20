@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 10: Java Collections Framework (JCF)**
-
----
-
 ## 🔷 1. Java Collections Framework क्या है?
 
 ### 📌 Definition:

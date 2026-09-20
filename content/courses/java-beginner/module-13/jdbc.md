@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 13: JDBC (Java Database Connectivity)**
-
 ## 🔷 1. JDBC क्या है?
 
 > JDBC (Java Database Connectivity) एक **Java API** है जो Java application को database (जैसे MySQL, Oracle, PostgreSQL) से **connect** करने की सुविधा देती है।

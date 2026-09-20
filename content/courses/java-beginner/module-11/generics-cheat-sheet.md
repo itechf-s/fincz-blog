@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 11: Generics, Autoboxing & Wrapper Classes**
-
 नीचे दिया गया है एक आसान और शॉर्ट **Generics Syntax Cheat Sheet** –
 जो Java के Generics को जल्दी से revise करने और समझने के लिए बहुत उपयोगी है:
 

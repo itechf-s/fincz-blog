@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Financial Literacy की बुनियादी समझ**
-
 **Active Income vs Passive Income** का टॉपिक भी **Financial Literacy** का ही एक अहम हिस्सा है — क्योंकि यह हमें बताता है कि **पैसा कमाने के तरीक़े** क्या हैं और क्यों कुछ लोग हर वक़्त मेहनत करते रहते हैं जबकि कुछ लोग system बना कर भी पैसा कमाते रहते हैं।
 
 ---

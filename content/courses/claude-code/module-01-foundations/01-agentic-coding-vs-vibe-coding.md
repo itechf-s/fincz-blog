@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: Foundations — 1.1 Agentic Coding vs Vibe Coding**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - नॉर्मल AI कोडिंग (ChatGPT/Copilot) और **Agentic Coding** का असली फर्क समझ पाएंगे।

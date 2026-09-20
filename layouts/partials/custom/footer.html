@@ -1,80 +1,92 @@
-<div class="hx:w-full hx:pt-12 hx:pb-8">
-  <div class="hx:grid hx:grid-cols-2 hx:gap-8 hx:sm:grid-cols-2 hx:md:grid-cols-4">
+<div class="hx:w-full hx:pt-10 hx:pb-12">
+  <div class="fl-footer-grid">
+    <!-- Brand Info Block -->
+    <div class="hx:space-y-4">
+      <a href="/" class="hx:inline-flex hx:items-center hx:gap-2.5 hx:font-extrabold hx:text-lg hx:text-gray-900 hx:dark:text-white">
+        <img src="/images/fincz-logo-black.png" alt="Fincz Learn" class="hx:h-7 hx:w-auto hx:dark:hidden" />
+        <img src="/images/fincz-logo-white.png" alt="Fincz Learn" class="hx:h-7 hx:w-auto hx:hidden hx:dark:block" />
+        <span>Learn</span>
+      </a>
+      <p class="hx:text-sm hx:text-gray-600 hx:dark:text-gray-400 hx:leading-relaxed hx:max-w-xs">
+        Free, structured developer courses, AI engineering architectures, and scenario-based interview challenges.
+      </p>
+      <p class="hx:text-xs hx:text-gray-500 hx:dark:text-gray-500">
+        Empowering engineers to build with modern AI and scalable backend systems.
+      </p>
+    </div>
+
+    <!-- Courses Column -->
     <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-4">
+      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-3.5">
         Courses
       </h3>
-      <ul class="hx:space-y-2.5 hx:text-sm">
+      <ul class="hx:space-y-2 hx:text-sm">
         <li>
-          <a href="/courses/claude-code/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Claude Code Masterclass</a>
+          <a href="/courses/claude-code/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Claude Code Masterclass</a>
         </li>
         <li>
-          <a href="/courses/java-beginner/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Java Backend Track</a>
+          <a href="/courses/java-beginner/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Java Backend Track</a>
         </li>
         <li>
-          <a href="/courses/financial-literacy/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Financial Literacy</a>
-        </li>
-      </ul>
-    </div>
-
-    <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-4">
-        Technical Guides
-      </h3>
-      <ul class="hx:space-y-2.5 hx:text-sm">
-        <li>
-          <a href="/guides/mcp-server-complete-guide/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">MCP Server Architecture</a>
+          <a href="/courses/financial-literacy/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Financial Literacy</a>
         </li>
         <li>
-          <a href="/guides/google-antigravity-complete-guide/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Google Antigravity CLI</a>
-        </li>
-        <li>
-          <a href="/guides/semantic-search-and-vector-db-guide/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Vector Databases</a>
-        </li>
-        <li>
-          <a href="/guides/prompt-engineering-and-responsible-ai/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Prompt Engineering</a>
+          <a href="/courses/" class="hx:text-blue-600 hx:dark:text-blue-400 hx:font-medium hx:hover:underline">Browse All Courses →</a>
         </li>
       </ul>
     </div>
 
+    <!-- Guides & Practice Column -->
     <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-4">
-        Practice & Challenges
+      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-3.5">
+        Guides & Practice
       </h3>
-      <ul class="hx:space-y-2.5 hx:text-sm">
+      <ul class="hx:space-y-2 hx:text-sm">
         <li>
-          <a href="/practice/java-coding-questions/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Java Coding & Streams</a>
+          <a href="/guides/mcp-server-complete-guide/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">MCP Server Architecture</a>
         </li>
         <li>
-          <a href="/practice/system-design-scenario-questions/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">System Design Scenarios</a>
+          <a href="/guides/google-antigravity-complete-guide/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Google Antigravity CLI</a>
         </li>
         <li>
-          <a href="/practice/microservices-questions-and-answers/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Microservices Patterns</a>
+          <a href="/practice/java-coding-questions/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Java Coding & Streams</a>
         </li>
         <li>
-          <a href="/tools/sip-calculator/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Financial Calculators</a>
+          <a href="/practice/system-design-scenario-questions/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">System Design Scenarios</a>
         </li>
       </ul>
     </div>
 
+    <!-- Company & Legal Column -->
     <div>
-      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-4">
-        Company & Legal
+      <h3 class="hx:text-xs hx:font-bold hx:text-gray-900 hx:dark:text-white hx:tracking-widest hx:uppercase hx:mb-3.5">
+        Platform
       </h3>
-      <ul class="hx:space-y-2.5 hx:text-sm">
+      <ul class="hx:space-y-2 hx:text-sm">
         <li>
-          <a href="/about/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">About Fincz Learn</a>
+          <a href="/about/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">About Fincz Learn</a>
         </li>
         <li>
-          <a href="/contact/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Contact & Support</a>
+          <a href="/contact/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Contact & Support</a>
         </li>
         <li>
-          <a href="/privacy-policy/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Privacy Policy</a>
+          <a href="/privacy-policy/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Privacy Policy</a>
         </li>
         <li>
-          <a href="/terms-and-conditions/" class="hx:text-gray-500 hx:hover:text-blue-600 hx:dark:text-gray-400 hx:dark:hover:text-blue-400 hx:transition-colors">Terms of Service</a>
+          <a href="/terms-and-conditions/" class="hx:text-gray-600 hx:hover:text-blue-600 hx:dark:text-gray-300 hx:dark:hover:text-blue-400 hx:transition-colors">Terms of Service</a>
         </li>
       </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Copyright Bar -->
+  <div class="hx:mt-10 hx:pt-6 hx:border-t hx:border-gray-200 hx:dark:border-neutral-800 hx:flex hx:flex-col hx:sm:flex-row hx:items-center hx:justify-between hx:gap-3 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400">
+    <div>
+      © {{ now.Format "2006" }} <span class="hx:font-semibold hx:text-gray-800 hx:dark:text-gray-200">Fincz Learn</span>. All rights reserved.
+    </div>
+    <div class="hx:flex hx:items-center hx:gap-4">
+      <a href="https://github.com/itechf-s/fincz-blog" target="_blank" rel="noopener noreferrer" class="hx:hover:text-blue-600 hx:dark:hover:text-blue-400 hx:transition-colors">GitHub</a>
+      <a href="https://fincz.com" target="_blank" rel="noopener noreferrer" class="hx:hover:text-blue-600 hx:dark:hover:text-blue-400 hx:transition-colors">Fincz.com</a>
     </div>
   </div>
 </div>

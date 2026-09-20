@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 🎓 **Module 1: Java का परिचय और सेटअप**
-
 ## 📘 **Java Installation Guide – Windows और Linux के लिए**
 
 ## 🔧 Windows Installation Guide (JDK 21 के लिए)

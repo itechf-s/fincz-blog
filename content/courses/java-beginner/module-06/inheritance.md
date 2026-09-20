@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 Module 6: Object Oriented Programming (OOP) Concepts in Java
-
 चलिए अब हम Object-Oriented Programming (OOP) का अगला और बहुत ही ज़रूरी concept **Inheritance** को detail में, आसान हिंदी में समझते हैं — with real-life example, Java syntax, benefits, types, और diagram।
 
 ---

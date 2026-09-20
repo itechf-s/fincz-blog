@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 Module 6: Object Oriented Programming (OOP) Concepts in Java
-
 Java एक **Pure Object Oriented Programming Language** नहीं है, लेकिन इसमें OOP के सारे प्रमुख principles follow होते हैं।
 
 OOP का मतलब है —

@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 5: Arrays & Strings in Java**
-
 ## 📊 **Java Arrays Flow Diagram (Text Format)**
 
 ```

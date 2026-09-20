@@ -9,7 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 6: निवेश के प्रकार – Beginners के लिए Guide
 (Types of Investments – A Beginner's Guide)
 
 इस module में हम विभिन्न प्रकार के निवेश विकल्पों की जानकारी देंगे जो किसी beginner को जानना चाहिए। हर विकल्प को आसान भाषा के साथ समझाया जाएगा ताकि आप informed decision ले सकें।

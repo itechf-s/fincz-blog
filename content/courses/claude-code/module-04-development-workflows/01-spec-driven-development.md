@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 4: Workflows — 4.1 Spec-Driven Development (SDD)**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Spec-Driven Development (SDD)** क्या होता है और यह अंदाज़े से कोडिंग करने से बेहतर क्यों है।

@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 11: Financial Mistakes से कैसे बचें
-
----
-
 ## **Loan लेने से पहले सोचें**
 
 हाँ, **"Loan लेने से पहले सोचें"** इस module में इसे detail में समझाना ज़रूरी है, क्योंकि 30+ age group में ज़्यादातर लोग इस stage पर होते हैं जहां income stable है लेकिन बड़े खर्चों के लिए loan लेने का temptation भी ज्यादा होता है।

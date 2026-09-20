@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 🏦 **Module 3: Saving Strategies & Emergency Fund**
-
----
-
 ## 🏦 **कितना Emergency Fund रखना चाहिए?**
 
 **Emergency Fund** का **size हर व्यक्ति के खर्च और life situation पर depend करता है**।

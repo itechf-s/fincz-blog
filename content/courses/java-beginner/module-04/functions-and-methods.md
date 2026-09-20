@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 4: Functions & Methods in Java**
-
----
-
 ## 🔶 इस Module में आप सीखेंगे:
 
 * Function और Method में अंतर

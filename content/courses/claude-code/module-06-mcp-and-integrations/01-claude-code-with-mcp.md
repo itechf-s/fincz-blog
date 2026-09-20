@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 6: MCP & Plugins — 6.1 Claude Code with MCP**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि **Model Context Protocol (MCP)** क्या है और Anthropic ने इसे क्यों बनाया।

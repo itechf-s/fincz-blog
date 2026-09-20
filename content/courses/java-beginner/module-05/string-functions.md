@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 5: Arrays & Strings in Java**
-
 ## 📘 **Java String Functions Chart**
 
 | 🔢 Sr. | 🛠 Method Name             | 🔎 उपयोग (Purpose)                                    | ✅ Example                                  |

@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 10: Java Collections Framework (JCF)**
-
 बहुत बढ़िया! अब हम Java Collections Framework का तीसरा और सबसे real-world-friendly हिस्सा सीखते हैं —
 
 # 📘 **Module 10.3: Map Interface in Java**

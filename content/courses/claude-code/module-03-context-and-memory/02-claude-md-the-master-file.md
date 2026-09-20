@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 3: Memory — 3.2 CLAUDE.md — The Project Brain**
-
----
-
 ## 🎯 **Objective (इस लेसन का मक़सद)**
 इस लेसन को पूरा करने के बाद आप:
 - समझ पाएंगे कि `CLAUDE.md` फाइल क्या है और यह Claude Code के लिए सबसे जरूरी फाइल क्यों है।

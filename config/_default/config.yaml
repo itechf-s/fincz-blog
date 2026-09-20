@@ -34,12 +34,8 @@ menu:
       name: Practice
       pageRef: /practice
       weight: 3
-    - identifier: tools
-      name: Tools
-      pageRef: /tools
-      weight: 4
     - name: Search
-      weight: 5
+      weight: 4
       params:
         type: search
 
@@ -62,7 +58,7 @@ params:
 
   footer:
     enable: true
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: false
     width: wide
 

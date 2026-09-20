@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 5: Arrays & Strings in Java**
-
 ## 📝 Java Practice Assignment – Module 5
 
 📚 **Topic:** Arrays & Strings

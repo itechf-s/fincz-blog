@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 💳 **Module 4: बैंकों और Digital Tools की समझ**
-
----
-
 ## 🏦 **Types of Loans Explained**
 
 **Loans** को समझना financial literacy के लिए बहुत ज़रूरी है क्योंकि गलत loan लेने से **interest trap** में फँस सकते हैं,

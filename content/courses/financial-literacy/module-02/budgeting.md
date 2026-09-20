@@ -9,8 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 💼 **Module 2: Budgeting और खर्चों का मैनेजमेंट**
-
 *("Paise ka hisaab, zindagi ka intezam")*
 
 ---

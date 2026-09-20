@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 12: Multithreading & Concurrency in Java**
-
 नीचे दिए गए हैं Java `Thread` class के **सभी commonly used methods** एक आसान table के रूप में, ताकि आप इन्हें जल्दी समझ सकें और याद रख सकें —
 
 ---

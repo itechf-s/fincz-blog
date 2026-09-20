@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 8: Exception Handling in Java**
-
 👉 **`try-with-resources`**
 जो file handling, database connection, socket जैसे resource-based कामों में बहुत ज़रूरी होता है।
 

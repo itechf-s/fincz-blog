@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 10: Java Collections Framework (JCF)**
-
 ## 📘 **List Interface in Java**
 
 ---

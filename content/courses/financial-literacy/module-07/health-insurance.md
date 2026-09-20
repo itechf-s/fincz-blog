@@ -8,10 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# **📘 Module 7: बीमा (Insurance) की पूरी जानकारी**
-
----
-
 ## **Health Insurance क्यों ज़रूरी है?**
 
 आज के समय में **Medical खर्च** इतनी तेज़ी से बढ़ रहे हैं कि एक छोटी-सी बीमारी या Accident भी आपकी सालों की Savings खत्म कर सकती है। Health Insurance एक Financial Safety Net है जो आपको और आपके परिवार को **Unexpected Medical खर्चों से बचाता है**।

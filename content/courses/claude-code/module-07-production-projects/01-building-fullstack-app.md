@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 7: Capstone — 7.1 Building a Fullstack SaaS App**
-
----
-
 ## 🎯 **Objective (इस प्रोजेक्ट का मक़सद)**
 इस प्रोजेक्ट को पूरा करने के बाद आप:
 - Claude Code CLI का इस्तेमाल करके **शुरुआत से लेकर अंत तक** एक पूरा Fullstack SaaS ऐप बना सकेंगे।

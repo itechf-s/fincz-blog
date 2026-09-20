@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# Module 10: बच्चों की पढ़ाई और परिवार के लक्ष्यों के लिए प्लानिंग
-
 ## **Goal-based Investing**
 
 ## **इसका मतलब क्या है?**

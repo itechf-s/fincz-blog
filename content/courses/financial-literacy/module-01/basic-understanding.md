@@ -9,10 +9,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 1: पैसे की समझ - Foundation of Financial Literacy**
-
----
-
 ## 🎯 **Objective (मक़सद):**
 
 इस module का मक़सद है finance की दुनिया की basic terms और concepts को समझाना, ताकि कोई भी व्यक्ति अपने पैसों को बेहतर तरीके से manage कर सके।

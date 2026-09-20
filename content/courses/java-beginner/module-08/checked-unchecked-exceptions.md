@@ -8,8 +8,6 @@ author: ahmad
 type: docs
 ---
 
-# 📘 **Module 8: Exception Handling in Java**
-
 Java में exceptions को दो categories में बाँटा गया है — **Checked Exception** और **Unchecked Exception** — और ये इंटरव्यू में अक्सर पूछा जाने वाला सवाल भी है।
 
 चलिए इसे **detail में, आसान भाषा** में समझते हैं:
