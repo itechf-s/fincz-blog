@@ -5,7 +5,7 @@ description: Comprehensive workflow and pedagogical best practices for creating,
 
 # Fincz Course Creator Skill
 
-This skill defines the complete methodology, structural hierarchy, and pedagogical standards for creating comprehensive, beginner-to-advanced courses on **Fincz Blog** (`hugo-theme-bootstrap`).
+This skill defines the complete methodology, structural hierarchy, and pedagogical standards for creating comprehensive, beginner-to-advanced courses on **Fincz Blog** (`Hextra`).
 
 ---
 

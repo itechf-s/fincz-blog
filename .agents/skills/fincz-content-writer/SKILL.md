@@ -5,7 +5,7 @@ description: Standard workflow and guidelines for creating, updating, and optimi
 
 # Fincz Content Writer Skill
 
-This skill enforces the exact writing, structuring, and media-handling workflow for the **Fincz Blog** (`hugo-theme-bootstrap`).
+This skill enforces the exact writing, structuring, and media-handling workflow for the **Fincz Blog** (`Hextra`).
 
 ---
 
