@@ -1,29 +1,75 @@
 ---
 title: "Module 6: एसेट क्लासेस और निवेश के विकल्प (Complete Guide)"
-description: "म्यूचुअल फंड्स, स्टॉक्स, गोल्ड, रियल एस्टेट, PPF, NPS, REITs और बॉन्ड्स।"
+description: "म्यूचुअल फंड्स, स्टॉक्स, गोल्ड, रियल एस्टेट, PPF, NPS, REITs और बॉन्ड्स की संपूर्ण ए टू ज़ेड गाइड।"
 date: 2026-09-20T08:00:00+05:30
+lastmod: 2026-09-20T08:00:00+05:30
 categories: [ Finance, Course ]
-tags: [Finance, WealthBuilding]
+tags: [AssetClasses, Investing, Stocks, MutualFunds, Gold, RealEstate, PPF, NPS, REITs]
 author: ahmad
 type: docs
 weight: 60
 ---
 
-म्यूचुअल फंड्स, स्टॉक्स, गोल्ड, रियल एस्टेट, PPF, NPS, REITs और बॉन्ड्स।
+## 🌟 **मॉड्यूल का परिचय: निवेश के सभी 12 हथियारों का सही इस्तेमाल**
+
+जब आप किसी युद्ध में जाते हैं, तो आपके पास सिर्फ एक तलवार नहीं होती—आपके पास ढाल, तीर-कमान और कवच भी होता है। 
+
+आर्थिक जीवन में भी अपनी दौलत को बढ़ाने और सुरक्षित रखने के लिए आपको अलग-अलग एसेट क्लासेस (Asset Classes) की ज़रूरत होती है:
+- **इक्विटी (शेयर व म्यूचुअल फंड)**: आपकी दौलत को 12-15% की तेज़ रफ्तार से बढ़ाने वाला आक्रामक हथियार।
+- **फिक्स्ड इनकम (PPF, FD, बॉन्ड्स)**: बाज़ार गिरने पर आपके मूलधन को बचाने वाली मजबूत ढाल।
+- **गोल्ड (सोना / SGB)**: युद्ध, मंदी और वैश्विक संकट में सुरक्षा देने वाला इमरजेंसी रिज़र्व।
+- **रियल एस्टेट व REITs**: नियमित तिमाही किराया और फिजिकल एसेट की मजबूती।
+
+इस व्यापक मॉड्यूल में हम भारत में उपलब्ध सभी 12 प्रमुख निवेश विकल्पों की गहराई से समीक्षा करेंगे ताकि आप बिना किसी एजेंट के झांसे में आए खुद अपना सही पोर्टफोलियो बना सकें।
 
 ---
 
-## 📑 **इस मॉड्यूल के लेसन्स (Lessons):**
+## 🎯 **इस मॉड्यूल में आप क्या सीखेंगे? (Key Outcomes)**
 
-1. **[6.1 Asset Classes Overview](./01-asset-classes-overview/)**
-2. **[6.2 Stock Market Basics for Beginners](./02-stock-market-basics/)**
-3. **[6.3 Mutual Funds & SIP Guide](./03-mutual-funds-guide/)**
-4. **[6.4 Exchange Traded Funds (ETFs)](./04-exchange-traded-funds-etf/)**
-5. **[6.5 Gold Investment (SGB, Digital Gold)](./05-gold-investment/)**
-6. **[6.6 Real Estate Investment](./06-real-estate-investment/)**
-7. **[6.7 Public Provident Fund (PPF)](./07-public-provident-fund-ppf/)**
-8. **[6.8 National Pension System (NPS)](./08-national-pension-system-nps/)**
-9. **[6.9 Fixed Deposits (FD) & RD](./09-fixed-deposits-and-rd/)**
-10. **[6.10 Bonds & Government Securities (G-Sec)](./10-bonds-and-g-sec/)**
-11. **[6.11 Real Estate Investment Trusts (REITs)](./11-real-estate-investment-trusts-reits/)**
-12. **[6.12 Cryptocurrency & Digital Assets Risk](./12-cryptocurrency-and-digital-assets/)**
+- **एसेट क्लासेस का मास्टर मैप**: इक्विटी, डेट, रियल एस्टेट और सोने का रिस्क-रिटर्न-लिक्विडिटी संतुलन।
+- **शेयर बाज़ार (Stock Market)**: शेयर खरीदने का असली मतलब, NSE/BSE, निफ्टी 50 और डिविडेंड्स।
+- **म्यूचुअल फंड्स & SIP**: डायरेक्ट बनाम रेगुलर प्लान (₹40 लाख कमीशन की बचत) और फंड कैटेगरीज।
+- **ETFs (एक्सचेंज ट्रेडेड फंड्स)**: सबसे कम खर्च (0.05% Expense Ratio) में पूरा बाज़ार खरीदना।
+- **गोल्ड इन्वेस्टिंग**: फिजिकल ज्वैलरी के 20% मेकिंग चार्ज के नुकसान से बचना और SGB / Gold ETFs का फायदा।
+- **रियल एस्टेट की हकीकत**: 2-3% की रेजिडेंशियल रेंटल यील्ड बनाम 20 साल के भारी होम लोन का सच।
+- **सरकारी टैक्स-फ्री स्कीम्स**: PPF (100% EEE स्टेटस) और NPS (80CCD(1B) के तहत ₹50,000 अतिरिक्त छूट)।
+- **आधुनिक एसेट्स**: REITs के ज़रिए कम पैसों में IT पार्क का मालिक बनना और क्रिप्टो के सख्त 5% नियम।
+
+---
+
+## 🏛️ **एसेट क्लास एलोकेशन स्पेक्ट्रम (Risk vs Return Hierarchy)**
+
+```text
+  [ हाई रिस्क & हाई रिटर्न (12-15%+) ]  ▲  • डायरेक्ट स्टॉक्स / स्मॉल कैप फंड्स
+                                        │  • इक्विटी इंडेक्स & फ्लेक्सी कैप MF
+                                        │  • REITs (कमर्शियल रियल एस्टेट)
+                                        │  • गोल्ड (SGB / Gold ETF @ 8-10%)
+                                        │  • सरकारी बॉन्ड्स (G-Sec) & PPF (7.1%)
+  [ लो रिस्क & फिक्स सुरक्षा (6-7%) ]   ▼  • बैंक Auto-Sweep FD & लिक्विड फंड्स
+```
+
+---
+
+## 📑 **इस मॉड्यूल के सबक़ (Lessons in this Module):**
+
+| सबक़ (Lesson) | आप क्या सीखेंगे? | डायरेक्ट लिंक |
+| :--- | :--- | :--- |
+| **6.1 Asset Classes Overview** | चारों प्रमुख एसेट क्लासेस की तुलना और क्रिकेट टीम जैसी संतुलित रणनीति। | [शुरू करें ➡️](./01-asset-classes-overview/) |
+| **6.2 Stock Market Basics** | शेयर बाज़ार क्या है? कंपनी में वास्तविक हिस्सेदार (Owner) बनने का सफर। | [शुरू करें ➡️](./02-stock-market-basics/) |
+| **6.3 Mutual Funds & SIP Guide** | डायरेक्ट बनाम रेगुलर प्लान, लार्ज/मिड/स्मॉल कैप और SIP कम्पाउंडिंग। | [शुरू करें ➡️](./03-mutual-funds-guide/) |
+| **6.4 Exchange Traded Funds (ETFs)** | सबसे सस्ते खर्चे (Expense Ratio) में डीमैट से पूरा बाज़ार खरीदना। | [शुरू करें ➡️](./04-exchange-traded-funds-etf/) |
+| **6.5 Gold Investment (Physical vs SGB)** | 2.5% अतिरिक्त ब्याज + 100% टैक्स-फ्री सॉवरेन गोल्ड बॉन्ड (SGB)। | [शुरू करें ➡️](./05-gold-investment/) |
+| **6.6 Real Estate Investment** | रेंटल यील्ड (2-3%), फ्लैट बनाम ज़मीन और 20 साल के लोन की सच्चाई। | [शुरू करें ➡️](./06-real-estate-investment/) |
+| **6.7 Public Provident Fund (PPF)** | 100% सरकारी गारंटी, EEE टैक्स छूट और 5 तारीख का ब्याज नियम। | [शुरू करें ➡️](./07-public-provident-fund-ppf/) |
+| **6.8 National Pension System (NPS)** | ₹50,000 की एक्सट्रा टैक्स छूट और रिटायरमेंट पर पेंशन कॉर्पस। | [शुरू करें ➡️](./08-national-pension-system-nps/) |
+| **6.9 Fixed Deposits (FD) & RD** | FD Laddering तकनीक और टैक्स देनदारी का स्मार्ट प्रबंधन। | [शुरू करें ➡️](./09-fixed-deposits-and-rd/) |
+| **6.10 Bonds & Government Securities** | RBI Retail Direct से 0% ब्रोकरेज पर सरकारी बॉन्ड (G-Sec) खरीदना। | [शुरू करें ➡️](./10-bonds-and-g-sec/) |
+| **6.11 Real Estate Investment Trusts (REITs)** | सिर्फ ₹350 में टॉप IT पार्क्स की हिस्सेदारी और तिमाही डिविडेंड। | [शुरू करें ➡️](./11-real-estate-investment-trusts-reits/) |
+| **6.12 Cryptocurrency & High-Risk Assets** | 30% फ्लैट टैक्स, अत्यधिक अस्थिरता और 5% रिस्क लिमिट नियम। | [शुरू करें ➡️](./12-cryptocurrency-and-digital-assets/) |
+
+---
+
+## 🧭 **नेविगेशन (Navigation)**
+
+- **पूरा सिलेबस 🎓**: [Financial Literacy Syllabus](/courses/financial-literacy/syllabus/)
+- **पहला सबक शुरू करें 🚀**: [6.1 Asset Classes Overview](./01-asset-classes-overview/)

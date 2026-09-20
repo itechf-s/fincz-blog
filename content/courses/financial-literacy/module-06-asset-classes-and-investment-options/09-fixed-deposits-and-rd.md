@@ -1,7 +1,7 @@
 ---
 title: "6.9 Fixed Deposits (FD) & Recurring Deposits (RD)"
 categories: [ Finance, Course ]
-tags: [FD, RD, Banking, SafeInvesting]
+tags: [FD, RD, Banking, SafeInvesting, FDLaddering]
 description: "FD और RD का स्मार्ट इस्तेमाल: FD लैडरिंग (FD Laddering) तकनीक और टैक्स देनदारी।"
 date: 2026-09-20T08:00:00+05:30
 lastmod: 2026-09-20T08:00:00+05:30
@@ -25,6 +25,7 @@ weight: 9
 - ₹1,00,000 की 3-साल की FD
 - ₹1,00,000 की 4-साल की FD
 - ₹1,00,000 की 5-साल की FD
+
 **फायदा**: हर साल एक FD मैच्योर होगी, जिससे इमरजेंसी में पेनाल्टी नहीं लगेगी और मैच्योर पैसे को फिर से उच्चतम ब्याज पर रोलओवर किया जा सकेगा।
 
 ---
